@@ -76,11 +76,36 @@ Research platform for identifying sources of high-quality used polyester fibers 
 ### NCC Project
 - **Jan Thomas Odegard** (Coordinator): janthomas@naturalstate.no
 
-## Status
+## Current Status
 
-- **Phase**: Data extraction and platform setup
-- **Geographic scope**: Finland
-- **Delivery target**: Mid-September
+| Component | Status |
+|-----------|--------|
+| Project setup | ✅ Complete |
+| Data extraction | ✅ Complete (18 source documents) |
+| Documentation (Q1-Q6) | ✅ Complete |
+| Contact verification | ✅ Complete |
+| Outreach | 🟡 Ready to begin |
+
+### Verified Partners Ready for Outreach
+
+| Organization | Contact | Role |
+|--------------|---------|------|
+| **Touchpoint** | Noora Salonoja | CEO, Rester co-founder |
+| **LSJH** | Anna Garton | Post-Consumer Textile Expert |
+| **Rester Oy** | hello@rester.fi | Finland's largest textile recycler |
+| **Image Wear** | Jari Lepistö | CEO, workwear manufacturer |
+
+### Key Market Data (Finland)
+- **Textile waste:** 86,000 tonnes/year
+- **Polyester workwear market:** €75-90 million/year
+- **Mandatory collection:** Since Jan 2023
+- **EPR implementation:** Expected 2027-2028
+
+## Quick Start
+
+1. View documentation: Open `docs/viewer.html` in browser (run `python -m http.server 8080` from project root)
+2. Priority contacts: See `docs/02-research-questions/q6-top10-sources.md`
+3. Project log: See `PROJECT-LOG.md` for full activity history
 
 ## For AI Copilots
 
@@ -89,3 +114,4 @@ See `CLAUDE.md` for detailed instructions on working with this project.
 ---
 
 *Project initialized: 2025-11-28*
+*Contact verification completed: 2025-11-28*

@@ -13,6 +13,18 @@ Identify and map sources of high-quality used polyester fibers in Finland that c
 - Project owner: **Natural State AS**
 - Primary deliverable recipient: **FabricAir**
 
+### Current Status (2025-11-28)
+
+| Phase | Status |
+|-------|--------|
+| Project setup | ✅ Complete |
+| Data extraction | ✅ Complete |
+| Documentation | ✅ Complete |
+| Q5/Q6 contact verification | ✅ Complete |
+| Outreach preparation | 🟡 Ready |
+
+**4 organizations verified and ready for outreach** - see Q6 documentation.
+
 ## Project Structure
 
 ```
@@ -127,6 +139,17 @@ When conducting new research, prioritize:
 ### NCC Project
 - **Jan Thomas Odegard** (Coordinator): janthomas@naturalstate.no
 
+### Verified Finnish Partners (Ready for Outreach)
+
+| Organization | Contact | Email | Status |
+|--------------|---------|-------|--------|
+| **Touchpoint** | Noora Salonoja (CEO) | noora.salonoja@touchpoint.fi | 🟢 Priority |
+| **LSJH** | Anna Garton | anna.garton@lsjh.fi | 🟢 Priority |
+| **Rester Oy** | General | hello@rester.fi | 🟢 Ready |
+| **Image Wear** | Jari Lepistö (CEO) | jari.lepisto@imagewear.fi | 🟢 Ready |
+
+See `docs/02-research-questions/q6-top10-sources.md` for full contact list and engagement strategy.
+
 ## Common Tasks
 
 ### Adding New Research
@@ -186,3 +209,4 @@ Always log significant activities in `PROJECT-LOG.md`:
 
 *Project initialized: 2025-11-28*
 *Last updated: 2025-11-28*
+*Contact verification completed: 2025-11-28*
