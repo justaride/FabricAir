@@ -121,19 +121,24 @@ Source documents contain tiered stakeholder list. Partial verification completed
 | **Location** | Helsinki, Finland |
 | **Scale** | 21 hospitals, 27,000 employees |
 | **Patients** | 710,000+ annual (2.5M outpatient) |
+| **Textile services** | Uudenmaan Sairaalapesula (Kerava) |
 
-**Contacts:**
+**Contacts (Updated 2025-11-28):**
 
-| Role | Note |
-|------|------|
-| Director of Facilities | To be identified |
-| Head of Procurement | To be identified |
-| Sustainability Manager | To be identified |
-| Initial contact | Via communications department |
+| Name | Role | Contact | Status |
+|------|------|---------|--------|
+| Timo Martelius | Director of Procurement (since 2019) | Via HUS | 🟢 Role verified |
+| HUS Switchboard | - | 09 4711 | 🟢 Verified |
+| Procurement Portal | Tenders | tarjouspalvelu.fi | 🟢 Verified |
+
+**Access Strategy:** HUS is a major public contracting entity. For textile/workwear procurement:
+1. Contact procurement department via switchboard
+2. Monitor tender portal for textile-related opportunities
+3. Note: Textile services handled by Uudenmaan Sairaalapesula (hospital laundry in Kerava)
 
 **Strategic Value:** Largest single-entity source of white polyester (uniforms, linens, gowns). Carbon neutrality goal 2030. Partners with Lindström.
 
-**Status:** 🔴 Identified - contacts need research
+**Status:** 🟡 Partial - procurement contact identified, textile manager TBD
 
 ---
 
@@ -188,18 +193,21 @@ Source documents contain tiered stakeholder list. Partial verification completed
 | Field | Value |
 |-------|-------|
 | **Sector** | Industrial laundry services |
-| **Infrastructure** | 36 laundries, 140 fabric care specialists |
+| **Infrastructure** | 60 service points nationwide |
+| **Founded** | 1991 (origins 1848) |
+| **Employees** | ~14,000 (Nordic-Baltic) |
 
-**Contacts:**
+**Contacts (Updated 2025-11-28):**
 
-| Role | Email |
-|------|-------|
-| Head of Laundry Services | To be identified |
-| Customer service | asiakaspalvelu@sol.fi |
+| Contact | Value | Status |
+|---------|-------|--------|
+| SOL Pesulapalvelut | 040 779 7209 | 🟢 From website |
+| Customer service | asiakaspalvelu@sol.fi | 🟡 Unverified |
+| Laundry locator | sol.fi/en/contact-information/sol-laundry-contact-information/ | 🟢 Verified |
 
-**Strategic Value:** Major alternative to Lindström. Strong circular economy commitment. Handles workwear from multiple industrial sectors.
+**Strategic Value:** Major alternative to Lindström. Strong circular economy commitment. "Leading the way in sustainability." Handles workwear from multiple industrial sectors.
 
-**Status:** 🔴 Identified - specific contacts needed
+**Status:** 🟡 Partial - general contacts verified, sustainability contact needed
 
 ---
 
@@ -209,17 +217,21 @@ Source documents contain tiered stakeholder list. Partial verification completed
 |-------|-------|
 | **Sector** | Textile rental and laundry |
 | **Parent** | Elis SA (European leader) |
-| **Target** | 80% recycling rate by 2025 |
+| **2023 recycling rate** | 77% |
+| **2025 target** | 80% recycling rate |
 
-**Contacts:**
+**Contacts (Updated 2025-11-28):**
 
-| Name | Role |
-|------|------|
-| Juho Rasmus | Product & Marketing Manager |
+| Contact | Value | Status |
+|---------|-------|--------|
+| Juho Rasmus | Product & Marketing Manager | 🟡 Role unverified |
+| General Finland | via fr.elis.com/en | 🟢 Website confirmed |
 
-**Strategic Value:** Europe's largest textile rental. Partnership with Rester since 2021. Regular shipments to Paimio facility.
+**Partnership confirmed:** Active collaboration with Rester since 2021 - worn-out workwear from Elis is recycled into new textile fibers at Rester's Paimio facility.
 
-**Status:** 🟡 Identified - contact verification needed
+**Strategic Value:** Europe's largest textile rental. Access via Rester partnership may be most efficient approach.
+
+**Status:** 🟡 Partial - recommend contact via Rester
 
 ---
 
@@ -229,18 +241,21 @@ Source documents contain tiered stakeholder list. Partial verification completed
 |-------|-------|
 | **Sector** | Workwear manufacturer and rental |
 | **Founded** | 1959 |
+| **Location** | Tampere, Finland |
 | **Program** | "Kierre" take-back and recycling |
 
-**Contacts:**
+**Contacts (Verified 2025-11-28):**
 
-| Name | Role | Email | Phone |
-|------|------|-------|-------|
-| Jari Lepistö | CEO | jari.lepisto@imagewear.fi | +358 50 60212 |
-| General | - | imagewear@imagewear.fi | +358 20 7980 500 |
+| Name | Role | Email | Phone | Status |
+|------|------|-------|-------|--------|
+| Jari Lepistö | CEO | jari.lepisto@imagewear.fi | +358 50 60212 | 🟢 Verified |
+| General | - | imagewear@imagewear.eu | +358 20 7980 500 | 🟢 Verified |
 
-**Strategic Value:** Established recycling services. Carbon neutral goal 2025. Partnership with Globe Hope for upcycling.
+**Address:** Yrittäjänkatu 24, 33710 Tampere
 
-**Status:** 🟡 Identified - contact verification needed
+**Strategic Value:** Finland's leading workwear manufacturer. Established recycling services via "Kierre" program. Carbon neutral goal 2025. Partnership with Globe Hope for upcycling.
+
+**Status:** 🟢 Verified - CEO contact confirmed
 
 ---
 
@@ -279,14 +294,14 @@ Source documents contain tiered stakeholder list. Partial verification completed
 
 | Organization | Status | Notes |
 |--------------|--------|-------|
-| Rester Oy | 🟢 Partially verified | CEO changed, general email confirmed |
-| Lindström | 🟡 Needs update | Key contact (Huttunen) left company |
+| Rester Oy | 🟢 Partially verified | CEO changed to Jukka Pesola, general email confirmed |
+| Lindström | 🟡 Needs update | Key contact (Huttunen) left company June 2025 |
 | LSJH | 🟢 Verified | Anna Garton role confirmed |
-| Touchpoint | 🟢 Fully verified | All contacts confirmed |
-| HUS | 🔴 Research needed | No contacts identified |
-| SOL Group | 🔴 Research needed | No contacts identified |
-| Elis | 🟡 Partial | Role known, email unverified |
-| Image Wear | 🟡 Partial | CEO email found, unverified |
+| Touchpoint | 🟢 Fully verified | All contacts confirmed - PRIORITY |
+| HUS | 🟡 Partial | Timo Martelius (Procurement Director) identified |
+| SOL Group | 🟡 Partial | General contacts, sustainability contact TBD |
+| Elis | 🟡 Partial | Access via Rester partnership recommended |
+| Image Wear | 🟢 Verified | CEO Jari Lepistö contact confirmed |
 | Comforta | 🟡 Via Lindström | Use parent company contacts |
 
 **Verification Sources:**
@@ -294,24 +309,27 @@ Source documents contain tiered stakeholder list. Partial verification completed
 - [Touchpoint Contact Page](https://www.touchpointww.com/en/contact)
 - [Scandinavian MIND - Anna Garton](https://scandinavianmind.com/teemu-koskela-anna-garton-finland-headstart-in-recycling/)
 - [Metsä Spring - Huttunen appointment](https://www.metsagroup.com/metsaspring/news/anna-kaisa-huttunen-strengthens-the-kuura-team/)
+- [Image Wear Contact](https://imagewear.fi/en/pages/yhteystiedot)
+- [HUS Procurement Services](https://www.hus.fi/en/professionals/procurement-services)
+- [SOL Laundry Contact](https://www.sol.fi/en/contact-information/sol-laundry-contact-information/)
 
 ---
 
 ## Recommended Engagement Sequence
 
-### Phase 1 (Immediate):
-1. **Rester Oy** (Anna-Kaisa Huttunen) - establish technical partnership
-2. **Lindström Group** (Seija Forss) - access multi-sector streams
-3. **HUS** - secure white polyester stream
+### Phase 1 (Immediate - Verified Contacts):
+1. **Touchpoint** (Noora Salonoja) 🟢 - direct Rester access, workwear streams
+2. **LSJH** (Anna Garton) 🟢 - sorted household polyester, national coordinator
+3. **Rester Oy** (hello@rester.fi) 🟢 - establish technical partnership
 
-### Phase 2 (Weeks 2-4):
-1. SOL as alternative/complementary aggregator
-2. LSJH for sorted household polyester
-3. YIT/construction for high-volume colored polyester
+### Phase 2 (Follow-up):
+1. **Lindström Group** (General: +358 20 111 600) - access multi-sector streams
+2. **HUS** - secure white polyester stream (contacts to be identified)
+3. **SOL** as alternative aggregator (contacts to be identified)
 
 ### Phase 3 (Pilot Development):
-1. Request material samples
-2. Define collection logistics
+1. Request material samples from Rester/Touchpoint
+2. Define collection logistics with LSJH
 3. Establish pilot with 1-2 partners
 
 ---

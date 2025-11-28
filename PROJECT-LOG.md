@@ -172,6 +172,117 @@ Priority verification items:
 
 ---
 
+## 2025-11-28 - Q6 Contact Verification Session
+
+### Actions Taken
+- Verified Tier 1 priority contacts using web searches and official sources
+- Updated Q6 documentation with verification status indicators
+- Created local viewer for documentation preview
+
+### Critical Findings
+
+| Organization | Finding | Impact |
+|--------------|---------|--------|
+| **Rester Oy** | CEO changed from Joachim Colliander to Jukka Pesola | Update contact strategy |
+| **Lindström** | Anna-Kaisa Huttunen LEFT (June 2025), now at Metsä Spring | Need new sustainability contact |
+| **Touchpoint** | All contacts VERIFIED and current | Ready for outreach |
+| **LSJH** | Anna Garton role confirmed as Post-Consumer Textile Expert | Ready for outreach |
+
+### Verification Results
+
+| Contact | Status | Source |
+|---------|--------|--------|
+| Rester hello@rester.fi | 🟢 Verified | rester.fi/en/contact-us/ |
+| Rester Johanna Lindholm-Järvinen | 🟢 Verified | Company website |
+| Rester Sandra Wirtanen | 🟢 Verified | Company website |
+| Touchpoint Noora Salonoja | 🟢 Verified | touchpointww.com/en/contact |
+| Touchpoint Joni Mäenpää | 🟢 Verified | touchpointww.com/en/contact |
+| Touchpoint Anni Wulff-Kokko | 🟢 Verified | touchpointww.com/en/contact |
+| LSJH Anna Garton | 🟢 Role verified | Scandinavian MIND article |
+| Lindström general line | 🟢 Verified | Company website |
+| Lindström Seija Forss | 🟡 Unverified | Original research only |
+
+### Outdated Information Identified
+- Joachim Colliander no longer CEO at Rester
+- Anna-Kaisa Huttunen no longer at Lindström OR Rester
+- Original research documents contain stale contact information
+
+### Files Modified
+- `docs/02-research-questions/q6-top10-sources.md` - Updated with verification status
+- `docs/viewer.html` - Created local preview viewer
+
+### Next Steps
+- [x] Verify remaining contacts: Elis, Image Wear
+- [x] Research new contacts: HUS, SOL Group
+- [ ] Find replacement sustainability contact at Lindström
+- [x] Update Q5 to match Q6 verified information
+
+---
+
+## 2025-11-28 - Extended Contact Verification (Session 2)
+
+### Actions Taken
+- Verified additional Tier 2-3 contacts: Elis, Image Wear, HUS, SOL
+- Updated Q5 to match Q6 verified information
+- Updated recommended engagement sequences with verified contacts
+
+### Extended Verification Results
+
+| Organization | Contact | Status | Source |
+|--------------|---------|--------|--------|
+| **Image Wear** | Jari Lepistö (CEO) | 🟢 Verified | imagewear.fi |
+| **Image Wear** | jari.lepisto@imagewear.fi | 🟢 Verified | imagewear.fi |
+| **Image Wear** | +358 50 60212 | 🟢 Verified | imagewear.fi |
+| **HUS** | Timo Martelius (Procurement Director) | 🟢 Role verified | rocketreach.co |
+| **HUS** | Switchboard 09 4711 | 🟢 Verified | hus.fi |
+| **HUS** | Procurement portal tarjouspalvelu.fi | 🟢 Verified | hus.fi |
+| **SOL Group** | 040 779 7209 | 🟢 Verified | sol.fi |
+| **SOL Group** | Laundry locator page | 🟢 Verified | sol.fi |
+| **Elis** | Rester partnership (2021) | 🟢 Confirmed | touchpointww.com |
+
+### Key Findings
+
+**Image Wear:**
+- CEO Jari Lepistö confirmed, based in Tampere
+- Operates "Kierre" take-back and recycling program
+- Good alternative to Rester/Touchpoint ecosystem
+
+**HUS:**
+- Timo Martelius is Director of Procurement (since 2019)
+- Textile services handled by Uudenmaan Sairaalapesula (Kerava)
+- Access via switchboard or procurement portal
+
+**SOL Group:**
+- 60 service points nationwide
+- ~14,000 employees across Nordic-Baltic region
+- "Leading the way in sustainability" positioning
+
+**Elis:**
+- Active Rester partnership since 2021
+- 77% recycling rate (2023), targeting 80% by 2025
+- Recommend access via Rester partnership
+
+### Current Verification Status Summary
+
+| Tier | Organization | Status | Ready for Outreach |
+|------|--------------|--------|-------------------|
+| 1 | Touchpoint | 🟢 Fully verified | ✅ Yes |
+| 1 | LSJH | 🟢 Verified | ✅ Yes |
+| 1 | Rester | 🟢 Partial | ✅ Yes (via general email) |
+| 1 | Lindström | 🟡 Needs update | ⚠️ Via general line |
+| 2 | HUS | 🟡 Partial | ⚠️ Via switchboard |
+| 3 | Image Wear | 🟢 Verified | ✅ Yes |
+| 3 | SOL Group | 🟡 Partial | ⚠️ Via general contact |
+| 3 | Elis | 🟡 Partial | Via Rester |
+
+### Outstanding Items
+- [ ] Find replacement sustainability contact at Lindström
+- [ ] Identify specific textile manager at HUS
+- [ ] Identify sustainability contact at SOL Group
+- [ ] Verify university hospital contacts (TAYS, TYKS, KYS, OYS)
+
+---
+
 ## Template for Future Entries
 
 ```markdown

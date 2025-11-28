@@ -12,8 +12,8 @@
 | Q2 | [Value Chain Stakeholders](02-research-questions/q2-stakeholders.md) | 🟡 Research available | 200+ companies mapped |
 | Q3 | [Disposal and Reuse](02-research-questions/q3-disposal-reuse.md) | 🟡 Research available | 86,000 t/year, 60% incinerated |
 | Q4 | [Regulations](02-research-questions/q4-regulations.md) | 🟡 Research available | EPR 2027-2028 key deadline |
-| Q5 | [Initiatives](02-research-questions/q5-initiatives.md) | 🟡 Research available | Rester, Lindström, LSJH key players |
-| Q6 | [Top 10 Sources](02-research-questions/q6-top10-sources.md) | 🟡 Preliminary list | 10 stakeholders with contacts |
+| Q5 | [Initiatives](02-research-questions/q5-initiatives.md) | 🟢 Contacts verified | Rester, Lindström, LSJH key players |
+| Q6 | [Top 10 Sources](02-research-questions/q6-top10-sources.md) | 🟢 Verification complete | 4 orgs ready for outreach |
 
 **Status Legend:** 🟢 Verified | 🟡 Research available (verification needed) | 🔴 Pending
 
@@ -47,10 +47,11 @@
 - **Mandatory collection:** Since Jan 2023 (2 years ahead of EU)
 - **EPR implementation:** Expected 2027-2028
 
-### Top 3 Priority Partners
-1. **Rester Oy** - Finland's only large-scale textile recycler (6,000-12,000 t/year)
-2. **Lindström Group** - Market leader, 400+ tonnes end-of-life workwear annually
-3. **LSJH** - National coordinator, €20.5M Turku plant
+### Top Priority Partners (Verified 2025-11-28)
+1. **Touchpoint** 🟢 - Workwear circularity, Rester co-founder (noora.salonoja@touchpoint.fi)
+2. **LSJH** 🟢 - National coordinator, €20.5M Turku plant (anna.garton@lsjh.fi)
+3. **Rester Oy** 🟢 - Finland's only large-scale textile recycler (hello@rester.fi)
+4. **Image Wear** 🟢 - Workwear manufacturer, "Kierre" program (jari.lepisto@imagewear.fi)
 
 ### Best Sources for White Polyester
 1. Pharmaceutical/cleanroom (>90% white)

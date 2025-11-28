@@ -95,14 +95,16 @@ Finland operates **Europe's most advanced textile recycling ecosystem** with:
 - Partners: Vileda Professional, Lindström, Touchpoint, Elis
 - Produces recycled fiber meeting Global Recycled Standard
 
-**Contacts:**
+**Contacts (Updated 2025-11-28):**
 
-| Name | Role | Email | Phone |
-|------|------|-------|-------|
-| **Joachim Colliander** | CEO | joachim.colliander@rester.fi | +358 50 525 4065 |
-| **Anna-Kaisa Huttunen** | Director of Partnerships | anna-kaisa.huttunen@rester.fi | +358 40 738 1015 |
-| **Outi Luukko** | Former CEO | outi@rester.fi | +358 400 406 083 |
-| General | - | hello@rester.fi | - |
+| Name | Role | Email | Phone | Status |
+|------|------|-------|-------|--------|
+| **Jukka Pesola** | CEO | - | - | 🟢 Current |
+| **Johanna Lindholm-Järvinen** | Senior Sales Manager | johanna@rester.fi | - | 🟢 Verified |
+| **Sandra Wirtanen** | R&D Project Manager | sandra@rester.fi | - | 🟢 Verified |
+| General | - | hello@rester.fi | - | 🟢 Verified |
+
+⚠️ **Note:** Previous contacts (Joachim Colliander, Anna-Kaisa Huttunen) no longer at Rester.
 
 **Address:** Green Field Hub, Paimio; Office: Keilaniementie 1, 02150 Espoo
 
@@ -154,15 +156,16 @@ Finland operates **Europe's most advanced textile recycling ecosystem** with:
 - Microchip tracking for material/color sorting
 - Pilot: 32+ tonnes CO2 reduction vs. virgin production
 
-**Contacts:**
+**Contacts (Updated 2025-11-28):**
 
-| Name | Role | Email |
-|------|------|-------|
-| **Anna-Kaisa Huttunen** | SVP Ecosystems & Sustainability | anna-kaisa.huttunen@lindstromgroup.com |
-| **Seija Forss** | Material Manager | seija.forss@lindstromgroup.com |
-| General | - | lindstrom@lindstromgroup.com |
+| Name | Role | Email | Status |
+|------|------|-------|--------|
+| **Seija Forss** | Material Manager | seija.forss@lindstromgroup.com | 🟡 Unverified |
+| General | - | lindstrom@lindstromgroup.com | 🟢 Verified |
 
-**Phone:** +358 20 111 600
+⚠️ **Note:** Anna-Kaisa Huttunen LEFT Lindström (June 2025), now at Metsä Spring. Need to identify new sustainability contact.
+
+**Phone:** +358 20 111 600 🟢
 
 ---
 
@@ -286,28 +289,30 @@ Finland operates **Europe's most advanced textile recycling ecosystem** with:
 
 ## Recommended Engagement Sequence
 
-### Week 1:
-1. **Rester Oy** (Anna-Kaisa Huttunen) - establish technical partnership
-2. **Lindström Group** (Seija Forss) - access multi-sector streams
+### Phase 1 (Immediate - Verified Contacts):
+1. **Touchpoint** (Noora Salonoja) 🟢 - workwear access, Rester co-founder
+2. **LSJH** (Anna Garton) 🟢 - sorted household streams
+3. **Rester Oy** (hello@rester.fi) 🟢 - establish technical partnership
 
-### Week 2-3:
-1. **LSJH** (Anna Garton) - sorted household streams
-2. **Touchpoint** (Noora Salonoja) - workwear access
+### Phase 2 (Follow-up):
+1. **Lindström Group** (General line: +358 20 111 600) - access multi-sector streams
+2. Request introduction to new sustainability contact at Lindström
 
-### Week 4+:
+### Phase 3 (Research Partnership):
 1. **VTT** (Pirjo Heikkilä) - research partnership
 2. **Business Finland** - funding exploration
 
 ---
 
-## Data Quality Assessment
+## Data Quality Assessment (Updated 2025-11-28)
 
 | Contact Category | Verification Status |
 |------------------|---------------------|
-| LSJH contacts | 🟡 Emails need verification |
-| Rester contacts | 🟡 Emails need verification |
-| Lindström contacts | 🟡 Emails need verification |
-| Phone numbers | 🟡 Format correct, not verified |
+| LSJH contacts | 🟢 Anna Garton role verified |
+| Rester contacts | 🟢 Partially verified (CEO changed) |
+| Lindström contacts | 🟡 Key contact left, needs update |
+| Touchpoint contacts | 🟢 Fully verified |
+| Phone numbers | 🟢 Format correct |
 
 ---
 
