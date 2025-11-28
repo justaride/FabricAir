@@ -4,9 +4,11 @@
 
 > Make a list of the (10) most promising stakeholders in Finland that could be a source of used high-quality polyester fibers, including the persons responsible for disposing of those fibers.
 
-## Status: Research Available - Preliminary List
+## Status: VERIFICATION IN PROGRESS
 
-Source documents contain tiered stakeholder list with contacts. Verification pending.
+⚠️ **Critical Update (2025-11-28):** Several contacts from original research are outdated. See verification notes below.
+
+Source documents contain tiered stakeholder list. Partial verification completed.
 
 ---
 
@@ -38,17 +40,21 @@ Source documents contain tiered stakeholder list with contacts. Verification pen
 | **Material focus** | B2B end-of-life textiles, workwear |
 | **Quality** | Global Recycled Standard certified |
 
-**Contacts:**
+**Contacts (Verified 2025-11-28):**
 
-| Name | Role | Email | Phone |
-|------|------|-------|-------|
-| Joachim Colliander | CEO | joachim.colliander@rester.fi | +358 50 525 4065 |
-| Anna-Kaisa Huttunen | Director of Partnerships | anna-kaisa.huttunen@rester.fi | +358 40 738 1015 |
-| General | - | hello@rester.fi | - |
+| Name | Role | Email | Phone | Status |
+|------|------|-------|-------|--------|
+| Jukka Pesola | CEO | - | - | 🟢 Current website |
+| Johanna Lindholm-Järvinen | Senior Sales Manager | johanna@rester.fi | - | 🟢 Verified |
+| Sandra Wirtanen | R&D Project Manager | sandra@rester.fi | - | 🟢 Verified |
+| Jani Tolvanen | Production Manager | jani.t@rester.fi | - | 🟢 Verified |
+| General | - | hello@rester.fi | - | 🟢 Verified |
+
+⚠️ **Note:** Joachim Colliander was CEO (appointed Feb 2024), but current website shows Jukka Pesola. Anna-Kaisa Huttunen no longer at Rester.
 
 **Strategic Value:** Finland's only large-scale textile recycler. Direct access to sorted, clean polyester fiber. Already processes post-industrial polyester from Lindström, Touchpoint, Elis.
 
-**Status:** 🟡 Identified - contact verification needed
+**Status:** 🟢 Partially verified - recommend contacting hello@rester.fi
 
 ---
 
@@ -62,17 +68,18 @@ Source documents contain tiered stakeholder list with contacts. Verification pen
 | **Client base** | 88,000 customers (healthcare, industry, construction) |
 | **Revenue** | €518.1 million |
 
-**Contacts:**
+**Contacts (Updated 2025-11-28):**
 
-| Name | Role | Email | Phone |
-|------|------|-------|-------|
-| Seija Forss | Material Manager | seija.forss@lindstromgroup.com | - |
-| Anna-Kaisa Huttunen | SVP Ecosystems | anna-kaisa.huttunen@lindstromgroup.com | - |
-| General | - | lindstrom@lindstromgroup.com | +358 20 111 600 |
+| Name | Role | Email | Phone | Status |
+|------|------|-------|-------|--------|
+| Seija Forss | Material Manager | seija.forss@lindstromgroup.com | - | 🟡 Unverified |
+| General | - | lindstrom@lindstromgroup.com | +358 20 111 600 | 🟢 Verified |
+
+⚠️ **Note:** Anna-Kaisa Huttunen LEFT Lindström in June 2025. Now at Metsä Spring as Director, Business Development. Need to identify new sustainability contact at Lindström.
 
 **Strategic Value:** Market leader servicing all target sectors. Committed to 100% textile recycling by 2025. Strategic investor in Rester. Established infrastructure for mono-material sorting.
 
-**Status:** 🟡 Identified - contact verification needed
+**Status:** 🟡 Needs updated contact - recommend contacting general line
 
 ---
 
@@ -86,18 +93,19 @@ Source documents contain tiered stakeholder list with contacts. Verification pen
 | **Investment** | €20.5 million in Turku plant |
 | **Coverage** | 95% of Finland's population |
 
-**Contacts:**
+**Contacts (Updated 2025-11-28):**
 
-| Name | Role | Email | Phone |
-|------|------|-------|-------|
-| Anna Garton | Post-Consumer Textile Expert | anna.garton@lsjh.fi | +358 40 186 6215 |
-| Teemu Jutila | Development Director | teemu.jutila@lsjh.fi | +358 50 595 2215 |
-| Miira Ojanen | Sales Manager | miira.ojanen@lsjh.fi | +358 40 579 5312 |
-| B2B inquiries | - | postconsumertextile@lsjh.fi | - |
+| Name | Role | Email | Phone | Status |
+|------|------|-------|-------|--------|
+| Anna Garton | Post-Consumer Textile Expert | anna.garton@lsjh.fi | +358 40 186 6215 | 🟢 Role verified |
+| Teemu Jutila | Development Director | teemu.jutila@lsjh.fi | +358 50 595 2215 | 🟡 Unverified |
+| Miira Ojanen | Sales Manager | miira.ojanen@lsjh.fi | +358 40 579 5312 | 🟡 Unverified |
+| B2B inquiries | - | postconsumertextile@lsjh.fi | - | 🟢 Official |
+| General | - | asiakaspalvelu@lsjh.fi | 0200 47470 | 🟢 Verified |
 
-**Strategic Value:** National coordinator. Advanced NIR sorting for polyester isolation. Can provide sorted polyester streams from 743+ tonnes annual collections.
+**Strategic Value:** National coordinator. Advanced NIR sorting for polyester isolation. Can provide sorted polyester streams from 743+ tonnes annual collections. Active in European projects (tExtended, Telavalue).
 
-**Status:** 🟡 Identified - contact verification needed
+**Status:** 🟢 Anna Garton role confirmed - recommended first contact
 
 ---
 
@@ -159,16 +167,19 @@ Source documents contain tiered stakeholder list with contacts. Verification pen
 | **Take-back** | 100% of delivered textiles |
 | **Product** | ReTouch fabric (>10% recycled) |
 
-**Contacts:**
+**Contacts (Verified 2025-11-28):**
 
-| Name | Role | Email | Phone |
-|------|------|-------|-------|
-| Noora Salonoja | CEO & Partner | noora.salonoja@touchpointww.com | +358 50 323 9620 |
-| Minja Kokkonen | Dir. Business Development | - | +358 50 325 7005 |
+| Name | Role | Email | Phone | Status |
+|------|------|-------|-------|--------|
+| Noora Salonoja | CEO & Partner | noora.salonoja@touchpoint.fi | +358 50 323 9620 | 🟢 Verified |
+| Joni Mäenpää | Sales Director | joni.maenpaa@touchpoint.fi | +358 41 318 1614 | 🟢 Verified |
+| Anni Wulff-Kokko | Sustainability Specialist | anni.wulff-kokko@touchpoint.fi | +358 50 339 6362 | 🟢 Verified |
+| Tiiu Jylhä-Nieminen | Sales Manager | tiiu.jylha-nieminen@touchpoint.fi | +358 45 263 8611 | 🟢 Verified |
+| General | - | info@touchpoint.fi | - | 🟢 Verified |
 
-**Strategic Value:** Majority owner of Rester. Operates proven closed-loop. Supplies K Group (20,000 employees) and Airpro.
+**Strategic Value:** Majority owner of Rester. Operates proven closed-loop. Supplies K Group (20,000 employees) and Airpro. Launched ReTouch fabric with >10% recycled polyester.
 
-**Status:** 🟡 Identified - contact verification needed
+**Status:** 🟢 Fully verified - high confidence contacts
 
 ---
 
@@ -264,13 +275,25 @@ Source documents contain tiered stakeholder list with contacts. Verification pen
 
 ---
 
-## Contact Verification Status Summary
+## Contact Verification Status Summary (Updated 2025-11-28)
 
-| Status | Count | Meaning |
-|--------|-------|---------|
-| 🟢 Verified | 0 | Contact confirmed working |
-| 🟡 Identified | 8 | Contact info found, needs verification |
-| 🔴 Research needed | 7 | Organization identified, contacts not found |
+| Organization | Status | Notes |
+|--------------|--------|-------|
+| Rester Oy | 🟢 Partially verified | CEO changed, general email confirmed |
+| Lindström | 🟡 Needs update | Key contact (Huttunen) left company |
+| LSJH | 🟢 Verified | Anna Garton role confirmed |
+| Touchpoint | 🟢 Fully verified | All contacts confirmed |
+| HUS | 🔴 Research needed | No contacts identified |
+| SOL Group | 🔴 Research needed | No contacts identified |
+| Elis | 🟡 Partial | Role known, email unverified |
+| Image Wear | 🟡 Partial | CEO email found, unverified |
+| Comforta | 🟡 Via Lindström | Use parent company contacts |
+
+**Verification Sources:**
+- [Rester Contact Page](https://rester.fi/en/contact-us/)
+- [Touchpoint Contact Page](https://www.touchpointww.com/en/contact)
+- [Scandinavian MIND - Anna Garton](https://scandinavianmind.com/teemu-koskela-anna-garton-finland-headstart-in-recycling/)
+- [Metsä Spring - Huttunen appointment](https://www.metsagroup.com/metsaspring/news/anna-kaisa-huttunen-strengthens-the-kuura-team/)
 
 ---
 

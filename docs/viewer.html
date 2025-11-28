@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FabricAir Finland Research Platform</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #24292e;
+            --border: #e1e4e8;
+            --link: #0366d6;
+            --code-bg: #f6f8fa;
+            --header-bg: #24292e;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            min-height: 100vh;
+        }
+        nav {
+            width: 280px;
+            background: var(--header-bg);
+            color: white;
+            padding: 20px;
+            overflow-y: auto;
+            position: fixed;
+            height: 100vh;
+        }
+        nav h2 {
+            margin: 0 0 20px 0;
+            font-size: 18px;
+            border-bottom: 1px solid #444;
+            padding-bottom: 10px;
+        }
+        nav ul { list-style: none; padding: 0; margin: 0; }
+        nav li { margin: 5px 0; }
+        nav a {
+            color: #79b8ff;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+            padding: 4px 0;
+        }
+        nav a:hover { color: #fff; }
+        nav .section {
+            margin-top: 15px;
+            font-weight: bold;
+            color: #959da5;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        main {
+            flex: 1;
+            padding: 40px 60px;
+            margin-left: 280px;
+            max-width: 900px;
+        }
+        h1 { border-bottom: 1px solid var(--border); padding-bottom: 10px; }
+        h2 { margin-top: 30px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+        h3 { margin-top: 25px; }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid var(--border);
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th { background: var(--code-bg); }
+        code {
+            background: var(--code-bg);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 90%;
+        }
+        pre {
+            background: var(--code-bg);
+            padding: 16px;
+            overflow-x: auto;
+            border-radius: 6px;
+        }
+        pre code { background: none; padding: 0; }
+        blockquote {
+            border-left: 4px solid var(--border);
+            margin: 0;
+            padding: 0 16px;
+            color: #6a737d;
+        }
+        a { color: var(--link); }
+        hr { border: none; border-top: 1px solid var(--border); margin: 24px 0; }
+        .status { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 12px; }
+        #loading { text-align: center; padding: 50px; color: #666; }
+        .error { color: #cb2431; background: #ffeef0; padding: 10px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>FabricAir Finland</h2>
+        <div class="section">Overview</div>
+        <ul>
+            <li><a href="#" onclick="loadDoc('index.md')">Home / Index</a></li>
+        </ul>
+        <div class="section">Context</div>
+        <ul>
+            <li><a href="#" onclick="loadDoc('01-context/fabricair.md')">FabricAir Profile</a></li>
+        </ul>
+        <div class="section">Research Questions</div>
+        <ul>
+            <li><a href="#" onclick="loadDoc('02-research-questions/q1-sectors-actors.md')">Q1: Sectors & Actors</a></li>
+            <li><a href="#" onclick="loadDoc('02-research-questions/q2-stakeholders.md')">Q2: Stakeholders</a></li>
+            <li><a href="#" onclick="loadDoc('02-research-questions/q3-disposal-reuse.md')">Q3: Disposal & Reuse</a></li>
+            <li><a href="#" onclick="loadDoc('02-research-questions/q4-regulations.md')">Q4: Regulations</a></li>
+            <li><a href="#" onclick="loadDoc('02-research-questions/q5-initiatives.md')">Q5: Initiatives</a></li>
+            <li><a href="#" onclick="loadDoc('02-research-questions/q6-top10-sources.md')">Q6: Top 10 Sources</a></li>
+        </ul>
+        <div class="section">Project</div>
+        <ul>
+            <li><a href="#" onclick="loadDoc('../README.md')">README</a></li>
+            <li><a href="#" onclick="loadDoc('../CLAUDE.md')">AI Instructions</a></li>
+            <li><a href="#" onclick="loadDoc('../PROJECT-LOG.md')">Project Log</a></li>
+        </ul>
+    </nav>
+    <main id="content">
+        <div id="loading">Loading...</div>
+    </main>
+    <script>
+        async function loadDoc(path) {
+            const content = document.getElementById('content');
+            content.innerHTML = '<div id="loading">Loading...</div>';
+            try {
+                const response = await fetch(path);
+                if (!response.ok) throw new Error('File not found: ' + path);
+                const text = await response.text();
+                content.innerHTML = marked.parse(text);
+                window.scrollTo(0, 0);
+            } catch (error) {
+                content.innerHTML = '<div class="error">Error: ' + error.message + '</div>';
+            }
+        }
+        // Load index on start
+        loadDoc('index.md');
+    </script>
+</body>
+</html>
