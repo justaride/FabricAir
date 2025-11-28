@@ -1,11 +1,24 @@
 # FabricAir Finland Research Platform
 
+## Quick Start
+
+**New here?** Start with the [Executive Summary](00-executive-summary.md) for key findings and action items.
+
+**Ready to contact partners?** Go to the [Contact Directory](03-contacts/directory.md) for verified contact information.
+
+---
+
 ## Navigation
 
+### Overview
+- [Executive Summary](00-executive-summary.md) - Key findings, priority contacts, engagement strategy
+- [Contact Directory](03-contacts/directory.md) - All verified contacts with emails and phones
+
 ### Context
-- [FabricAir Company Profile](01-context/fabricair.md)
+- [FabricAir Company Profile](01-context/fabricair.md) - Material requirements, sustainability goals
 
 ### Research Questions
+
 | # | Question | Status | Key Findings |
 |---|----------|--------|--------------|
 | Q1 | [Sectors and Actors](02-research-questions/q1-sectors-actors.md) | 🟡 Research available | Healthcare, food, pharma top sources |
@@ -13,18 +26,47 @@
 | Q3 | [Disposal and Reuse](02-research-questions/q3-disposal-reuse.md) | 🟡 Research available | 86,000 t/year, 60% incinerated |
 | Q4 | [Regulations](02-research-questions/q4-regulations.md) | 🟡 Research available | EPR 2027-2028 key deadline |
 | Q5 | [Initiatives](02-research-questions/q5-initiatives.md) | 🟢 Contacts verified | Rester, Lindström, LSJH key players |
-| Q6 | [Top 10 Sources](02-research-questions/q6-top10-sources.md) | 🟢 Verification complete | 4 orgs ready for outreach |
+| Q6 | [Top 10 Sources](02-research-questions/q6-top10-sources.md) | 🟢 Verification complete | 7 orgs ready for outreach |
 
 **Status Legend:** 🟢 Verified | 🟡 Research available (verification needed) | 🔴 Pending
 
 ---
 
-## Quick Reference
+## Key Findings Summary
 
-### Main Question
-> How can FabricAir access used high-quality polyester fibers in Finland to realize its ambitions to develop 100% circular polyester sourcing for its ventilation system?
+### Finland Market Opportunity
 
-### Material Requirements
+| Metric | Value |
+|--------|-------|
+| Total textile waste | 86,000 tonnes/year |
+| Polyester workwear market | €75-90 million/year |
+| Mandatory collection | Since Jan 2023 (2 years ahead of EU) |
+| EPR implementation | Expected 2027-2028 |
+| Available via partners | 5,000-10,000 tonnes/year |
+
+### Priority Partners (Verified - Ready for Outreach)
+
+| Organization | Contact | Email |
+|--------------|---------|-------|
+| **Touchpoint** | Noora Salonoja (CEO) | noora.salonoja@touchpoint.fi |
+| **LSJH** | Anna Garton | anna.garton@lsjh.fi |
+| **Rester** | General | hello@rester.fi |
+| **Lindström** | Kati Pallasaho (SVP) | kati.pallasaho@lindstromgroup.com |
+| **HUS Textile** | Paavo Martikainen (CEO) | paavo.martikainen@uudenmaansairaalapesula.fi |
+| **Image Wear** | Jari Lepistö (CEO) | jari.lepisto@imagewear.fi |
+
+### Best Sources for White Polyester
+
+| Rank | Sector | White % | Notes |
+|------|--------|---------|-------|
+| 1 | Pharmaceutical/cleanroom | >90% | Highest quality |
+| 2 | Food processing | 70-80% | HACCP requirements |
+| 3 | Healthcare lab coats | ~60% | Declining (shifting to colors) |
+
+---
+
+## Material Requirements
+
 | Parameter | Specification |
 |-----------|---------------|
 | Material | 100% Polyester (PET) |
@@ -33,56 +75,33 @@
 | Color | White preferred |
 | Recycling | Fiber-to-fiber, mechanical |
 
-### Key Contacts
-- **FabricAir ESG**: Darius Rinkevičius (dri@fabricair.com)
-- **NCC Coordinator**: Jan Thomas Odegard (janthomas@naturalstate.no)
+**Important:** Polyester/cotton blends are NOT suitable.
 
 ---
 
-## Key Findings Summary
+## Project Information
 
-### Finland Market Overview
-- **Total textile waste:** 86,000 tonnes/year
-- **Polyester workwear market:** €75-90 million/year
-- **Mandatory collection:** Since Jan 2023 (2 years ahead of EU)
-- **EPR implementation:** Expected 2027-2028
+### Contacts
 
-### Top Priority Partners (Verified 2025-11-28)
-1. **Touchpoint** 🟢 - Workwear circularity, Rester co-founder (noora.salonoja@touchpoint.fi)
-2. **LSJH** 🟢 - National coordinator, €20.5M Turku plant (anna.garton@lsjh.fi)
-3. **Rester Oy** 🟢 - Finland's only large-scale textile recycler (hello@rester.fi)
-4. **Image Wear** 🟢 - Workwear manufacturer, "Kierre" program (jari.lepisto@imagewear.fi)
+**FabricAir ESG:** Darius Rinkevičius (dri@fabricair.com)
+**NCC Coordinator:** Jan Thomas Odegard (janthomas@naturalstate.no)
 
-### Best Sources for White Polyester
-1. Pharmaceutical/cleanroom (>90% white)
-2. Food processing (70-80% white)
-3. Healthcare lab coats (declining, shifting to colors)
-
----
-
-## Quality Control
-
-All data in this platform follows the verification framework:
-- 🟢 **Verified** - Confirmed from primary source
-- 🟡 **Source verified** - Source accessible, content not cross-referenced
-- 🔴 **Unverified** - Initial finding, needs verification
-
-See `_data/quality-control.yml` for full framework.
-
----
-
-## Project Files
+### Data Files
 
 | File | Purpose |
 |------|---------|
 | `_data/fabricair.yml` | Company data, material specs |
 | `_data/project.yml` | NCC project context |
-| `_data/research-questions.yml` | Question structure |
-| `_data/sources.yml` | Source registry |
+| `_data/sources.yml` | Source registry (18 documents) |
 | `_data/quality-control.yml` | Verification framework |
-| `CLAUDE.md` | AI copilot instructions |
-| `PROJECT-LOG.md` | Activity log |
+
+### Quality Control
+
+- 🟢 **Verified** - Confirmed from primary source
+- 🟡 **Source verified** - Source accessible, content not cross-referenced
+- 🔴 **Unverified** - Initial finding, needs verification
 
 ---
 
 *Last updated: 2025-11-28*
+*Contact verification completed: 2025-11-28*

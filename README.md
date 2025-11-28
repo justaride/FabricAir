@@ -38,25 +38,28 @@ Research platform for identifying sources of high-quality used polyester fibers 
 ## Project Structure
 
 ```
-├── _data/                      # Structured data (YAML)
-│   ├── fabricair.yml           # Company data and requirements
-│   ├── project.yml             # NCC project context
-│   ├── research-questions.yml  # Research questions and findings
-│   └── sources.yml             # Source registry
+├── _data/                          # Structured data (YAML)
+│   ├── fabricair.yml               # Company data and requirements
+│   ├── project.yml                 # NCC project context
+│   ├── sources.yml                 # Source registry (18 documents)
+│   └── quality-control.yml         # Verification framework
 │
-├── _source-documents/          # Original research materials
+├── _source-documents/              # Original research materials (18 docs)
+│   ├── research-notes/             # Finland research (8 docs)
+│   └── om fabricair/               # Company research (5 docs)
 │
-├── docs/                       # Documentation and reports
-│   ├── 01-context/
-│   ├── 02-research-questions/
-│   ├── 03-findings/
-│   ├── 04-verification/
-│   └── 05-report/
+├── docs/                           # Platform documentation
+│   ├── 00-executive-summary.md     # Key findings overview
+│   ├── 01-context/                 # FabricAir profile
+│   ├── 02-research-questions/      # Q1-Q6 documentation
+│   ├── 03-contacts/                # Contact directory
+│   ├── index.md                    # Navigation hub
+│   └── viewer.html                 # Interactive viewer
 │
-├── _templates/                 # Templates for new entries
-├── CLAUDE.md                   # AI copilot instructions
-├── PROJECT-LOG.md              # Activity log
-└── README.md                   # This file
+├── _templates/                     # Templates for new entries
+├── CLAUDE.md                       # AI copilot instructions
+├── PROJECT-LOG.md                  # Activity log
+└── README.md                       # This file
 ```
 
 ## Key Data Files
@@ -103,9 +106,50 @@ Research platform for identifying sources of high-quality used polyester fibers 
 
 ## Quick Start
 
-1. View documentation: Open `docs/viewer.html` in browser (run `python -m http.server 8080` from project root)
-2. Priority contacts: See `docs/02-research-questions/q6-top10-sources.md`
-3. Project log: See `PROJECT-LOG.md` for full activity history
+### View the Platform
+
+```bash
+# From project root directory
+cd /Users/gabrielboen/Downloads/FabricAir
+python -m http.server 8080
+
+# Then open in browser:
+# http://localhost:8080/docs/viewer.html
+```
+
+### Key Pages
+
+| Page | Purpose |
+|------|---------|
+| **Executive Summary** | Start here - key findings and action items |
+| **Contact Directory** | All verified contacts with copy functionality |
+| **Q6: Top 10 Sources** | Detailed stakeholder profiles |
+
+### Copy Priority Emails
+
+Click "Copy Emails" button in viewer toolbar, or copy manually:
+
+```
+noora.salonoja@touchpoint.fi
+anna.garton@lsjh.fi
+hello@rester.fi
+kati.pallasaho@lindstromgroup.com
+paavo.martikainen@uudenmaansairaalapesula.fi
+jari.lepisto@imagewear.fi
+```
+
+### Print Reports
+
+Use the "Print" button in the viewer toolbar for print-optimized output.
+
+## Platform Features
+
+- **Executive Summary** - One-page overview with key findings
+- **Contact Directory** - All verified contacts with emails/phones
+- **Research Questions (Q1-Q6)** - Full documentation for each question
+- **Print Support** - Clean print styles for reports
+- **Mobile Responsive** - Works on tablets and phones
+- **Copy Functionality** - One-click email list copy
 
 ## For AI Copilots
 
