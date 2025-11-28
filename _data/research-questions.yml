@@ -1,0 +1,230 @@
+# Research Questions for FabricAir Finland Project
+# Last updated: 2025-11-28
+
+main_question:
+  id: "MQ"
+  question: "How can FabricAir access used high-quality polyester fibers in Finland to realize its ambitions to develop 100% circular polyester sourcing for its ventilation system?"
+  scope: "Finland"
+  context: |
+    FabricAir needs external feedstock of high-quality polyester fibers to supplement
+    their internal process waste (~30 tonnes/year) and achieve their circular sourcing goals.
+    The target is durable workwear/uniforms with coarse fibers, preferably white.
+
+sub_questions:
+  - id: "Q1"
+    number: 1
+    title: "Sectors and Actors Using High-Quality Polyester"
+    question: "What are the main sectors and actors in Finland that today use high-quality polyester fibers, as in highly durable quality uniforms and working clothes, preferably in white colors?"
+    focus_areas:
+      - "Healthcare sector (hospitals, clinics)"
+      - "Industrial/manufacturing workwear"
+      - "Road maintenance/public works (vegvesenet-type)"
+      - "Food processing industry"
+      - "Forestry sector"
+      - "Construction industry"
+    target_output:
+      - "List of sectors ranked by potential volume"
+      - "Key organizations within each sector"
+      - "Estimated volumes where available"
+    status: "pending"
+    findings: []
+    gaps:
+      - "Specific volume data per sector"
+      - "Color distribution of workwear in use"
+
+  - id: "Q2"
+    number: 2
+    title: "Main Stakeholders in Value Chain"
+    question: "Who are the main stakeholders in the production, use and reuse of high-quality polyester textiles in Finland today?"
+    stakeholder_categories:
+      - category: "Producers/Manufacturers"
+        description: "Companies producing polyester textiles/workwear"
+      - category: "Users/Consumers"
+        description: "Organizations using polyester workwear at scale"
+      - category: "Collectors"
+        description: "Textile collection services and organizations"
+      - category: "Sorters/Processors"
+        description: "Facilities that sort and process textile waste"
+      - category: "Recyclers"
+        description: "Companies with fiber-to-fiber recycling capability"
+      - category: "Research/Policy"
+        description: "Research institutions and policy makers"
+    target_output:
+      - "Stakeholder map with roles and relationships"
+      - "Key contact persons per stakeholder"
+    status: "pending"
+    findings: []
+    gaps:
+      - "Complete mapping of Finnish textile value chain"
+
+  - id: "Q3"
+    number: 3
+    title: "Current Disposal and Reuse Practices"
+    question: "How are high-quality polyester textiles disposed of today in Finland, and what are the levels and areas of reuse?"
+    focus_areas:
+      - "Current disposal methods (landfill, incineration, export)"
+      - "Existing reuse channels"
+      - "Recycling rates and capacities"
+      - "Barriers to reuse/recycling"
+    target_output:
+      - "Flow diagram of textile disposal in Finland"
+      - "Quantified volumes per disposal route"
+      - "Reuse rate percentages"
+    status: "pending"
+    findings: []
+    gaps:
+      - "Specific data on polyester vs. mixed textile streams"
+      - "Industrial workwear specific disposal data"
+
+  - id: "Q4"
+    number: 4
+    title: "Regulations on Disposal and Reuse"
+    question: "What are the regulations in Finland regarding the disposing/reuse of polyester textiles, and how are they expected to evolve?"
+    regulatory_areas:
+      - area: "EU Textile Strategy"
+        relevance: "Framework for circular textiles"
+      - area: "EU Waste Framework Directive"
+        relevance: "Extended Producer Responsibility (EPR)"
+      - area: "Finnish national regulations"
+        relevance: "Local implementation of EU directives"
+      - area: "Upcoming regulations"
+        relevance: "New EU requirement - textiles cannot be discarded"
+    target_output:
+      - "Current regulatory landscape summary"
+      - "Timeline of upcoming regulatory changes"
+      - "Impact assessment on polyester sourcing"
+    status: "pending"
+    findings:
+      - finding: "New EU regulation prohibits textile disposal"
+        source: "Meeting notes"
+        verified: false
+    gaps:
+      - "Finnish-specific implementation details"
+      - "Timeline for enforcement"
+
+  - id: "Q5"
+    number: 5
+    title: "Existing Collection and Reuse Initiatives"
+    question: "If there are public and/or private initiatives in Finland to collect and reuse polyester textiles in Finland today, what are their status, their ambition and main contact points?"
+    initiative_types:
+      - "Public sector programs"
+      - "Private collection services"
+      - "Industry consortiums"
+      - "Research projects"
+      - "Pilot programs"
+    target_output:
+      - "List of active initiatives"
+      - "Status and scale of each"
+      - "Contact persons"
+      - "Potential for partnership"
+    status: "pending"
+    findings:
+      - finding: "Possible existing project in Finland working on similar challenge"
+        source: "Meeting notes - Jan Thomas mentioned contact who said 'we're working on a big project on this'"
+        verified: false
+        note: "Contact stopped responding - possible competition for resources"
+    gaps:
+      - "Comprehensive list of Finnish initiatives"
+      - "Status verification"
+
+  - id: "Q6"
+    number: 6
+    title: "Top 10 Most Promising Sources"
+    question: "Make a list of the (10) most promising stakeholders in Finland that could be a source of used high-quality polyester fibers, including the persons responsible for disposing of those fibers."
+    criteria:
+      - "Volume potential"
+      - "Quality match (100% polyester, durable, preferably white)"
+      - "Accessibility/willingness to partner"
+      - "Existing collection infrastructure"
+      - "Regulatory compliance readiness"
+    target_output:
+      format: "Prioritized list with:"
+      fields:
+        - "Organization name"
+        - "Sector"
+        - "Estimated volume"
+        - "Quality assessment"
+        - "Contact person"
+        - "Contact details"
+        - "Notes/next steps"
+    status: "pending"
+    findings: []
+    gaps:
+      - "Complete list not yet compiled"
+      - "Volume estimates needed"
+      - "Contact verification required"
+
+# Research methodology
+methodology:
+  data_collection:
+    primary_sources:
+      - "Direct contact with stakeholders"
+      - "Official statistics (Statistics Finland)"
+      - "Company reports and sustainability reports"
+    secondary_sources:
+      - "Industry reports"
+      - "Research papers"
+      - "News articles"
+    verification:
+      - "Cross-reference multiple sources"
+      - "Direct confirmation with stakeholders"
+      - "Citation tracking"
+
+  quality_assurance:
+    finding_states:
+      - state: "unverified"
+        description: "Initial finding, not yet validated"
+      - state: "partially_verified"
+        description: "Some corroborating evidence found"
+      - state: "verified"
+        description: "Confirmed through multiple sources or direct contact"
+      - state: "disputed"
+        description: "Conflicting information found"
+
+  recommended_research_process:
+    phase_a:
+      name: "Specify quality parameters"
+      duration: "Week 1-2"
+      tasks:
+        - "Define mono-PET specification"
+        - "Create RFI template for collectors/sorters/recyclers"
+    phase_b:
+      name: "Map sources"
+      duration: "Week 1-3"
+      tasks:
+        - "Target health, construction, industry, forestry sectors"
+        - "Identify top-10 sources and contact persons"
+    phase_c:
+      name: "Map flows and regulations"
+      duration: "Week 2-4"
+      tasks:
+        - "Document current disposal/reuse levels"
+        - "Map current/upcoming regulations"
+        - "Identify active collection initiatives"
+    phase_d:
+      name: "Process/technology match"
+      duration: "Ongoing"
+      tasks:
+        - "Evaluate mechanical fiber-to-fiber options"
+        - "Assess treatment compatibility (FR/PU/antimicrobial)"
+    phase_e:
+      name: "Pilot and samples"
+      duration: "Week 3-6"
+      tasks:
+        - "Request sample deliveries from 2-3 external sources"
+        - "Define test parameters"
+        - "Evaluate scale-up potential"
+    phase_f:
+      name: "Synthesis"
+      duration: "Week 6-7"
+      tasks:
+        - "Consolidate findings"
+        - "Prepare decision brief"
+        - "Target: mid-September delivery"
+
+# Finland market context
+finland_context:
+  workwear_market:
+    polyester_share: "~50% of functional workwear"
+    estimated_value: "EUR 75-90 million/year"
+  note: "Specific volumes and sources to be researched"

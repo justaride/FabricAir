@@ -1,0 +1,92 @@
+# Template: Adding a New Stakeholder
+# For Q6 Top 10 list and general stakeholder mapping
+
+stakeholder_template:
+  # Basic identification
+  name: "Organization Name"
+  name_local: "Finnish/Swedish name if different"
+  type: "company"  # company, organization, government, research, ngo
+  sector: "Healthcare"  # Healthcare, Industry, Public, Textile, Waste, Research
+
+  # Location
+  country: "Finland"
+  city: "Helsinki"
+  region: "Uusimaa"
+
+  # Role in value chain
+  role: "user"  # producer, user, collector, sorter, recycler, researcher, regulator
+  role_description: "Major hospital network disposing of staff uniforms"
+
+  # Polyester relevance
+  polyester_relevance:
+    uses_polyester: true
+    polyester_type: "100% PET workwear"  # or "blend" (not suitable)
+    estimated_volume: "X tonnes/year"
+    volume_confidence: "estimate"  # confirmed, estimate, unknown
+    color: "white"  # white, mixed, colored
+    current_disposal: "landfill"  # landfill, incineration, recycling, unknown
+
+  # Contact information
+  contacts:
+    - name: "Contact Person Name"
+      role: "Sustainability Manager"
+      email: "email@organization.fi"
+      phone: "+358 XX XXX XXXX"
+      linkedin: "https://linkedin.com/in/..."
+      notes: "Best contact for waste management discussions"
+
+  # Partnership potential
+  partnership:
+    interest_level: "unknown"  # unknown, low, medium, high, confirmed
+    existing_initiatives: "Participating in X textile recycling pilot"
+    barriers: "Long-term contract with current waste handler"
+    opportunities: "New sustainability targets announced for 2025"
+
+  # Source and status
+  source: "How this stakeholder was identified"
+  source_id: "EXT-XXX"
+  date_added: "2025-XX-XX"
+  status: "identified"  # identified, researched, contacted, in_discussion, confirmed
+  priority: "high"  # high, medium, low
+
+  # Notes
+  notes: "Additional context, history, or considerations"
+  next_steps:
+    - "Verify polyester composition of uniforms"
+    - "Identify correct contact person"
+    - "Request meeting to discuss partnership"
+
+# Example entry:
+example_stakeholder:
+  name: "HUS Helsinki University Hospital"
+  name_local: "Helsingin ja Uudenmaan sairaanhoitopiiri"
+  type: "organization"
+  sector: "Healthcare"
+  country: "Finland"
+  city: "Helsinki"
+  region: "Uusimaa"
+  role: "user"
+  role_description: "Largest hospital district in Finland, major user of healthcare uniforms"
+  polyester_relevance:
+    uses_polyester: true
+    polyester_type: "Unknown - needs verification"
+    estimated_volume: "Unknown"
+    volume_confidence: "unknown"
+    color: "Likely white/light blue"
+    current_disposal: "Unknown"
+  contacts: []
+  partnership:
+    interest_level: "unknown"
+    existing_initiatives: "Unknown"
+    barriers: "Unknown"
+    opportunities: "Large scale makes them attractive partner"
+  source: "Identified as largest Finnish hospital system"
+  source_id: "INT-003"
+  date_added: "2025-11-28"
+  status: "identified"
+  priority: "high"
+  notes: "This is an example entry - actual research needed"
+  next_steps:
+    - "Research HUS uniform specifications"
+    - "Find sustainability/procurement contact"
+    - "Verify current textile disposal practices"

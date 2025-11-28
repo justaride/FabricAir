@@ -1,0 +1,94 @@
+# Template: Adding a New Source
+# Add to _data/sources.yml under appropriate category
+
+source_template:
+  # Identification
+  id: "EXT-XXX"  # EXT for external, INT for internal documents
+  name: "Source Name"
+
+  # Type classification
+  type: "report"  # report, article, website, database, interview, document
+  category: "secondary"  # primary, secondary, tertiary
+
+  # Access information
+  url: "https://..."
+  access_date: "2025-XX-XX"
+  requires_login: false
+  language: "English"  # English, Finnish, Swedish, Norwegian
+
+  # Content description
+  description: "Brief description of what this source contains"
+  relevance: "Why this source is relevant to the project"
+
+  # Key data available
+  data_available:
+    - "Market statistics"
+    - "Regulatory information"
+    - "Company listings"
+
+  # Quality assessment
+  publication_date: "2024-XX-XX"
+  author_organization: "Organization name"
+  credibility: "high"  # high, medium, low, unknown
+
+  # Verification
+  verification: "accessed"  # to_access, accessed, verified, outdated, disputed
+  verification_notes: "Notes on verification status"
+
+  # Usage tracking
+  used_for:
+    - question: "Q1"
+      findings: ["Finding reference"]
+
+  # Notes
+  notes: "Any additional context"
+
+# Example external source:
+example_external:
+  id: "EXT-100"
+  name: "Finnish Textile Industry Report 2024"
+  type: "report"
+  category: "secondary"
+  url: "https://example.fi/report"
+  access_date: "2025-11-28"
+  requires_login: false
+  language: "Finnish"
+  description: "Annual report on Finnish textile industry including waste statistics"
+  relevance: "Contains volume data on industrial textile waste streams"
+  data_available:
+    - "Textile production volumes"
+    - "Waste generation statistics"
+    - "Recycling rates"
+  publication_date: "2024-06-01"
+  author_organization: "Finnish Textile & Fashion"
+  credibility: "high"
+  verification: "to_access"
+  verification_notes: "Need to access and extract relevant data"
+  used_for: []
+  notes: "Example entry - actual source to be located"
+
+# Example internal source:
+example_internal:
+  id: "INT-020"
+  name: "Interview notes - Company X"
+  type: "interview"
+  category: "primary"
+  url: null
+  access_date: "2025-XX-XX"
+  requires_login: false
+  language: "Finnish"
+  description: "Notes from phone interview with sustainability manager"
+  relevance: "Direct information on company's textile disposal practices"
+  data_available:
+    - "Volume estimates"
+    - "Current disposal methods"
+    - "Interest in partnership"
+  publication_date: "2025-XX-XX"
+  author_organization: "FabricAir research team"
+  credibility: "high"
+  verification: "verified"
+  verification_notes: "Direct communication"
+  used_for:
+    - question: "Q1"
+      findings: ["Company X disposes of 50 tonnes/year"]
+  notes: "Follow-up meeting scheduled"

@@ -1,0 +1,352 @@
+# Quality Control Framework
+# FabricAir Finland Circular Polyester Research
+# Last updated: 2025-11-28
+
+# ============================================================================
+# OVERVIEW
+# ============================================================================
+# This framework ensures data quality throughout the research process.
+# Every data point flows through: Collection → Verification → Integration → Review
+
+# ============================================================================
+# DATA POINT LIFECYCLE
+# ============================================================================
+
+data_point_states:
+  - state: "raw"
+    description: "Initial extraction from source document"
+    icon: "🔴"
+    next_action: "Verify source accessibility and quote accuracy"
+
+  - state: "source_verified"
+    description: "Original source located and accessible"
+    icon: "🟡"
+    next_action: "Verify factual accuracy of claim"
+
+  - state: "fact_verified"
+    description: "Claim verified through cross-reference or primary confirmation"
+    icon: "🟢"
+    next_action: "Integrate into findings database"
+
+  - state: "disputed"
+    description: "Conflicting information found"
+    icon: "🟠"
+    next_action: "Document conflict, seek resolution"
+
+  - state: "outdated"
+    description: "Information superseded by newer data"
+    icon: "⚪"
+    next_action: "Archive with note, find current data"
+
+# ============================================================================
+# DATA CATEGORIES AND VERIFICATION REQUIREMENTS
+# ============================================================================
+
+data_categories:
+  # CRITICAL - Must be verified before use
+  critical:
+    description: "Data that directly impacts recommendations or decisions"
+    verification_required: "fact_verified"
+    examples:
+      - "Contact details (email, phone)"
+      - "Volume estimates used in recommendations"
+      - "Regulatory deadlines"
+      - "Material specifications"
+    verification_method:
+      - "Direct confirmation from source"
+      - "Cross-reference with official sources"
+      - "Recent date verification (< 12 months old)"
+
+  # IMPORTANT - Should be verified
+  important:
+    description: "Data that supports analysis but isn't decision-critical"
+    verification_required: "source_verified"
+    examples:
+      - "Company background information"
+      - "Market size estimates"
+      - "Historical data"
+      - "General sector descriptions"
+    verification_method:
+      - "URL accessible and content matches"
+      - "Date of publication noted"
+      - "Author/organization credible"
+
+  # CONTEXTUAL - Verification optional
+  contextual:
+    description: "Background information for context"
+    verification_required: "raw"
+    examples:
+      - "General industry trends"
+      - "Explanatory text"
+      - "Definitions"
+
+# ============================================================================
+# VERIFICATION CHECKLIST BY DATA TYPE
+# ============================================================================
+
+verification_checklists:
+  contact_information:
+    fields:
+      - field: "name"
+        check: "Spelling matches source exactly"
+      - field: "role"
+        check: "Current role (not former)"
+      - field: "email"
+        check: "Domain matches organization"
+      - field: "phone"
+        check: "Country code correct (+358 for Finland)"
+    freshness: "Verify within last 6 months"
+    method: "LinkedIn cross-reference or company website"
+
+  volume_estimates:
+    fields:
+      - field: "value"
+        check: "Number and unit clearly stated"
+      - field: "scope"
+        check: "What does this volume represent?"
+      - field: "timeframe"
+        check: "Annual, monthly, or total?"
+      - field: "source_date"
+        check: "When was this data collected?"
+    cross_reference: "Compare with at least one other source"
+    flag_if: "Variance > 30% between sources"
+
+  regulatory_information:
+    fields:
+      - field: "regulation_name"
+        check: "Official name and number"
+      - field: "effective_date"
+        check: "Confirmed implementation date"
+      - field: "scope"
+        check: "Who/what is covered"
+    source_preference: "Government/official sources > news > commentary"
+    freshness: "Verify against latest available version"
+
+  company_information:
+    fields:
+      - field: "name"
+        check: "Legal name vs. trading name"
+      - field: "website"
+        check: "URL accessible"
+      - field: "location"
+        check: "Headquarters vs. operations"
+    source_preference: "Company website > registry > news"
+
+# ============================================================================
+# SOURCE QUALITY HIERARCHY
+# ============================================================================
+
+source_hierarchy:
+  tier_1_primary:
+    description: "Direct, authoritative sources"
+    trust_level: "High"
+    examples:
+      - "Official company websites"
+      - "Government legislation/statistics"
+      - "Direct interviews/communication"
+      - "Annual reports"
+      - "Official press releases"
+    verification_weight: 3
+
+  tier_2_secondary:
+    description: "Reliable indirect sources"
+    trust_level: "Medium"
+    examples:
+      - "Industry association reports"
+      - "Established trade publications"
+      - "Research institution papers"
+      - "Reputable news outlets"
+    verification_weight: 2
+
+  tier_3_tertiary:
+    description: "Aggregated or compiled sources"
+    trust_level: "Low - cross-reference required"
+    examples:
+      - "Wikipedia-type sources"
+      - "Blog posts"
+      - "Social media"
+      - "Market research summaries"
+    verification_weight: 1
+    note: "Never use alone for critical data"
+
+# ============================================================================
+# VERIFICATION WORKFLOW
+# ============================================================================
+
+verification_workflow:
+  step_1_source_check:
+    action: "Locate original source"
+    questions:
+      - "Is the URL accessible?"
+      - "Does the cited content exist at this source?"
+      - "When was this published/last updated?"
+    outcome: "Mark as 'source_verified' or flag issue"
+
+  step_2_accuracy_check:
+    action: "Verify factual accuracy"
+    questions:
+      - "Does the quote match the source exactly?"
+      - "Is the interpretation accurate?"
+      - "Is the data point in context?"
+    outcome: "Confirm accuracy or note discrepancy"
+
+  step_3_cross_reference:
+    action: "For critical data, find corroboration"
+    questions:
+      - "Can this be confirmed from another source?"
+      - "Do multiple sources agree?"
+      - "Are there any conflicting claims?"
+    outcome: "Mark as 'fact_verified' or 'disputed'"
+
+  step_4_currency_check:
+    action: "Assess timeliness"
+    questions:
+      - "Is this the most recent data available?"
+      - "Has the situation changed since publication?"
+      - "Is there a more recent source?"
+    outcome: "Mark as current or 'outdated'"
+
+# ============================================================================
+# QUALITY METRICS
+# ============================================================================
+
+quality_metrics:
+  finding_quality_score:
+    description: "Score each finding 1-5"
+    criteria:
+      5: "Verified from primary source, cross-referenced, current"
+      4: "Verified from primary source, current"
+      3: "Source verified, reasonable confidence"
+      2: "Single secondary source, not cross-referenced"
+      1: "Unverified or tertiary source only"
+
+  document_quality_score:
+    description: "Aggregate score for research documents"
+    calculation: "Average of finding scores"
+    thresholds:
+      excellent: ">= 4.0"
+      good: ">= 3.0"
+      acceptable: ">= 2.0"
+      needs_work: "< 2.0"
+
+# ============================================================================
+# ISSUE TRACKING
+# ============================================================================
+
+issue_types:
+  - type: "source_inaccessible"
+    description: "Cannot access cited source"
+    resolution: "Find alternative source or archive"
+
+  - type: "quote_mismatch"
+    description: "Cited text doesn't match source"
+    resolution: "Correct quote or note discrepancy"
+
+  - type: "data_conflict"
+    description: "Multiple sources disagree"
+    resolution: "Document both, prefer primary source"
+
+  - type: "data_outdated"
+    description: "Information superseded"
+    resolution: "Find current data, archive old"
+
+  - type: "contact_invalid"
+    description: "Contact details don't work"
+    resolution: "Find current contact information"
+
+# ============================================================================
+# REVIEW PROCESS
+# ============================================================================
+
+review_process:
+  pre_integration:
+    description: "Before adding to final database"
+    checklist:
+      - "Source documented and accessible"
+      - "Data category assigned"
+      - "Verification level appropriate for category"
+      - "No obvious conflicts with existing data"
+
+  periodic_review:
+    description: "Regular quality maintenance"
+    frequency: "Weekly during active research"
+    checklist:
+      - "Check for new/updated sources"
+      - "Verify contact information still valid"
+      - "Review regulatory updates"
+      - "Resolve outstanding issues"
+
+  final_review:
+    description: "Before report delivery"
+    checklist:
+      - "All critical data fact_verified"
+      - "All contacts verified within 30 days"
+      - "No unresolved disputes"
+      - "All sources documented"
+      - "Quality score >= 3.0"
+
+# ============================================================================
+# TRACKING FIELDS FOR DATA POINTS
+# ============================================================================
+
+data_point_template:
+  required_fields:
+    - field: "data_point_id"
+      format: "DP-QXXX-NNN"
+      example: "DP-Q1-001"
+    - field: "content"
+      description: "The actual claim or data"
+    - field: "source_id"
+      description: "Reference to sources.yml"
+    - field: "category"
+      description: "critical, important, or contextual"
+    - field: "state"
+      description: "raw, source_verified, fact_verified, disputed, outdated"
+
+  optional_fields:
+    - field: "quality_score"
+      description: "1-5 rating"
+    - field: "verified_date"
+      description: "When verification completed"
+    - field: "verified_by"
+      description: "Who performed verification"
+    - field: "cross_reference"
+      description: "Other sources confirming this"
+    - field: "issues"
+      description: "Any quality issues identified"
+    - field: "notes"
+      description: "Context or caveats"
+
+# ============================================================================
+# IMPLEMENTATION FOR THIS PROJECT
+# ============================================================================
+
+project_specific:
+  priority_verification:
+    - "Q6 Top 10 stakeholder contacts"
+    - "Volume estimates (tonnes/year)"
+    - "Regulatory deadlines (EPR 2027-2028)"
+    - "FabricAir material specifications match with sources"
+
+  known_source_risks:
+    - source: "AI-generated research notes"
+      risk: "May contain hallucinated URLs or data"
+      mitigation: "Verify ALL URLs and factual claims"
+
+    - source: "Meeting notes"
+      risk: "May contain preliminary or incorrect information"
+      mitigation: "Cross-reference with official sources"
+
+  verification_priority:
+    high:
+      - "Contact email addresses"
+      - "Phone numbers"
+      - "Specific volume figures"
+      - "Regulatory dates"
+    medium:
+      - "Company descriptions"
+      - "Market estimates"
+      - "Historical information"
+    low:
+      - "General context"
+      - "Industry trends"

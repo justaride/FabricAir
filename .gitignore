@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jekyll (if used for GitHub Pages)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Node (if used)
+node_modules/
+package-lock.json
+
+# Python (if used)
+__pycache__/
+*.py[cod]
+.env
+venv/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Claude settings (local)
+.claude/

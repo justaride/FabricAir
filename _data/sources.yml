@@ -1,0 +1,283 @@
+# Sources Registry
+# Tracking all sources for FabricAir Finland Research Project
+# Last updated: 2025-11-28
+
+# Source categories
+categories:
+  - id: "primary"
+    name: "Primary Sources"
+    description: "Direct communication, official company data, government statistics"
+  - id: "secondary"
+    name: "Secondary Sources"
+    description: "Industry reports, research papers, news articles"
+  - id: "tertiary"
+    name: "Tertiary Sources"
+    description: "Compilations, summaries, Wikipedia-type sources"
+
+# Verification states
+verification_states:
+  - state: "unverified"
+    description: "Source identified but content not yet verified"
+  - state: "accessed"
+    description: "Source accessed and content reviewed"
+  - state: "verified"
+    description: "Content confirmed accurate through cross-reference"
+  - state: "outdated"
+    description: "Information may be outdated, needs refresh"
+  - state: "disputed"
+    description: "Conflicting information from other sources"
+
+# Internal project sources (from _source-documents)
+internal_sources:
+  - id: "INT-001"
+    filename: "Main-question.md"
+    title: "Main Research Question"
+    type: "Project definition"
+    language: "English"
+    content_summary: "Core research question and 6 sub-questions for Finland"
+    extracted: true
+
+  - id: "INT-002"
+    filename: "Main-question-How-can-Fabric-Air-access-used-high-quality-polyester-fibers-in-Finland-to-realise-its-ambitions-to-develop-100-circular-polyester-sourcing-for-its-ventilation-system.md"
+    title: "Extended Main Question"
+    type: "Project definition"
+    language: "English"
+    content_summary: "Numbered version of research questions"
+    extracted: true
+
+  - id: "INT-003"
+    filename: "MØTE REFERAT MED EN GOD DEL OM FABRIC AIR - 130501-Gabriel-Ben-Hei-Marianne-gabel.md"
+    title: "Meeting Notes - Gabriel, Ben, Hei, Marianne"
+    type: "Meeting transcript"
+    language: "Norwegian"
+    date: "2025-05-01"
+    participants:
+      - "Gabriel Bøen"
+      - "Jan Thomas Odegard"
+    content_summary: |
+      Discussion of NCC project, FabricAir research questions, methodology.
+      Mentions potential competition for polyester resources in Finland.
+      Discussion of dashboard/platform development.
+    key_insights:
+      - "FabricAir needs high-quality polyester from durable workwear"
+      - "White color preferred for flexibility"
+      - "Someone in Finland already working on similar project"
+      - "New EU regulation prohibits textile disposal"
+    extracted: true
+
+  - id: "INT-004"
+    filename: "NCC segment analysis for Fabric Air - 10-4-25.md"
+    title: "NCC Segment Analysis Template"
+    type: "Analysis template"
+    language: "English"
+    date: "2025-04-10"
+    content_summary: "Structured template for segment analysis with questions defined but answers pending"
+    extracted: true
+
+  - id: "INT-005"
+    filename: "NORDIC-CIRCULAR-CONSTRUCTION-PROSJEKTRAPPORT.md"
+    title: "Nordic Circular Construction Project Report"
+    type: "Project overview"
+    language: "Norwegian"
+    content_summary: |
+      Overview of NCC project, objectives, partner companies,
+      key challenges, solutions, and 2030 ambitions.
+    extracted: true
+
+  - id: "INT-006"
+    filename: "om fabricair/FabricAir-kontekstrapport-for-research-NCCx2FNCH.md"
+    title: "FabricAir Context Report for Research"
+    type: "Context report"
+    language: "Norwegian"
+    date: "2025-08-27"
+    content_summary: |
+      Comprehensive context report consolidating FabricAir information.
+      Includes material specs, market context, research questions,
+      recommended research process, and risk assessment.
+    key_data:
+      - "30 tonnes process waste in 2024"
+      - "80% flame retardant, 30% PU, 30% antimicrobial, 20% untreated"
+      - "Finland polyester workwear: EUR 75-90M/year"
+      - "Textile ventilation: 10-15% of commercial segment"
+      - "FabricAir: 40-50% of textile ventilation in Nordics"
+    extracted: true
+
+  - id: "INT-007"
+    filename: "om fabricair/Fullstendig-utredning-av-FabricAir.md"
+    title: "Complete Investigation of FabricAir"
+    type: "Company research"
+    language: "Norwegian"
+    content_summary: "Detailed company profile including market position, leadership, sustainability"
+    extracted: true
+
+  - id: "INT-008"
+    filename: "om fabricair/Utredning-av-FabricAir.md"
+    title: "Investigation of FabricAir"
+    type: "Company research"
+    language: "Norwegian"
+    content_summary: |
+      Company profile with financials, history, products, market position,
+      environmental profile, subsidiaries, and recent news.
+    key_citations:
+      - source: "proff.dk"
+        data: "Danish company registry financials"
+      - source: "achrnews.com"
+        data: "Industry news on acquisitions"
+      - source: "everybodywiki.com"
+        data: "Company history"
+    extracted: true
+
+  - id: "INT-009"
+    filename: "om fabricair/Exhaustive-Investigation-and-Analysis-of-FabricAir.md"
+    title: "Exhaustive Investigation and Analysis of FabricAir"
+    type: "Company research"
+    language: "English"
+    content_summary: |
+      Comprehensive English-language analysis of FabricAir.
+      Includes detailed citations to external sources.
+    citation_quality: "High - extensive inline citations"
+    extracted: true
+
+  - id: "INT-010"
+    filename: "om fabricair/brRapport-Fullstendig-Utredning-av-Selskapet-Fabric-Air.md"
+    title: "Complete Company Investigation Report"
+    type: "Company research"
+    language: "Norwegian"
+    content_summary: |
+      Formal report format with executive summary, company profile,
+      product analysis, market position, sustainability, financials.
+    citation_quality: "High - numbered references at end"
+    extracted: true
+
+# External sources referenced in documents
+external_sources:
+  company_sources:
+    - id: "EXT-001"
+      name: "FabricAir Official Website"
+      url: "https://www.fabricair.com"
+      type: "Company website"
+      category: "primary"
+      verification: "accessed"
+
+    - id: "EXT-002"
+      name: "Proff.dk - FabricAir A/S Registry"
+      url: "https://www.proff.dk/regnskab/fabricair-as/kc3b8ge/producenter/0EESJWI016D"
+      type: "Company registry"
+      category: "primary"
+      verification: "accessed"
+      data_available:
+        - "Financial statements"
+        - "Company registration"
+
+  industry_reports:
+    - id: "EXT-010"
+      name: "Verified Market Research - Fabric Air Duct Market"
+      url: "https://www.verifiedmarketresearch.com/product/fabric-air-duct-market/"
+      type: "Market report"
+      category: "secondary"
+      verification: "referenced"
+      key_data: "Market valued $1.5-4.87B (2023-2024), CAGR 5.3-14.71%"
+
+    - id: "EXT-011"
+      name: "Fortune Business Insights - Fabric Air Ducts Market"
+      url: "https://www.fortunebusinessinsights.com/fabric-air-ducts-market-103773"
+      type: "Market report"
+      category: "secondary"
+      verification: "referenced"
+
+    - id: "EXT-012"
+      name: "Global Growth Insights - Fabric Air Dispersion Market"
+      url: "https://www.globalgrowthinsights.com/market-reports/fabric-air-dispersion-market-102139"
+      type: "Market report"
+      category: "secondary"
+      verification: "referenced"
+      key_data: "Market ~USD 410M (2023)"
+
+  news_sources:
+    - id: "EXT-020"
+      name: "ACHR News - FabricAir acquires Borealis Wind"
+      url: "https://www.achrnews.com/articles/153405-wind-turbine-fabric-hvac-duct-company-bought-by-fabricair"
+      type: "News article"
+      category: "secondary"
+      date: "2023"
+      verification: "accessed"
+
+    - id: "EXT-021"
+      name: "HVAC Insider - HE Suspension System launch"
+      url: "https://hvacinsider.com/fabricairintroduces-the-he-suspension-system-for-fabric-hvac-ducts-in-harsh-environments/"
+      type: "News article"
+      category: "secondary"
+      date: "2023-01-05"
+      verification: "referenced"
+
+  reference_sources:
+    - id: "EXT-030"
+      name: "EverybodyWiki - FabricAir"
+      url: "https://en.everybodywiki.com/FabricAir"
+      type: "Encyclopedia"
+      category: "tertiary"
+      verification: "accessed"
+      note: "Used for historical information, cross-reference recommended"
+
+# Sources to be researched (Finland-specific)
+pending_research:
+  finland_statistics:
+    - name: "Statistics Finland (Tilastokeskus)"
+      url: "https://www.stat.fi"
+      relevance: "Textile industry statistics, waste statistics"
+      status: "to_research"
+
+    - name: "Finnish Environment Institute (SYKE)"
+      url: "https://www.syke.fi"
+      relevance: "Environmental regulations, textile waste data"
+      status: "to_research"
+
+  finnish_textile_industry:
+    - name: "Suomen Tekstiili & Muoti (Finnish Textile & Fashion)"
+      relevance: "Industry association, market data"
+      status: "to_research"
+
+    - name: "TEXJOBS Finland"
+      relevance: "Textile industry employment and companies"
+      status: "to_research"
+
+  recycling_initiatives:
+    - name: "Lounais-Suomen Jätehuolto (LSJH)"
+      relevance: "Regional waste management with textile programs"
+      status: "to_research"
+
+    - name: "Rinki"
+      relevance: "Producer responsibility organization"
+      status: "to_research"
+
+  research_institutions:
+    - name: "VTT Technical Research Centre of Finland"
+      relevance: "Textile recycling research"
+      status: "to_research"
+
+    - name: "Aalto University"
+      relevance: "Fiber technology research"
+      status: "to_research"
+
+# Nordic textile reports mentioned
+nordic_reports:
+  note: "145+ reports referenced in NCC project"
+  priority_reports:
+    - name: "Insights and Lessons from Nordic textile studies"
+      status: "to_locate"
+      mentioned_in: "Meeting notes"
+
+# Source quality guidelines
+quality_guidelines:
+  citation_requirements:
+    - "All factual claims must have source reference"
+    - "Primary sources preferred over secondary"
+    - "Date of access/publication should be noted"
+    - "Cross-reference claims from single sources"
+
+  verification_process:
+    step_1: "Locate original source"
+    step_2: "Verify quote/data accuracy"
+    step_3: "Check for more recent updates"
+    step_4: "Cross-reference with alternative sources"
+    step_5: "Mark verification status"

@@ -1,0 +1,188 @@
+# Nordic Circular Construction Project Context
+# FabricAir Finland Research Component
+# Last updated: 2025-11-28
+
+project:
+  name: "Nordic Circular Construction (NCC)"
+  full_name: "Nordic Circular Construction"
+  related_entity: "Nordic Circular Hotspot (NCH)"
+  funding: "Nordic Innovation"
+
+  owner:
+    organization: "Natural State AS"
+    coordinator: "Jan Thomas Odegard"
+    email: "janthomas@naturalstate.no"
+
+  description: |
+    Collaborative project aimed at accelerating circular construction in the Nordic region.
+    One of four parallel projects supported by Nordic Innovation in sustainable construction.
+
+  objectives:
+    primary: "Support 16 Nordic companies in scaling circular construction solutions in Nordic market"
+    focus_areas:
+      - "Develop market access and demand"
+      - "Bridge supply and demand"
+      - "Reduce information gaps and competence shortages"
+      - "Harmonize regulations across borders"
+
+  partner_companies: 16
+
+  key_challenges_identified:
+    - id: 1
+      challenge: "Linear dominance"
+      description: "Still cheaper to buy and discard virgin materials"
+    - id: 2
+      challenge: "Regulations"
+      description: "Favor linear practices, lack requirements for reuse"
+    - id: 3
+      challenge: "Public procurement"
+      description: "Little circular demand in practice"
+    - id: 4
+      challenge: "Immature market"
+      description: "Fragmented value chain, low trust in circular products"
+    - id: 5
+      challenge: "Small reuse market"
+      description: "Few reuse hubs, long distances, timing mismatch"
+    - id: 6
+      challenge: "Economic downturn"
+      description: "Limited appetite for experimentation"
+
+# FabricAir-specific project details
+fabricair_workstream:
+  company: "FabricAir"
+  country: "Denmark"
+  category: "Ventilation - poly"
+  solution_type: "Technical solution"
+  key_concepts:
+    - "Reuse"
+    - "Design"
+    - "Re-think"
+    - "Collaborate"
+  layer_typology: "Stuff/Services"
+
+  analyst_lead: "Kristian"
+  internal_qa: "Cathrine"
+  communications: "Thea"
+
+  methodology:
+    sessions: 3
+    session_structure:
+      - session: 1
+        focus: "Goals, tasks, distribution and start"
+      - session: 2
+        focus: "Findings + problem solving"
+      - session: 3
+        focus: "Consolidation and handling gaps"
+
+    analysis_process:
+      steps:
+        - "Define questions"
+        - "Data collection 1"
+        - "Analysis 1"
+        - "Verification/QA"
+        - "Data collection 2"
+        - "Final analysis/recommendations"
+
+  planned_sessions:
+    - date: "27.8"
+    - date: "4.9"
+    - date: "11.9"
+
+  delivery_target: "Mid-September"
+
+# Geographic scope
+scope:
+  primary_focus: "Finland"
+  extended_scope:
+    - "Finland"
+    - "Sweden"
+    - "Norway"
+  note: "This research project focuses exclusively on Finland"
+
+# Deliverables
+deliverables:
+  primary:
+    recipient: "FabricAir"
+    format: "Research report with actionable findings"
+    content:
+      - "Answers to 6 research questions"
+      - "Top-10 stakeholder list with contacts"
+      - "Analysis and recommendations"
+
+  secondary:
+    recipient: "Nordic Innovation"
+    format: "Project documentation"
+    purpose: "Demonstrate work and methodology"
+
+# Related NCC initiatives
+related_initiatives:
+  circular_construction_catalog:
+    description: "Digital catalog with 15+ circular construction solutions"
+    content:
+      - "Available products and services"
+      - "Volumes, prices, certifications"
+      - "Quality standards"
+
+  market_accelerator_program:
+    status: "Under development"
+    goals:
+      - "Scale catalog from 15 to 100+ solutions"
+      - "Actively connect supply and demand"
+      - "Develop common Nordic marketplace"
+
+  nordic_ambition_2030:
+    targets:
+      - "80% of new areas through transformation of existing buildings"
+      - "50% reduction in material footprint per capita by 2030"
+      - "15-20% reuse of demolition and construction waste"
+      - "70% high-value recycling (excl. backfilling)"
+      - "Harmonization of Nordic standards and regulations"
+      - "Digital material passports for all new buildings"
+
+# Partner companies in NCC (examples)
+partner_examples:
+  - name: "Bricks"
+    solution: "Reused bricks"
+  - name: "Milk carton boards"
+    solution: "Boards made from milk cartons"
+  - name: "Nester (DK)"
+    solution: "Bicycle houses from reused wood"
+  - name: "Entree (NO)"
+    solution: "New building materials from reused wood"
+  - name: "Carbonade"
+    solution: "Prefab concrete with captured CO2"
+  - name: "Nordic Circle"
+    solution: "Steel beams from marine steel"
+  - name: "Bilt"
+    solution: "Building transformation"
+  - name: "ReCircle"
+    solution: "Leading reuse company"
+  - name: "Make a BIM (FI)"
+    solution: "AI-driven BIM models"
+  - name: "FIRA (FI)"
+    solution: "Interior"
+  - name: "Fabric Air"
+    solution: "Ventilation"
+
+# Knowledge partners
+knowledge_partners:
+  - name: "Nordic Network for Sustainable Construction"
+    contact: "Helle Reddemomsen"
+  - name: "Ludica Architects"
+    location: "Iceland"
+    contact: "Anna Karlstadte"
+  - name: "Danish Authority of Social Services and Housing"
+
+# Political level
+political_partners:
+  - "Nordic Council of Ministers"
+  - "Nordic building authorities"
+
+# Status
+status:
+  date: "November 2025"
+  updates:
+    - "Product catalog under development with 15 companies"
+    - "Nordic Ambition targets presented to Natural State leadership"
+    - "Presented at Nordic Circular Summit 2025"
+    - "Developing methodology for quantitative climate impact calculations"
