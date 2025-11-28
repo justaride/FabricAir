@@ -149,6 +149,111 @@ internal_sources:
     citation_quality: "High - numbered references at end"
     extracted: true
 
+  # Finland Research Notes (Added 2025-11-28)
+  - id: "INT-011"
+    filename: "research-notes/Finnish-Sectors-and-Actors-Using-High-Quality-Polyester-Workwear.md"
+    title: "Finnish Sectors and Actors - Polyester Workwear"
+    type: "Research analysis"
+    language: "English"
+    maps_to: "Q1"
+    content_summary: |
+      Comprehensive sector analysis for Finland. Identifies healthcare,
+      food processing, pharmaceutical, construction as key sectors.
+      Includes company lists and volume estimates.
+    extracted: true
+    extracted_to: "docs/02-research-questions/q1-sectors-actors.md"
+
+  - id: "INT-012"
+    filename: "research-notes/2.Finnish-Sectors-and-Actors-Using-High-Quality-Polyester-Workwear.md"
+    title: "Finnish Sectors and Actors (v2 - Condensed)"
+    type: "Research analysis"
+    language: "English"
+    maps_to: "Q1"
+    content_summary: "Condensed version of sector/actor analysis"
+    extracted: true
+    extracted_to: "docs/02-research-questions/q1-sectors-actors.md"
+
+  - id: "INT-013"
+    filename: "research-notes/Main-Stakeholders-in-Finnish-High-Quality-Polyester-Textile-Production-Use-and-Reuse.md"
+    title: "Main Stakeholders in Finnish Polyester Value Chain"
+    type: "Research analysis"
+    language: "English"
+    maps_to: "Q2"
+    content_summary: |
+      200+ stakeholder mapping across production, use, and reuse.
+      Includes manufacturers, laundry services, recyclers, retailers.
+    extracted: true
+    extracted_to: "docs/02-research-questions/q2-stakeholders.md"
+
+  - id: "INT-014"
+    filename: "research-notes/High-Quality-Polyester-Textile-Disposal-and-Reuse-in-Finland-Comprehensive-Analysis.md"
+    title: "Polyester Textile Disposal and Reuse in Finland"
+    type: "Research analysis"
+    language: "English"
+    maps_to: "Q3"
+    content_summary: |
+      86,000 tonnes/year textile waste analysis. Disposal routes:
+      60% incinerated, 22% recycled, 18% exported. Flow diagrams.
+    key_data:
+      - "86,000 tonnes/year textile waste"
+      - "60% incinerated"
+      - "22% recycled"
+      - "18% exported"
+    extracted: true
+    extracted_to: "docs/02-research-questions/q3-disposal-reuse.md"
+
+  - id: "INT-015"
+    filename: "research-notes/Regulations-on-Polyester-Textile-Disposal-and-Reuse-in-Finland-Current-Framework-and-Expected-Evolution.md"
+    title: "Regulations on Polyester Textile Disposal - Finland"
+    type: "Research analysis"
+    language: "English"
+    maps_to: "Q4"
+    content_summary: |
+      Current regulatory framework and expected evolution.
+      Key timeline: EPR implementation 2027-2028.
+      Mandatory collection since Jan 2023.
+    key_data:
+      - "Mandatory collection since Jan 2023"
+      - "EPR expected 2027-2028"
+    extracted: true
+    extracted_to: "docs/02-research-questions/q4-regulations.md"
+
+  - id: "INT-016"
+    filename: "research-notes/Finnish-Textile-Regulations---Technical-List.md"
+    title: "Finnish Textile Regulations - Technical Checklist"
+    type: "Research analysis"
+    language: "English"
+    maps_to: "Q4"
+    content_summary: "Technical regulation checklist and compliance requirements"
+    extracted: true
+    extracted_to: "docs/02-research-questions/q4-regulations.md"
+
+  - id: "INT-017"
+    filename: "research-notes/Finnish-Polyester-Textile-Collection-and-Reuse-Initiatives-Status-Ambitions-and-Contact-Points.md"
+    title: "Finnish Polyester Collection and Reuse Initiatives"
+    type: "Research analysis"
+    language: "English"
+    maps_to: "Q5"
+    content_summary: |
+      Initiative mapping with contacts. LSJH, Rester, Touchpoint,
+      Lindström, Pure Waste, VTT research programs.
+    extracted: true
+    extracted_to: "docs/02-research-questions/q5-initiatives.md"
+    contacts_verified: "2025-11-28"
+
+  - id: "INT-018"
+    filename: "research-notes/Finnish-Stakeholders-for-High-Quality-Used-Polyester-Fiber-Sourcing.md"
+    title: "Top Stakeholders for Polyester Fiber Sourcing"
+    type: "Research analysis"
+    language: "English"
+    maps_to: "Q6"
+    content_summary: |
+      Top 15 stakeholder list with contacts. Tier 1: Rester, Lindström, LSJH.
+      Tier 2: Healthcare (HUS). Tier 3: Industrial aggregators.
+    extracted: true
+    extracted_to: "docs/02-research-questions/q6-top10-sources.md"
+    contacts_verified: "2025-11-28"
+
 # External sources referenced in documents
 external_sources:
   company_sources:
