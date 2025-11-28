@@ -62,10 +62,25 @@ FabricAir needs high-quality used polyester fibers to supplement their internal 
 | Color | White preferred (can be re-dyed) |
 | Typical source | Durable workwear, uniforms |
 
+### ⚠️ Finnish Market Compatibility Note (P3 Verified)
+
+**Critical Finding:** Most Finnish workwear is **65% polyester / 35% cotton** blends, which are NOT compatible with FabricAir requirements.
+
+| Source Type | Composition | Compatibility |
+|-------------|-------------|---------------|
+| Standard workwear | 65/35 poly-cotton | ❌ NOT suitable |
+| Hospital white coats | 100% polyester | ✅ Compatible |
+| Food industry uniforms | 100% polyester | ✅ Compatible |
+| Cleanroom garments | 99% PET / 1% carbon | ✅ Compatible |
+| Hotel linens | Often 100% PET | ✅ Compatible |
+
+**Recommendation:** Target healthcare, food processing, and cleanroom sectors for 100% white polyester.
+
 ### Recycling Approach
 - **Method**: Fiber-to-fiber recycling
 - **Priority**: Mechanical (not chemical)
 - **Pilot recommendation**: Start with untreated 20% fraction
+- **Pricing context**: rPET €1.5-2.0/kg vs virgin €1.0-1.3/kg (50-70% premium)
 
 ## Market Position
 

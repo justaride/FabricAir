@@ -21,12 +21,12 @@
 
 | # | Question | Status | Key Findings |
 |---|----------|--------|--------------|
-| Q1 | [Sectors and Actors](02-research-questions/q1-sectors-actors.md) | 🟡 Research available | Healthcare, food, pharma top sources |
-| Q2 | [Value Chain Stakeholders](02-research-questions/q2-stakeholders.md) | 🟡 Research available | 200+ companies mapped |
+| Q1 | [Sectors and Actors](02-research-questions/q1-sectors-actors.md) | 🟢 Verified | €350-450M market; 65/35 blends not suitable |
+| Q2 | [Value Chain Stakeholders](02-research-questions/q2-stakeholders.md) | 🟢 Verified | Rester PRIMARY recycler; LSJH sorting only |
 | Q3 | [Disposal and Reuse](02-research-questions/q3-disposal-reuse.md) | 🟢 Verified | 85,770 t/year, 60% incinerated |
-| Q4 | [Regulations](02-research-questions/q4-regulations.md) | 🟡 Research available | EPR 2027-2028 key deadline |
-| Q5 | [Initiatives](02-research-questions/q5-initiatives.md) | 🟢 Contacts verified | Rester, Lindström, LSJH key players |
-| Q6 | [Top 10 Sources](02-research-questions/q6-top10-sources.md) | 🟢 Verification complete | 7 orgs ready for outreach |
+| Q4 | [Regulations](02-research-questions/q4-regulations.md) | 🟢 Verified | EPR 2027-2028 confirmed |
+| Q5 | [Initiatives](02-research-questions/q5-initiatives.md) | 🟢 Verified | LSJH plant cancelled; Rester primary |
+| Q6 | [Top 10 Sources](02-research-questions/q6-top10-sources.md) | 🟢 Verified | 10+ orgs ready for outreach |
 
 **Status Legend:** 🟢 Verified | 🟡 Research available (verification needed) | 🔴 Pending
 
@@ -47,14 +47,19 @@
 
 ### Priority Partners (Verified - Ready for Outreach)
 
-| Organization | Contact | Email |
-|--------------|---------|-------|
-| **Touchpoint** | Noora Salonoja (CEO) | noora.salonoja@touchpoint.fi |
-| **LSJH** | Anna Garton | anna.garton@lsjh.fi |
-| **Rester** | General | hello@rester.fi |
-| **Lindström** | Kati Pallasaho (SVP) | kati.pallasaho@lindstromgroup.com |
-| **HUS Textile** | Paavo Martikainen (CEO) | paavo.martikainen@uudenmaansairaalapesula.fi |
-| **Image Wear** | Jari Lepistö (CEO) | jari.lepisto@imagewear.fi |
+| Organization | Contact | Email | Notes |
+|--------------|---------|-------|-------|
+| **Rester** | Jukka Pesola (CEO) | hello@rester.fi | PRIMARY recycler |
+| **Touchpoint** | Noora Salonoja (CEO) | noora.salonoja@touchpoint.fi | Rester majority owner |
+| **Puro** | Paavo Martikainen (CEO) | paavo.martikainen@puro.fi | HUS textiles (45M items/yr) |
+| **Lindström** | Kati Pallasaho (SVP) | kati.pallasaho@lindstromgroup.com | 2nd largest Rester shareholder |
+| **LSJH** | Miira Ojanen | miira.ojanen@lsjh.fi | Sorting only (not recycling) |
+| **Image Wear** | Jari Lepistö (CEO) | jari.lepisto@imagewear.fi | Take-back program |
+
+**⚠️ Critical Updates (P2 2025-11-28):**
+- Anna Garton has LEFT LSJH → Miira Ojanen is new contact
+- LSJH Turku plant CANCELLED → Rester is now primary recycler
+- HUS textiles via Puro (not Uudenmaan Sairaalapesula)
 
 ### Best Sources for White Polyester
 
