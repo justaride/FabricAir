@@ -4,9 +4,9 @@
 
 > What are the regulations in Finland regarding the disposing/reuse of polyester textiles, and how are they expected to evolve?
 
-## Status: Research Available
+## Status: 🟢 VERIFIED (P2 Update 2025-11-28)
 
-Source documents contain detailed regulatory analysis with timeline.
+Source documents contain detailed regulatory analysis. EPR timeline 2027-2028 confirmed via P2 analysis.
 
 ---
 

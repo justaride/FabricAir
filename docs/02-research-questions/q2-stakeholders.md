@@ -4,9 +4,9 @@
 
 > Who are the main stakeholders in the production, use and reuse of high-quality polyester textiles in Finland today?
 
-## Status: Research Available
+## Status: 🟢 VERIFIED (P2 Update 2025-11-28)
 
-Source documents contain comprehensive stakeholder mapping across the full value chain.
+Source documents contain comprehensive stakeholder mapping. Critical infrastructure updates applied.
 
 ---
 
@@ -92,23 +92,31 @@ Production → Use → Collection → Sorting → Recycling → New Products
 
 ## 4. Sorting & Processing Stakeholders
 
-### Sorting Facilities
+### Sorting Facilities (UPDATED 2025-11-28)
 
-| Facility | Capacity | Technology |
-|----------|----------|------------|
-| **LSJH Paimio** | 12,000 tonnes/year | NIR spectroscopy |
-| **LSJH Turku (planned)** | 15,000 tonnes/year | €20.5M investment |
+| Facility | Capacity | Technology | Status |
+|----------|----------|------------|--------|
+| **LSJH Turku** | Sorting only | Manual + NIR | 🟢 Operational |
+| ~~LSJH Paimio~~ | ~~12,000 tonnes/year~~ | ~~NIR spectroscopy~~ | ❌ CLOSED late 2023 |
+| ~~LSJH Turku plant~~ | ~~20,000 tonnes/year~~ | ~~€20.5M investment~~ | ❌ **CANCELLED Apr 2024** |
+
+**⚠️ Critical Infrastructure Update:** LSJH cancelled the €20.5M Turku recycling plant in April 2024 due to:
+1. EU EPR directive shifts costs to producers (not municipalities)
+2. Construction costs nearly doubled
+3. 2023 collection volumes far short of 20,000t capacity needs
 
 ---
 
-## 5. Recycling Stakeholders
+## 5. Recycling Stakeholders (UPDATED 2025-11-28)
 
 ### Mechanical Recycling
 
-| Company | Capacity | Technology |
-|---------|----------|------------|
-| **Rester Oy** | 6,000-12,000 tonnes/year | Mechanical fiber opening |
-| **Syklo** | 50,000 tonnes/year (plastic) | Hyvinkää hub |
+| Company | Capacity | Technology | Status |
+|---------|----------|------------|--------|
+| **Rester Oy** | 6,000t own / 12,000t combined | Mechanical fiber opening | 🟢 **PRIMARY RECYCLER** |
+| **Syklo** | 50,000 tonnes/year (plastic) | Hyvinkää hub | 🟢 Plastic focus |
+
+**Note:** With LSJH plant cancelled, Rester is now Finland's primary (and only large-scale) textile recycler. Competition for capacity is intense - Lindström is 2nd largest shareholder.
 
 ### Chemical Recycling
 
@@ -199,17 +207,20 @@ Production → Use → Collection → Sorting → Recycling → New Products
 
 ---
 
-## Recommendations for FabricAir Engagement
+## Recommendations for FabricAir Engagement (UPDATED)
 
 ### Immediate Priority
-1. **Rester Oy** - Direct access to processed polyester fiber
-2. **Lindström Group** - Largest volume aggregator
-3. **LSJH** - Sorted polyester streams
+1. **Rester Oy** - Finland's primary recycler, direct fiber access
+2. **Lindström Group** - Largest aggregator (but capacity may be locked via Rester shareholding)
+3. **Puro Tekstiilihuoltopalvelut** - Healthcare textiles (45M items/year)
 
 ### Secondary Priority
-1. **VTT** - Research partnership potential
-2. **Business Finland** - Funding opportunities
-3. **Telaketju Network** - Ecosystem access
+1. **Touchpoint** - Rester majority owner, workwear streams
+2. **VTT** - Research partnership potential
+3. **Business Finland** - Funding opportunities
+
+### Changed Priority
+- ~~LSJH for sorted streams~~ → LSJH now sorting only; direct recycling via Rester
 
 ---
 

@@ -4,18 +4,22 @@
 
 > What are the main sectors and actors in Finland that today use high-quality polyester fibers, as in highly durable quality uniforms and working clothes, preferably in white colors?
 
-## Status: Research Available
+## Status: 🟢 VERIFIED (P1/P3 Update 2025-11-28)
 
-Source documents contain comprehensive sector mapping with specific actors identified.
+Source documents contain comprehensive sector mapping. Key claims verified via P1/P3 document analysis.
 
 ---
 
 ## Key Findings Summary
 
-### Market Overview
-- Finnish polyester workwear market: **€75-90 million annually**
+### Market Overview (VERIFIED)
+- **Full textile rental market: €350-450 million annually** (verified P1)
+- Polyester workwear segment: ~€75-90 million (subset estimate)
+- Lindström market share: **~60%** (verified)
 - Textile service companies control **~70%** of professional workwear lifecycle
-- Centralized collection points through Lindström, Sakupe, Puro
+- Centralized collection points through Lindström, Puro, SOL
+
+**⚠️ Technical Compatibility Note (P3):** Most Finnish workwear is 65/35 poly-cotton blends, NOT 100% polyester. FabricAir requires 100% PET items (hospital white coats, food industry uniforms).
 
 ### Sector Prioritization by White Polyester Potential
 
@@ -142,12 +146,14 @@ These companies represent the most efficient access to high-quality polyester:
 | **SOL Palvelut** | - | 10,000+ employees | Cleaning services |
 | **Elis Finland** | - | RABC-compliant | Pan-European |
 
-### Recycling Infrastructure
+### Recycling Infrastructure (UPDATED 2025-11-28)
 
-| Company | Capacity | Capability |
-|---------|----------|------------|
-| **Rester Oy** | 6,000 tonnes/year | Mechanical polyester/blend recycling |
-| **LSJH (Turku)** | 12,000 tonnes/year | Sorting and processing |
+| Company | Capacity | Capability | Status |
+|---------|----------|------------|--------|
+| **Rester Oy** | 6,000 tonnes/year (own) | Mechanical polyester recycling | 🟢 Primary recycler |
+| **LSJH** | Sorting only | NIR sorting (no recycling) | ⚠️ Turku plant CANCELLED Apr 2024 |
+
+**⚠️ Critical Update:** LSJH €20.5M Turku plant was cancelled in April 2024. Rester is now Finland's primary textile recycler.
 
 ---
 
@@ -174,10 +180,22 @@ These companies represent the most efficient access to high-quality polyester:
 
 | Finding | Source | Verification Status |
 |---------|--------|---------------------|
-| Market value €75-90M | Research notes | 🟡 Needs cross-reference |
-| HUS 230,000 garments | Research notes | 🟡 Needs source verification |
-| Lindström 50-70% market share | Research notes | 🟡 Needs source verification |
+| Full market €350-450M | P1: Asiakastieto, industry reports | 🟢 VERIFIED |
+| Polyester segment €75-90M | Estimate (20-25% of total) | 🟡 Derived estimate |
+| Lindström ~60% market share | P1: Industry analysis | 🟢 VERIFIED |
+| Lindström Finland revenue €211M | P1: Asiakastieto 2023 | 🟢 VERIFIED |
+| 65/35 blend compatibility issue | P3: Technical analysis | 🟢 VERIFIED |
 | Pharmaceutical >90% white | Research notes | 🟡 Needs source verification |
+
+### Competitive Landscape (NEW - P3)
+
+| Competitor | rPET Usage | FabricAir Impact |
+|------------|------------|------------------|
+| Pure Waste | 40% rPET | Competing for feedstock |
+| Touchpoint | 80%+ recycled | Rester majority owner |
+| Reima | 100% recycled insulation | Fashion demand |
+| Halti | 100% rPET softshells | Technical wear |
+| Lindström | 2nd largest Rester shareholder | Capacity "locked in" |
 
 ---
 
