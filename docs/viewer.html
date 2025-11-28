@@ -61,6 +61,103 @@
             color: var(--text-muted);
         }
 
+        /* Search Box */
+        .search-container {
+            padding: 12px 16px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 10px 12px 10px 36px;
+            border: 1px solid rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.1);
+            border-radius: 6px;
+            color: var(--nav-text);
+            font-size: 14px;
+            outline: none;
+            transition: all 0.2s;
+        }
+
+        .search-box::placeholder {
+            color: var(--text-muted);
+        }
+
+        .search-box:focus {
+            border-color: var(--primary);
+            background: rgba(255,255,255,0.15);
+        }
+
+        .search-container {
+            position: relative;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 28px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            pointer-events: none;
+        }
+
+        .search-results {
+            position: absolute;
+            top: 100%;
+            left: 16px;
+            right: 16px;
+            background: var(--bg-white);
+            border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            max-height: 400px;
+            overflow-y: auto;
+            z-index: 1000;
+            display: none;
+        }
+
+        .search-results.active {
+            display: block;
+        }
+
+        .search-result-item {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border);
+            cursor: pointer;
+            color: var(--text);
+        }
+
+        .search-result-item:hover {
+            background: var(--bg);
+        }
+
+        .search-result-item:last-child {
+            border-bottom: none;
+        }
+
+        .search-result-title {
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .search-result-snippet {
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .search-result-snippet mark {
+            background: #fef08a;
+            padding: 0 2px;
+            border-radius: 2px;
+        }
+
+        .search-hint {
+            padding: 12px 16px;
+            font-size: 12px;
+            color: var(--text-muted);
+            text-align: center;
+        }
+
         .nav-content {
             flex: 1;
             padding: 16px;
@@ -90,6 +187,7 @@
             border-radius: 6px;
             margin-bottom: 2px;
             transition: all 0.2s;
+            cursor: pointer;
         }
 
         .nav-link:hover {
@@ -117,6 +215,21 @@
         .nav-footer a {
             color: var(--nav-hover);
             text-decoration: none;
+        }
+
+        /* Keyboard shortcuts hint */
+        .keyboard-hint {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 11px;
+        }
+
+        .keyboard-hint kbd {
+            background: rgba(255,255,255,0.1);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
         }
 
         /* Main content */
@@ -156,11 +269,37 @@
             border-color: var(--primary);
         }
 
+        .toolbar button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
         .toolbar .spacer { flex: 1; }
 
         .breadcrumb {
             font-size: 14px;
             color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .breadcrumb-nav {
+            display: flex;
+            gap: 4px;
+        }
+
+        .breadcrumb-nav button {
+            padding: 4px 8px;
+            border: 1px solid var(--border);
+            background: var(--bg-white);
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .breadcrumb-nav button:hover:not(:disabled) {
+            background: var(--bg);
         }
 
         .content {
@@ -237,6 +376,26 @@
             background: #f1f5f9;
         }
 
+        /* Copyable table cells */
+        .content td {
+            position: relative;
+            cursor: pointer;
+        }
+
+        .content td:hover::after {
+            content: 'Click to copy';
+            position: absolute;
+            right: 4px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 10px;
+            color: var(--text-muted);
+            background: var(--bg);
+            padding: 2px 6px;
+            border-radius: 3px;
+            opacity: 0.8;
+        }
+
         /* Code */
         .content code {
             background: var(--bg);
@@ -253,12 +412,25 @@
             border-radius: 8px;
             overflow-x: auto;
             margin: 20px 0;
+            position: relative;
         }
 
         .content pre code {
             background: none;
             padding: 0;
             color: inherit;
+        }
+
+        .content pre:hover::after {
+            content: 'Click to copy';
+            position: absolute;
+            right: 12px;
+            top: 12px;
+            font-size: 11px;
+            color: var(--text-muted);
+            background: rgba(255,255,255,0.1);
+            padding: 4px 8px;
+            border-radius: 4px;
         }
 
         /* Blockquotes */
@@ -289,12 +461,6 @@
             border: none;
             border-top: 1px solid var(--border);
             margin: 32px 0;
-        }
-
-        /* Status badges */
-        .content strong:has(+ :is(🟢, 🟡, 🔴)),
-        .content td:first-child {
-            font-weight: 600;
         }
 
         /* Loading state */
@@ -330,15 +496,120 @@
             margin: 20px 0;
         }
 
+        /* Toast notifications */
+        .toast-container {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .toast {
+            background: var(--nav-bg);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            animation: slideIn 0.3s ease;
+            max-width: 320px;
+        }
+
+        .toast.success {
+            background: var(--success);
+        }
+
+        .toast.error {
+            background: var(--danger);
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideOut {
+            from {
+                transform: translateX(0);
+                opacity: 1;
+            }
+            to {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+        }
+
+        /* Data Quality Dashboard */
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 24px 0;
+        }
+
+        .dashboard-card {
+            background: var(--bg-white);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        .dashboard-card h4 {
+            margin: 0 0 8px 0;
+            font-size: 14px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .dashboard-card .value {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text);
+        }
+
+        .dashboard-card .status-bar {
+            margin-top: 12px;
+            height: 8px;
+            background: var(--border);
+            border-radius: 4px;
+            overflow: hidden;
+            display: flex;
+        }
+
+        .dashboard-card .status-bar .verified {
+            background: var(--success);
+        }
+
+        .dashboard-card .status-bar .partial {
+            background: var(--warning);
+        }
+
+        .dashboard-card .status-bar .unverified {
+            background: var(--danger);
+        }
+
         /* Print styles */
         @media print {
-            nav, .toolbar { display: none !important; }
+            nav, .toolbar, .toast-container { display: none !important; }
             main { margin-left: 0 !important; }
             .content { max-width: 100%; padding: 20px; }
             .content h1 { font-size: 24px; }
             .content h2 { font-size: 18px; }
             .content table { font-size: 12px; }
             .content th, .content td { padding: 8px; }
+            .content td:hover::after { display: none; }
+            .content pre:hover::after { display: none; }
         }
 
         /* Responsive */
@@ -356,7 +627,8 @@
             nav.open { transform: translateX(0); }
             main { margin-left: 0; }
             .content { padding: 20px; }
-            .mobile-menu-btn { display: block !important; }
+            .mobile-menu-btn { display: flex !important; }
+            .breadcrumb-nav { display: none; }
         }
 
         .mobile-menu-btn {
@@ -365,6 +637,63 @@
             background: none;
             border: none;
             cursor: pointer;
+        }
+
+        /* Keyboard shortcut modal */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.2s;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal {
+            background: var(--bg-white);
+            border-radius: 12px;
+            padding: 24px;
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .modal h3 {
+            margin: 0 0 16px 0;
+            font-size: 18px;
+        }
+
+        .modal .shortcut-list {
+            list-style: none;
+        }
+
+        .modal .shortcut-list li {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .modal .shortcut-list li:last-child {
+            border-bottom: none;
+        }
+
+        .modal kbd {
+            background: var(--bg);
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 12px;
+            border: 1px solid var(--border);
         }
     </style>
 </head>
@@ -375,62 +704,74 @@
             <div class="subtitle">Circular Polyester Research</div>
         </div>
 
+        <div class="search-container">
+            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/>
+                <path d="m21 21-4.35-4.35"/>
+            </svg>
+            <input type="text" class="search-box" id="searchBox" placeholder="Search... (Ctrl+K)" autocomplete="off">
+            <div class="search-results" id="searchResults"></div>
+        </div>
+
         <div class="nav-content">
             <div class="nav-section">
                 <div class="nav-section-title">Overview</div>
-                <a href="#" class="nav-link" onclick="loadDoc('00-executive-summary.md')">
+                <a class="nav-link" data-doc="00-executive-summary.md">
                     Executive Summary
                 </a>
-                <a href="#" class="nav-link" onclick="loadDoc('index.md')">
+                <a class="nav-link" data-doc="index.md">
                     Home / Index
+                </a>
+                <a class="nav-link" data-doc="data-quality.html">
+                    Data Quality Dashboard
                 </a>
             </div>
 
             <div class="nav-section">
                 <div class="nav-section-title">Context</div>
-                <a href="#" class="nav-link" onclick="loadDoc('01-context/fabricair.md')">
+                <a class="nav-link" data-doc="01-context/fabricair.md">
                     FabricAir Profile
                 </a>
             </div>
 
             <div class="nav-section">
                 <div class="nav-section-title">Research Questions</div>
-                <a href="#" class="nav-link" onclick="loadDoc('02-research-questions/q1-sectors-actors.md')">
+                <a class="nav-link" data-doc="02-research-questions/q1-sectors-actors.md">
                     Q1: Sectors & Actors
                 </a>
-                <a href="#" class="nav-link" onclick="loadDoc('02-research-questions/q2-stakeholders.md')">
+                <a class="nav-link" data-doc="02-research-questions/q2-stakeholders.md">
                     Q2: Stakeholders
                 </a>
-                <a href="#" class="nav-link" onclick="loadDoc('02-research-questions/q3-disposal-reuse.md')">
+                <a class="nav-link" data-doc="02-research-questions/q3-disposal-reuse.md">
                     Q3: Disposal & Reuse
                 </a>
-                <a href="#" class="nav-link" onclick="loadDoc('02-research-questions/q4-regulations.md')">
+                <a class="nav-link" data-doc="02-research-questions/q4-regulations.md">
                     Q4: Regulations
                 </a>
-                <a href="#" class="nav-link" onclick="loadDoc('02-research-questions/q5-initiatives.md')">
+                <a class="nav-link" data-doc="02-research-questions/q5-initiatives.md">
                     Q5: Initiatives <span class="status">🟢</span>
                 </a>
-                <a href="#" class="nav-link" onclick="loadDoc('02-research-questions/q6-top10-sources.md')">
+                <a class="nav-link" data-doc="02-research-questions/q6-top10-sources.md">
                     Q6: Top 10 Sources <span class="status">🟢</span>
                 </a>
             </div>
 
             <div class="nav-section">
                 <div class="nav-section-title">Contacts</div>
-                <a href="#" class="nav-link" onclick="loadDoc('03-contacts/directory.md')">
+                <a class="nav-link" data-doc="03-contacts/directory.md">
                     Contact Directory <span class="status">🟢</span>
                 </a>
             </div>
 
             <div class="nav-section">
                 <div class="nav-section-title">Project</div>
-                <a href="#" class="nav-link" onclick="loadDoc('../README.md')">
+                <a class="nav-link" data-doc="../README.md">
                     README
                 </a>
-                <a href="#" class="nav-link" onclick="loadDoc('../CLAUDE.md')">
+                <a class="nav-link" data-doc="../CLAUDE.md">
                     AI Instructions
                 </a>
-                <a href="#" class="nav-link" onclick="loadDoc('../PROJECT-LOG.md')">
+                <a class="nav-link" data-doc="../PROJECT-LOG.md">
                     Project Log
                 </a>
             </div>
@@ -440,6 +781,9 @@
             <strong>NCC Project</strong><br>
             Nordic Circular Construction<br>
             <a href="https://naturalstate.no" target="_blank">Natural State AS</a>
+            <div class="keyboard-hint">
+                <kbd>?</kbd> Keyboard shortcuts
+            </div>
         </div>
     </nav>
 
@@ -450,16 +794,30 @@
                     <path d="M3 12h18M3 6h18M3 18h18"/>
                 </svg>
             </button>
-            <span class="breadcrumb" id="breadcrumb">Loading...</span>
+            <div class="breadcrumb">
+                <div class="breadcrumb-nav">
+                    <button onclick="historyBack()" id="backBtn" disabled title="Go back (Alt+Left)">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m15 18-6-6 6-6"/>
+                        </svg>
+                    </button>
+                    <button onclick="historyForward()" id="forwardBtn" disabled title="Go forward (Alt+Right)">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="m9 18 6-6-6-6"/>
+                        </svg>
+                    </button>
+                </div>
+                <span id="breadcrumb">Loading...</span>
+            </div>
             <span class="spacer"></span>
-            <button onclick="window.print()">
+            <button onclick="window.print()" title="Print (Ctrl+P)">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/>
                     <rect x="6" y="14" width="12" height="8"/>
                 </svg>
                 Print
             </button>
-            <button onclick="copyEmails()">
+            <button onclick="copyEmails()" title="Copy priority emails">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <rect x="9" y="9" width="13" height="13" rx="2"/>
                     <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
@@ -476,34 +834,113 @@
         </div>
     </main>
 
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Keyboard shortcuts modal -->
+    <div class="modal-overlay" id="shortcutsModal" onclick="closeModal(event)">
+        <div class="modal" onclick="event.stopPropagation()">
+            <h3>Keyboard Shortcuts</h3>
+            <ul class="shortcut-list">
+                <li><span>Search</span> <kbd>Ctrl</kbd> + <kbd>K</kbd></li>
+                <li><span>Go back</span> <kbd>Alt</kbd> + <kbd>&larr;</kbd></li>
+                <li><span>Go forward</span> <kbd>Alt</kbd> + <kbd>&rarr;</kbd></li>
+                <li><span>Home</span> <kbd>H</kbd></li>
+                <li><span>Executive Summary</span> <kbd>E</kbd></li>
+                <li><span>Contacts</span> <kbd>C</kbd></li>
+                <li><span>Print</span> <kbd>Ctrl</kbd> + <kbd>P</kbd></li>
+                <li><span>Close modal / Clear search</span> <kbd>Esc</kbd></li>
+                <li><span>Show shortcuts</span> <kbd>?</kbd></li>
+            </ul>
+        </div>
+    </div>
+
     <script>
+        // Document cache for search
+        const docCache = new Map();
+        const docList = [
+            { path: '00-executive-summary.md', title: 'Executive Summary' },
+            { path: 'index.md', title: 'Home / Index' },
+            { path: '01-context/fabricair.md', title: 'FabricAir Profile' },
+            { path: '02-research-questions/q1-sectors-actors.md', title: 'Q1: Sectors & Actors' },
+            { path: '02-research-questions/q2-stakeholders.md', title: 'Q2: Stakeholders' },
+            { path: '02-research-questions/q3-disposal-reuse.md', title: 'Q3: Disposal & Reuse' },
+            { path: '02-research-questions/q4-regulations.md', title: 'Q4: Regulations' },
+            { path: '02-research-questions/q5-initiatives.md', title: 'Q5: Initiatives' },
+            { path: '02-research-questions/q6-top10-sources.md', title: 'Q6: Top 10 Sources' },
+            { path: '03-contacts/directory.md', title: 'Contact Directory' },
+            { path: '../README.md', title: 'README' },
+            { path: '../PROJECT-LOG.md', title: 'Project Log' }
+        ];
+
+        // Navigation history
+        const navHistory = [];
+        let historyIndex = -1;
         let currentDoc = '';
 
-        async function loadDoc(path) {
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            // Load initial doc from hash or default
+            const hash = window.location.hash.slice(1);
+            const initialDoc = hash || '00-executive-summary.md';
+            loadDoc(initialDoc, false);
+
+            // Setup nav link clicks
+            document.querySelectorAll('.nav-link[data-doc]').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    loadDoc(link.dataset.doc);
+                });
+            });
+
+            // Preload docs for search
+            preloadDocs();
+
+            // Setup search
+            setupSearch();
+
+            // Setup keyboard shortcuts
+            setupKeyboardShortcuts();
+
+            // Setup copyable elements
+            setupCopyable();
+        });
+
+        // Handle browser back/forward
+        window.addEventListener('popstate', (e) => {
+            if (e.state && e.state.doc) {
+                loadDoc(e.state.doc, false);
+            }
+        });
+
+        async function loadDoc(path, addToHistory = true) {
             const content = document.getElementById('content');
             const breadcrumb = document.getElementById('breadcrumb');
+
+            // Handle special pages
+            if (path === 'data-quality.html') {
+                renderDashboard();
+                updateNavActive(path);
+                if (addToHistory) updateHistory(path);
+                return;
+            }
 
             content.innerHTML = '<div id="loading"><div class="spinner"></div>Loading...</div>';
 
             // Update active nav link
-            document.querySelectorAll('.nav-link').forEach(link => {
-                link.classList.remove('active');
-                if (link.onclick && link.onclick.toString().includes(path)) {
-                    link.classList.add('active');
-                }
-            });
+            updateNavActive(path);
 
             try {
-                const response = await fetch(path);
-                if (!response.ok) throw new Error('File not found: ' + path);
-                const text = await response.text();
+                let text;
+                if (docCache.has(path)) {
+                    text = docCache.get(path);
+                } else {
+                    const response = await fetch(path);
+                    if (!response.ok) throw new Error('File not found: ' + path);
+                    text = await response.text();
+                    docCache.set(path, text);
+                }
 
-                // Configure marked for better rendering
-                marked.setOptions({
-                    breaks: true,
-                    gfm: true
-                });
-
+                marked.setOptions({ breaks: true, gfm: true });
                 content.innerHTML = marked.parse(text);
                 currentDoc = path;
 
@@ -511,14 +948,244 @@
                 const name = path.split('/').pop().replace('.md', '').replace(/-/g, ' ');
                 breadcrumb.textContent = name.charAt(0).toUpperCase() + name.slice(1);
 
-                window.scrollTo(0, 0);
+                // Update URL hash
+                window.location.hash = path;
 
-                // Close mobile nav
+                // Add to history
+                if (addToHistory) {
+                    updateHistory(path);
+                }
+
+                window.scrollTo(0, 0);
                 document.getElementById('nav').classList.remove('open');
+
+                // Re-setup copyable after content loads
+                setupCopyable();
 
             } catch (error) {
                 content.innerHTML = '<div class="error">Error: ' + error.message + '</div>';
             }
+        }
+
+        function updateNavActive(path) {
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.dataset.doc === path) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        function updateHistory(path) {
+            // Remove any forward history
+            navHistory.splice(historyIndex + 1);
+            navHistory.push(path);
+            historyIndex = navHistory.length - 1;
+            history.pushState({ doc: path }, '', '#' + path);
+            updateHistoryButtons();
+        }
+
+        function updateHistoryButtons() {
+            document.getElementById('backBtn').disabled = historyIndex <= 0;
+            document.getElementById('forwardBtn').disabled = historyIndex >= navHistory.length - 1;
+        }
+
+        function historyBack() {
+            if (historyIndex > 0) {
+                historyIndex--;
+                loadDoc(navHistory[historyIndex], false);
+                updateHistoryButtons();
+            }
+        }
+
+        function historyForward() {
+            if (historyIndex < navHistory.length - 1) {
+                historyIndex++;
+                loadDoc(navHistory[historyIndex], false);
+                updateHistoryButtons();
+            }
+        }
+
+        async function preloadDocs() {
+            for (const doc of docList) {
+                try {
+                    const response = await fetch(doc.path);
+                    if (response.ok) {
+                        const text = await response.text();
+                        docCache.set(doc.path, text);
+                    }
+                } catch (e) {
+                    // Ignore errors during preload
+                }
+            }
+        }
+
+        function setupSearch() {
+            const searchBox = document.getElementById('searchBox');
+            const searchResults = document.getElementById('searchResults');
+            let debounceTimer;
+
+            searchBox.addEventListener('input', (e) => {
+                clearTimeout(debounceTimer);
+                debounceTimer = setTimeout(() => {
+                    performSearch(e.target.value);
+                }, 200);
+            });
+
+            searchBox.addEventListener('focus', () => {
+                if (searchBox.value.length >= 2) {
+                    searchResults.classList.add('active');
+                }
+            });
+
+            document.addEventListener('click', (e) => {
+                if (!e.target.closest('.search-container')) {
+                    searchResults.classList.remove('active');
+                }
+            });
+        }
+
+        function performSearch(query) {
+            const searchResults = document.getElementById('searchResults');
+
+            if (query.length < 2) {
+                searchResults.classList.remove('active');
+                return;
+            }
+
+            const results = [];
+            const lowerQuery = query.toLowerCase();
+
+            for (const doc of docList) {
+                const content = docCache.get(doc.path);
+                if (!content) continue;
+
+                const lowerContent = content.toLowerCase();
+                const index = lowerContent.indexOf(lowerQuery);
+
+                if (index !== -1 || doc.title.toLowerCase().includes(lowerQuery)) {
+                    let snippet = '';
+                    if (index !== -1) {
+                        const start = Math.max(0, index - 40);
+                        const end = Math.min(content.length, index + query.length + 40);
+                        snippet = content.slice(start, end).replace(/\n/g, ' ');
+                        if (start > 0) snippet = '...' + snippet;
+                        if (end < content.length) snippet = snippet + '...';
+
+                        // Highlight match
+                        const regex = new RegExp(`(${escapeRegex(query)})`, 'gi');
+                        snippet = snippet.replace(regex, '<mark>$1</mark>');
+                    }
+
+                    results.push({
+                        path: doc.path,
+                        title: doc.title,
+                        snippet: snippet
+                    });
+                }
+            }
+
+            if (results.length === 0) {
+                searchResults.innerHTML = '<div class="search-hint">No results found</div>';
+            } else {
+                searchResults.innerHTML = results.slice(0, 8).map(r => `
+                    <div class="search-result-item" onclick="loadDoc('${r.path}'); document.getElementById('searchBox').value = ''; document.getElementById('searchResults').classList.remove('active');">
+                        <div class="search-result-title">${r.title}</div>
+                        ${r.snippet ? `<div class="search-result-snippet">${r.snippet}</div>` : ''}
+                    </div>
+                `).join('');
+            }
+
+            searchResults.classList.add('active');
+        }
+
+        function escapeRegex(string) {
+            return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }
+
+        function setupKeyboardShortcuts() {
+            document.addEventListener('keydown', (e) => {
+                // Ignore if typing in input
+                if (e.target.tagName === 'INPUT' && e.key !== 'Escape') return;
+
+                // Ctrl+K - Search
+                if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+                    e.preventDefault();
+                    document.getElementById('searchBox').focus();
+                }
+
+                // Alt+Left - Back
+                if (e.altKey && e.key === 'ArrowLeft') {
+                    e.preventDefault();
+                    historyBack();
+                }
+
+                // Alt+Right - Forward
+                if (e.altKey && e.key === 'ArrowRight') {
+                    e.preventDefault();
+                    historyForward();
+                }
+
+                // Escape - Close modal or clear search
+                if (e.key === 'Escape') {
+                    document.getElementById('shortcutsModal').classList.remove('active');
+                    document.getElementById('searchBox').value = '';
+                    document.getElementById('searchResults').classList.remove('active');
+                    document.getElementById('searchBox').blur();
+                }
+
+                // ? - Show shortcuts
+                if (e.key === '?' && !e.ctrlKey && !e.metaKey) {
+                    e.preventDefault();
+                    document.getElementById('shortcutsModal').classList.add('active');
+                }
+
+                // H - Home
+                if (e.key === 'h' && !e.ctrlKey && !e.metaKey && e.target.tagName !== 'INPUT') {
+                    e.preventDefault();
+                    loadDoc('index.md');
+                }
+
+                // E - Executive Summary
+                if (e.key === 'e' && !e.ctrlKey && !e.metaKey && e.target.tagName !== 'INPUT') {
+                    e.preventDefault();
+                    loadDoc('00-executive-summary.md');
+                }
+
+                // C - Contacts
+                if (e.key === 'c' && !e.ctrlKey && !e.metaKey && e.target.tagName !== 'INPUT') {
+                    e.preventDefault();
+                    loadDoc('03-contacts/directory.md');
+                }
+            });
+        }
+
+        function closeModal(e) {
+            if (e.target.classList.contains('modal-overlay')) {
+                e.target.classList.remove('active');
+            }
+        }
+
+        function setupCopyable() {
+            // Make table cells copyable
+            document.querySelectorAll('.content td').forEach(td => {
+                td.addEventListener('click', () => {
+                    const text = td.textContent.trim();
+                    if (text) {
+                        copyToClipboard(text, 'Cell content copied!');
+                    }
+                });
+            });
+
+            // Make code blocks copyable
+            document.querySelectorAll('.content pre').forEach(pre => {
+                pre.addEventListener('click', () => {
+                    const code = pre.querySelector('code');
+                    if (code) {
+                        copyToClipboard(code.textContent, 'Code copied!');
+                    }
+                });
+            });
         }
 
         function toggleNav() {
@@ -535,15 +1202,216 @@
                 'jari.lepisto@imagewear.fi'
             ].join('\n');
 
-            navigator.clipboard.writeText(emails).then(() => {
-                alert('Priority contact emails copied to clipboard!');
+            copyToClipboard(emails, 'Priority contact emails copied!');
+        }
+
+        function copyToClipboard(text, message) {
+            navigator.clipboard.writeText(text).then(() => {
+                showToast(message, 'success');
             }).catch(() => {
-                prompt('Copy these emails:', emails);
+                // Fallback
+                const textarea = document.createElement('textarea');
+                textarea.value = text;
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textarea);
+                showToast(message, 'success');
             });
         }
 
-        // Load executive summary on start
-        loadDoc('00-executive-summary.md');
+        function showToast(message, type = 'default') {
+            const container = document.getElementById('toastContainer');
+            const toast = document.createElement('div');
+            toast.className = `toast ${type}`;
+            toast.innerHTML = `
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    ${type === 'success' ? '<path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/>' : '<circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/>'}
+                </svg>
+                ${message}
+            `;
+            container.appendChild(toast);
+
+            setTimeout(() => {
+                toast.style.animation = 'slideOut 0.3s ease forwards';
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
+        }
+
+        function renderDashboard() {
+            const content = document.getElementById('content');
+            const breadcrumb = document.getElementById('breadcrumb');
+            breadcrumb.textContent = 'Data Quality Dashboard';
+
+            content.innerHTML = `
+                <h1>Data Quality Dashboard</h1>
+                <p>Overview of verification status across all research components.</p>
+
+                <div class="dashboard">
+                    <div class="dashboard-card">
+                        <h4>Research Questions</h4>
+                        <div class="value">6</div>
+                        <div class="status-bar">
+                            <div class="verified" style="width: 33%"></div>
+                            <div class="partial" style="width: 67%"></div>
+                        </div>
+                        <p style="font-size: 12px; color: var(--text-muted); margin-top: 8px;">2 verified, 4 research available</p>
+                    </div>
+                    <div class="dashboard-card">
+                        <h4>Organizations</h4>
+                        <div class="value">10</div>
+                        <div class="status-bar">
+                            <div class="verified" style="width: 60%"></div>
+                            <div class="partial" style="width: 30%"></div>
+                            <div class="unverified" style="width: 10%"></div>
+                        </div>
+                        <p style="font-size: 12px; color: var(--text-muted); margin-top: 8px;">6 verified, 3 partial, 1 pending</p>
+                    </div>
+                    <div class="dashboard-card">
+                        <h4>Contacts Verified</h4>
+                        <div class="value">15</div>
+                        <div class="status-bar">
+                            <div class="verified" style="width: 80%"></div>
+                            <div class="partial" style="width: 20%"></div>
+                        </div>
+                        <p style="font-size: 12px; color: var(--text-muted); margin-top: 8px;">12 fully verified, 3 partial</p>
+                    </div>
+                    <div class="dashboard-card">
+                        <h4>Source Documents</h4>
+                        <div class="value">18</div>
+                        <div class="status-bar">
+                            <div class="verified" style="width: 100%"></div>
+                        </div>
+                        <p style="font-size: 12px; color: var(--text-muted); margin-top: 8px;">All registered in sources.yml</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <h2>Verification Status by Section</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Section</th>
+                            <th>Status</th>
+                            <th>Last Updated</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Q1: Sectors & Actors</strong></td>
+                            <td>🟡 Research available</td>
+                            <td>2025-11-28</td>
+                            <td>Sector mapping complete, contact verification pending</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Q2: Stakeholders</strong></td>
+                            <td>🟡 Research available</td>
+                            <td>2025-11-28</td>
+                            <td>200+ companies mapped</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Q3: Disposal & Reuse</strong></td>
+                            <td>🟡 Research available</td>
+                            <td>2025-11-28</td>
+                            <td>Market data from research docs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Q4: Regulations</strong></td>
+                            <td>🟡 Research available</td>
+                            <td>2025-11-28</td>
+                            <td>EPR timeline needs EU source verification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Q5: Initiatives</strong></td>
+                            <td>🟢 Verified</td>
+                            <td>2025-11-28</td>
+                            <td>Key initiatives contacts verified</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Q6: Top 10 Sources</strong></td>
+                            <td>🟢 Verified</td>
+                            <td>2025-11-28</td>
+                            <td>7 organizations ready for outreach</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Contact Directory</strong></td>
+                            <td>🟢 Verified</td>
+                            <td>2025-11-28</td>
+                            <td>Priority contacts confirmed</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <hr>
+
+                <h2>Priority Contacts Status</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Organization</th>
+                            <th>Contact</th>
+                            <th>Email Status</th>
+                            <th>Phone Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Touchpoint</strong></td>
+                            <td>Noora Salonoja</td>
+                            <td>🟢 Verified</td>
+                            <td>🟢 Verified</td>
+                        </tr>
+                        <tr>
+                            <td><strong>LSJH</strong></td>
+                            <td>Anna Garton</td>
+                            <td>🟢 Verified</td>
+                            <td>🟢 Verified</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Rester</strong></td>
+                            <td>General</td>
+                            <td>🟢 Verified</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Lindström</strong></td>
+                            <td>Kati Pallasaho</td>
+                            <td>🟢 Verified</td>
+                            <td>🟡 Via switchboard</td>
+                        </tr>
+                        <tr>
+                            <td><strong>HUS Textile</strong></td>
+                            <td>Paavo Martikainen</td>
+                            <td>🟢 Verified</td>
+                            <td>🟢 Verified</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Image Wear</strong></td>
+                            <td>Jari Lepistö</td>
+                            <td>🟢 Verified</td>
+                            <td>🟢 Verified</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <hr>
+
+                <h2>Data Sources</h2>
+                <p>All data in this platform is derived from 18 source documents:</p>
+                <ul>
+                    <li><strong>10 FabricAir documents</strong> - Company profile, material specs, project context</li>
+                    <li><strong>8 Research notes</strong> - Finnish market research, stakeholder mapping</li>
+                </ul>
+                <p>See <a href="#" onclick="loadDoc('../_data/sources.yml')">sources.yml</a> for full registry.</p>
+
+                <hr>
+                <p style="color: var(--text-muted); font-size: 14px;"><em>Dashboard generated: 2025-11-28</em></p>
+            `;
+        }
     </script>
 </body>
 </html>
