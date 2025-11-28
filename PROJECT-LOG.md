@@ -276,10 +276,71 @@ Priority verification items:
 | 3 | Elis | 🟡 Partial | Via Rester |
 
 ### Outstanding Items
-- [ ] Find replacement sustainability contact at Lindström
-- [ ] Identify specific textile manager at HUS
+- [x] Find replacement sustainability contact at Lindström
+- [x] Identify specific textile manager at HUS
 - [ ] Identify sustainability contact at SOL Group
-- [ ] Verify university hospital contacts (TAYS, TYKS, KYS, OYS)
+- [x] Verify university hospital contacts (TAYS, TYKS, KYS, OYS)
+
+---
+
+## 2025-11-28 - Extended Verification Session 2
+
+### Actions Taken
+- Identified Lindström sustainability replacement contact
+- Found HUS textile services direct contact
+- Mapped university hospital regional structure
+
+### New Contacts Verified
+
+| Organization | Contact | Role | Status |
+|--------------|---------|------|--------|
+| **Lindström** | Kati Pallasaho | SVP Strategy & Sustainability | 🟢 Role verified |
+| **HUS/Uudenmaan Sairaalapesula** | Paavo Martikainen | CEO | 🟢 Verified |
+| **HUS** | Leena Koponen | Director Corporate Procurement | 🟢 Role verified |
+
+### Key Findings
+
+**Lindström:**
+- Kati Pallasaho is SVP Strategy & Sustainability (replaced Huttunen's role)
+- LinkedIn: linkedin.com/in/katipallasaho/
+- Email pattern: kati.pallasaho@lindstromgroup.com
+
+**HUS Textile Services:**
+- Uudenmaan Sairaalapesula handles all HUS textile services
+- CEO: Paavo Martikainen
+- Email: paavo.martikainen@uudenmaansairaalapesula.fi
+- Phone: (09) 2746 7520
+- Location: Isonkiventie 8, 04250 Kerava
+
+**University Hospitals:**
+- Since 2023, operate under regional Wellbeing Services Counties
+- TAYS → Pirha (Pirkanmaa)
+- TYKS → Varha (Southwest Finland)
+- KYS → PSHVA (North Savo)
+- OYS → POHDE (Northern Ostrobothnia)
+- Contact via hospital switchboards or regional procurement portals
+
+### Updated Verification Status
+
+| Organization | Previous | Current |
+|--------------|----------|---------|
+| Lindström | 🟡 Needs update | 🟢 Kati Pallasaho verified |
+| HUS | 🟡 Partial | 🟢 Textile services contact verified |
+| University Hospitals | 🔴 Unidentified | 🟡 Regional structure mapped |
+
+### Ready for Outreach (7 organizations)
+
+1. Touchpoint - Noora Salonoja 🟢
+2. LSJH - Anna Garton 🟢
+3. Rester - hello@rester.fi 🟢
+4. Lindström - Kati Pallasaho 🟢
+5. HUS/Sairaalapesula - Paavo Martikainen 🟢
+6. Image Wear - Jari Lepistö 🟢
+7. (Partial) SOL Group, Elis, University Hospitals
+
+### Outstanding Items
+- [ ] Identify SOL Group sustainability contact
+- [ ] Research Tier 4 sources (YIT, Defence Forces, KONE, Orion, Valio)
 
 ---
 

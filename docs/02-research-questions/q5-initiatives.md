@@ -160,10 +160,11 @@ Finland operates **Europe's most advanced textile recycling ecosystem** with:
 
 | Name | Role | Email | Status |
 |------|------|-------|--------|
+| **Kati Pallasaho** | SVP Strategy & Sustainability | kati.pallasaho@lindstromgroup.com | 🟢 Role verified |
 | **Seija Forss** | Material Manager | seija.forss@lindstromgroup.com | 🟡 Unverified |
 | General | - | lindstrom@lindstromgroup.com | 🟢 Verified |
 
-⚠️ **Note:** Anna-Kaisa Huttunen LEFT Lindström (June 2025), now at Metsä Spring. Need to identify new sustainability contact.
+✅ **New contact:** Kati Pallasaho identified as sustainability lead. [LinkedIn](https://www.linkedin.com/in/katipallasaho/)
 
 **Phone:** +358 20 111 600 🟢
 

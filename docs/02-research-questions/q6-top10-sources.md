@@ -72,14 +72,15 @@ Source documents contain tiered stakeholder list. Partial verification completed
 
 | Name | Role | Email | Phone | Status |
 |------|------|-------|-------|--------|
+| Kati Pallasaho | SVP Strategy & Sustainability | kati.pallasaho@lindstromgroup.com | - | 🟢 Role verified |
 | Seija Forss | Material Manager | seija.forss@lindstromgroup.com | - | 🟡 Unverified |
 | General | - | lindstrom@lindstromgroup.com | +358 20 111 600 | 🟢 Verified |
 
-⚠️ **Note:** Anna-Kaisa Huttunen LEFT Lindström in June 2025. Now at Metsä Spring as Director, Business Development. Need to identify new sustainability contact at Lindström.
+✅ **New contact identified:** Kati Pallasaho replaced Anna-Kaisa Huttunen as sustainability lead. [LinkedIn](https://www.linkedin.com/in/katipallasaho/)
 
 **Strategic Value:** Market leader servicing all target sectors. Committed to 100% textile recycling by 2025. Strategic investor in Rester. Established infrastructure for mono-material sorting.
 
-**Status:** 🟡 Needs updated contact - recommend contacting general line
+**Status:** 🟢 Sustainability contact identified - ready for outreach
 
 ---
 
@@ -127,35 +128,50 @@ Source documents contain tiered stakeholder list. Partial verification completed
 
 | Name | Role | Contact | Status |
 |------|------|---------|--------|
-| Timo Martelius | Director of Procurement (since 2019) | Via HUS | 🟢 Role verified |
+| Leena Koponen | Director Corporate Procurement | Via HUS | 🟢 Role verified |
+| Timo Martelius | Director of Procurement | Via HUS | 🟢 Role verified |
 | HUS Switchboard | - | 09 4711 | 🟢 Verified |
 | Procurement Portal | Tenders | tarjouspalvelu.fi | 🟢 Verified |
 
-**Access Strategy:** HUS is a major public contracting entity. For textile/workwear procurement:
-1. Contact procurement department via switchboard
-2. Monitor tender portal for textile-related opportunities
-3. Note: Textile services handled by Uudenmaan Sairaalapesula (hospital laundry in Kerava)
+**Textile Services Contact (Uudenmaan Sairaalapesula):**
+
+| Name | Role | Email | Phone | Status |
+|------|------|-------|-------|--------|
+| Paavo Martikainen | CEO | paavo.martikainen@uudenmaansairaalapesula.fi | (09) 2746 7520 | 🟢 Verified |
+| Switchboard | - | - | (09) 2746 750 | 🟢 Verified |
+
+**Address:** Isonkiventie 8, 04250 Kerava
+
+**Access Strategy:**
+1. **Direct textile contact:** Uudenmaan Sairaalapesula (CEO Paavo Martikainen)
+2. Corporate procurement via Leena Koponen or Timo Martelius
+3. Monitor tarjouspalvelu.fi for textile tenders
 
 **Strategic Value:** Largest single-entity source of white polyester (uniforms, linens, gowns). Carbon neutrality goal 2030. Partners with Lindström.
 
-**Status:** 🟡 Partial - procurement contact identified, textile manager TBD
+**Status:** 🟢 Textile services contact verified (Uudenmaan Sairaalapesula)
 
 ---
 
 ### 5. Other University Hospitals (Combined)
 
-| Hospital | Region |
-|----------|--------|
-| TAYS (Tampere) | Central Finland |
-| TYKS (Turku) | Southwest Finland |
-| KYS (Kuopio) | Eastern Finland |
-| OYS (Oulu) | Northern Finland |
+Since 2023, Finnish hospitals operate under regional Wellbeing Services Counties:
 
-**Contact Strategy:** Approach Director of Facilities or Head of Procurement at each
+| Hospital | Region | Wellbeing County | General Contact |
+|----------|--------|------------------|-----------------|
+| TAYS (Tampere) | Pirkanmaa | Pirha | tays.fi |
+| TYKS (Turku) | Southwest | Varha | +358 2 3130000 |
+| KYS (Kuopio) | North Savo | PSHVA | pshyvinvointialue.fi |
+| OYS (Oulu) | Northern Ostrobothnia | POHDE | oys.fi |
+
+**Contact Strategy:**
+1. Contact hospital switchboard, request procurement/textile services
+2. Check regional wellbeing county procurement portals
+3. Monitor Hilma (hankintailmoitukset.fi) for textile tenders
 
 **Strategic Value:** Combined volume comparable to HUS. All producing high-quality white healthcare textiles.
 
-**Status:** 🔴 Identified - contacts need research
+**Status:** 🟡 General contacts identified - specific textile contacts TBD
 
 ---
 
@@ -294,15 +310,16 @@ Source documents contain tiered stakeholder list. Partial verification completed
 
 | Organization | Status | Notes |
 |--------------|--------|-------|
-| Rester Oy | 🟢 Partially verified | CEO changed to Jukka Pesola, general email confirmed |
-| Lindström | 🟡 Needs update | Key contact (Huttunen) left company June 2025 |
+| Rester Oy | 🟢 Partially verified | CEO Jukka Pesola, general email confirmed |
+| Lindström | 🟢 Updated | Kati Pallasaho (SVP Sustainability) identified |
 | LSJH | 🟢 Verified | Anna Garton role confirmed |
 | Touchpoint | 🟢 Fully verified | All contacts confirmed - PRIORITY |
-| HUS | 🟡 Partial | Timo Martelius (Procurement Director) identified |
+| HUS | 🟢 Verified | Uudenmaan Sairaalapesula CEO contact confirmed |
 | SOL Group | 🟡 Partial | General contacts, sustainability contact TBD |
 | Elis | 🟡 Partial | Access via Rester partnership recommended |
 | Image Wear | 🟢 Verified | CEO Jari Lepistö contact confirmed |
 | Comforta | 🟡 Via Lindström | Use parent company contacts |
+| University Hospitals | 🟡 Partial | Regional wellbeing counties identified |
 
 **Verification Sources:**
 - [Rester Contact Page](https://rester.fi/en/contact-us/)
@@ -312,6 +329,9 @@ Source documents contain tiered stakeholder list. Partial verification completed
 - [Image Wear Contact](https://imagewear.fi/en/pages/yhteystiedot)
 - [HUS Procurement Services](https://www.hus.fi/en/professionals/procurement-services)
 - [SOL Laundry Contact](https://www.sol.fi/en/contact-information/sol-laundry-contact-information/)
+- [Lindström Management](https://lindstromgroup.com/about-lindstrom/management/)
+- [Kati Pallasaho LinkedIn](https://www.linkedin.com/in/katipallasaho/)
+- [Uudenmaan Sairaalapesula](https://puhdaspalvelu.fi/palveluverkosto/uudenmaan-sairaalapesula-oy/)
 
 ---
 
@@ -322,12 +342,17 @@ Source documents contain tiered stakeholder list. Partial verification completed
 2. **LSJH** (Anna Garton) 🟢 - sorted household polyester, national coordinator
 3. **Rester Oy** (hello@rester.fi) 🟢 - establish technical partnership
 
-### Phase 2 (Follow-up):
-1. **Lindström Group** (General: +358 20 111 600) - access multi-sector streams
-2. **HUS** - secure white polyester stream (contacts to be identified)
-3. **SOL** as alternative aggregator (contacts to be identified)
+### Phase 2 (Volume Sources):
+1. **Lindström Group** (Kati Pallasaho) 🟢 - SVP Sustainability, multi-sector streams
+2. **HUS/Uudenmaan Sairaalapesula** (Paavo Martikainen) 🟢 - white healthcare textiles
+3. **Image Wear** (Jari Lepistö) 🟢 - workwear manufacturer with take-back
 
-### Phase 3 (Pilot Development):
+### Phase 3 (Expand Network):
+1. **SOL Group** - alternative aggregator
+2. **University hospitals** via regional wellbeing counties
+3. **Elis** via Rester partnership
+
+### Phase 4 (Pilot Development):
 1. Request material samples from Rester/Touchpoint
 2. Define collection logistics with LSJH
 3. Establish pilot with 1-2 partners
