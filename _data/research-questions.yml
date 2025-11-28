@@ -224,7 +224,16 @@ methodology:
 
 # Finland market context
 finland_context:
+  textile_rental_market:
+    total_value: "EUR 350-450 million/year"  # VERIFIED: RD-002
+    source: "Bottom-up from Lindström 60% share, cross-ref European market"
+    data_year: "2022-2024"
   workwear_market:
     polyester_share: "~50% of functional workwear"
-    estimated_value: "EUR 75-90 million/year"
-  note: "Specific volumes and sources to be researched"
+    polyester_segment_estimate: "EUR 75-90 million/year"  # Subset of total
+    note: "Polyester segment estimate (~20-25% of total rental market)"
+  textile_waste:
+    total_tonnes: 85770  # VERIFIED: SYKE 2021
+    source: "SYKE Material Flow Analysis 2021 (data year 2019)"
+    incineration_rate: "60%"  # VERIFIED
+  verification_status: "P1 claims verified 2025-11-28"

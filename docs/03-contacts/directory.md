@@ -30,32 +30,34 @@ All verified contacts for Finnish polyester sourcing outreach.
 
 ---
 
-### LSJH (Lounais-Suomen Jätehuolto) 🟢
-*National textile coordinator, NIR sorting*
+### LSJH (Lounais-Suomen Jätehuolto) 🟡
+*Textile sorting & coordination (Note: Turku plant cancelled April 2024)*
 
 | Contact | Role | Email | Phone |
 |---------|------|-------|-------|
-| **Anna Garton** | Post-Consumer Textile Expert | anna.garton@lsjh.fi | +358 40 186 6215 |
+| **Miira Ojanen** | Sales Manager B2B | miira.ojanen@lsjh.fi | +358 40 579 5312 |
 | Teemu Jutila | Development Director | teemu.jutila@lsjh.fi | +358 50 595 2215 |
-| Miira Ojanen | Sales Manager | miira.ojanen@lsjh.fi | +358 40 579 5312 |
+| ~~Anna Garton~~ | ~~Post-Consumer Textile Expert~~ | ~~LEFT late 2024~~ | - |
 | B2B Inquiries | - | postconsumertextile@lsjh.fi | - |
 
+**⚠️ Status Update:** 20,000t Turku plant cancelled (April 2024). LSJH continues sorting only.
 **Address:** Kuormakatu 17, 20380 Turku
 **Website:** [lsjh.fi](https://www.lsjh.fi)
 
 ---
 
 ### Rester Oy 🟢
-*Finland's largest textile recycler (6,000-12,000 t/year)*
+*Finland's largest textile recycler (6,000t own / 12,000t combined capacity)*
 
 | Contact | Role | Email | Phone |
 |---------|------|-------|-------|
-| Jukka Pesola | CEO | - | - |
+| **Jukka Pesola** | CEO ✅ VERIFIED | jukka.pesola@rester.fi | - |
 | Johanna Lindholm-Järvinen | Senior Sales Manager | johanna@rester.fi | - |
 | Sandra Wirtanen | R&D Project Manager | sandra@rester.fi | - |
 | **General** | - | hello@rester.fi | - |
 
-**Address:** Green Field Hub, Paimio
+**Note:** Now primary Finnish recycler after LSJH plant cancellation
+**Address:** Green Field Hub, Paimio (3,000 m²)
 **Website:** [rester.fi](https://rester.fi)
 
 ---
@@ -89,11 +91,12 @@ All verified contacts for Finnish polyester sourcing outreach.
 
 ---
 
-### SOL Group 🟡
+### SOL Group 🟢
 *Industrial laundry services, 60 service points*
 
 | Contact | Role | Email | Phone |
 |---------|------|-------|-------|
+| **Marja Innanen** | Sustainability & Communications Director | marja.innanen@sol.fi | - |
 | SOL Pesulapalvelut | Laundry Services | - | 040 779 7209 |
 | Customer Service | - | asiakaspalvelu@sol.fi | - |
 
@@ -115,18 +118,28 @@ All verified contacts for Finnish polyester sourcing outreach.
 
 ## Priority 3: Healthcare Sector
 
-### HUS / Uudenmaan Sairaalapesula 🟢
-*Largest healthcare textile source in Finland*
+### Puro Tekstiilihuoltopalvelut Oy 🟢
+*HUS in-house laundry - 125,000 items/day, 45M items/year*
 
 | Contact | Role | Email | Phone |
 |---------|------|-------|-------|
-| **Paavo Martikainen** | CEO (Sairaalapesula) | paavo.martikainen@uudenmaansairaalapesula.fi | (09) 2746 7520 |
+| **Paavo Martikainen** | CEO ✅ VERIFIED | paavo.martikainen@puro.fi | +358 50 501 8998 |
+| General | - | info@puro.fi | - |
+
+**Note:** Puro is HUS's textile service company (50.35% HUS-owned). Routes: Kerava, Kotka, Turku.
+**Address:** Isonkiventie 8, 04250 Kerava
+**Website:** [puro.fi](https://www.puro.fi)
+
+### HUS (Helsinki University Hospital) 🟡
+*27,000 employees, Finland's largest hospital*
+
+| Contact | Role | Email | Phone |
+|---------|------|-------|-------|
 | Leena Koponen | Director Corporate Procurement | Via HUS | - |
 | Timo Martelius | Director of Procurement | Via HUS | - |
-| Switchboard | - | - | (09) 2746 750 |
+| Switchboard | - | - | 09 4711 |
 
-**Address:** Isonkiventie 8, 04250 Kerava
-**HUS Switchboard:** 09 4711
+**Note:** Textile services via Puro (above). Contact Paavo Martikainen for textiles.
 **Procurement Portal:** [tarjouspalvelu.fi](https://tarjouspalvelu.fi)
 
 ---
@@ -142,6 +155,44 @@ All verified contacts for Finnish polyester sourcing outreach.
 | OYS | Oulu | POHDE | oys.fi |
 
 **Note:** Since 2023, hospitals operate under regional Wellbeing Services Counties. Contact switchboards for procurement/textile services.
+
+---
+
+## Priority 4: Industrial / Corporate (Potential Feedstock)
+
+### Orion Corporation 🟢
+*Pharmaceutical - cleanroom polyester workwear*
+
+| Contact | Role | Email |
+|---------|------|-------|
+| **Carolina Sved** | Head of Indirect & Sustainable Procurement | carolina.sved@orion.fi |
+
+**Website:** [orion.fi](https://www.orion.fi)
+
+### Valio Oy 🟢
+*Food processing - polyester workwear*
+
+| Contact | Role | Email |
+|---------|------|-------|
+| **Hanna Hiekkamies** | SVP Group Sustainability | hanna.hiekkamies@valio.fi |
+
+**Website:** [valio.com](https://www.valio.com)
+
+### KONE Oyj 🟢
+*Industrial workwear*
+
+| Contact | Role | Email |
+|---------|------|-------|
+| **Hanna Uusitalo** | Environmental Director | hanna.uusitalo@kone.com |
+
+**Website:** [kone.com](https://www.kone.com)
+
+### Finnish Defence Forces 🟡
+*Large uniform volumes (43,000 kg EOL/year)*
+
+| Contact | Role | Contact Method |
+|---------|------|----------------|
+| Susanna Uusi-Uitto | PM, Circular Economy | Via LinkedIn |
 
 ---
 
@@ -185,25 +236,29 @@ All verified contacts for Finnish polyester sourcing outreach.
 
 ## Quick Copy Reference
 
-### Email List (Priority Contacts)
+### Email List (Priority Contacts - Updated)
 ```
 noora.salonoja@touchpoint.fi
-anna.garton@lsjh.fi
+miira.ojanen@lsjh.fi          # NEW - replaced Anna Garton
 hello@rester.fi
+jukka.pesola@rester.fi        # CEO confirmed
 kati.pallasaho@lindstromgroup.com
-paavo.martikainen@uudenmaansairaalapesula.fi
+paavo.martikainen@puro.fi     # Puro (not HUS direct)
 jari.lepisto@imagewear.fi
+marja.innanen@sol.fi          # NEW - SOL sustainability
+carolina.sved@orion.fi        # NEW - Orion pharma
 ```
 
 ### Phone List (Priority Contacts)
 ```
 Touchpoint (Noora): +358 50 323 9620
-LSJH (Anna): +358 40 186 6215
+LSJH (Miira): +358 40 579 5312
 Lindström (General): +358 20 111 600
-HUS Textile (Paavo): (09) 2746 7520
+Puro/HUS (Paavo): +358 50 501 8998
 Image Wear (Jari): +358 50 60212
 ```
 
 ---
 
 *Last verified: 2025-11-28*
+*P2 verification completed: Anna Garton removed (left LSJH), Rester CEO confirmed, new industrial contacts added*

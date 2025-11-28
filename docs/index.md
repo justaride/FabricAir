@@ -23,7 +23,7 @@
 |---|----------|--------|--------------|
 | Q1 | [Sectors and Actors](02-research-questions/q1-sectors-actors.md) | 🟡 Research available | Healthcare, food, pharma top sources |
 | Q2 | [Value Chain Stakeholders](02-research-questions/q2-stakeholders.md) | 🟡 Research available | 200+ companies mapped |
-| Q3 | [Disposal and Reuse](02-research-questions/q3-disposal-reuse.md) | 🟡 Research available | 86,000 t/year, 60% incinerated |
+| Q3 | [Disposal and Reuse](02-research-questions/q3-disposal-reuse.md) | 🟢 Verified | 85,770 t/year, 60% incinerated |
 | Q4 | [Regulations](02-research-questions/q4-regulations.md) | 🟡 Research available | EPR 2027-2028 key deadline |
 | Q5 | [Initiatives](02-research-questions/q5-initiatives.md) | 🟢 Contacts verified | Rester, Lindström, LSJH key players |
 | Q6 | [Top 10 Sources](02-research-questions/q6-top10-sources.md) | 🟢 Verification complete | 7 orgs ready for outreach |
@@ -36,13 +36,14 @@
 
 ### Finland Market Opportunity
 
-| Metric | Value |
-|--------|-------|
-| Total textile waste | 86,000 tonnes/year |
-| Polyester workwear market | €75-90 million/year |
-| Mandatory collection | Since Jan 2023 (2 years ahead of EU) |
-| EPR implementation | Expected 2027-2028 |
-| Available via partners | 5,000-10,000 tonnes/year |
+| Metric | Value | Verification |
+|--------|-------|--------------|
+| Total textile waste | **85,770 tonnes/year** | 🟢 SYKE 2021 |
+| Full textile rental market | €350-450 million/year | 🟢 Verified |
+| Polyester workwear segment | ~€75-90 million/year | 🟡 Estimate |
+| Mandatory collection | Since Jan 2023 (2 years ahead of EU) | 🟢 Verified |
+| EPR implementation | Expected 2027-2028 | 🟡 Pending |
+| Available via partners | 5,000-10,000 tonnes/year | 🟡 Estimate |
 
 ### Priority Partners (Verified - Ready for Outreach)
 

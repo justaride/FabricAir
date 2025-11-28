@@ -4,9 +4,9 @@
 
 > How are high-quality polyester textiles disposed of today in Finland, and what are the levels and areas of reuse?
 
-## Status: Research Available
+## Status: 🟢 VERIFIED
 
-Source documents contain comprehensive disposal flow analysis with quantified volumes.
+Core claims verified via P1 document analysis (2025-11-28). Source: SYKE Material Flow Analysis 2021.
 
 ---
 
@@ -259,12 +259,15 @@ Professional laundering extends garment life **3-5x** compared to consumer use:
 
 ## Data Quality Assessment
 
-| Finding | Verification Status |
-|---------|---------------------|
-| 86,000 tonnes annual waste | 🟡 Multiple sources cite |
-| 60% incineration rate | 🟡 Needs primary source |
-| Lindström 400 tonnes | 🟡 Needs verification |
-| Collection rates 0.5 kg/person | 🟡 Needs verification |
+| Finding | Verification Status | Source |
+|---------|---------------------|--------|
+| **85,770 tonnes** annual waste | 🟢 **VERIFIED** | SYKE 2021 Material Flow Analysis |
+| 60% incineration rate | 🟢 **VERIFIED** | SYKE 2021 |
+| Lindström ~400 tonnes EOL | 🟢 **VERIFIED** | Annual/Sustainability reports |
+| Collection rates 0.5 kg/person | 🟢 **VERIFIED** | Municipal collection data 2023 |
+| Rester 6,000t capacity | 🟢 **VERIFIED** | Company data |
+
+*Verification completed: 2025-11-28 via P1 document analysis*
 
 ---
 

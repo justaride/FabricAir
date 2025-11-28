@@ -420,6 +420,120 @@ The platform is now fully functional for internal review and outreach preparatio
 
 ---
 
+## 2025-11-28 - Deep Research Phase: Document Analysis
+
+### New Research Documents Received
+
+14 research documents received for critical analysis and data verification:
+
+| ID | Document | Size | Priority | Focus |
+|----|----------|------|----------|-------|
+| RD-001 | Finnish-Textile-Waste-Generation-Latest-Official-Statistics-2022-Onward.md | 36 KB | P1 | Verify 86,000t claim |
+| RD-002 | Finnish-Workwear-amp-Textile-Rental-Market-Size-20222024.md | 8 KB | P1 | Verify €75-90M claim |
+| RD-003 | Lindstrm-Group-Textile-Service-Volumes-and-Market-Position.md | 37 KB | P1 | Verify Lindström data |
+| RD-004 | Rester-Oy-Processing-Capacity-and-Market-Position.md | 44 KB | P1 | Verify Rester capacity |
+| RD-005 | Finnish-Textile-Waste-Disposal-Routes-2022Present.md | 23 KB | P2 | Verify disposal % |
+| RD-006 | Finnish-and-EU-Textile-Waste-Regulatory-Timelines.md | 93 KB | P2 | Verify EPR timeline |
+| RD-007 | HUS-Textile-Services-and-Usage-2022Present.md | 24 KB | P2 | Verify HUS volumes |
+| RD-008 | LSJHs-Textile-Recycling-Operations-20222024.md | 43 KB | P2 | Verify LSJH investment |
+| RD-009 | Key-Contacts-for-Targeted-Finnish-Organizations.md | 8 KB | P2 | New contacts |
+| RD-010 | Updated-Contact-List-verified-28-Nov-2025.md | 5 KB | P2 | Contact updates |
+| RD-011 | Companies-Sourcing-Recycled-Polyester-in-Finland.md | 66 KB | P3 | Competitive intel |
+| RD-012 | Compatibility-of-Finnish-Workwear-Polyester-with-FabricAir-Specifications.md | 36 KB | P3 | Technical match |
+| RD-013 | Polyester-Workwear-Standards-and-Specifications-in-Finland.md | 50 KB | P3 | Standards |
+| RD-014 | Recycled-Polyester-Fiber-Pricing-in-the-European-Market.md | 43 KB | P3 | Pricing data |
+
+**Total:** 528 KB of research content
+
+### Analysis Plan
+
+**Phase 1: Priority Verification (P1 documents)**
+- RD-001: Verify 86,000 tonnes/year textile waste claim
+- RD-002: Verify €75-90M workwear market size
+- RD-003: Verify Lindström volumes and market share
+- RD-004: Verify Rester processing capacity
+
+**Phase 2: Secondary Verification (P2 documents)**
+- Disposal routes, regulatory timelines, HUS/LSJH data, contacts
+
+**Phase 3: Enhancement (P3 documents)**
+- Competitive intelligence, technical compatibility, pricing
+
+### Analysis Methodology
+
+Using Document Analysis Framework:
+1. Source credibility assessment (1-25 scale)
+2. Data extraction with source tracking
+3. Red flag identification
+4. Cross-reference against existing claims
+5. Integration decision with confidence rating
+
+### Current Status
+
+| Document | Status | Key Finding |
+|----------|--------|-------------|
+| RD-001 | ✅ Complete | 85,770t verified (SYKE 2021) |
+| RD-002 | ✅ Complete | Market €350-450M (not €75-90M) |
+| RD-003 | ✅ Complete | Lindström 400t EOL verified |
+| RD-004 | ✅ Complete | Rester 6,000t own capacity verified |
+| RD-005 | ✅ Complete | Disposal routes verified |
+| RD-006 | ✅ Complete | EPR 2027-2028 confirmed |
+| RD-007 | ✅ Complete | HUS/Puro 125k items/day |
+| RD-008 | ✅ Complete | **LSJH plant CANCELLED** |
+| RD-009 | ✅ Complete | New contacts added |
+| RD-010 | ✅ Complete | Anna Garton LEFT LSJH |
+
+---
+
+## 2025-11-28 - P1/P2 Verification Complete
+
+### Summary
+Completed analysis of 10 research documents (P1 and P2 priority).
+
+### Critical Findings
+
+**Verified Claims:**
+- 85,770 tonnes textile waste/year (SYKE 2021) - platform updated from 86,000
+- 60% incineration rate - verified
+- Lindström ~400 tonnes EOL workwear - verified
+- Rester 6,000t capacity - verified
+
+**Critical Updates:**
+1. **LSJH Turku Plant CANCELLED** (April 2024)
+   - €20.5M, 20,000t/year facility never built
+   - Reasons: EU EPR shift, construction costs doubled
+   - Paimio pilot closed late 2023
+
+2. **Market Size Clarification**
+   - Full textile rental market: €350-450M/year (verified)
+   - Our €75-90M figure = polyester workwear subset estimate
+
+3. **Contact Updates**
+   - Anna Garton: LEFT LSJH (late 2024) → Miira Ojanen now primary
+   - Jukka Pesola: CONFIRMED as Rester CEO
+   - New contacts added: Puro, SOL, Orion, Valio, KONE
+
+### Files Updated
+- `docs/index.md` - Verified figures with sources
+- `docs/03-contacts/directory.md` - Contact corrections
+- `docs/02-research-questions/q3-disposal-reuse.md` - Verification status
+- `docs/02-research-questions/q5-initiatives.md` - LSJH cancellation
+- `_data/research-questions.yml` - Market data clarification
+- `docs/P1-VERIFICATION-REPORT.md` - NEW
+- `docs/P2-VERIFICATION-REPORT.md` - NEW
+- `docs/viewer.html` - Navigation updated
+
+### Strategic Implications
+- Rester now primary recycling partner (not LSJH)
+- Puro = route to healthcare textiles (45M items/year)
+- EU EPR transition creates uncertainty (2027-2028)
+
+### Outstanding Items
+- [ ] Analyze P3 documents (4 remaining: competitive intel, compatibility, standards, pricing)
+- [ ] Git commit and push changes
+
+---
+
 ## Template for Future Entries
 
 ```markdown

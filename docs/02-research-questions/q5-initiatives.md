@@ -4,9 +4,9 @@
 
 > If there are public and/or private initiatives in Finland to collect and reuse polyester textiles in Finland today, what are their status, their ambition and main contact points?
 
-## Status: Research Available
+## Status: 🟢 VERIFIED (P2 Update 2025-11-28)
 
-Source documents contain comprehensive initiative mapping with contacts.
+**Critical Update:** LSJH Turku plant cancelled April 2024. Rester now primary Finnish recycler.
 
 ---
 
@@ -22,32 +22,34 @@ Finland operates **Europe's most advanced textile recycling ecosystem** with:
 
 ## Major Public Initiatives
 
-### 1. LSJH (Lounais-Suomen Jätehuolto) - National Coordinator
+### 1. LSJH (Lounais-Suomen Jätehuolto) - Sorting & Coordination
 
 | Attribute | Detail |
 |-----------|--------|
-| **Status** | Fully operational since 2023 |
-| **Role** | National coordinator of textile collection |
-| **Current capacity** | 6,300 tonnes/year |
-| **Investment** | €20.5 million full-scale plant (Turku) |
-| **Coverage** | 95% of Finland (4.5-5.4 million residents) through 28 municipal companies |
+| **Status** | ⚠️ **Turku plant CANCELLED (April 2024)** |
+| **Role** | Textile sorting & national coordination |
+| **Current capacity** | Sorting only (recycling via Rester) |
+| **Investment** | €20.5M plant cancelled due to EU EPR shift |
+| **Coverage** | 95% of Finland through 28 municipal companies |
 
-**Ambition:**
-- Create unified operations model for all Finland
-- Establish Finland as world's first country with comprehensive textile collection
-- Serve broader Baltic region as processing hub
+**⚠️ Critical Update (April 2024):**
+- 20,000 t/year Turku refinement plant cancelled
+- Reasons: EU EPR directive shifts costs to producers, construction costs doubled
+- Paimio pilot closed late 2023 (equipment sold to private operator)
+- LSJH continues sorting at Turku facility only
 
-**Polyester capability:**
-- NIR spectroscopy for fiber identification
-- Specifically isolates polyester and polyester-blend streams
+**Current Status:**
+- Manual sorting continues in Turku
+- National collection coordination (through end 2024)
+- Transitioning to producer-responsibility model
 
-**Contacts:**
+**Contacts (Updated):**
 
 | Name | Role | Email | Phone |
 |------|------|-------|-------|
-| **Anna Garton** | Post-Consumer Textile Expert | anna.garton@lsjh.fi | +358 40 186 6215 |
-| **Miira Ojanen** | Sales Manager | miira.ojanen@lsjh.fi | +358 40 579 5312 |
+| **Miira Ojanen** | Sales Manager B2B | miira.ojanen@lsjh.fi | +358 40 579 5312 |
 | **Teemu Jutila** | Development Director | teemu.jutila@lsjh.fi | +358 50 595 2215 |
+| ~~Anna Garton~~ | ~~Left late 2024~~ | - | - |
 | B2B inquiries | - | postconsumertextile@lsjh.fi | - |
 
 **Address:** Kuormakatu 17, 20380 Turku, Finland
