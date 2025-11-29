@@ -1,6 +1,6 @@
 # Nordic Circular Construction Project Context
-# FabricAir Finland Research Component
-# Last updated: 2025-11-28
+# FabricAir Nordic Research Platform
+# Last updated: 2025-11-29
 
 project:
   name: "Nordic Circular Construction (NCC)"
@@ -27,162 +27,249 @@ project:
 
   partner_companies: 16
 
-  key_challenges_identified:
-    - id: 1
-      challenge: "Linear dominance"
-      description: "Still cheaper to buy and discard virgin materials"
-    - id: 2
-      challenge: "Regulations"
-      description: "Favor linear practices, lack requirements for reuse"
-    - id: 3
-      challenge: "Public procurement"
-      description: "Little circular demand in practice"
-    - id: 4
-      challenge: "Immature market"
-      description: "Fragmented value chain, low trust in circular products"
-    - id: 5
-      challenge: "Small reuse market"
-      description: "Few reuse hubs, long distances, timing mismatch"
-    - id: 6
-      challenge: "Economic downturn"
-      description: "Limited appetite for experimentation"
-
-# FabricAir-specific project details
+# FabricAir-specific workstream
 fabricair_workstream:
   company: "FabricAir"
   country: "Denmark"
   category: "Ventilation - poly"
   solution_type: "Technical solution"
-  key_concepts:
-    - "Reuse"
-    - "Design"
-    - "Re-think"
-    - "Collaborate"
-  layer_typology: "Stuff/Services"
 
-  analyst_lead: "Kristian"
-  internal_qa: "Cathrine"
-  communications: "Thea"
-
-  methodology:
-    sessions: 3
-    session_structure:
-      - session: 1
-        focus: "Goals, tasks, distribution and start"
-      - session: 2
-        focus: "Findings + problem solving"
-      - session: 3
-        focus: "Consolidation and handling gaps"
-
-    analysis_process:
-      steps:
-        - "Define questions"
-        - "Data collection 1"
-        - "Analysis 1"
-        - "Verification/QA"
-        - "Data collection 2"
-        - "Final analysis/recommendations"
-
-  planned_sessions:
-    - date: "27.8"
-    - date: "4.9"
-    - date: "11.9"
-
-  delivery_target: "Mid-September"
+  mission: |
+    Map companies in Finland, Sweden, and Norway specializing in collection of
+    used polyester fibers for recycling, with capacity to deliver high volume,
+    high quality (mono) raw materials within FabricAir's quality standards.
 
 # Geographic scope
 scope:
-  primary_focus: "Finland"
-  extended_scope:
-    - "Finland"
-    - "Sweden"
-    - "Norway"
-  note: "This research project focuses exclusively on Finland"
+  countries:
+    - name: "Finland"
+      status: "complete"
+      completion: 95
+      primary_recycler: "Rester"
+      capacity: "6,000-12,000 t/yr"
+
+    - name: "Sweden"
+      status: "complete"
+      completion: 92
+      primary_recycler: "Rewin (2027)"
+      capacity: "20,000 t/yr"
+
+    - name: "Norway"
+      status: "complete"
+      completion: 88
+      primary_recycler: "NTG"
+      capacity: "30,000 t/yr"
+
+  nordic_total:
+    completion: 92
+    combined_capacity: "56,000-62,000 t/yr"
+    contacts_verified: 40+
 
 # Deliverables
 deliverables:
   primary:
     recipient: "FabricAir"
-    format: "Research report with actionable findings"
+    format: "Web platform + PDF report"
     content:
-      - "Answers to 6 research questions"
-      - "Top-10 stakeholder list with contacts"
-      - "Analysis and recommendations"
+      - "Answers to 6 research questions (Finland)"
+      - "Country reports (Sweden, Norway)"
+      - "Nordic comparison analysis"
+      - "Top stakeholder list with verified contacts"
+      - "Commercial phase roadmap"
+      - "Contact directory"
 
   secondary:
-    recipient: "Nordic Innovation"
-    format: "Project documentation"
-    purpose: "Demonstrate work and methodology"
+    recipient: "NCC / Nordic Innovation"
+    format: "Platform access + documentation"
+    purpose: "Demonstrate methodology and outcomes"
 
-# Related NCC initiatives
-related_initiatives:
-  circular_construction_catalog:
-    description: "Digital catalog with 15+ circular construction solutions"
-    content:
-      - "Available products and services"
-      - "Volumes, prices, certifications"
-      - "Quality standards"
+# Delivery specifications
+delivery:
+  format:
+    primary: "Web platform (optimized, designed)"
+    secondary: "PDF report (following research question structure)"
 
-  market_accelerator_program:
-    status: "Under development"
-    goals:
-      - "Scale catalog from 15 to 100+ solutions"
-      - "Actively connect supply and demand"
-      - "Develop common Nordic marketplace"
+  platform_requirements:
+    - "Clean, professional design"
+    - "Easy navigation"
+    - "Scannable content"
+    - "Quick-reference contacts"
+    - "Responsive layout"
+    - "Print-friendly"
 
-  nordic_ambition_2030:
-    targets:
-      - "80% of new areas through transformation of existing buildings"
-      - "50% reduction in material footprint per capita by 2030"
-      - "15-20% reuse of demolition and construction waste"
-      - "70% high-value recycling (excl. backfilling)"
-      - "Harmonization of Nordic standards and regulations"
-      - "Digital material passports for all new buildings"
+  pdf_requirements:
+    - "Executive summary"
+    - "Research questions structure"
+    - "Country analyses"
+    - "Contact directory"
+    - "Appendices"
 
-# Partner companies in NCC (examples)
-partner_examples:
-  - name: "Bricks"
-    solution: "Reused bricks"
-  - name: "Milk carton boards"
-    solution: "Boards made from milk cartons"
-  - name: "Nester (DK)"
-    solution: "Bicycle houses from reused wood"
-  - name: "Entree (NO)"
-    solution: "New building materials from reused wood"
-  - name: "Carbonade"
-    solution: "Prefab concrete with captured CO2"
-  - name: "Nordic Circle"
-    solution: "Steel beams from marine steel"
-  - name: "Bilt"
-    solution: "Building transformation"
-  - name: "ReCircle"
-    solution: "Leading reuse company"
-  - name: "Make a BIM (FI)"
-    solution: "AI-driven BIM models"
-  - name: "FIRA (FI)"
-    solution: "Interior"
-  - name: "Fabric Air"
-    solution: "Ventilation"
+  timeline:
+    status: "Research complete"
+    next_phase: "Platform design and PDF generation"
 
-# Knowledge partners
-knowledge_partners:
-  - name: "Nordic Network for Sustainable Construction"
-    contact: "Helle Reddemomsen"
-  - name: "Ludica Architects"
-    location: "Iceland"
-    contact: "Anna Karlstadte"
-  - name: "Danish Authority of Social Services and Housing"
+  post_delivery:
+    - "Potential continued platform development"
+    - "Partnership development support"
+    - "Additional research as needed"
 
-# Political level
-political_partners:
-  - "Nordic Council of Ministers"
-  - "Nordic building authorities"
+# Research structure interconnection
+interconnection:
+  description: |
+    All project components are interconnected. Changes in one area
+    propagate to related documents and data files.
 
-# Status
+  data_flow:
+    research_questions: "Core framework - findings flow to all docs"
+    sources: "Supports all claims in docs"
+    fabricair: "Requirements filter all recommendations"
+    project: "Scope defines boundaries"
+
+  document_dependencies:
+    index_md:
+      depends_on: ["executive_summary", "country_reports", "contacts"]
+      updates_trigger: "Any key finding change"
+
+    executive_summary:
+      depends_on: ["research_questions", "country_reports", "contacts"]
+      updates_trigger: "Priority partner or recommendation change"
+
+    nordic_comparison:
+      depends_on: ["finland_q1_q6", "sweden_report", "norway_report"]
+      updates_trigger: "Any country data change"
+
+    country_reports:
+      depends_on: ["verification_reports", "contacts"]
+      updates_trigger: "Verification status or contact change"
+
+    contact_directory:
+      depends_on: ["all_verification_reports"]
+      updates_trigger: "Any contact verification"
+
+# Key findings (synchronized across all docs)
+key_findings:
+  strategic:
+    - id: "KF-001"
+      finding: "Rester is PRIMARY Finnish recycler"
+      impact: "Critical partner identified"
+      confidence: "high"
+      affects: ["executive_summary", "nordic_comparison", "q6", "contacts"]
+
+    - id: "KF-002"
+      finding: "LSJH Turku plant CANCELLED (April 2024)"
+      impact: "Strategy pivot - Rester now only option"
+      confidence: "high"
+      affects: ["executive_summary", "nordic_comparison", "q5", "q6"]
+
+    - id: "KF-003"
+      finding: "Rewin 20k t/yr chemical recycling by Oct 2027"
+      impact: "Sweden domestic option coming"
+      confidence: "high"
+      affects: ["executive_summary", "nordic_comparison", "sweden_report"]
+
+    - id: "KF-004"
+      finding: "NTG 30k t/yr by ~2029"
+      impact: "Largest Nordic capacity"
+      confidence: "high"
+      affects: ["executive_summary", "nordic_comparison", "norway_report"]
+
+    - id: "KF-005"
+      finding: "65/35 poly-cotton blends NOT suitable"
+      impact: "Technical constraint - target cleanroom/pharma"
+      confidence: "high"
+      affects: ["q1", "fabricair_profile", "all_country_reports"]
+
+    - id: "KF-006"
+      finding: "Cleanroom/pharma = best 100% white PET source"
+      impact: "Sector targeting recommendation"
+      confidence: "high"
+      affects: ["executive_summary", "q1", "q6", "all_country_reports"]
+
+  market_data:
+    finland:
+      textile_waste: "85,770 t/yr"
+      market_size: "€350-450M"
+      recycling_rate: "<1%"
+      source: "SYKE 2021"
+      verified: true
+
+    sweden:
+      textile_waste: "60-80k t/yr"
+      market_size: "€560M"
+      recycling_rate: "<1%"
+      source: "Naturvårdsverket"
+      verified: true
+
+    norway:
+      textile_waste: "~100k t/yr"
+      market_size: "€180-270M"
+      recycling_rate: "<1%"
+      source: "SSB"
+      verified: true
+
+# Priority partners (synchronized across contacts and docs)
+priority_partners:
+  tier_1_recyclers:
+    - name: "Rester"
+      country: "Finland"
+      contact: "hello@rester.fi"
+      status: "operational"
+
+    - name: "NTG"
+      country: "Norway"
+      contact: "btm@ntgas.no"
+      status: "scaling"
+
+    - name: "Rewin"
+      country: "Sweden"
+      contact: "via wargoninnovation.se"
+      status: "launching_2027"
+
+  tier_2_aggregators:
+    - name: "Touchpoint"
+      country: "Finland"
+      contact: "noora.salonoja@touchpoint.fi"
+
+    - name: "Puro"
+      country: "Finland"
+      contact: "paavo.martikainen@puro.fi"
+
+    - name: "Nor Tekstil"
+      country: "Norway"
+      contact: "thomas.karlsen@nortekstil.no"
+
+# Status tracking
 status:
-  date: "November 2025"
-  updates:
-    - "Product catalog under development with 15 companies"
-    - "Nordic Ambition targets presented to Natural State leadership"
-    - "Presented at Nordic Circular Summit 2025"
-    - "Developing methodology for quantitative climate impact calculations"
+  last_updated: "2025-11-29"
+  phase: "Research complete - Platform delivery phase"
+  overall_completion: 92
+
+  milestones:
+    - milestone: "Finland research"
+      status: "complete"
+      date: "2025-11-28"
+
+    - milestone: "Sweden research"
+      status: "complete"
+      date: "2025-11-29"
+
+    - milestone: "Norway research"
+      status: "complete"
+      date: "2025-11-29"
+
+    - milestone: "Platform design overhaul"
+      status: "complete"
+      date: "2025-11-29"
+
+    - milestone: "Backend synchronization"
+      status: "in_progress"
+      date: "2025-11-29"
+
+    - milestone: "Final platform optimization"
+      status: "pending"
+
+    - milestone: "PDF report generation"
+      status: "pending"
+
+    - milestone: "Delivery"
+      status: "pending"

@@ -1,422 +1,238 @@
-# Q6: Top 10 Most Promising Sources
+# Q6: Top 10 Sources
 
-## Question
+> The most promising stakeholders in Finland for sourcing used high-quality polyester fibers.
 
-> Make a list of the (10) most promising stakeholders in Finland that could be a source of used high-quality polyester fibers, including the persons responsible for disposing of those fibers.
-
-## Status: 🟢 VERIFIED (P2 Update 2025-11-28)
-
-**Critical Updates Applied:**
-- Anna Garton has **LEFT LSJH** (late 2024) - Miira Ojanen is new primary contact
-- LSJH Turku plant **CANCELLED** (April 2024) - sorting only
-- Rester CEO: Jukka Pesola **CONFIRMED**
-- HUS textile services via **Puro Tekstiilihuoltopalvelut** (not Uudenmaan Sairaalapesula)
-- New contacts added: Orion, Valio, KONE, SOL sustainability
+**Status:** Verified (Phase 2 Updated)
 
 ---
 
-## Material Requirements Reminder
+## Critical Finding
+
+**Lindström uses 65:35 poly-cotton blends** — NOT 100% polyester. This significantly impacts volume estimates and ranking. See [Phase 2 Research Findings](../PHASE2-RESEARCH-FINDINGS.md) for details.
+
+---
+
+## Material Requirements
 
 | Parameter | Requirement |
 |-----------|-------------|
 | Material | 100% Polyester (PET) |
 | Weight | ~300 g/m² |
-| Fiber type | Coarse, durable |
-| Color preference | White |
-| NOT suitable | Polyester/cotton blends |
+| Color | White preferred |
+| NOT suitable | Poly-cotton blends (65/35) |
 
 ---
 
-## Top 10 Most Promising Sources
+## Priority Ranking (Updated)
 
-### Tier 1: Critical Strategic Partners (Highest Priority)
+| Rank | Organization | Type | Contact | Email | Verified |
+|------|--------------|------|---------|-------|----------|
+| **1** | Rester | Recycler | Jukka Pesola | hello@rester.fi | ✅ |
+| **2** | Puro (HUS) | Healthcare | Paavo Martikainen | paavo.martikainen@puro.fi | ✅ |
+| **3** | Touchpoint | Aggregator | Noora Salonoja | noora.salonoja@touchpoint.fi | ✅ |
+| **4** | Orion | Pharma/Cleanroom | Carolina Sved | carolina.sved@orion.fi | ✅ |
+| **5** | Image Wear | Manufacturer | Jari Lepistö | jari.lepisto@imagewear.fi | ✅ |
+| **6** | Valio | Food Processing | Hanna Hiekkamies | hanna.hiekkamies@valio.fi | ✅ |
+| **7** | SOL Group | Aggregator | Marja Innanen | marja.innanen@sol.fi | ◯ |
+| **8** | KONE | Industrial | Hanna Uusitalo | hanna.uusitalo@kone.com | ✅ |
+| **9** | Lindström | ⚠️ 65:35 Blend | Kati Pallasaho | kati.pallasaho@lindstromgroup.com | ✅ |
+| **10** | LSJH | Sorting Only | Miira Ojanen | miira.ojanen@lsjh.fi | ✅ |
 
----
-
-### 1. Rester Oy - Industrial Textile Recycling Hub
-
-| Field | Value |
-|-------|-------|
-| **Sector** | Mechanical textile recycling |
-| **Location** | Paimio, Finland |
-| **Annual capacity** | 6,000-12,000 tonnes |
-| **Material focus** | B2B end-of-life textiles, workwear |
-| **Quality** | Global Recycled Standard certified |
-
-**Contacts (Verified 2025-11-28):**
-
-| Name | Role | Email | Phone | Status |
-|------|------|-------|-------|--------|
-| Jukka Pesola | CEO | - | - | 🟢 Current website |
-| Johanna Lindholm-Järvinen | Senior Sales Manager | johanna@rester.fi | - | 🟢 Verified |
-| Sandra Wirtanen | R&D Project Manager | sandra@rester.fi | - | 🟢 Verified |
-| Jani Tolvanen | Production Manager | jani.t@rester.fi | - | 🟢 Verified |
-| General | - | hello@rester.fi | - | 🟢 Verified |
-
-⚠️ **Note:** Joachim Colliander was CEO (appointed Feb 2024), but current website shows Jukka Pesola. Anna-Kaisa Huttunen no longer at Rester.
-
-**Strategic Value:** Finland's only large-scale textile recycler. Direct access to sorted, clean polyester fiber. Already processes post-industrial polyester from Lindström, Touchpoint, Elis.
-
-**Status:** 🟢 Partially verified - recommend contacting hello@rester.fi
+**Ranking Changes:**
+- ⬆️ Puro moved to #2 (best white polyester source)
+- ⬆️ Orion moved to #4 (100% polyester cleanroom garments)
+- ⬇️ Lindström moved to #9 (65:35 blend NOT compatible)
 
 ---
 
-### 2. Lindström Group - Europe's Leading Textile Service Company
+## Tier 1: Strategic Partners
 
-| Field | Value |
-|-------|-------|
-| **Sector** | Industrial laundry and textile rental |
-| **Location** | Helsinki, Finland |
-| **Annual volume** | 400+ tonnes end-of-life workwear (Finland) |
-| **Client base** | 88,000 customers (healthcare, industry, construction) |
-| **Revenue** | €518.1 million |
+### 1. Rester — Primary Recycler
 
-**Contacts (Updated 2025-11-28):**
+| Attribute | Value |
+|-----------|-------|
+| Capacity | 6,000-12,000 t/year |
+| Location | Paimio |
+| Certification | Global Recycled Standard |
 
-| Name | Role | Email | Phone | Status |
-|------|------|-------|-------|--------|
-| Kati Pallasaho | SVP Strategy & Sustainability | kati.pallasaho@lindstromgroup.com | - | 🟢 Role verified |
-| Seija Forss | Material Manager | seija.forss@lindstromgroup.com | - | 🟡 Unverified |
-| General | - | lindstrom@lindstromgroup.com | +358 20 111 600 | 🟢 Verified |
+Finland's only large-scale textile recycler. Direct fiber access.
 
-✅ **New contact identified:** Kati Pallasaho replaced Anna-Kaisa Huttunen as sustainability lead. [LinkedIn](https://www.linkedin.com/in/katipallasaho/)
+**Contacts:**
 
-**Strategic Value:** Market leader servicing all target sectors. Committed to 100% textile recycling by 2025. Strategic investor in Rester. Established infrastructure for mono-material sorting.
+| Name | Role | Email |
+|------|------|-------|
+| Jukka Pesola | CEO | — |
+| Johanna Lindholm-Järvinen | Senior Sales | johanna@rester.fi |
+| Sandra Wirtanen | R&D | sandra@rester.fi |
+| General | — | hello@rester.fi |
 
-**Status:** 🟢 Sustainability contact identified - ready for outreach
+### 2. Touchpoint — Workwear Integrator
 
----
+| Attribute | Value |
+|-----------|-------|
+| Role | Rester majority owner |
+| Take-back | 100% of supplied workwear |
+| Clients | K Group (20,000 employees), Airpro |
 
-### 3. LSJH (Lounais-Suomen Jätehuolto) - Textile Sorting & Coordination
+**Contacts:**
 
-| Field | Value |
-|-------|-------|
-| **Sector** | Municipal waste management |
-| **Location** | Turku, Finland |
-| **Current role** | **Sorting only** (recycling via Rester) |
-| ~~Investment~~ | ~~€20.5 million in Turku plant~~ **CANCELLED Apr 2024** |
-| **Coverage** | 95% of Finland's population |
+| Name | Role | Email | Phone |
+|------|------|-------|-------|
+| Noora Salonoja | CEO | noora.salonoja@touchpoint.fi | +358 50 323 9620 |
+| Joni Mäenpää | Sales | joni.maenpaa@touchpoint.fi | +358 41 318 1614 |
+| Anni Wulff-Kokko | Sustainability | anni.wulff-kokko@touchpoint.fi | +358 50 339 6362 |
 
-**⚠️ CRITICAL UPDATE (P2 Verified):**
-- Turku recycling plant CANCELLED April 2024
-- Paimio pilot CLOSED late 2023
-- LSJH now does sorting only; recycling via Rester
-- Anna Garton has LEFT LSJH (late 2024)
+### 3. Puro — Healthcare Textiles
 
-**Contacts (CORRECTED 2025-11-28):**
+| Attribute | Value |
+|-----------|-------|
+| Scale | 125,000 items/day (45M/year) |
+| Owner | HUS (50.35%) |
+| Coverage | ~50% of Finland |
 
-| Name | Role | Email | Phone | Status |
-|------|------|-------|-------|--------|
-| **Miira Ojanen** | Sales Manager B2B | miira.ojanen@lsjh.fi | +358 40 579 5312 | 🟢 **PRIMARY CONTACT** |
-| Teemu Jutila | Development Director | teemu.jutila@lsjh.fi | +358 50 595 2215 | 🟡 Unverified |
-| ~~Anna Garton~~ | ~~Post-Consumer Textile Expert~~ | - | - | ❌ **LEFT late 2024** |
-| B2B inquiries | - | postconsumertextile@lsjh.fi | - | 🟢 Official |
-| General | - | asiakaspalvelu@lsjh.fi | 0200 47470 | 🟢 Verified |
+Largest source of white healthcare polyester.
 
-**Strategic Value:** National sorting coordinator. NIR sorting for polyester identification. Can provide sorted streams to Rester. Active in European projects (tExtended, Telavalue).
-
-**Status:** 🟡 Role reduced - sorting only, recycling via Rester
+**Contact:** Paavo Martikainen (CEO) — paavo.martikainen@puro.fi — +358 50 501 8998
 
 ---
 
-### Tier 2: Major Volume Sources - Healthcare
+## Tier 2: Volume Sources
+
+### 4. Orion — Pharma Cleanroom (NEW)
+
+| Attribute | Value |
+|-----------|-------|
+| Sector | Pharmaceutical manufacturing |
+| Material | ~99% polyester cleanroom garments |
+| Color | White (cleanroom standard) |
+| Location | Espoo, Turku |
+
+Best source for 100% white polyester. Cleanroom garments are predominantly polyester.
+
+**Contact:** Carolina Sved (Head of Indirect & Sustainable Procurement) — carolina.sved@orion.fi — ✅ VERIFIED
 
 ---
 
-### 4. Puro Tekstiilihuoltopalvelut Oy (HUS Textile Services)
+### 5. Image Wear — Manufacturer
 
-| Field | Value |
-|-------|-------|
-| **Sector** | Healthcare textile services |
-| **Location** | Kerava, Kotka, Turku (3 facilities) |
-| **Scale** | **125,000 items/day** (~45 million/year) |
-| **Ownership** | HUS owns 50.35% |
-| **Coverage** | ~50% of Finland's population |
+| Attribute | Value |
+|-----------|-------|
+| Program | "Kierre" take-back |
+| Founded | 1959 |
+| Location | Tampere |
 
-**⚠️ IMPORTANT (P2 Verified):** HUS does NOT manage textiles directly. All textile services via Puro.
+**Contact:** Jari Lepistö (CEO) — jari.lepisto@imagewear.fi — +358 50 60212
 
-**Contacts (VERIFIED 2025-11-28):**
+### 6. SOL Group — Alternative Aggregator
 
-| Name | Role | Email | Phone | Status |
-|------|------|-------|-------|--------|
-| **Paavo Martikainen** | CEO | paavo.martikainen@puro.fi | +358 50 501 8998 | 🟢 **VERIFIED** |
-| General | - | info@puro.fi | - | 🟢 Verified |
+| Attribute | Value |
+|-----------|-------|
+| Infrastructure | 60 service points |
+| Employees | ~14,000 (Nordic-Baltic) |
 
-**Address:** Isonkiventie 8, 04250 Kerava
-**Website:** puro.fi
-
-**HUS Procurement (if needed):**
-
-| Name | Role | Contact | Status |
-|------|------|---------|--------|
-| Leena Koponen | Director Corporate Procurement | Via HUS | 🟢 Role verified |
-| Timo Martelius | Director of Procurement | Via HUS | 🟢 Role verified |
-| HUS Switchboard | - | 09 4711 | 🟢 Verified |
-
-**Access Strategy:**
-1. **Primary contact:** Paavo Martikainen at Puro (handles all textiles)
-2. Corporate procurement via HUS only for policy matters
-3. Monitor tarjouspalvelu.fi for textile tenders
-
-**Strategic Value:** Largest single source of white healthcare polyester (uniforms, linens, gowns). 125,000 items daily = massive consistent volume. Known material composition.
-
-**Status:** 🟢 CEO contact verified - HIGH PRIORITY
+**Contact:** Marja Innanen (Sustainability Director) — marja.innanen@sol.fi
 
 ---
 
-### 5. Other University Hospitals (Combined)
+## Tier 3: Industrial End-Users
 
-Since 2023, Finnish hospitals operate under regional Wellbeing Services Counties:
+Potential sources for 100% white polyester. Require verification of material specs.
 
-| Hospital | Region | Wellbeing County | General Contact |
-|----------|--------|------------------|-----------------|
-| TAYS (Tampere) | Pirkanmaa | Pirha | tays.fi |
-| TYKS (Turku) | Southwest | Varha | +358 2 3130000 |
-| KYS (Kuopio) | North Savo | PSHVA | pshyvinvointialue.fi |
-| OYS (Oulu) | Northern Ostrobothnia | POHDE | oys.fi |
+| Rank | Organization | Sector | Contact | Email | Verified |
+|------|--------------|--------|---------|-------|----------|
+| 6 | Valio | Food Processing | Hanna Hiekkamies | hanna.hiekkamies@valio.fi | ✅ |
+| 7 | SOL Group | Aggregator | Marja Innanen | marja.innanen@sol.fi | ◯ |
+| 8 | KONE | Industrial | Hanna Uusitalo | hanna.uusitalo@kone.com | ✅ |
 
-**Contact Strategy:**
-1. Contact hospital switchboard, request procurement/textile services
-2. Check regional wellbeing county procurement portals
-3. Monitor Hilma (hankintailmoitukset.fi) for textile tenders
-
-**Strategic Value:** Combined volume comparable to HUS. All producing high-quality white healthcare textiles.
-
-**Status:** 🟡 General contacts identified - specific textile contacts TBD
+**Note:** These contacts are at strategic/sustainability level. Operational waste contacts still needed.
 
 ---
 
-### Tier 3: Industrial Aggregators
+## Tier 4: Downgraded / Coordination
+
+### 9. Lindström — ⚠️ INCOMPATIBLE MATERIAL
+
+| Attribute | Value |
+|-----------|-------|
+| Volume | 400+ t/year end-of-life |
+| Material | **65:35 poly-cotton blend** |
+| Status | ⚠️ NOT suitable for FabricAir |
+| Note | 2nd largest Rester shareholder |
+
+**CRITICAL:** Lindström workwear uses 65:35 poly-cotton blends, which are NOT compatible with FabricAir's 100% polyester requirement. Downgraded from Tier 2.
+
+**Contact:** Kati Pallasaho (SVP Sustainability) — kati.pallasaho@lindstromgroup.com
 
 ---
 
-### 6. Touchpoint Oy - Closed-Loop Pioneer
+### 10. LSJH — Sorting Only
 
-| Field | Value |
-|-------|-------|
-| **Sector** | Sustainable workwear manufacturer |
-| **Location** | Finland |
-| **Take-back** | 100% of delivered textiles |
-| **Product** | ReTouch fabric (>10% recycled) |
+| Attribute | Value |
+|-----------|-------|
+| Role | Sorting & coordination (NOT recycling) |
+| Note | Turku plant cancelled Apr 2024 |
 
-**Contacts (Verified 2025-11-28):**
-
-| Name | Role | Email | Phone | Status |
-|------|------|-------|-------|--------|
-| Noora Salonoja | CEO & Partner | noora.salonoja@touchpoint.fi | +358 50 323 9620 | 🟢 Verified |
-| Joni Mäenpää | Sales Director | joni.maenpaa@touchpoint.fi | +358 41 318 1614 | 🟢 Verified |
-| Anni Wulff-Kokko | Sustainability Specialist | anni.wulff-kokko@touchpoint.fi | +358 50 339 6362 | 🟢 Verified |
-| Tiiu Jylhä-Nieminen | Sales Manager | tiiu.jylha-nieminen@touchpoint.fi | +358 45 263 8611 | 🟢 Verified |
-| General | - | info@touchpoint.fi | - | 🟢 Verified |
-
-**Strategic Value:** Majority owner of Rester. Operates proven closed-loop. Supplies K Group (20,000 employees) and Airpro. Launched ReTouch fabric with >10% recycled polyester.
-
-**Status:** 🟢 Fully verified - high confidence contacts
+**Contact:** Miira Ojanen — miira.ojanen@lsjh.fi — +358 40 579 5312
 
 ---
 
-### 7. SOL Group
+## Engagement Sequence (Updated)
 
-| Field | Value |
-|-------|-------|
-| **Sector** | Industrial laundry services |
-| **Infrastructure** | 60 service points nationwide |
-| **Founded** | 1991 (origins 1848) |
-| **Employees** | ~14,000 (Nordic-Baltic) |
+### Phase 1 (Immediate) — Core Partners
 
-**Contacts (UPDATED 2025-11-28 - P2 Verified):**
+1. **Rester** — Establish technical partnership, request samples
+2. **Puro** — Healthcare textiles, best white polyester source
+3. **Touchpoint** — Diverse workwear streams
 
-| Name | Role | Email | Phone | Status |
-|------|------|-------|-------|--------|
-| **Marja Innanen** | Sustainability & Communications Director | marja.innanen@sol.fi | - | 🟢 **NEW - VERIFIED** |
-| SOL Pesulapalvelut | Laundry services | - | 040 779 7209 | 🟢 From website |
-| Customer service | - | asiakaspalvelu@sol.fi | - | 🟢 Verified |
+### Phase 2 (100% Polyester Sources)
 
-**Strategic Value:** Major alternative to Lindström. Strong circular economy commitment. Sustainability director now identified for strategic discussions.
+4. **Orion** — Pharma cleanroom (100% white polyester)
+5. **Image Wear** — Take-back program, verify material specs
+6. **Valio** — Food processing, verify material
 
-**Status:** 🟢 Sustainability contact identified - ready for outreach
+### Phase 3 (Secondary Sources)
 
----
+7. **SOL** — Alternative aggregator
+8. **KONE** — Industrial workwear, verify material
 
-### 8. Elis Textile Service Oy
+### Phase 4 (Coordination / Excluded)
 
-| Field | Value |
-|-------|-------|
-| **Sector** | Textile rental and laundry |
-| **Parent** | Elis SA (European leader) |
-| **2023 recycling rate** | 77% |
-| **2025 target** | 80% recycling rate |
-
-**Contacts (Updated 2025-11-28):**
-
-| Contact | Value | Status |
-|---------|-------|--------|
-| Juho Rasmus | Product & Marketing Manager | 🟡 Role unverified |
-| General Finland | via fr.elis.com/en | 🟢 Website confirmed |
-
-**Partnership confirmed:** Active collaboration with Rester since 2021 - worn-out workwear from Elis is recycled into new textile fibers at Rester's Paimio facility.
-
-**Strategic Value:** Europe's largest textile rental. Access via Rester partnership may be most efficient approach.
-
-**Status:** 🟡 Partial - recommend contact via Rester
+9. **Lindström** — ⚠️ 65:35 blend incompatible; value for market intel only
+10. **LSJH** — Sorting only; recycling via Rester
 
 ---
 
-### 9. Image Wear Oy
+## Volume Estimate (Revised)
 
-| Field | Value |
-|-------|-------|
-| **Sector** | Workwear manufacturer and rental |
-| **Founded** | 1959 |
-| **Location** | Tampere, Finland |
-| **Program** | "Kierre" take-back and recycling |
+**Previous estimate:** 5,000-10,000 tonnes
+**Revised estimate:** 350-1,000 tonnes of accessible 100% white polyester
 
-**Contacts (Verified 2025-11-28):**
+| Sector | Estimated Volume | Confidence |
+|--------|------------------|------------|
+| Cleanroom/Pharma | 50-200 t/year | Medium |
+| Healthcare (white) | 200-500 t/year | Low |
+| Food processing (white) | 100-300 t/year | Low |
 
-| Name | Role | Email | Phone | Status |
-|------|------|-------|-------|--------|
-| Jari Lepistö | CEO | jari.lepisto@imagewear.fi | +358 50 60212 | 🟢 Verified |
-| General | - | imagewear@imagewear.eu | +358 20 7980 500 | 🟢 Verified |
+**Why the reduction?**
+- Lindström's 400 t/year is 65:35 blend (excluded)
+- Most workwear in Finland uses poly-cotton blends
+- Only cleanroom, pharma, and select healthcare are confirmed 100% PET
 
-**Address:** Yrittäjänkatu 24, 33710 Tampere
-
-**Strategic Value:** Finland's leading workwear manufacturer. Established recycling services via "Kierre" program. Carbon neutral goal 2025. Partnership with Globe Hope for upcycling.
-
-**Status:** 🟢 Verified - CEO contact confirmed
+**Note:** Actual accessible volume requires direct verification with each source.
 
 ---
 
-### 10. Comforta Oy (Lindström Subsidiary)
+## New Operational Contact
 
-| Field | Value |
-|-------|-------|
-| **Sector** | Industrial laundry |
-| **Volume** | 200,000+ kg annual textile waste |
-| **Daily processing** | ~10,000 kg |
-| **Focus** | Healthcare and hospitality |
+### HUS Helsinki University Hospital
 
-**Contact:** Through Lindström Group
-
-**Strategic Value:** Handles white/light textiles from healthcare and hospitality. Partnership with Dafecor for recycling.
-
-**Status:** 🟡 Access via Lindström
+| Contact | Details |
+|---------|---------|
+| Department | Logistics & Procurement |
+| Email | logistiikka.asiakaspalvelu@hus.fi |
+| Phone | 09 471 77000 |
+| Portal | tarjouspalvelu.fi |
 
 ---
 
-## Additional High-Potential Sources
-
-### Tier 4: Major End-Users with Sustainability Commitments (UPDATED P2)
-
-| Rank | Organization | Sector | Volume Indicator | Contact | Status |
-|------|--------------|--------|------------------|---------|--------|
-| 11 | **Orion Corporation** | Pharmaceutical | Cleanroom >90% white | carolina.sved@orion.fi | 🟢 **NEW** |
-| 12 | **Valio Oy** | Food processing | 70-80% white | hanna.hiekkamies@valio.fi | 🟢 **NEW** |
-| 13 | **KONE Oyj** | Manufacturing | Industrial workwear | hanna.uusitalo@kone.com | 🟢 **NEW** |
-| 14 | Finnish Defence Forces | Public | 43,000 kg EOL/year | Susanna Uusi-Uitto (LinkedIn) | 🟡 Partial |
-| 15 | YIT Corporation | Construction | 4,100+ employees | - | 🔴 Contact needed |
-
-**New Contacts Verified (P2):**
-
-| Contact | Organization | Role | Email |
-|---------|--------------|------|-------|
-| **Carolina Sved** | Orion | Head Indirect & Sustainable Procurement | carolina.sved@orion.fi |
-| **Hanna Hiekkamies** | Valio | SVP Group Sustainability | hanna.hiekkamies@valio.fi |
-| **Hanna Uusitalo** | KONE | Environmental Director | hanna.uusitalo@kone.com |
-| Susanna Uusi-Uitto | Defence Forces | PM, Circular Economy | Via LinkedIn |
-
-**Strategic Value:** These are major users of polyester workwear with sustainability commitments - potential feedstock sources or pilot partners.
-
----
-
-## Contact Verification Status Summary (CORRECTED 2025-11-28)
-
-| Organization | Status | Notes |
-|--------------|--------|-------|
-| Rester Oy | 🟢 Verified | CEO Jukka Pesola **CONFIRMED** |
-| Lindström | 🟢 Updated | Kati Pallasaho (SVP Sustainability) |
-| LSJH | 🟡 **CORRECTED** | ~~Anna Garton~~ LEFT → **Miira Ojanen** primary |
-| Touchpoint | 🟢 Fully verified | All contacts confirmed - PRIORITY |
-| Puro (HUS) | 🟢 **NEW** | Paavo Martikainen CEO verified |
-| SOL Group | 🟢 **UPDATED** | Marja Innanen (Sustainability Director) added |
-| Orion | 🟢 **NEW** | Carolina Sved (Procurement) |
-| Valio | 🟢 **NEW** | Hanna Hiekkamies (Sustainability) |
-| KONE | 🟢 **NEW** | Hanna Uusitalo (Environmental) |
-| Elis | 🟡 Partial | Access via Rester partnership recommended |
-| Image Wear | 🟢 Verified | CEO Jari Lepistö contact confirmed |
-| Comforta | 🟡 Via Lindström | Use parent company contacts |
-
-**Critical Corrections Applied:**
-- ❌ Anna Garton removed (left LSJH late 2024)
-- ❌ LSJH Turku plant removed (cancelled April 2024)
-- ✅ Puro added as HUS textile route
-- ✅ Industrial contacts added (Orion, Valio, KONE)
-- ✅ SOL sustainability contact added
-
-**Verification Sources:**
-- [Rester Contact Page](https://rester.fi/en/contact-us/)
-- [Touchpoint Contact Page](https://www.touchpointww.com/en/contact)
-- [Scandinavian MIND - Anna Garton](https://scandinavianmind.com/teemu-koskela-anna-garton-finland-headstart-in-recycling/)
-- [Metsä Spring - Huttunen appointment](https://www.metsagroup.com/metsaspring/news/anna-kaisa-huttunen-strengthens-the-kuura-team/)
-- [Image Wear Contact](https://imagewear.fi/en/pages/yhteystiedot)
-- [HUS Procurement Services](https://www.hus.fi/en/professionals/procurement-services)
-- [SOL Laundry Contact](https://www.sol.fi/en/contact-information/sol-laundry-contact-information/)
-- [Lindström Management](https://lindstromgroup.com/about-lindstrom/management/)
-- [Kati Pallasaho LinkedIn](https://www.linkedin.com/in/katipallasaho/)
-- [Uudenmaan Sairaalapesula](https://puhdaspalvelu.fi/palveluverkosto/uudenmaan-sairaalapesula-oy/)
-
----
-
-## Recommended Engagement Sequence (UPDATED 2025-11-28)
-
-### Phase 1 (Immediate - Verified Contacts):
-1. **Rester Oy** (hello@rester.fi, Jukka Pesola) 🟢 - PRIMARY recycler, establish technical partnership
-2. **Touchpoint** (Noora Salonoja) 🟢 - Rester majority owner, workwear streams
-3. **Puro** (Paavo Martikainen) 🟢 - Healthcare textiles, 45M items/year
-
-### Phase 2 (Volume Sources):
-1. **Lindström Group** (Kati Pallasaho) 🟢 - SVP Sustainability (note: 2nd largest Rester shareholder)
-2. **Image Wear** (Jari Lepistö) 🟢 - workwear manufacturer with take-back
-3. **SOL Group** (Marja Innanen) 🟢 - alternative aggregator
-
-### Phase 3 (Industrial End-Users):
-1. **Orion** (Carolina Sved) 🟢 - pharmaceutical cleanroom white polyester
-2. **Valio** (Hanna Hiekkamies) 🟢 - food processing white polyester
-3. **KONE** (Hanna Uusitalo) 🟢 - industrial workwear
-
-### Phase 4 (Coordination & Pilot):
-1. **LSJH** (Miira Ojanen) - for sorting coordination (NOT recycling)
-2. Request material samples from Rester
-3. Establish pilot with 100% white PET sources
-
-**⚠️ Key Changes from Original:**
-- ~~Anna Garton~~ → Miira Ojanen (LSJH)
-- ~~LSJH for recycling~~ → Sorting only; recycling via Rester
-- ~~Uudenmaan Sairaalapesula~~ → Puro Tekstiilihuoltopalvelut
-- Added industrial contacts: Orion, Valio, KONE
-
----
-
-## Volume Estimate
-
-**Conservative annual polyester availability:** 5,000-10,000 tonnes through identified stakeholders
-
-- Industrial sources: Higher quality, minimal contamination
-- Healthcare sector: Premium white/light polyester
-- Standardized workwear: Consistent 300 g/m² specifications
-
----
-
-## Verification Tasks
-
-- [ ] Verify all email addresses are current and correct
-- [ ] Confirm phone numbers
-- [ ] Identify missing contacts (HUS, SOL, hospitals)
-- [ ] Cross-reference with LinkedIn for role verification
-- [ ] Confirm capacity/volume figures with primary sources
-
----
-
-## Source Documents
-- `_source-documents/research-notes/Finnish-Stakeholders-for-High-Quality-Used-Polyester-Fiber-Sourcing.md`
-
-*Last updated: 2025-11-28*
+*Last updated: 2025-11-29 (Phase 2 Research)*

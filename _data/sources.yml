@@ -1,6 +1,6 @@
 # Sources Registry
-# Tracking all sources for FabricAir Finland Research Project
-# Last updated: 2025-11-28
+# FabricAir Nordic Research Platform
+# Last updated: 2025-11-29
 
 # Source categories
 categories:
@@ -12,377 +12,370 @@ categories:
     description: "Industry reports, research papers, news articles"
   - id: "tertiary"
     name: "Tertiary Sources"
-    description: "Compilations, summaries, Wikipedia-type sources"
+    description: "Compilations, summaries, general reference"
 
 # Verification states
 verification_states:
-  - state: "unverified"
-    description: "Source identified but content not yet verified"
+  - state: "verified"
+    description: "Content confirmed accurate through cross-reference or direct contact"
   - state: "accessed"
     description: "Source accessed and content reviewed"
-  - state: "verified"
-    description: "Content confirmed accurate through cross-reference"
+  - state: "referenced"
+    description: "Referenced but not directly verified"
   - state: "outdated"
-    description: "Information may be outdated, needs refresh"
-  - state: "disputed"
-    description: "Conflicting information from other sources"
+    description: "Information may need refresh"
 
-# Internal project sources (from _source-documents)
-internal_sources:
-  - id: "INT-001"
-    filename: "Main-question.md"
-    title: "Main Research Question"
-    type: "Project definition"
-    language: "English"
-    content_summary: "Core research question and 6 sub-questions for Finland"
-    extracted: true
+# ============================================
+# FINLAND SOURCES
+# ============================================
 
-  - id: "INT-002"
-    filename: "Main-question-How-can-Fabric-Air-access-used-high-quality-polyester-fibers-in-Finland-to-realise-its-ambitions-to-develop-100-circular-polyester-sourcing-for-its-ventilation-system.md"
-    title: "Extended Main Question"
-    type: "Project definition"
-    language: "English"
-    content_summary: "Numbered version of research questions"
-    extracted: true
+finland_sources:
+  government_statistics:
+    - id: "FI-GOV-001"
+      name: "SYKE Material Flow Analysis 2021"
+      type: "Government report"
+      category: "primary"
+      verification: "verified"
+      key_data:
+        - "85,770 tonnes/year textile waste"
+        - "60% incineration rate"
+      used_in: ["q3", "executive_summary", "nordic_comparison"]
 
-  - id: "INT-003"
-    filename: "MØTE REFERAT MED EN GOD DEL OM FABRIC AIR - 130501-Gabriel-Ben-Hei-Marianne-gabel.md"
-    title: "Meeting Notes - Gabriel, Ben, Hei, Marianne"
-    type: "Meeting transcript"
-    language: "Norwegian"
-    date: "2025-05-01"
-    participants:
-      - "Gabriel Bøen"
-      - "Jan Thomas Odegard"
-    content_summary: |
-      Discussion of NCC project, FabricAir research questions, methodology.
-      Mentions potential competition for polyester resources in Finland.
-      Discussion of dashboard/platform development.
-    key_insights:
-      - "FabricAir needs high-quality polyester from durable workwear"
-      - "White color preferred for flexibility"
-      - "Someone in Finland already working on similar project"
-      - "New EU regulation prohibits textile disposal"
-    extracted: true
+    - id: "FI-GOV-002"
+      name: "Finnish Waste Act (Decree 978/2021)"
+      type: "Legislation"
+      category: "primary"
+      verification: "verified"
+      key_data:
+        - "Mandatory collection since Jan 2023"
+      used_in: ["q4", "regulations"]
 
-  - id: "INT-004"
-    filename: "NCC segment analysis for Fabric Air - 10-4-25.md"
-    title: "NCC Segment Analysis Template"
-    type: "Analysis template"
-    language: "English"
-    date: "2025-04-10"
-    content_summary: "Structured template for segment analysis with questions defined but answers pending"
-    extracted: true
-
-  - id: "INT-005"
-    filename: "NORDIC-CIRCULAR-CONSTRUCTION-PROSJEKTRAPPORT.md"
-    title: "Nordic Circular Construction Project Report"
-    type: "Project overview"
-    language: "Norwegian"
-    content_summary: |
-      Overview of NCC project, objectives, partner companies,
-      key challenges, solutions, and 2030 ambitions.
-    extracted: true
-
-  - id: "INT-006"
-    filename: "om fabricair/FabricAir-kontekstrapport-for-research-NCCx2FNCH.md"
-    title: "FabricAir Context Report for Research"
-    type: "Context report"
-    language: "Norwegian"
-    date: "2025-08-27"
-    content_summary: |
-      Comprehensive context report consolidating FabricAir information.
-      Includes material specs, market context, research questions,
-      recommended research process, and risk assessment.
-    key_data:
-      - "30 tonnes process waste in 2024"
-      - "80% flame retardant, 30% PU, 30% antimicrobial, 20% untreated"
-      - "Finland polyester workwear: EUR 75-90M/year"
-      - "Textile ventilation: 10-15% of commercial segment"
-      - "FabricAir: 40-50% of textile ventilation in Nordics"
-    extracted: true
-
-  - id: "INT-007"
-    filename: "om fabricair/Fullstendig-utredning-av-FabricAir.md"
-    title: "Complete Investigation of FabricAir"
-    type: "Company research"
-    language: "Norwegian"
-    content_summary: "Detailed company profile including market position, leadership, sustainability"
-    extracted: true
-
-  - id: "INT-008"
-    filename: "om fabricair/Utredning-av-FabricAir.md"
-    title: "Investigation of FabricAir"
-    type: "Company research"
-    language: "Norwegian"
-    content_summary: |
-      Company profile with financials, history, products, market position,
-      environmental profile, subsidiaries, and recent news.
-    key_citations:
-      - source: "proff.dk"
-        data: "Danish company registry financials"
-      - source: "achrnews.com"
-        data: "Industry news on acquisitions"
-      - source: "everybodywiki.com"
-        data: "Company history"
-    extracted: true
-
-  - id: "INT-009"
-    filename: "om fabricair/Exhaustive-Investigation-and-Analysis-of-FabricAir.md"
-    title: "Exhaustive Investigation and Analysis of FabricAir"
-    type: "Company research"
-    language: "English"
-    content_summary: |
-      Comprehensive English-language analysis of FabricAir.
-      Includes detailed citations to external sources.
-    citation_quality: "High - extensive inline citations"
-    extracted: true
-
-  - id: "INT-010"
-    filename: "om fabricair/brRapport-Fullstendig-Utredning-av-Selskapet-Fabric-Air.md"
-    title: "Complete Company Investigation Report"
-    type: "Company research"
-    language: "Norwegian"
-    content_summary: |
-      Formal report format with executive summary, company profile,
-      product analysis, market position, sustainability, financials.
-    citation_quality: "High - numbered references at end"
-    extracted: true
-
-  # Finland Research Notes (Added 2025-11-28)
-  - id: "INT-011"
-    filename: "research-notes/Finnish-Sectors-and-Actors-Using-High-Quality-Polyester-Workwear.md"
-    title: "Finnish Sectors and Actors - Polyester Workwear"
-    type: "Research analysis"
-    language: "English"
-    maps_to: "Q1"
-    content_summary: |
-      Comprehensive sector analysis for Finland. Identifies healthcare,
-      food processing, pharmaceutical, construction as key sectors.
-      Includes company lists and volume estimates.
-    extracted: true
-    extracted_to: "docs/02-research-questions/q1-sectors-actors.md"
-
-  - id: "INT-012"
-    filename: "research-notes/2.Finnish-Sectors-and-Actors-Using-High-Quality-Polyester-Workwear.md"
-    title: "Finnish Sectors and Actors (v2 - Condensed)"
-    type: "Research analysis"
-    language: "English"
-    maps_to: "Q1"
-    content_summary: "Condensed version of sector/actor analysis"
-    extracted: true
-    extracted_to: "docs/02-research-questions/q1-sectors-actors.md"
-
-  - id: "INT-013"
-    filename: "research-notes/Main-Stakeholders-in-Finnish-High-Quality-Polyester-Textile-Production-Use-and-Reuse.md"
-    title: "Main Stakeholders in Finnish Polyester Value Chain"
-    type: "Research analysis"
-    language: "English"
-    maps_to: "Q2"
-    content_summary: |
-      200+ stakeholder mapping across production, use, and reuse.
-      Includes manufacturers, laundry services, recyclers, retailers.
-    extracted: true
-    extracted_to: "docs/02-research-questions/q2-stakeholders.md"
-
-  - id: "INT-014"
-    filename: "research-notes/High-Quality-Polyester-Textile-Disposal-and-Reuse-in-Finland-Comprehensive-Analysis.md"
-    title: "Polyester Textile Disposal and Reuse in Finland"
-    type: "Research analysis"
-    language: "English"
-    maps_to: "Q3"
-    content_summary: |
-      86,000 tonnes/year textile waste analysis. Disposal routes:
-      60% incinerated, 22% recycled, 18% exported. Flow diagrams.
-    key_data:
-      - "86,000 tonnes/year textile waste"
-      - "60% incinerated"
-      - "22% recycled"
-      - "18% exported"
-    extracted: true
-    extracted_to: "docs/02-research-questions/q3-disposal-reuse.md"
-
-  - id: "INT-015"
-    filename: "research-notes/Regulations-on-Polyester-Textile-Disposal-and-Reuse-in-Finland-Current-Framework-and-Expected-Evolution.md"
-    title: "Regulations on Polyester Textile Disposal - Finland"
-    type: "Research analysis"
-    language: "English"
-    maps_to: "Q4"
-    content_summary: |
-      Current regulatory framework and expected evolution.
-      Key timeline: EPR implementation 2027-2028.
-      Mandatory collection since Jan 2023.
-    key_data:
-      - "Mandatory collection since Jan 2023"
-      - "EPR expected 2027-2028"
-    extracted: true
-    extracted_to: "docs/02-research-questions/q4-regulations.md"
-
-  - id: "INT-016"
-    filename: "research-notes/Finnish-Textile-Regulations---Technical-List.md"
-    title: "Finnish Textile Regulations - Technical Checklist"
-    type: "Research analysis"
-    language: "English"
-    maps_to: "Q4"
-    content_summary: "Technical regulation checklist and compliance requirements"
-    extracted: true
-    extracted_to: "docs/02-research-questions/q4-regulations.md"
-
-  - id: "INT-017"
-    filename: "research-notes/Finnish-Polyester-Textile-Collection-and-Reuse-Initiatives-Status-Ambitions-and-Contact-Points.md"
-    title: "Finnish Polyester Collection and Reuse Initiatives"
-    type: "Research analysis"
-    language: "English"
-    maps_to: "Q5"
-    content_summary: |
-      Initiative mapping with contacts. LSJH, Rester, Touchpoint,
-      Lindström, Pure Waste, VTT research programs.
-    extracted: true
-    extracted_to: "docs/02-research-questions/q5-initiatives.md"
-    contacts_verified: "2025-11-28"
-
-  - id: "INT-018"
-    filename: "research-notes/Finnish-Stakeholders-for-High-Quality-Used-Polyester-Fiber-Sourcing.md"
-    title: "Top Stakeholders for Polyester Fiber Sourcing"
-    type: "Research analysis"
-    language: "English"
-    maps_to: "Q6"
-    content_summary: |
-      Top 15 stakeholder list with contacts. Tier 1: Rester, Lindström, LSJH.
-      Tier 2: Healthcare (HUS). Tier 3: Industrial aggregators.
-    extracted: true
-    extracted_to: "docs/02-research-questions/q6-top10-sources.md"
-    contacts_verified: "2025-11-28"
-
-# External sources referenced in documents
-external_sources:
   company_sources:
-    - id: "EXT-001"
-      name: "FabricAir Official Website"
-      url: "https://www.fabricair.com"
+    - id: "FI-COM-001"
+      name: "Rester Oy"
+      url: "https://rester.fi"
       type: "Company website"
       category: "primary"
-      verification: "accessed"
+      verification: "verified"
+      key_data:
+        - "6,000-12,000 t/yr capacity"
+        - "GRS certified"
+      contacts_verified: ["hello@rester.fi"]
+      used_in: ["q5", "q6", "executive_summary"]
 
-    - id: "EXT-002"
-      name: "Proff.dk - FabricAir A/S Registry"
-      url: "https://www.proff.dk/regnskab/fabricair-as/kc3b8ge/producenter/0EESJWI016D"
-      type: "Company registry"
+    - id: "FI-COM-002"
+      name: "Touchpoint Workwear"
+      url: "https://www.touchpointww.com"
+      type: "Company website"
+      category: "primary"
+      verification: "verified"
+      key_data:
+        - "Rester majority owner"
+        - "ReTouch fabric"
+      contacts_verified:
+        - "noora.salonoja@touchpoint.fi"
+        - "joni.maenpaa@touchpoint.fi"
+      used_in: ["q5", "q6", "contacts"]
+
+    - id: "FI-COM-003"
+      name: "Lindström Group"
+      url: "https://lindstromgroup.com"
+      type: "Company website"
+      category: "primary"
+      verification: "verified"
+      key_data:
+        - "50-70% market share"
+        - "Rester shareholder"
+      used_in: ["q1", "q2", "q6"]
+
+    - id: "FI-COM-004"
+      name: "LSJH (Lounais-Suomen Jätehuolto)"
+      url: "https://lsjh.fi"
+      type: "Company website"
+      category: "primary"
+      verification: "verified"
+      key_data:
+        - "Turku plant CANCELLED April 2024"
+        - "Sorting only"
+      used_in: ["q5", "executive_summary"]
+
+    - id: "FI-COM-005"
+      name: "Puro Tekstiilipalvelu"
+      url: "https://puro.fi"
+      type: "Company website"
+      category: "primary"
+      verification: "verified"
+      key_data:
+        - "45M items/year"
+        - "HUS textiles"
+      contacts_verified: ["paavo.martikainen@puro.fi"]
+      used_in: ["q6", "contacts"]
+
+  industry_sources:
+    - id: "FI-IND-001"
+      name: "Asiakastieto"
+      type: "Business registry"
+      category: "primary"
+      verification: "verified"
+      key_data:
+        - "€350-450M textile rental market"
+      used_in: ["q1", "market_analysis"]
+
+# ============================================
+# SWEDEN SOURCES
+# ============================================
+
+sweden_sources:
+  government_statistics:
+    - id: "SE-GOV-001"
+      name: "Naturvårdsverket (EPA)"
+      url: "https://www.naturvardsverket.se"
+      type: "Government agency"
+      category: "primary"
+      verification: "verified"
+      key_data:
+        - "60-80k tonnes/year textile waste"
+        - "EPR April 2028"
+      used_in: ["sweden_report", "nordic_comparison"]
+
+    - id: "SE-GOV-002"
+      name: "Vinnova"
+      url: "https://www.vinnova.se"
+      type: "Innovation agency"
       category: "primary"
       verification: "accessed"
-      data_available:
-        - "Financial statements"
-        - "Company registration"
+      key_data:
+        - "Rewin project funding"
+      used_in: ["sweden_report"]
 
-  industry_reports:
-    - id: "EXT-010"
-      name: "Verified Market Research - Fabric Air Duct Market"
-      url: "https://www.verifiedmarketresearch.com/product/fabric-air-duct-market/"
-      type: "Market report"
-      category: "secondary"
-      verification: "referenced"
-      key_data: "Market valued $1.5-4.87B (2023-2024), CAGR 5.3-14.71%"
+  company_sources:
+    - id: "SE-COM-001"
+      name: "Wargön Innovation / Rewin"
+      url: "https://wargoninnovation.se"
+      type: "Company website"
+      category: "primary"
+      verification: "verified"
+      key_data:
+        - "20,000 t/yr by October 2027"
+        - "Chemical fiber-to-fiber"
+      used_in: ["sweden_report", "executive_summary", "nordic_comparison"]
 
-    - id: "EXT-011"
-      name: "Fortune Business Insights - Fabric Air Ducts Market"
-      url: "https://www.fortunebusinessinsights.com/fabric-air-ducts-market-103773"
-      type: "Market report"
-      category: "secondary"
-      verification: "referenced"
+    - id: "SE-COM-002"
+      name: "SIPTex / Sysav"
+      url: "https://sysav.se"
+      type: "Company website"
+      category: "primary"
+      verification: "verified"
+      key_data:
+        - "24,000 t/yr sorting capacity"
+        - "NIR + visual spectroscopy"
+      contacts_verified: ["lars.carrick@sysav.se"]
+      used_in: ["sweden_report", "nordic_comparison"]
 
-    - id: "EXT-012"
-      name: "Global Growth Insights - Fabric Air Dispersion Market"
-      url: "https://www.globalgrowthinsights.com/market-reports/fabric-air-dispersion-market-102139"
-      type: "Market report"
-      category: "secondary"
-      verification: "referenced"
-      key_data: "Market ~USD 410M (2023)"
+    - id: "SE-COM-003"
+      name: "Elis Sweden"
+      url: "https://se.elis.com"
+      type: "Company website"
+      category: "primary"
+      verification: "verified"
+      contacts_verified: ["patrik.nyholm@elis.com"]
+      used_in: ["sweden_report", "contacts"]
 
-  news_sources:
-    - id: "EXT-020"
-      name: "ACHR News - FabricAir acquires Borealis Wind"
-      url: "https://www.achrnews.com/articles/153405-wind-turbine-fabric-hvac-duct-company-bought-by-fabricair"
-      type: "News article"
-      category: "secondary"
-      date: "2023"
+  research_sources:
+    - id: "SE-RES-001"
+      name: "RE:Source / RISE"
+      url: "https://resource-sip.se"
+      type: "Research program"
+      category: "primary"
       verification: "accessed"
+      used_in: ["sweden_report"]
 
-    - id: "EXT-021"
-      name: "HVAC Insider - HE Suspension System launch"
-      url: "https://hvacinsider.com/fabricairintroduces-the-he-suspension-system-for-fabric-hvac-ducts-in-harsh-environments/"
-      type: "News article"
+    - id: "SE-RES-002"
+      name: "Chalmers University"
+      type: "Academic"
       category: "secondary"
-      date: "2023-01-05"
-      verification: "referenced"
-
-  reference_sources:
-    - id: "EXT-030"
-      name: "EverybodyWiki - FabricAir"
-      url: "https://en.everybodywiki.com/FabricAir"
-      type: "Encyclopedia"
-      category: "tertiary"
       verification: "accessed"
-      note: "Used for historical information, cross-reference recommended"
+      key_data:
+        - "Textile recycling research"
+      used_in: ["sweden_report"]
 
-# Sources to be researched (Finland-specific)
-pending_research:
-  finland_statistics:
-    - name: "Statistics Finland (Tilastokeskus)"
-      url: "https://www.stat.fi"
-      relevance: "Textile industry statistics, waste statistics"
-      status: "to_research"
+# ============================================
+# NORWAY SOURCES
+# ============================================
 
-    - name: "Finnish Environment Institute (SYKE)"
-      url: "https://www.syke.fi"
-      relevance: "Environmental regulations, textile waste data"
-      status: "to_research"
+norway_sources:
+  government_statistics:
+    - id: "NO-GOV-001"
+      name: "SSB (Statistics Norway)"
+      url: "https://www.ssb.no"
+      type: "Government statistics"
+      category: "primary"
+      verification: "verified"
+      key_data:
+        - "~100,000 tonnes/year textile waste"
+      used_in: ["norway_report", "nordic_comparison"]
 
-  finnish_textile_industry:
-    - name: "Suomen Tekstiili & Muoti (Finnish Textile & Fashion)"
-      relevance: "Industry association, market data"
-      status: "to_research"
+    - id: "NO-GOV-002"
+      name: "Miljødirektoratet"
+      type: "Environment agency"
+      category: "primary"
+      verification: "accessed"
+      key_data:
+        - "EPR timeline under review"
+      used_in: ["norway_report"]
 
-    - name: "TEXJOBS Finland"
-      relevance: "Textile industry employment and companies"
-      status: "to_research"
+  company_sources:
+    - id: "NO-COM-001"
+      name: "NTG (Norsk Tekstilgjenvinning)"
+      url: "https://www.ntgas.no"
+      type: "Company website"
+      category: "primary"
+      verification: "verified"
+      key_data:
+        - "30,000 t/yr target by ~2029"
+        - "Patented defibration"
+        - "Handles poly-cotton blends"
+      contacts_verified: ["btm@ntgas.no"]
+      used_in: ["norway_report", "executive_summary", "nordic_comparison"]
 
-  recycling_initiatives:
-    - name: "Lounais-Suomen Jätehuolto (LSJH)"
-      relevance: "Regional waste management with textile programs"
-      status: "to_research"
+    - id: "NO-COM-002"
+      name: "Nor Tekstil"
+      url: "https://www.nortekstil.no"
+      type: "Company website"
+      category: "primary"
+      verification: "verified"
+      key_data:
+        - "Largest Norwegian textile services"
+        - "€118M revenue"
+      contacts_verified: ["thomas.karlsen@nortekstil.no"]
+      used_in: ["norway_report", "contacts"]
 
-    - name: "Rinki"
-      relevance: "Producer responsibility organization"
-      status: "to_research"
+    - id: "NO-COM-003"
+      name: "Fretex"
+      url: "https://fretex.no"
+      type: "Company website"
+      category: "primary"
+      verification: "verified"
+      key_data:
+        - "13,500 t/yr collection"
+      contacts_verified: ["kristin.hareide@fretex.no"]
+      used_in: ["norway_report", "contacts"]
 
-  research_institutions:
-    - name: "VTT Technical Research Centre of Finland"
-      relevance: "Textile recycling research"
-      status: "to_research"
+    - id: "NO-COM-004"
+      name: "Elis Norge"
+      url: "https://no.elis.com"
+      type: "Company website"
+      category: "primary"
+      verification: "verified"
+      contacts_verified: ["marit.flinder@elis.com"]
+      used_in: ["norway_report", "contacts"]
 
-    - name: "Aalto University"
-      relevance: "Fiber technology research"
-      status: "to_research"
+# ============================================
+# INTERNAL PROJECT SOURCES
+# ============================================
 
-# Nordic textile reports mentioned
-nordic_reports:
-  note: "145+ reports referenced in NCC project"
-  priority_reports:
-    - name: "Insights and Lessons from Nordic textile studies"
-      status: "to_locate"
-      mentioned_in: "Meeting notes"
+internal_sources:
+  finland_research:
+    - id: "INT-FI-001"
+      filename: "Finnish-Sectors-and-Actors-Using-High-Quality-Polyester-Workwear.md"
+      maps_to: "Q1"
+      status: "extracted"
 
-# Source quality guidelines
-quality_guidelines:
-  citation_requirements:
-    - "All factual claims must have source reference"
-    - "Primary sources preferred over secondary"
-    - "Date of access/publication should be noted"
-    - "Cross-reference claims from single sources"
+    - id: "INT-FI-002"
+      filename: "Main-Stakeholders-in-Finnish-High-Quality-Polyester-Textile-Production-Use-and-Reuse.md"
+      maps_to: "Q2"
+      status: "extracted"
 
-  verification_process:
-    step_1: "Locate original source"
-    step_2: "Verify quote/data accuracy"
-    step_3: "Check for more recent updates"
-    step_4: "Cross-reference with alternative sources"
-    step_5: "Mark verification status"
+    - id: "INT-FI-003"
+      filename: "High-Quality-Polyester-Textile-Disposal-and-Reuse-in-Finland.md"
+      maps_to: "Q3"
+      status: "extracted"
+
+    - id: "INT-FI-004"
+      filename: "Regulations-on-Polyester-Textile-Disposal-and-Reuse-in-Finland.md"
+      maps_to: "Q4"
+      status: "extracted"
+
+    - id: "INT-FI-005"
+      filename: "Finnish-Polyester-Textile-Collection-and-Reuse-Initiatives.md"
+      maps_to: "Q5"
+      status: "extracted"
+
+    - id: "INT-FI-006"
+      filename: "Finnish-Stakeholders-for-High-Quality-Used-Polyester-Fiber-Sourcing.md"
+      maps_to: "Q6"
+      status: "extracted"
+
+  verification_reports:
+    - id: "VER-FI-P1"
+      title: "Finland P1 Verification - Critical Claims"
+      path: "docs/_internal/finland/P1-VERIFICATION-REPORT.md"
+      status: "complete"
+
+    - id: "VER-FI-P2"
+      title: "Finland P2 Verification - Operations"
+      path: "docs/_internal/finland/P2-VERIFICATION-REPORT.md"
+      status: "complete"
+
+    - id: "VER-FI-P3"
+      title: "Finland P3 Verification - Strategy"
+      path: "docs/_internal/finland/P3-VERIFICATION-REPORT.md"
+      status: "complete"
+
+    - id: "VER-SE-P1"
+      title: "Sweden P1 Verification"
+      path: "docs/_internal/sweden/SWEDEN-VERIFICATION-P1.md"
+      status: "complete"
+
+    - id: "VER-SE-P2"
+      title: "Sweden P2 Verification"
+      path: "docs/_internal/sweden/SWEDEN-VERIFICATION-P2.md"
+      status: "complete"
+
+    - id: "VER-SE-P3"
+      title: "Sweden P3 Verification"
+      path: "docs/_internal/sweden/SWEDEN-VERIFICATION-P3.md"
+      status: "complete"
+
+    - id: "VER-NO-P1"
+      title: "Norway P1 Verification"
+      path: "docs/_internal/norway/NORWAY-VERIFICATION-P1.md"
+      status: "complete"
+
+    - id: "VER-NO-P2P3"
+      title: "Norway P2-P3 Verification"
+      path: "docs/_internal/norway/NORWAY-VERIFICATION-P2-P3.md"
+      status: "complete"
+
+# ============================================
+# SOURCE INTERCONNECTION
+# ============================================
+
+interconnection:
+  description: |
+    Sources are interconnected with documents through the 'used_in' field.
+    When a source is updated, all dependent documents should be reviewed.
+
+  propagation_rules:
+    - trigger: "Source data changes"
+      action: "Update all documents in 'used_in' list"
+
+    - trigger: "Contact verification"
+      action: "Update contacts_directory and relevant q6/country reports"
+
+    - trigger: "New source added"
+      action: "Add to registry and link to relevant documents"
+
+# ============================================
+# SOURCE QUALITY SUMMARY
+# ============================================
+
+quality_summary:
+  last_updated: "2025-11-29"
+  total_sources: 30+
+  verified: 25
+  accessed: 5
+  by_country:
+    finland: 18
+    sweden: 7
+    norway: 6

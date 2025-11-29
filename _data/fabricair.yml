@@ -1,6 +1,6 @@
 # FabricAir Company Data
-# Extracted from source documents for Finland circular polyester research project
-# Last updated: 2025-11-28
+# Nordic Circular Polyester Research Project
+# Last updated: 2025-11-29
 
 company:
   name: "FabricAir A/S"
@@ -14,87 +14,36 @@ company:
   employees_global: 250
   subsidiaries: 18
   countries_served: 120+
-  export_share: "80-85%"
-
-  history:
-    - year: 1973
-      event: "First fabric-based air distribution system installed in Danish slaughterhouse"
-      note: "Originally part of IPS Dansk Presenning A/S under Electrolux Group"
-    - year: 1997
-      event: "Electrolux sold tarpaulin division; IPS Ventilation established US subsidiary"
-    - year: 1998
-      event: "Became part of Stavdal ASA"
-    - year: 1999
-      event: "Acquired by Veidekke; separated as IPS Ventilation A/S"
-    - year: 2003
-      event: "Established production facility in Alytus, Lithuania"
-    - year: 2005
-      event: "Brian Refsgaard acquired company; renamed to FabricAir A/S"
-    - year: 2023
-      event: "50th anniversary; acquired Borealis Wind (Canada); established India subsidiary"
 
   financials:
-    note: "Private company - limited public financial data"
     estimated_global_revenue_2023: "$180 million USD"
-    gross_profit_2024_dkk: 22390000
-    net_profit_2024_dkk: 9580000
-    equity_2024_dkk: 65000000
-    growth_gross_profit_2023_2024: "37%"
-    growth_net_profit_2023_2024: "64%"
     customer_retention_rate: "95%"
     on_time_delivery: "99.7%"
 
   production:
     main_facility: "Alytus, Lithuania"
-    facility_established: 2003
     lead_times: "3-21 days"
-    capacity_expansion_recent: "30%"
 
-  leadership:
-    - name: "Brian Refsgaard"
-      role: "Owner & CEO"
-      since: 2005
-    - name: "Hans Henrik Thrane"
-      role: "Group CFO"
-      appointed: "June 2025"
-    - name: "Paulius Bareika"
-      role: "Chief Technology Officer"
-    - name: "Rūta Kairienė"
-      role: "Chief Marketing Officer"
-    - name: "Kirsten Sohnesen"
-      role: "CHRO"
-
-  board:
-    - name: "Palle Jørgensen"
-      role: "Chairman"
-    - name: "Niels Valdemar Juhl"
-      role: "Board Member"
-    - name: "Gitte Haar"
-      role: "Board Member"
-
-# Material specifications for circular sourcing project
+# Material specifications for circular sourcing
 material_requirements:
   current_material:
     type: "100% Polyester (PET)"
     weight: "~300 g/m²"
     thickness: "~0.4 mm"
-    colors: "Multicolor (white preferred for flexibility)"
+    colors: "Multicolor (white preferred)"
 
   process_waste_2024:
     volume_tonnes: 30
     source: "Cutting waste from production"
 
   finish_distribution:
-    # Note: percentages overlap
     flame_retardant:
       percentage: 80
       type: "Phosphorus-based, non-washable"
     pu_coating:
       percentage: 30
-      type: "Thin PU coating"
     antimicrobial:
       percentage: 30
-      type: "Antimicrobial finish"
     untreated:
       percentage: 20
       note: "Recommended for pilot - easiest to process"
@@ -105,10 +54,60 @@ material_requirements:
     pilot_recommendation: "Start with untreated 20% fraction"
 
   feedstock_requirements:
-    quality: "High-quality polyester fibers"
-    typical_source: "Durable workwear/uniforms with coarse fibers"
+    material: "100% Polyester (PET)"
+    weight: "~300 g/m²"
     color_preference: "White (most flexible for re-dyeing)"
-    specification_needed: "Precise quality description required before sourcing"
+    typical_source: "Durable workwear, uniforms"
+    NOT_suitable: "Polyester/cotton blends (65/35)"
+
+# Nordic compatibility assessment
+nordic_compatibility:
+  critical_finding: |
+    Most Nordic workwear is 65% polyester / 35% cotton blends,
+    which are NOT compatible with FabricAir requirements.
+    Target cleanroom, healthcare white coats, and food processing
+    for 100% polyester sources.
+
+  compatible_sources:
+    - source: "Hospital white coats"
+      composition: "100% polyester"
+      suitable: true
+
+    - source: "Cleanroom garments"
+      composition: "99% PET / 1% carbon"
+      suitable: true
+
+    - source: "Food industry uniforms"
+      composition: "Often 100% polyester"
+      suitable: true
+
+    - source: "Hotel linens"
+      composition: "Often 100% PET"
+      suitable: true
+
+    - source: "Standard workwear"
+      composition: "65/35 poly-cotton"
+      suitable: false
+
+  best_sectors:
+    - rank: 1
+      sector: "Pharmaceutical/Cleanroom"
+      white_percentage: ">90%"
+      pure_pet: true
+      countries: ["Finland (Orion)", "Sweden (AstraZeneca)", "Norway (Takeda)"]
+
+    - rank: 2
+      sector: "Food Processing"
+      white_percentage: "70-80%"
+      pure_pet: "mixed"
+      countries: ["Finland (Valio, Fazer)", "All Nordic"]
+
+    - rank: 3
+      sector: "Healthcare"
+      white_percentage: "~60%"
+      pure_pet: "often blends"
+      countries: ["All Nordic"]
+      note: "Shifting away from white"
 
 # Sustainability goals
 sustainability:
@@ -117,32 +116,14 @@ sustainability:
       deadline: 2030
     - target: "90% recycled input materials"
       deadline: "Not specified"
-    - target: "60% reduction in water consumption"
-      deadline: "Not specified"
-    - target: "Net zero emissions across value chain"
-      deadline: 2030
+    - target: "100% circular polyester sourcing"
+      deadline: "Project goal"
 
   certifications:
-    - name: "ISO 9001"
-      scope: "Quality Management"
-    - name: "ISO 14001"
-      scope: "Environmental Management"
-    - name: "Oeko-Tex Standard 100"
-      scope: "Material safety - free from harmful substances"
-    - name: "UL 2518 / ULC"
-      scope: "Product safety (US/Canada)"
-    - name: "EN 13501-1"
-      scope: "Fire classification (Europe)"
-    - name: "REACH compliance"
-      scope: "Chemical safety (EU)"
-    - name: "Environmental Product Declaration (EPD)"
-      scope: "Lifecycle environmental impact"
-
-  environmental_benefits:
-    energy_savings: "Up to 40% compared to traditional systems"
-    carbon_footprint: "35% lower than conventional solutions"
-    transport_emissions: "21.3x less CO2 than metal ducts"
-    installation_cost_reduction: "Up to 70%"
+    - "ISO 9001 (Quality)"
+    - "ISO 14001 (Environmental)"
+    - "Oeko-Tex Standard 100"
+    - "Environmental Product Declaration (EPD)"
 
 # Project contacts
 contacts:
@@ -151,6 +132,7 @@ contacts:
     role: "ESG"
     email: "dri@fabricair.com"
     phone: "+370 685 72958"
+
   secondary:
     name: "Gitte Haar"
     role: "CCE / Board Member"
@@ -161,27 +143,67 @@ contacts:
 # Market position
 market_position:
   global_ranking: 2
-  top_competitors:
-    - name: "ATC"
-      country: "USA"
-      revenue_2023: "$200M"
-    - name: "FabricAir"
-      country: "Denmark"
-      revenue_2023: "$180M"
-    - name: "Tianjin TEDA Bosion"
-      country: "China"
-      revenue_2023: "$150M"
-    - name: "DuctSox"
-      country: "USA"
-      revenue_2023: "$130M"
-    - name: "Suzhou Buding"
-      country: "China"
-      revenue_2023: "$120M"
-    - name: "Prihoda"
-      country: "Czech Republic"
-      revenue_2023: "$100M"
+  estimated_revenue: "$180M (2023)"
+  nordic_textile_ventilation_share: "40-50%"
 
-  nordic_market:
-    textile_ventilation_share: "10-15% of commercial/industrial segment (2025)"
-    fabricair_share_in_textile: "40-50%"
-    market_cagr: "~6%"
+# Recommended Nordic partners
+recommended_partners:
+  recyclers:
+    - name: "Rester"
+      country: "Finland"
+      status: "Operational now"
+      capacity: "6-12k t/yr"
+      contact: "hello@rester.fi"
+      priority: 1
+
+    - name: "NTG"
+      country: "Norway"
+      status: "Scaling to 30k t/yr by ~2029"
+      unique: "Handles poly-cotton blends"
+      contact: "btm@ntgas.no"
+      priority: 2
+
+    - name: "Rewin"
+      country: "Sweden"
+      status: "20k t/yr by October 2027"
+      technology: "Chemical (virgin quality output)"
+      contact: "via wargoninnovation.se"
+      priority: 3
+
+  feedstock_sources:
+    - name: "Touchpoint"
+      country: "Finland"
+      role: "Workwear, Rester majority owner"
+      contact: "noora.salonoja@touchpoint.fi"
+
+    - name: "Puro"
+      country: "Finland"
+      role: "Healthcare textiles (HUS)"
+      contact: "paavo.martikainen@puro.fi"
+
+    - name: "Nor Tekstil"
+      country: "Norway"
+      role: "Healthcare textiles"
+      contact: "thomas.karlsen@nortekstil.no"
+
+# rPET pricing context
+pricing:
+  virgin_pet: "€1.0-1.3/kg"
+  recycled_pet: "€1.5-2.0/kg"
+  premium: "50-70%"
+  note: "Volume commitments may reduce premium"
+
+# Interconnection with project
+project_interconnection:
+  material_requirements_affect:
+    - "All sector analyses (Q1, Sweden, Norway)"
+    - "Compatibility assessments"
+    - "Partner recommendations"
+    - "Best source rankings"
+
+  on_update: |
+    If FabricAir material requirements change, review and update:
+    - docs/01-context/fabricair.md
+    - All Q1 sector analyses
+    - All country report compatibility sections
+    - Executive summary recommendations

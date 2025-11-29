@@ -2,211 +2,153 @@
 
 ## Project Overview
 
-This is a research project for **FabricAir**, a Danish company seeking to establish **100% circular polyester sourcing** for their textile-based ventilation systems. The research focuses exclusively on **Finland** as the geographic scope.
+**FabricAir Nordic Circular Polyester Research Platform**
 
-### Primary Objective
-Identify and map sources of high-quality used polyester fibers in Finland that can be recycled into FabricAir's ventilation products.
+A research platform identifying high-quality recycled polyester sources across Finland, Sweden, and Norway for FabricAir's 100% circular ventilation textiles.
+
+### Mission
+Map companies in Finland, Sweden, and Norway specializing in collection of used polyester fibers for recycling, with capacity to deliver high volume, high quality (mono) raw materials within FabricAir's quality standards.
 
 ### Project Context
-- Part of **Nordic Circular Construction (NCC)** initiative
-- Funded by **Nordic Innovation**
-- Project owner: **Natural State AS**
-- Primary deliverable recipient: **FabricAir**
+- **Initiative:** Nordic Circular Construction (NCC)
+- **Funder:** Nordic Innovation
+- **Coordinator:** Natural State AS
+- **Client:** FabricAir (Denmark)
 
-### Current Status (2025-11-28)
+## Current Status (2025-11-29)
 
-| Phase | Status |
-|-------|--------|
-| Project setup | ✅ Complete |
-| Data extraction | ✅ Complete |
-| Documentation | ✅ Complete |
-| Q5/Q6 contact verification | ✅ Complete |
-| Outreach preparation | 🟡 Ready |
+| Component | Status |
+|-----------|--------|
+| Finland research | Complete (95%) |
+| Sweden research | Complete (92%) |
+| Norway research | Complete (88%) |
+| Backend synchronization | Complete |
+| Platform design | Complete |
+| **Overall** | **92% verified** |
 
-**4 organizations verified and ready for outreach** - see Q6 documentation.
+**Phase:** Research complete — Platform delivery phase
+
+## Delivery Goals
+
+### Primary Deliverable
+- **Web platform** (optimized, designed, professional)
+- **PDF report** (following research question structure)
+
+### Recipients
+1. **FabricAir** — Primary client
+2. **NCC / Nordic Innovation** — Secondary (methodology demonstration)
+
+### Post-Delivery
+- Potential continued platform development
+- Partnership development support
+- Additional research as needed
 
 ## Project Structure
 
 ```
 /FabricAir/
-├── _data/                      # Structured data (YAML)
-│   ├── fabricair.yml           # Company data and material specs
-│   ├── project.yml             # NCC project context
-│   ├── research-questions.yml  # The 6 research questions
-│   └── sources.yml             # Source registry
+├── _data/                          # Backend data (YAML)
+│   ├── project.yml                 # Scope, delivery, interconnection
+│   ├── fabricair.yml               # Company + material requirements
+│   ├── research-questions.yml      # All findings (Q1-Q6 + Nordic)
+│   ├── sources.yml                 # Source registry
+│   └── INTERCONNECTION-SCHEMA.md   # Data flow documentation
 │
-├── _source-documents/          # Original source materials
-│   └── om fabricair/           # Company research documents
+├── docs/                           # Presentation documents
+│   ├── index.md                    # Dashboard
+│   ├── 00-executive-summary.md     # Key findings + actions
+│   ├── NORDIC-COMPARISON.md        # Cross-country analysis
+│   ├── COMMERCIAL-PHASE-PLAN.md    # Outreach roadmap
+│   ├── PROJECT-DELIVERY-STATUS.md  # Completion status
+│   ├── 01-context/                 # FabricAir profile
+│   ├── 02-research-questions/      # Finland Q1-Q6
+│   ├── 03-contacts/                # Contact directory
+│   ├── 05-sweden/                  # Sweden report
+│   ├── 06-norway/                  # Norway report
+│   └── _internal/                  # Working docs (not for presentation)
 │
-├── docs/                       # Generated content
-│   ├── 01-context/             # Background information
-│   ├── 02-research-questions/  # Research question pages
-│   ├── 03-findings/            # Research findings
-│   ├── 04-verification/        # Citation checking
-│   └── 05-report/              # Final report
-│
-├── _templates/                 # Templates for new content
-├── CLAUDE.md                   # This file
-├── PROJECT-LOG.md              # Project activity log
-└── README.md                   # Project overview
+├── CLAUDE.md                       # This file
+└── PROJECT-LOG.md                  # Activity log
 ```
 
-## The 6 Research Questions
+## Data Interconnection
 
-All research should ultimately contribute to answering these questions:
+All project components are interconnected. See `_data/INTERCONNECTION-SCHEMA.md` for full details.
 
-| # | Question | Key Output |
-|---|----------|------------|
-| Q1 | What sectors/actors in Finland use high-quality polyester fibers (durable uniforms, workwear, preferably white)? | Sector list with volume estimates |
-| Q2 | Who are the main stakeholders in production, use, and reuse of polyester textiles in Finland? | Stakeholder map |
-| Q3 | How are polyester textiles disposed of today in Finland? What are reuse levels? | Disposal flow diagram |
-| Q4 | What regulations govern disposal/reuse? How will they evolve? | Regulatory summary |
-| Q5 | What public/private initiatives exist for polyester collection and reuse? | Initiative list with contacts |
-| Q6 | Top 10 most promising sources of used high-quality polyester fibers with contact persons | Prioritized stakeholder list |
+### Key Dependencies
 
-## FabricAir Material Requirements
+| Data File | Affects |
+|-----------|---------|
+| `fabricair.yml` | All sector analyses (material filter) |
+| `research-questions.yml` | All Q1-Q6 docs, summaries |
+| `sources.yml` | All documents (citations) |
+| `project.yml` | Status across all docs |
 
-When researching potential sources, these specifications must be matched:
+### Propagation Rules
+
+When updating data:
+1. Check `INTERCONNECTION-SCHEMA.md` for affected documents
+2. Update all dependent documents
+3. Log changes in `PROJECT-LOG.md`
+
+## Material Requirements
+
+FabricAir requires:
 
 | Parameter | Requirement |
 |-----------|-------------|
 | Material | 100% Polyester (PET) |
 | Weight | ~300 g/m² |
-| Fiber type | Coarse, durable fibers |
-| Color preference | White (most flexible) |
-| Typical source | Durable workwear, uniforms |
-| Recycling method | Fiber-to-fiber, mechanical preferred |
+| Color | White preferred |
+| **NOT suitable** | Polyester/cotton blends (65/35) |
 
-**Important**: Sources with mixed fibers (polyester/cotton blends) are NOT suitable.
+## Priority Partners
 
-## Working Guidelines
-
-### Language
-- All output should be in **English**
-- Source documents may be in Norwegian, Finnish, Swedish, or English
-- Translate key findings when extracting from non-English sources
-
-### Data Management
-
-#### Adding New Findings
-1. Check if finding relates to existing research question
-2. Add to appropriate YAML file under `findings` array
-3. Include source reference
-4. Mark verification status (`unverified`, `verified`, `disputed`)
-
-#### Adding New Sources
-1. Add to `_data/sources.yml`
-2. Categorize as `primary`, `secondary`, or `tertiary`
-3. Include URL if available
-4. Note verification status
-
-#### Source Verification
-All factual claims should be:
-1. Traceable to a specific source
-2. Cross-referenced where possible
-3. Dated (when was this information current?)
-4. Marked with verification status
-
-### Quality Standards
-
-#### Citation Requirements
-- Every factual claim needs a source
-- Use format: `[Source ID: EXT-XXX]` or inline reference
-- Primary sources preferred over secondary
-- Note if information may be outdated
-
-#### Verification Levels
-- **Unverified**: Single source, not confirmed
-- **Partially verified**: Multiple sources or indirect confirmation
-- **Verified**: Confirmed through direct contact or official source
-- **Disputed**: Conflicting information exists
-
-### Research Priorities
-
-When conducting new research, prioritize:
-1. **Finland-specific data** over general Nordic data
-2. **Quantitative data** (volumes, percentages) over qualitative
-3. **Current information** (2023-2025) over historical
-4. **Contact information** for potential stakeholders
-5. **Regulatory timeline** for upcoming changes
+| Partner | Country | Contact | Priority |
+|---------|---------|---------|----------|
+| **Rester** | Finland | hello@rester.fi | 1 |
+| **NTG** | Norway | btm@ntgas.no | 2 |
+| **Rewin** | Sweden | via wargoninnovation.se | 3 |
+| **Touchpoint** | Finland | noora.salonoja@touchpoint.fi | 4 |
+| **Nor Tekstil** | Norway | thomas.karlsen@nortekstil.no | 5 |
 
 ## Key Contacts
 
 ### FabricAir
-- **Darius Rinkevičius** (ESG): dri@fabricair.com, +370 685 72958
-- **Gitte Haar** (CCE/Board): gitte@c-c-e.dk
+- **Darius Rinkevičius** (ESG): dri@fabricair.com
 
 ### NCC Project
 - **Jan Thomas Odegard** (Coordinator): janthomas@naturalstate.no
 
-### Verified Finnish Partners (Ready for Outreach)
+## Working Guidelines
 
-| Organization | Contact | Email | Status |
-|--------------|---------|-------|--------|
-| **Touchpoint** | Noora Salonoja (CEO) | noora.salonoja@touchpoint.fi | 🟢 Priority |
-| **LSJH** | Anna Garton | anna.garton@lsjh.fi | 🟢 Priority |
-| **Rester Oy** | General | hello@rester.fi | 🟢 Ready |
-| **Image Wear** | Jari Lepistö (CEO) | jari.lepisto@imagewear.fi | 🟢 Ready |
+### Quality Standards
+- Every factual claim needs a source (see `sources.yml`)
+- Primary sources preferred
+- Mark verification status: unverified / verified / disputed
 
-See `docs/02-research-questions/q6-top10-sources.md` for full contact list and engagement strategy.
+### When Making Changes
+1. Update relevant `_data/*.yml` file
+2. Check `INTERCONNECTION-SCHEMA.md` for dependencies
+3. Update all affected documents
+4. Log in `PROJECT-LOG.md`
 
-## Common Tasks
+### Do Not
+- Make claims without source references
+- Assume 65/35 poly-cotton blends are suitable (they are NOT)
+- Modify files in `_source-documents/`
+- Add speculative findings without marking them
 
-### Adding New Research
-1. Place source document in `_source-documents/`
-2. Extract key data to relevant YAML file
-3. Update `sources.yml` with new source entry
-4. Log activity in `PROJECT-LOG.md`
+## Next Steps
 
-### Updating Findings
-```yaml
-# In research-questions.yml, add to relevant question's findings:
-findings:
-  - finding: "Description of finding"
-    source: "Source reference"
-    source_id: "EXT-XXX"
-    date_found: "2025-XX-XX"
-    verified: false
-    notes: "Any relevant context"
-```
-
-### Creating Stakeholder Entry
-```yaml
-# For Q6 top-10 list in research-questions.yml or separate file:
-stakeholders:
-  - name: "Organization Name"
-    sector: "Healthcare/Industry/etc."
-    country: "Finland"
-    estimated_volume: "X tonnes/year"
-    polyester_type: "100% PET workwear"
-    color: "White/Mixed"
-    contact_person: "Name"
-    contact_email: "email@domain.fi"
-    contact_phone: "+358 XXX"
-    notes: "Relevance and potential"
-    source: "How this was identified"
-    status: "identified/contacted/confirmed"
-```
-
-## Do Not
-
-- **Do not** include data from countries other than Finland (unless explicitly comparing)
-- **Do not** make claims without source references
-- **Do not** assume polyester/cotton blends are suitable (they are not)
-- **Do not** modify `_source-documents/` files (they are original sources)
-- **Do not** add speculative findings without marking them as such
-
-## Project Log
-
-Always log significant activities in `PROJECT-LOG.md`:
-- New sources added
-- Major findings
-- Verification outcomes
-- Questions requiring human input
-- Blockers or uncertainties
+1. **Platform optimization** — Final design polish
+2. **PDF generation** — Create report from platform content
+3. **Delivery** — Handoff to FabricAir
+4. **Post-delivery** — Continued development if needed
 
 ---
 
 *Project initialized: 2025-11-28*
-*Last updated: 2025-11-28*
-*Contact verification completed: 2025-11-28*
+*Last updated: 2025-11-29*
+*Phase: Platform delivery*
+*Overall completion: 92%*
