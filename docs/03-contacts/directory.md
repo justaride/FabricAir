@@ -11,13 +11,15 @@ Verified contacts for Nordic polyester sourcing outreach.
 ### Priority Emails
 
 ```
-hello@rester.fi                      # Rester (Finland recycler)
+hello@rester.fi                      # Rester (Finland recycler) - PRIORITY
 btm@ntgas.no                         # NTG (Norway recycler)
 noora.salonoja@touchpoint.fi         # Touchpoint (workwear)
 paavo.martikainen@puro.fi            # Puro (healthcare)
-kati.pallasaho@lindstromgroup.com    # Lindström
+carolina.sved@orion.fi               # Orion (cleanroom - 100% PET)
 thomas.karlsen@nortekstil.no         # Nor Tekstil (Norway)
 ```
+
+**Note:** ~~Lindström~~ excluded — uses 65:35 poly-cotton blend (NOT compatible with FabricAir requirements)
 
 ### Priority Phones
 
@@ -26,7 +28,6 @@ Touchpoint (Noora):    +358 50 323 9620
 Puro (Paavo):          +358 50 501 8998
 NTG (Bent):            +47 906 43 555
 Nor Tekstil (Thomas):  +47 982 05 026
-Lindström (General):   +358 20 111 600
 ```
 
 ---
@@ -48,8 +49,7 @@ Lindström (General):   +358 20 111 600
 | **Touchpoint** | Noora Salonoja (CEO) | noora.salonoja@touchpoint.fi | +358 50 323 9620 |
 | | Joni Mäenpää (Sales) | joni.maenpaa@touchpoint.fi | +358 41 318 1614 |
 | | Anni Wulff-Kokko | anni.wulff-kokko@touchpoint.fi | +358 50 339 6362 |
-| **Lindström** | Kati Pallasaho (SVP) | kati.pallasaho@lindstromgroup.com | — |
-| | General | lindstrom@lindstromgroup.com | +358 20 111 600 |
+| ~~**Lindström**~~ | ⚠️ NOT COMPATIBLE | 65:35 poly-cotton blend | — |
 | **SOL Group** | Marja Innanen | marja.innanen@sol.fi | — |
 | **Image Wear** | Jari Lepistö (CEO) | jari.lepisto@imagewear.fi | +358 50 60212 |
 
@@ -146,4 +146,12 @@ Lindström (General):   +358 20 111 600
 
 ---
 
-*Last updated: 2025-11-28*
+## Contact Level Note
+
+**Important:** Most contacts provided are at CEO/executive level (strategic contacts). The original requirement asked for "persons responsible for disposing" (operational contacts like facilities managers, waste coordinators). This gap remains partially unresolved.
+
+**Operational contact found:** HUS Logistics — logistiikka.asiakaspalvelu@hus.fi
+
+---
+
+*Last updated: 2025-11-29 (Phase 2)*

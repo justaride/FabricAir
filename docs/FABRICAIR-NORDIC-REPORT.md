@@ -62,14 +62,16 @@ Map companies in Finland, Sweden, and Norway specializing in collection of used 
 
 **LSJH Turku recycling plant cancelled (April 2024).** Rester is now Finland's only large-scale textile recycler.
 
-### Priority Partners (Finland)
+### Priority Partners (Finland) — Updated
 
 | Rank | Organization | Type | Contact |
 |------|--------------|------|---------|
 | 1 | Rester | Recycler | hello@rester.fi |
-| 2 | Touchpoint | Aggregator | noora.salonoja@touchpoint.fi |
-| 3 | Puro | Healthcare | paavo.martikainen@puro.fi |
-| 4 | Lindström | Aggregator | kati.pallasaho@lindstromgroup.com |
+| 2 | Puro | Healthcare | paavo.martikainen@puro.fi |
+| 3 | Touchpoint | Aggregator | noora.salonoja@touchpoint.fi |
+| 4 | Orion | Cleanroom | carolina.sved@orion.fi |
+
+**Note:** ~~Lindström~~ downgraded to #9 — uses 65:35 poly-cotton blend (NOT compatible)
 
 ### Best 100% White Polyester Sources
 
@@ -152,10 +154,12 @@ Cleanroom sector (AstraZeneca, Pfizer) — 100% polyester, white, ~7,000 employe
 
 ---
 
-## Critical Findings
+## Critical Findings (Phase 2 Updated)
 
 | Finding | Impact |
 |---------|--------|
+| **Lindström uses 65:35 blends** | 400 t/year volume INCOMPATIBLE — downgraded to #9 |
+| **Volume estimate revised** | 5-10k t/yr → **350-1,000 t/yr** accessible |
 | LSJH Turku plant cancelled | Rester is now primary Finnish recycler |
 | 65/35 blends NOT suitable | Target cleanroom/pharma for 100% PET |
 | Rewin 20k t/yr by 2027 | Sweden domestic option coming |
@@ -217,8 +221,9 @@ Cleanroom sector (AstraZeneca, Pfizer) — 100% polyester, white, ~7,000 employe
 |--------------|---------|---------|-------|
 | Touchpoint | Finland | Noora Salonoja | noora.salonoja@touchpoint.fi |
 | Puro | Finland | Paavo Martikainen | paavo.martikainen@puro.fi |
-| Lindström | Finland | Kati Pallasaho | kati.pallasaho@lindstromgroup.com |
 | Nor Tekstil | Norway | Thomas Karlsen | thomas.karlsen@nortekstil.no |
+
+**Note:** ~~Lindström~~ excluded (65:35 blend NOT compatible)
 
 ### Project Contacts
 
@@ -229,14 +234,16 @@ Cleanroom sector (AstraZeneca, Pfizer) — 100% polyester, white, ~7,000 employe
 
 ---
 
-## Research Completion
+## Delivery Status
 
-| Country | Status | Score |
-|---------|--------|-------|
-| Finland | Complete | 95% |
-| Sweden | Complete | 92% |
-| Norway | Complete | 88% |
-| **Overall** | **Complete** | **92%** |
+| Assessment | Score | Notes |
+|------------|-------|-------|
+| Market Intelligence | 88% | Strong landscape mapping |
+| Actionable Contacts | 50% | Strategic level, NOT operational |
+| **Overall Delivery** | **75.5%** | Reconciled assessment |
+| **Qualitative Grade** | **C+** | See QUALITATIVE-DELIVERY-ASSESSMENT.md |
+
+**Critical Gap:** We provided CEO/executive contacts when the requirement asked for operational disposal contacts.
 
 ---
 

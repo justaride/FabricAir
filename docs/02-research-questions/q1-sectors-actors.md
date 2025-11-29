@@ -83,12 +83,14 @@ Large volumes but shifting away from white.
 
 These companies control ~70% of professional workwear lifecycle.
 
-| Company | Market Share | Volume |
-|---------|--------------|--------|
-| **Lindström** | ~60% | 17M kg/year |
-| **Puro** | ~50% population | 45M items/year |
-| **SOL** | — | 10,000+ employees |
-| **Elis** | — | RABC-compliant |
+| Company | Market Share | Volume | Compatibility |
+|---------|--------------|--------|---------------|
+| **Puro** | ~50% population | 45M items/year | ✅ Healthcare focus |
+| **SOL** | — | 10,000+ employees | Verify material |
+| **Elis** | — | RABC-compliant | Verify material |
+| ~~**Lindström**~~ | ~60% | 17M kg/year | ⚠️ **NOT COMPATIBLE** |
+
+**Critical Finding (Phase 2):** Lindström uses 65:35 poly-cotton blends — NOT suitable for FabricAir's 100% polyester requirement. Volume estimate revised from 5-10k to 350-1,000 t/year accessible.
 
 ---
 

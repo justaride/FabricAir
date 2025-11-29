@@ -47,10 +47,12 @@ FabricAir can access **56,000-62,000 tonnes/year** of recycled polyester capacit
 | Material recycling | <1% | <1% | <1% |
 | EPR date | 2027-28 | Apr 2028 | TBD |
 
-### Critical Updates
+### Critical Updates (Phase 2)
 
 | Finding | Impact |
 |---------|--------|
+| **Lindström uses 65:35 blends** | 400 t/year volume INCOMPATIBLE with FabricAir |
+| **Volume estimate revised** | 5-10k t/yr → **350-1,000 t/yr** accessible |
 | LSJH Turku plant cancelled (Apr 2024) | Rester is now Finland's only recycler |
 | Lindström owns stake in Rester | Capacity may be "locked" — engage early |
 | NTG handles poly-cotton blends | Opens access to 65/35 workwear waste |
@@ -74,8 +76,9 @@ FabricAir can access **56,000-62,000 tonnes/year** of recycled polyester capacit
 |--------------|---------|-------|---------|
 | **Touchpoint** | Noora Salonoja (CEO) | noora.salonoja@touchpoint.fi | Finland |
 | **Puro** | Paavo Martikainen (CEO) | paavo.martikainen@puro.fi | Finland |
-| **Lindström** | Kati Pallasaho (SVP) | kati.pallasaho@lindstromgroup.com | Finland |
 | **Nor Tekstil** | Thomas Karlsen | thomas.karlsen@nortekstil.no | Norway |
+
+**Note:** ~~Lindström~~ — EXCLUDED (65:35 poly-cotton blend, NOT compatible)
 
 ### Tier 3: White Polyester Sources
 
@@ -112,14 +115,16 @@ FabricAir can access **56,000-62,000 tonnes/year** of recycled polyester capacit
 
 ---
 
-## Research Completion
+## Delivery Status
 
-| Country | Status | Score | Verification |
-|---------|--------|-------|--------------|
-| Finland | Complete | 95% | 14 documents verified |
-| Sweden | Complete | 92% | 6 documents verified |
-| Norway | Complete | 88% | 8 documents verified |
-| **Overall** | **Complete** | **92%** | Ready for outreach |
+| Assessment | Score | Notes |
+|------------|-------|-------|
+| Market Intelligence | 88% | Strong landscape mapping |
+| Actionable Contacts | 50% | Strategic level, NOT operational |
+| **Overall Delivery** | **75.5%** | See [Qualitative Assessment](QUALITATIVE-DELIVERY-ASSESSMENT.md) |
+| **Qualitative Grade** | **C+** | |
+
+**Critical Gap:** We provided CEO/executive contacts when the requirement asked for "persons responsible for disposing" (operational contacts like facilities managers, waste coordinators).
 
 ---
 
@@ -162,6 +167,17 @@ FabricAir requires:
 
 ---
 
+## Reference Documents
+
+| Document | Purpose |
+|----------|---------|
+| [Phase 2 Findings](PHASE2-RESEARCH-FINDINGS.md) | Critical discoveries from verification |
+| [Qualitative Assessment](QUALITATIVE-DELIVERY-ASSESSMENT.md) | Honest delivery evaluation |
+| [Commercial Phase Plan](COMMERCIAL-PHASE-PLAN.md) | Implementation roadmap |
+
+---
+
 *Research completed: 2025-11-29*
+*Phase 2 research: 2025-11-29*
 *Project: Nordic Circular Construction (NCC)*
 *Client: FabricAir*

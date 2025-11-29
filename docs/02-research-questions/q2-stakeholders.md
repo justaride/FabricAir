@@ -44,12 +44,14 @@ Production → Use → Collection → Sorting → Recycling → New Products
 
 ### Textile Service Companies
 
-| Company | Market Share | Key Detail |
-|---------|--------------|------------|
-| **Lindström** | 50-70% | 17M kg textiles, all sectors |
-| **Puro** | ~50% population | Healthcare focus |
-| **SOL** | — | 10,000+ employees |
-| **Elis** | — | Pan-European, RABC-compliant |
+| Company | Market Share | Key Detail | Compatibility |
+|---------|--------------|------------|---------------|
+| **Puro** | ~50% population | Healthcare focus | ✅ Priority |
+| **SOL** | — | 10,000+ employees | Verify material |
+| **Elis** | — | Pan-European, RABC-compliant | Verify material |
+| ~~**Lindström**~~ | 50-70% | 17M kg textiles | ⚠️ **NOT COMPATIBLE** |
+
+**Critical Finding (Phase 2):** Lindström uses 65:35 poly-cotton blends — NOT suitable for FabricAir. Downgraded from priority partner.
 
 ### Major Users
 
@@ -120,14 +122,16 @@ Production → Use → Collection → Sorting → Recycling → New Products
 
 ---
 
-## Priority Contacts
+## Priority Contacts (Updated)
 
-| Organization | Contact | Email |
-|--------------|---------|-------|
-| Rester | Jukka Pesola | hello@rester.fi |
-| Touchpoint | Noora Salonoja | noora.salonoja@touchpoint.fi |
-| Puro | Paavo Martikainen | paavo.martikainen@puro.fi |
-| Lindström | Kati Pallasaho | kati.pallasaho@lindstromgroup.com |
+| Organization | Contact | Email | Status |
+|--------------|---------|-------|--------|
+| Rester | Jukka Pesola | hello@rester.fi | ✅ Priority |
+| Puro | Paavo Martikainen | paavo.martikainen@puro.fi | ✅ Priority |
+| Touchpoint | Noora Salonoja | noora.salonoja@touchpoint.fi | ✅ Priority |
+| Orion | Carolina Sved | carolina.sved@orion.fi | ✅ 100% PET |
+
+**Note:** ~~Lindström~~ removed — 65:35 blend NOT compatible
 
 ---
 
