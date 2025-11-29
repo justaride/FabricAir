@@ -2,148 +2,154 @@
 
 **Date:** 2025-11-29
 **Project:** FabricAir Nordic Circular Polyester Research (NCC)
+**Status:** Reconciled Assessment
 
 ---
 
 ## Summary
 
-| Metric | Score |
-|--------|-------|
-| **Overall Delivery** | 92% |
-| Finland | 95% |
-| Sweden | 92% |
-| Norway | 88% |
+| Metric | Initial Score | Reconciled Score |
+|--------|---------------|------------------|
+| **Overall Delivery** | 92% | **75.5%** |
+| Market Intelligence | 92% | 88% |
+| Actionable Contacts | 66% | 50% |
+| FabricAir Fit | 90% | 65% |
 
-**Status:** All three Nordic markets researched and verified. Ready for commercial phase.
+**Note:** Initial assessment was optimistic. See [QUALITATIVE-DELIVERY-ASSESSMENT.md](QUALITATIVE-DELIVERY-ASSESSMENT.md) for detailed reconciliation.
+
+---
+
+## Critical Findings (Phase 2)
+
+| Finding | Impact |
+|---------|--------|
+| **Lindström uses 65:35 blends** | 400 t/year volume INCOMPATIBLE |
+| **Volume estimate revised** | 5-10k → 350-1,000 t/year |
+| **Contact level mismatch** | CEOs provided, operational contacts needed |
+| **Rester capacity risk** | Lindström is 2nd largest shareholder |
 
 ---
 
 ## Deliverables vs. Requirements
 
-### NCC Mission
+### Original NCC Mission
 
 > "Kartlegge selskaper i Finland, Sverige og Norge som spesialiserer seg på innsamling av brukte polyesterfibre for resirkulering..."
 
-| Requirement | Status |
-|-------------|--------|
-| Finland mapping | Complete (95%) |
-| Sweden mapping | Complete (92%) |
-| Norway mapping | Complete (88%) |
-| Collection companies | 40+ identified |
-| High volume capacity | 56-62k t/yr verified |
-| Mono-material focus | Compatibility matrix provided |
-| Quality standards | Technical matching complete |
+| Requirement | Status | Score |
+|-------------|--------|-------|
+| Finland mapping | Complete | 80% |
+| Sweden mapping | Complete | 85% |
+| Norway mapping | Complete | 80% |
+| 100% polyester sources | **Partial** | 55% |
+| Operational contacts | **Weak** | 50% |
+| Volume quantification | **Revised down** | 60% |
 
 ---
 
-## Market Analysis Delivery
+## Question-by-Question Delivery
 
-| Country | Waste Volume | Recycler | Capacity | Contacts |
-|---------|--------------|----------|----------|----------|
-| Finland | 85,770 t/yr | Rester | 6-12k t/yr | 15+ |
-| Sweden | 80-90k t/yr | Rewin (2027) | 20k t/yr | 10+ |
-| Norway | ~100k t/yr | NTG | 30k t/yr | 10+ |
-
----
-
-## Technical Requirements
-
-| Requirement | Delivered |
-|-------------|-----------|
-| 100% Polyester (mono) | Compatibility matrix shows 65/35 NOT suitable |
-| ~300 g/m² weight | Workwear specs documented |
-| Light/white colors | White sources prioritized |
-| High volume | 56-62k tonnes/year Nordic capacity |
-
-**Critical Finding:** Most workwear is 65/35 poly-cotton — NOT suitable. Target cleanroom, healthcare, food sectors.
+| Question | Weight | Score | Status |
+|----------|--------|-------|--------|
+| Q1: Sectors & Actors | 15% | 65% | Material verification gap |
+| Q2: Stakeholders | 15% | 90% | Strong delivery |
+| Q3: Disposal & Reuse | 15% | 85% | Data is 4 years old |
+| Q4: Regulations | 15% | 95% | Excellent |
+| Q5: Initiatives | 15% | 85% | LSJH cancellation discovered |
+| Q6: Top 10 + Contacts | **25%** | **50%** | Wrong contact level |
+| **TOTAL** | 100% | **75.5%** | |
 
 ---
 
-## Key Discoveries
+## What We Delivered Well
 
-| Finding | Impact |
-|---------|--------|
-| LSJH Turku plant CANCELLED | Rester now primary Finnish recycler |
-| Rewin 20k t/yr by 2027 | Sweden domestic recycling coming |
-| NTG handles poly-cotton | Norway has unique capability |
-| Cleanroom = best source | 100% white PET available |
+| Area | Assessment |
+|------|------------|
+| Market mapping | Comprehensive 3-country analysis |
+| Regulatory timeline | Clear EPR and policy roadmap |
+| Critical discoveries | LSJH cancelled, Lindström blends, Rester capacity |
+| Value chain | Complete stakeholder ecosystem |
+| Nordic expansion | Beyond original Finland scope |
 
----
+## What We Delivered Poorly
 
-## Partner Identification
-
-### Recyclers (Primary)
-
-| Partner | Country | Capacity | Status |
-|---------|---------|----------|--------|
-| Rester | Finland | 6-12k t/yr | Operational |
-| NTG | Norway | 30k t/yr | Scaling (~2029) |
-| Rewin | Sweden | 20k t/yr | 2027 launch |
-
-### Feedstock Sources (Secondary)
-
-| Partner | Country | Type |
-|---------|---------|------|
-| Touchpoint | Finland | Workwear (Rester owner) |
-| Puro | Finland | Healthcare |
-| Nor Tekstil | Norway | Healthcare |
-| Orion | Finland | Cleanroom |
+| Area | Gap |
+|------|-----|
+| Contact level | CEOs/executives instead of operational contacts |
+| Material verification | Assumed 100% PET without confirmation |
+| Volume estimates | Initial estimates 10x too high |
+| Actionable pathways | Market map, not action plan |
+| Rester capacity | Unknown available (uncommitted) capacity |
 
 ---
 
-## Verification Status
+## Qualitative Grade
 
-| Category | Items | Verified |
-|----------|-------|----------|
-| Market statistics | 17 | 15 (88%) |
-| Contact information | 35 | 23 (66%) |
-| Capacity figures | 11 | 10 (91%) |
-| Regulatory dates | 8 | 7 (88%) |
-
----
-
-## Gaps Remaining
-
-| Gap | Priority | Resolution |
-|-----|----------|------------|
-| Norway EPR timeline | HIGH | Contact Miljødirektoratet |
-| Cleanroom sector contacts | MEDIUM | Map AstraZeneca, Orion |
-| Pricing quotes | MEDIUM | Request from recyclers |
-| Technical spec matching | MEDIUM | Request output specs |
+| Dimension | Grade |
+|-----------|-------|
+| Market Intelligence | A- |
+| Regulatory Clarity | A |
+| Actionable Contacts | D+ |
+| Material Specificity | D |
+| Strategic Direction | B+ |
+| **Overall** | **C+** |
 
 ---
 
-## Scoring Summary
+## FabricAir Readiness
 
-| Category | Weight | Score | Weighted |
-|----------|--------|-------|----------|
-| Finland Analysis | 30% | 95% | 28.5% |
-| Sweden Analysis | 25% | 92% | 23.0% |
-| Norway Analysis | 25% | 88% | 22.0% |
-| Partner Identification | 10% | 95% | 9.5% |
-| Technical Requirements | 10% | 90% | 9.0% |
+| Action | Ready? | Gap |
+|--------|--------|-----|
+| Contact recyclers | Partial | General emails only |
+| Source 100% polyester | No | No confirmed sources |
+| Estimate volume | No | Range too wide (350-1,000 t) |
+| Understand regulations | Yes | Clear timeline |
+| Identify partners | Partial | Right orgs, wrong contacts |
 
-**TOTAL: 92%**
+---
+
+## Path to Improved Delivery
+
+### To Reach 85%
+
+| Action | Priority | Score Impact |
+|--------|----------|--------------|
+| Identify 3+ operational contacts | HIGH | +5% |
+| Confirm 2+ 100% PET sources | HIGH | +3% |
+| Confirm Rester available capacity | HIGH | +2% |
+| Update volume estimates | MEDIUM | +2% |
+
+### Desk Research Ceiling: ~85%
+
+The remaining gap (15%+) requires direct industry engagement:
+- Sample requests and material testing
+- Commercial discussions with recyclers
+- Operational contact identification through outreach
 
 ---
 
 ## Conclusion
 
-The FabricAir Nordic Research Platform delivers comprehensive, verified intelligence across all three Nordic markets:
+**We provided market intelligence, not an action plan.**
 
-**Delivered:**
-- Complete market analysis (Finland, Sweden, Norway)
-- 40+ contacts with verification
-- Critical discoveries (LSJH cancellation, Rewin, NTG)
-- Technical compatibility matrix
-- Strategic recommendations
+FabricAir has a comprehensive map of the Nordic textile recycling landscape but cannot proceed to commercial engagement without:
 
-**Ready for:**
-- Commercial partner outreach
-- Technical discussions with recyclers
-- Pilot project development
+1. Verifying material composition with manufacturers
+2. Identifying operational disposal contacts
+3. Confirming Rester's available capacity
+4. Requesting samples for quality testing
 
 ---
 
-*Assessment date: 2025-11-29*
-*Project: Nordic Circular Construction (NCC)*
+## Reference Documents
+
+| Document | Purpose |
+|----------|---------|
+| [QUALITATIVE-DELIVERY-ASSESSMENT.md](QUALITATIVE-DELIVERY-ASSESSMENT.md) | Full reconciled analysis |
+| [CRITICAL-ASSESSMENT.md](CRITICAL-ASSESSMENT.md) | Original gap analysis |
+| [PHASE2-RESEARCH-FINDINGS.md](PHASE2-RESEARCH-FINDINGS.md) | Phase 2 research results |
+
+---
+
+*Assessment reconciled: 2025-11-29*
+*Methodology: Requirement-weighted analysis with Phase 2 findings*
