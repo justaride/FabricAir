@@ -249,14 +249,14 @@ Post-delivery options include:
 | Section | Description |
 |---------|-------------|
 | [Key Findings](00-executive-summary.md) | Executive summary with recommendations |
-| [Research Q1-Q6](02-research-questions/index.md) | Finland research in question format |
-| [Partners & Contacts](03-contacts/directory.md) | Full verified contact directory |
-| [Sweden Report](05-sweden/SWEDEN-RESEARCH-REPORT.md) | Swedish market analysis |
-| [Norway Report](06-norway/NORWAY-RESEARCH-REPORT.md) | Norwegian market analysis |
+| [Finland Q1-Q6](02-research-questions/index.md) | Finland research in question format |
+| [Sweden Q1-Q6](05-sweden/index.md) | Sweden research in question format |
+| [Norway Q1-Q6](06-norway/index.md) | Norway research in question format |
 | [Nordic Comparison](NORDIC-COMPARISON.md) | Cross-country strategic analysis |
+| [Nordic Comparison (Interactive)](nordic-comparison.html) | Visual interactive comparison |
+| [Partners & Contacts](03-contacts/directory.md) | Full verified contact directory |
 | [Action Plan](COMMERCIAL-PHASE-PLAN.md) | Commercial phase implementation roadmap |
 | [Phase 2 Findings](PHASE2-RESEARCH-FINDINGS.md) | Critical discoveries from verification research |
-| [Qualitative Assessment](QUALITATIVE-DELIVERY-ASSESSMENT.md) | Honest delivery evaluation |
 
 ---
 
