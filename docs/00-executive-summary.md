@@ -17,10 +17,9 @@
 
 ## Your Three Partners
 
-<!-- IMAGE PLACEHOLDER: Hero banner showing three Nordic recycling facilities side by side
-     PROMPT: "Modern industrial textile recycling facility interior, clean white machinery,
-     conveyor belts with polyester fabric, Nordic design aesthetic, bright lighting,
-     professional photography style, wide angle shot" -->
+> 🖼️ **IMAGE NEEDED:** Hero banner — three Nordic recycling facilities side by side
+>
+> **AI Prompt:** *"Modern industrial textile recycling facility interior, clean white machinery, conveyor belts with polyester fabric, Nordic design aesthetic, bright lighting, professional photography style, wide angle shot"*
 
 | | Finland | Sweden | Norway |
 |:--|:--:|:--:|:--:|
@@ -35,9 +34,9 @@
 
 ### Contact Rester (Finland) — Operational Today
 
-<!-- IMAGE PLACEHOLDER: Rester facility exterior or logo
-     PROMPT: "Modern Scandinavian industrial building exterior, minimalist design,
-     Finnish architecture, recycling facility, clean lines, professional photograph" -->
+> 🖼️ **IMAGE NEEDED:** Rester facility exterior or logo
+>
+> **AI Prompt:** *"Modern Scandinavian industrial building exterior, minimalist design, Finnish architecture, recycling facility, clean lines, professional photograph"*
 
 | | |
 |:--|:--|
@@ -52,10 +51,9 @@
 
 ### Contact NTG (Norway) — Largest Future Capacity
 
-<!-- IMAGE PLACEHOLDER: NTG technology or defibration process
-     PROMPT: "Close-up of textile fiber processing machinery, cutting mechanism,
-     polyester fibers being processed, industrial technology, Norwegian design,
-     clean modern facility, professional industrial photography" -->
+> 🖼️ **IMAGE NEEDED:** NTG technology or defibration process
+>
+> **AI Prompt:** *"Close-up of textile fiber processing machinery, cutting mechanism, polyester fibers being processed, industrial technology, Norwegian design, clean modern facility, professional industrial photography"*
 
 | | |
 |:--|:--|
@@ -70,10 +68,9 @@
 
 ### Contact Rewin (Sweden) — Virgin-Quality Output
 
-<!-- IMAGE PLACEHOLDER: Chemical recycling process or Wargön Innovation
-     PROMPT: "Chemical recycling laboratory or facility, test tubes with clear liquid,
-     modern Swedish industrial design, clean technology, polyester recycling,
-     bright white environment, scientific equipment" -->
+> 🖼️ **IMAGE NEEDED:** Chemical recycling process or Wargön Innovation
+>
+> **AI Prompt:** *"Chemical recycling laboratory or facility, test tubes with clear liquid, modern Swedish industrial design, clean technology, polyester recycling, bright white environment, scientific equipment"*
 
 | | |
 |:--|:--|
@@ -109,10 +106,9 @@
 
 ### Contact These Companies for Material Supply
 
-<!-- IMAGE PLACEHOLDER: Healthcare/workwear textiles or laundry facility
-     PROMPT: "Commercial textile laundry facility, white uniforms on conveyor,
-     industrial washing machines, Nordic healthcare textiles, clean modern environment,
-     professional industrial photography" -->
+> 🖼️ **IMAGE NEEDED:** Healthcare/workwear textiles or laundry facility
+>
+> **AI Prompt:** *"Commercial textile laundry facility, white uniforms on conveyor, industrial washing machines, Nordic healthcare textiles, clean modern environment, professional industrial photography"*
 
 | Organization | Contact | Email | Country |
 |:-------------|:--------|:------|:-------:|
@@ -127,10 +123,9 @@
 
 ## Best Sources for 100% White Polyester
 
-<!-- IMAGE PLACEHOLDER: Cleanroom worker in white polyester garment
-     PROMPT: "Worker in pharmaceutical cleanroom wearing white polyester garment,
-     sterile environment, modern laboratory, bright lighting,
-     professional corporate photography, Nordic pharmaceutical facility" -->
+> 🖼️ **IMAGE NEEDED:** Cleanroom worker in white polyester garment
+>
+> **AI Prompt:** *"Worker in pharmaceutical cleanroom wearing white polyester garment, sterile environment, modern laboratory, bright lighting, professional corporate photography, Nordic pharmaceutical facility"*
 
 | Rank | Sector | Why Best | Key Players |
 |:----:|:-------|:---------|:------------|
