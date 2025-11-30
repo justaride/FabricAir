@@ -4,6 +4,8 @@
 
 **FabricAir Nordic Circular Polyester Research Platform**
 
+**Live Platform:** https://justaride.github.io/FabricAir/
+
 A research platform identifying high-quality recycled polyester sources across Finland, Sweden, and Norway for FabricAir's 100% circular ventilation textiles.
 
 ### Mission
@@ -15,7 +17,7 @@ Map companies in Finland, Sweden, and Norway specializing in collection of used 
 - **Coordinator:** Natural State AS
 - **Client:** FabricAir (Denmark)
 
-## Current Status (2025-11-29)
+## Current Status (2025-11-30)
 
 | Component | Status |
 |-----------|--------|

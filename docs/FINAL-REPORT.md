@@ -563,6 +563,8 @@ Norway  → NTG (30k) ────┘
 | **Funder** | Nordic Innovation |
 | **Coordinator** | Natural State AS |
 | **Delivery Score** | 80% (B-) |
+| **Live Platform** | https://justaride.github.io/FabricAir/ |
+| **Repository** | https://github.com/justaride/FabricAir |
 
 ---
 

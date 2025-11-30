@@ -298,13 +298,18 @@ Post-delivery options include:
 
 ---
 
+## Live Platform
+
+**https://justaride.github.io/FabricAir/**
+
 ## Download / Export
 
 | Format | Link | Notes |
 |--------|------|-------|
-| **PDF Report** | [FINAL-REPORT-PRINT.html](FINAL-REPORT-PRINT.html) | Open in browser → Print → Save as PDF |
+| **Live Site** | [justaride.github.io/FabricAir](https://justaride.github.io/FabricAir/) | GitHub Pages |
+| **PDF Report** | [FINAL-REPORT-PRINT.html](FINAL-REPORT-PRINT.html) | Open → Print → Save as PDF |
 | **Markdown** | [FINAL-REPORT.md](FINAL-REPORT.md) | Full consolidated report |
-| **Web Platform** | [viewer.html](viewer.html) | Interactive navigation |
+| **Web Viewer** | [viewer.html](viewer.html) | Interactive navigation |
 
 ---
 
