@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordic Comparison | FabricAir Research</title>
+    <style>
+        :root {
+            --finland-color: #0041a5;
+            --finland-light: #e8f0ff;
+            --sweden-color: #fecc00;
+            --sweden-light: #fffbe8;
+            --sweden-dark: #c9a200;
+            --norway-color: #ba0c2f;
+            --norway-light: #ffe8ec;
+            --primary: #2563eb;
+            --success: #16a34a;
+            --warning: #f59e0b;
+            --danger: #dc2626;
+            --gray-50: #f9fafb;
+            --gray-100: #f3f4f6;
+            --gray-200: #e5e7eb;
+            --gray-300: #d1d5db;
+            --gray-500: #6b7280;
+            --gray-700: #374151;
+            --gray-900: #111827;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--gray-50);
+            color: var(--gray-900);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--finland-color), var(--norway-color));
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Hero Stats */
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: -40px 20px 30px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            border-top: 4px solid var(--primary);
+        }
+
+        .stat-card.finland { border-top-color: var(--finland-color); }
+        .stat-card.sweden { border-top-color: var(--sweden-color); }
+        .stat-card.norway { border-top-color: var(--norway-color); }
+
+        .stat-card .flag {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .stat-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+        }
+
+        .stat-card .capacity {
+            font-size: 1.1rem;
+            color: var(--gray-500);
+        }
+
+        .stat-card .status {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .status.operational { background: #dcfce7; color: #166534; }
+        .status.coming { background: #fef3c7; color: #92400e; }
+        .status.scaling { background: #dbeafe; color: #1e40af; }
+
+        /* Country Filter */
+        .filter-bar {
+            background: white;
+            border-radius: 12px;
+            padding: 15px 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .filter-bar label {
+            font-weight: 600;
+            color: var(--gray-700);
+        }
+
+        .filter-btn {
+            padding: 8px 20px;
+            border: 2px solid var(--gray-200);
+            border-radius: 25px;
+            background: white;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--gray-400);
+        }
+
+        .filter-btn.active.finland {
+            background: var(--finland-light);
+            border-color: var(--finland-color);
+            color: var(--finland-color);
+        }
+
+        .filter-btn.active.sweden {
+            background: var(--sweden-light);
+            border-color: var(--sweden-dark);
+            color: var(--sweden-dark);
+        }
+
+        .filter-btn.active.norway {
+            background: var(--norway-light);
+            border-color: var(--norway-color);
+            color: var(--norway-color);
+        }
+
+        /* Section */
+        .section {
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            overflow: hidden;
+        }
+
+        .section-header {
+            padding: 20px 25px;
+            background: var(--gray-50);
+            border-bottom: 1px solid var(--gray-200);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .section-header:hover {
+            background: var(--gray-100);
+        }
+
+        .section-header h2 {
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-header .toggle {
+            font-size: 1.5rem;
+            color: var(--gray-500);
+            transition: transform 0.3s;
+        }
+
+        .section.collapsed .toggle {
+            transform: rotate(-90deg);
+        }
+
+        .section-content {
+            padding: 25px;
+            transition: max-height 0.3s ease-out;
+        }
+
+        .section.collapsed .section-content {
+            display: none;
+        }
+
+        /* Decision Guide */
+        .decision-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .decision-card {
+            border: 1px solid var(--gray-200);
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .decision-card:hover {
+            border-color: var(--primary);
+            box-shadow: 0 4px 15px rgba(37, 99, 235, 0.1);
+        }
+
+        .decision-card .icon {
+            font-size: 2rem;
+        }
+
+        .decision-card .info h4 {
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        .decision-card .info p {
+            color: var(--gray-500);
+            font-size: 0.9rem;
+        }
+
+        .decision-card .country-badge {
+            margin-left: auto;
+            font-size: 1.5rem;
+        }
+
+        /* Contact Cards */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+        }
+
+        .contact-card {
+            border: 1px solid var(--gray-200);
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+        }
+
+        .contact-card.finland::before { background: var(--finland-color); }
+        .contact-card.sweden::before { background: var(--sweden-color); }
+        .contact-card.norway::before { background: var(--norway-color); }
+
+        .contact-card .org {
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact-card .name {
+            color: var(--gray-600);
+            margin-bottom: 10px;
+        }
+
+        .contact-card .email {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact-card .email-text {
+            font-family: monospace;
+            background: var(--gray-100);
+            padding: 8px 12px;
+            border-radius: 6px;
+            flex: 1;
+            font-size: 0.9rem;
+        }
+
+        .copy-btn {
+            padding: 8px 15px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: background 0.2s;
+        }
+
+        .copy-btn:hover {
+            background: #1d4ed8;
+        }
+
+        .copy-btn.copied {
+            background: var(--success);
+        }
+
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+
+        .timeline-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            padding: 0 20px;
+            font-size: 0.85rem;
+            color: var(--gray-500);
+        }
+
+        .timeline-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            padding: 15px 20px;
+            background: var(--gray-50);
+            border-radius: 10px;
+        }
+
+        .timeline-row .country {
+            width: 120px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .timeline-bar {
+            flex: 1;
+            height: 30px;
+            background: var(--gray-200);
+            border-radius: 15px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .timeline-progress {
+            height: 100%;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
+
+        .timeline-progress.finland { background: var(--finland-color); }
+        .timeline-progress.sweden { background: var(--sweden-color); color: #333; }
+        .timeline-progress.norway { background: var(--norway-color); }
+
+        .timeline-milestone {
+            position: absolute;
+            top: -25px;
+            font-size: 0.75rem;
+            color: var(--gray-600);
+            white-space: nowrap;
+        }
+
+        /* Capacity Chart */
+        .capacity-chart {
+            padding: 20px;
+        }
+
+        .capacity-bar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .capacity-bar .label {
+            width: 150px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .capacity-bar .bar-container {
+            flex: 1;
+            height: 40px;
+            background: var(--gray-100);
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .capacity-bar .bar {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 15px;
+            color: white;
+            font-weight: 700;
+            font-size: 1rem;
+            transition: width 1s ease-out;
+        }
+
+        .capacity-bar .bar.finland { background: var(--finland-color); }
+        .capacity-bar .bar.sweden { background: var(--sweden-color); color: #333; }
+        .capacity-bar .bar.norway { background: var(--norway-color); }
+
+        /* Risk Matrix */
+        .risk-matrix {
+            overflow-x: auto;
+        }
+
+        .risk-matrix table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .risk-matrix th, .risk-matrix td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid var(--gray-200);
+        }
+
+        .risk-matrix th {
+            background: var(--gray-50);
+            font-weight: 600;
+        }
+
+        .risk-matrix td:first-child {
+            text-align: left;
+            font-weight: 500;
+        }
+
+        .risk-badge {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 8px;
+            font-weight: 700;
+        }
+
+        .risk-badge.low { background: #dcfce7; color: #166534; }
+        .risk-badge.medium { background: #fef3c7; color: #92400e; }
+        .risk-badge.high { background: #fee2e2; color: #991b1b; }
+
+        /* Supply Chain */
+        .supply-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .supply-option {
+            border: 2px solid var(--gray-200);
+            border-radius: 12px;
+            padding: 25px;
+            transition: all 0.2s;
+        }
+
+        .supply-option:hover {
+            border-color: var(--primary);
+        }
+
+        .supply-option.recommended {
+            border-color: var(--success);
+            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+        }
+
+        .supply-option h4 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .supply-option .flow {
+            background: var(--gray-100);
+            padding: 15px;
+            border-radius: 8px;
+            font-family: monospace;
+            margin: 15px 0;
+            font-size: 0.9rem;
+        }
+
+        .supply-option .meta {
+            display: flex;
+            gap: 20px;
+            font-size: 0.9rem;
+            color: var(--gray-600);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .badge.recommended { background: var(--success); color: white; }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--gray-900);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+            transform: translateY(100px);
+            opacity: 0;
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--gray-500);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 { font-size: 1.8rem; }
+            .hero-stats { margin: -30px 10px 20px; }
+            .stat-card { padding: 20px; }
+            .filter-bar { justify-content: center; }
+            .container { padding: 10px; }
+        }
+
+        /* Print */
+        @media print {
+            .filter-bar, .section-header .toggle { display: none; }
+            .section.collapsed .section-content { display: block; }
+            header { padding: 20px; }
+            .hero-stats { margin-top: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nordic Comparison</h1>
+        <p>Recycled polyester opportunities across Finland, Sweden, and Norway</p>
+    </header>
+
+    <div class="hero-stats">
+        <div class="stat-card finland">
+            <div class="flag">🇫🇮</div>
+            <h3>Rester</h3>
+            <div class="capacity">6-12k t/yr</div>
+            <span class="status operational">Operational NOW</span>
+        </div>
+        <div class="stat-card sweden">
+            <div class="flag">🇸🇪</div>
+            <h3>Rewin</h3>
+            <div class="capacity">20k t/yr</div>
+            <span class="status coming">Oct 2027</span>
+        </div>
+        <div class="stat-card norway">
+            <div class="flag">🇳🇴</div>
+            <h3>NTG</h3>
+            <div class="capacity">30k t/yr</div>
+            <span class="status scaling">Scaling ~2029</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+            <label>Show:</label>
+            <button class="filter-btn active finland" data-country="finland">🇫🇮 Finland</button>
+            <button class="filter-btn active sweden" data-country="sweden">🇸🇪 Sweden</button>
+            <button class="filter-btn active norway" data-country="norway">🇳🇴 Norway</button>
+        </div>
+
+        <!-- Quick Decision Guide -->
+        <div class="section" id="decision">
+            <div class="section-header">
+                <h2>🎯 Quick Decision Guide</h2>
+                <span class="toggle">▼</span>
+            </div>
+            <div class="section-content">
+                <div class="decision-grid">
+                    <div class="decision-card" onclick="copyEmail('hello@rester.fi')">
+                        <div class="icon">⚡</div>
+                        <div class="info">
+                            <h4>Need recycler NOW?</h4>
+                            <p>hello@rester.fi</p>
+                        </div>
+                        <div class="country-badge">🇫🇮</div>
+                    </div>
+                    <div class="decision-card" onclick="copyEmail('btm@ntgas.no')">
+                        <div class="icon">📈</div>
+                        <div class="info">
+                            <h4>Largest future capacity?</h4>
+                            <p>btm@ntgas.no</p>
+                        </div>
+                        <div class="country-badge">🇳🇴</div>
+                    </div>
+                    <div class="decision-card" onclick="window.open('https://wargoninnovation.se', '_blank')">
+                        <div class="icon">🧪</div>
+                        <div class="info">
+                            <h4>Chemical/virgin-quality?</h4>
+                            <p>wargoninnovation.se</p>
+                        </div>
+                        <div class="country-badge">🇸🇪</div>
+                    </div>
+                    <div class="decision-card" onclick="copyEmail('btm@ntgas.no')">
+                        <div class="icon">🔄</div>
+                        <div class="info">
+                            <h4>Poly-cotton blend processing?</h4>
+                            <p>NTG handles blends</p>
+                        </div>
+                        <div class="country-badge">🇳🇴</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Priority Contacts -->
+        <div class="section" id="contacts">
+            <div class="section-header">
+                <h2>📧 Priority Contacts</h2>
+                <span class="toggle">▼</span>
+            </div>
+            <div class="section-content">
+                <h3 style="margin-bottom: 15px; color: var(--danger);">🔴 Contact First (Recyclers)</h3>
+                <div class="contact-grid" style="margin-bottom: 30px;">
+                    <div class="contact-card finland" data-country="finland">
+                        <div class="org">🇫🇮 Rester</div>
+                        <div class="name">Jukka Pesola (CEO)</div>
+                        <div class="email">
+                            <span class="email-text">hello@rester.fi</span>
+                            <button class="copy-btn" onclick="copyEmail('hello@rester.fi', this)">Copy</button>
+                        </div>
+                    </div>
+                    <div class="contact-card norway" data-country="norway">
+                        <div class="org">🇳🇴 NTG</div>
+                        <div class="name">Bent Tatsuyama Mathisen (CEO)</div>
+                        <div class="email">
+                            <span class="email-text">btm@ntgas.no</span>
+                            <button class="copy-btn" onclick="copyEmail('btm@ntgas.no', this)">Copy</button>
+                        </div>
+                    </div>
+                    <div class="contact-card sweden" data-country="sweden">
+                        <div class="org">🇸🇪 Rewin / Wargön</div>
+                        <div class="name">Joel Arnoldsson</div>
+                        <div class="email">
+                            <span class="email-text">wargoninnovation.se</span>
+                            <button class="copy-btn" onclick="window.open('https://wargoninnovation.se', '_blank'); showToast('Opening website...')">Visit</button>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 style="margin-bottom: 15px; color: var(--warning);">🟡 Feedstock Aggregators</h3>
+                <div class="contact-grid">
+                    <div class="contact-card finland" data-country="finland">
+                        <div class="org">🇫🇮 Touchpoint</div>
+                        <div class="name">Noora Salonoja (CEO)</div>
+                        <div class="email">
+                            <span class="email-text">noora.salonoja@touchpoint.fi</span>
+                            <button class="copy-btn" onclick="copyEmail('noora.salonoja@touchpoint.fi', this)">Copy</button>
+                        </div>
+                    </div>
+                    <div class="contact-card finland" data-country="finland">
+                        <div class="org">🇫🇮 Puro</div>
+                        <div class="name">Paavo Martikainen (CEO)</div>
+                        <div class="email">
+                            <span class="email-text">paavo.martikainen@puro.fi</span>
+                            <button class="copy-btn" onclick="copyEmail('paavo.martikainen@puro.fi', this)">Copy</button>
+                        </div>
+                    </div>
+                    <div class="contact-card norway" data-country="norway">
+                        <div class="org">🇳🇴 Nor Tekstil</div>
+                        <div class="name">Thomas Karlsen</div>
+                        <div class="email">
+                            <span class="email-text">thomas.karlsen@nortekstil.no</span>
+                            <button class="copy-btn" onclick="copyEmail('thomas.karlsen@nortekstil.no', this)">Copy</button>
+                        </div>
+                    </div>
+                    <div class="contact-card sweden" data-country="sweden">
+                        <div class="org">🇸🇪 Elis Sweden</div>
+                        <div class="name">Patrik Nyholm</div>
+                        <div class="email">
+                            <span class="email-text">patrik.nyholm@elis.com</span>
+                            <button class="copy-btn" onclick="copyEmail('patrik.nyholm@elis.com', this)">Copy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Capacity Chart -->
+        <div class="section" id="capacity">
+            <div class="section-header">
+                <h2>📊 Capacity Comparison (by 2029)</h2>
+                <span class="toggle">▼</span>
+            </div>
+            <div class="section-content">
+                <div class="capacity-chart">
+                    <div class="capacity-bar" data-country="finland">
+                        <div class="label">🇫🇮 Rester</div>
+                        <div class="bar-container">
+                            <div class="bar finland" style="width: 40%;">12,000 t/yr</div>
+                        </div>
+                    </div>
+                    <div class="capacity-bar" data-country="sweden">
+                        <div class="label">🇸🇪 Rewin</div>
+                        <div class="bar-container">
+                            <div class="bar sweden" style="width: 67%;">20,000 t/yr</div>
+                        </div>
+                    </div>
+                    <div class="capacity-bar" data-country="norway">
+                        <div class="label">🇳🇴 NTG</div>
+                        <div class="bar-container">
+                            <div class="bar norway" style="width: 100%;">30,000 t/yr</div>
+                        </div>
+                    </div>
+                    <div class="capacity-bar">
+                        <div class="label"><strong>TOTAL</strong></div>
+                        <div class="bar-container">
+                            <div class="bar" style="width: 100%; background: linear-gradient(90deg, var(--finland-color) 20%, var(--sweden-color) 50%, var(--norway-color) 100%);">62,000 t/yr</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Timeline -->
+        <div class="section" id="timeline">
+            <div class="section-header">
+                <h2>📅 Timeline</h2>
+                <span class="toggle">▼</span>
+            </div>
+            <div class="section-content">
+                <div class="timeline">
+                    <div class="timeline-header">
+                        <span>2024</span>
+                        <span>2025</span>
+                        <span>2026</span>
+                        <span>2027</span>
+                        <span>2028</span>
+                        <span>2029</span>
+                    </div>
+                    <div class="timeline-row" data-country="finland">
+                        <div class="country">🇫🇮 Finland</div>
+                        <div class="timeline-bar">
+                            <div class="timeline-progress finland" style="width: 100%;">Rester OPERATIONAL (6k → 12k)</div>
+                        </div>
+                    </div>
+                    <div class="timeline-row" data-country="sweden">
+                        <div class="country">🇸🇪 Sweden</div>
+                        <div class="timeline-bar">
+                            <div class="timeline-progress sweden" style="width: 40%; margin-left: 60%;">Rewin (Oct 2027)</div>
+                        </div>
+                    </div>
+                    <div class="timeline-row" data-country="norway">
+                        <div class="country">🇳🇴 Norway</div>
+                        <div class="timeline-bar">
+                            <div class="timeline-progress norway" style="width: 100%;">NTG R&D (2k) ────→ Full Scale (30k) ~2029</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Risk Matrix -->
+        <div class="section" id="risk">
+            <div class="section-header">
+                <h2>⚠️ Risk Assessment</h2>
+                <span class="toggle">▼</span>
+            </div>
+            <div class="section-content">
+                <div class="risk-matrix">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Risk Factor</th>
+                                <th>🇫🇮 Finland</th>
+                                <th>🇸🇪 Sweden</th>
+                                <th>🇳🇴 Norway</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Technology maturity</td>
+                                <td><span class="risk-badge low">Low</span></td>
+                                <td><span class="risk-badge medium">Med</span></td>
+                                <td><span class="risk-badge low">Low</span></td>
+                            </tr>
+                            <tr>
+                                <td>Capacity availability</td>
+                                <td><span class="risk-badge medium">Med</span></td>
+                                <td><span class="risk-badge high">High</span></td>
+                                <td><span class="risk-badge medium">Med</span></td>
+                            </tr>
+                            <tr>
+                                <td>EPR uncertainty</td>
+                                <td><span class="risk-badge low">Low</span></td>
+                                <td><span class="risk-badge low">Low</span></td>
+                                <td><span class="risk-badge high">High</span></td>
+                            </tr>
+                            <tr>
+                                <td>Blend contamination</td>
+                                <td><span class="risk-badge high">High</span></td>
+                                <td><span class="risk-badge high">High</span></td>
+                                <td><span class="risk-badge medium">Med</span></td>
+                            </tr>
+                            <tr>
+                                <td>Feedstock competition</td>
+                                <td><span class="risk-badge high">High</span></td>
+                                <td><span class="risk-badge medium">Med</span></td>
+                                <td><span class="risk-badge low">Low</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div style="margin-top: 20px; padding: 15px; background: var(--gray-50); border-radius: 8px;">
+                    <strong>Key Risks:</strong>
+                    <ul style="margin-top: 10px; margin-left: 20px;">
+                        <li>🇫🇮 Lindström may have locked Rester capacity via shareholding</li>
+                        <li>🇸🇪 Rewin not operational until October 2027</li>
+                        <li>🇳🇴 EPR timeline uncertain (originally 2027, may be 2028)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Supply Chain Options -->
+        <div class="section" id="supply">
+            <div class="section-header">
+                <h2>🔗 Supply Chain Options</h2>
+                <span class="toggle">▼</span>
+            </div>
+            <div class="section-content">
+                <div class="supply-options">
+                    <div class="supply-option recommended">
+                        <h4><span class="badge recommended">Recommended</span> Finland-First</h4>
+                        <div class="flow">Nordic textiles → Rester (Finland) → FabricAir</div>
+                        <div class="meta">
+                            <span>📦 6-12k t/yr</span>
+                            <span>⏱️ Available NOW</span>
+                        </div>
+                    </div>
+                    <div class="supply-option">
+                        <h4>Norway-Centric (2025+)</h4>
+                        <div class="flow">Nordic textiles → NTG (Norway) → FabricAir</div>
+                        <div class="meta">
+                            <span>📦 2k → 30k t/yr</span>
+                            <span>🔄 Handles blends</span>
+                        </div>
+                    </div>
+                    <div class="supply-option">
+                        <h4>Full Nordic Integration (2028+)</h4>
+                        <div class="flow">
+Finland → Rester (12k) ─┐
+Sweden → Rewin (20k) ──┼→ FabricAir
+Norway → NTG (30k) ────┘</div>
+                        <div class="meta">
+                            <span>📦 62k t/yr total</span>
+                            <span>🌍 Full coverage</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Market Data -->
+        <div class="section collapsed" id="market">
+            <div class="section-header">
+                <h2>📈 Market Data</h2>
+                <span class="toggle">▼</span>
+            </div>
+            <div class="section-content">
+                <h3 style="margin-bottom: 15px;">Textile Waste Volume</h3>
+                <table style="width: 100%; border-collapse: collapse; margin-bottom: 30px;">
+                    <thead>
+                        <tr style="background: var(--gray-50);">
+                            <th style="padding: 12px; text-align: left; border-bottom: 1px solid var(--gray-200);">Country</th>
+                            <th style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">Volume</th>
+                            <th style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">Per Capita</th>
+                            <th style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">Recycling</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-country="finland">
+                            <td style="padding: 12px; border-bottom: 1px solid var(--gray-200);">🇫🇮 Finland</td>
+                            <td style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">85,770 t/yr</td>
+                            <td style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">~15 kg</td>
+                            <td style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">&lt;1%</td>
+                        </tr>
+                        <tr data-country="sweden">
+                            <td style="padding: 12px; border-bottom: 1px solid var(--gray-200);">🇸🇪 Sweden</td>
+                            <td style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">60-80k t/yr</td>
+                            <td style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">8-11 kg</td>
+                            <td style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">&lt;1%</td>
+                        </tr>
+                        <tr data-country="norway">
+                            <td style="padding: 12px; border-bottom: 1px solid var(--gray-200);">🇳🇴 Norway</td>
+                            <td style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">~100k t/yr</td>
+                            <td style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">19.3 kg</td>
+                            <td style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">&lt;1%</td>
+                        </tr>
+                        <tr style="font-weight: bold; background: var(--gray-50);">
+                            <td style="padding: 12px;">TOTAL</td>
+                            <td style="padding: 12px; text-align: center;">~280k t/yr</td>
+                            <td style="padding: 12px;"></td>
+                            <td style="padding: 12px;"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 style="margin-bottom: 15px;">Textile Services Market</h3>
+                <table style="width: 100%; border-collapse: collapse;">
+                    <thead>
+                        <tr style="background: var(--gray-50);">
+                            <th style="padding: 12px; text-align: left; border-bottom: 1px solid var(--gray-200);">Country</th>
+                            <th style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">Market Size</th>
+                            <th style="padding: 12px; text-align: left; border-bottom: 1px solid var(--gray-200);">Key Players</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-country="finland">
+                            <td style="padding: 12px; border-bottom: 1px solid var(--gray-200);">🇫🇮 Finland</td>
+                            <td style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">€350-450M</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--gray-200);">Lindström, SOL, Puro</td>
+                        </tr>
+                        <tr data-country="sweden">
+                            <td style="padding: 12px; border-bottom: 1px solid var(--gray-200);">🇸🇪 Sweden</td>
+                            <td style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">€560M</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--gray-200);">Elis, Textilia, CWS</td>
+                        </tr>
+                        <tr data-country="norway">
+                            <td style="padding: 12px; border-bottom: 1px solid var(--gray-200);">🇳🇴 Norway</td>
+                            <td style="padding: 12px; text-align: center; border-bottom: 1px solid var(--gray-200);">€180-270M</td>
+                            <td style="padding: 12px; border-bottom: 1px solid var(--gray-200);">Nor Tekstil, Elis</td>
+                        </tr>
+                        <tr style="font-weight: bold; background: var(--gray-50);">
+                            <td style="padding: 12px;">TOTAL</td>
+                            <td style="padding: 12px; text-align: center;">€1.1-1.3B</td>
+                            <td style="padding: 12px;"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>FabricAir Nordic Circular Polyester Research | <a href="index.md">Back to Platform</a> | <a href="https://justaride.github.io/FabricAir/">Live Site</a></p>
+        <p style="margin-top: 10px;">Data quality: 80% (B-) | 25+ sources cited | Updated: 2025-11-30</p>
+    </footer>
+
+    <div class="toast" id="toast">Email copied!</div>
+
+    <script>
+        // Toggle sections
+        document.querySelectorAll('.section-header').forEach(header => {
+            header.addEventListener('click', () => {
+                header.parentElement.classList.toggle('collapsed');
+            });
+        });
+
+        // Country filter
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const countryElements = document.querySelectorAll('[data-country]');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const country = btn.dataset.country;
+                btn.classList.toggle('active');
+
+                const activeCountries = Array.from(filterBtns)
+                    .filter(b => b.classList.contains('active'))
+                    .map(b => b.dataset.country);
+
+                countryElements.forEach(el => {
+                    if (activeCountries.includes(el.dataset.country)) {
+                        el.style.display = '';
+                    } else {
+                        el.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Copy email function
+        function copyEmail(email, btn = null) {
+            navigator.clipboard.writeText(email).then(() => {
+                showToast(`Copied: ${email}`);
+                if (btn) {
+                    const originalText = btn.textContent;
+                    btn.textContent = 'Copied!';
+                    btn.classList.add('copied');
+                    setTimeout(() => {
+                        btn.textContent = originalText;
+                        btn.classList.remove('copied');
+                    }, 2000);
+                }
+            });
+        }
+
+        // Toast notification
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+
+        // Animate capacity bars on scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const bars = entry.target.querySelectorAll('.bar');
+                    bars.forEach(bar => {
+                        const width = bar.style.width;
+                        bar.style.width = '0';
+                        setTimeout(() => {
+                            bar.style.width = width;
+                        }, 100);
+                    });
+                }
+            });
+        }, { threshold: 0.5 });
+
+        const capacitySection = document.getElementById('capacity');
+        if (capacitySection) {
+            observer.observe(capacitySection);
+        }
+    </script>
+</body>
+</html>

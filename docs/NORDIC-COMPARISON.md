@@ -1,155 +1,241 @@
 # Nordic Comparison
 
-A strategic analysis of recycled polyester opportunities across Finland, Sweden, and Norway.
+> Strategic analysis of recycled polyester opportunities across Finland, Sweden, and Norway for FabricAir's 100% circular ventilation textiles.
 
 ---
 
-## Summary
+## At a Glance
 
-| | Finland | Sweden | Norway |
-|---|---|---|---|
-| **Best for** | Immediate supply | Future capacity | Largest scale |
+| | 🇫🇮 Finland | 🇸🇪 Sweden | 🇳🇴 Norway |
+|:--|:--:|:--:|:--:|
 | **Recycler** | Rester | Rewin | NTG |
 | **Capacity** | 6-12k t/yr | 20k t/yr | 30k t/yr |
-| **Ready** | Now | Oct 2027 | ~2029 |
-| **Technology** | Mechanical | Chemical | Mechanical |
+| **Ready** | **NOW** | Oct 2027 | ~2029 |
+| **Technology** | Mechanical | Chemical | Defibration |
+| **Best for** | Immediate supply | Virgin-quality output | Largest scale |
 
-**Recommendation:** Start with Rester (Finland), build NTG (Norway) relationship, monitor Rewin (Sweden).
+### Combined Nordic Capacity by 2029
+
+```
+Finland (Rester)   ████████████░░░░░░░░░░░░░░░░░░  12,000 t/yr
+Sweden (Rewin)     ████████████████████░░░░░░░░░░  20,000 t/yr
+Norway (NTG)       ██████████████████████████████  30,000 t/yr
+───────────────────────────────────────────────────────────────
+TOTAL              ██████████████████████████████  62,000 t/yr
+```
 
 ---
 
-## 1. Market Overview
+## Quick Decision Guide
 
-### Textile Waste
+| If you need... | Choose | Contact |
+|:---------------|:------:|:--------|
+| Recycler operational NOW | 🇫🇮 | `hello@rester.fi` |
+| Largest future capacity | 🇳🇴 | `btm@ntgas.no` |
+| Chemical/virgin-quality recycling | 🇸🇪 | `wargoninnovation.se` |
+| Poly-cotton blend processing | 🇳🇴 | `btm@ntgas.no` |
+| Best automated sorting | 🇸🇪 | SIPTex (Malmö) |
+| Cleanroom textiles source | 🇸🇪 | AstraZeneca Södertälje |
+| Healthcare textiles source | 🇳🇴 | Helse Sør-Øst |
 
-| Country | Volume | Per Capita | Material Recycling |
-|---------|--------|------------|-------------------|
-| Finland | 85,770 t/yr | ~15 kg | <1% |
-| Sweden | 60-80k t/yr | 8-11 kg | <1% |
-| Norway | ~100k t/yr | 19.3 kg | <1% |
-| **Nordic** | **~280k t/yr** | | |
+---
+
+## Priority Contacts
+
+### 🔴 Contact First (Recyclers)
+
+| Country | Organization | Contact | Email |
+|:-------:|:-------------|:--------|:------|
+| 🇫🇮 | **Rester** | Jukka Pesola | `hello@rester.fi` |
+| 🇳🇴 | **NTG** | Bent Mathisen | `btm@ntgas.no` |
+| 🇸🇪 | **Rewin/Wargön** | Joel Arnoldsson | `wargoninnovation.se` |
+
+### 🟡 Feedstock Aggregators
+
+| Country | Organization | Contact | Email |
+|:-------:|:-------------|:--------|:------|
+| 🇫🇮 | Touchpoint | Noora Salonoja | `noora.salonoja@touchpoint.fi` |
+| 🇫🇮 | Puro | Paavo Martikainen | `paavo.martikainen@puro.fi` |
+| 🇳🇴 | Nor Tekstil | Thomas Karlsen | `thomas.karlsen@nortekstil.no` |
+| 🇸🇪 | Elis Sweden | Patrik Nyholm | `patrik.nyholm@elis.com` |
+
+---
+
+## Timeline
+
+```
+2024          2025          2026          2027          2028          2029
+  │             │             │             │             │             │
+  ▼             ▼             ▼             ▼             ▼             ▼
+
+🇫🇮 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
+   Rester OPERATIONAL (6k→12k t/yr)
+
+🇸🇪 ○─────────────────────────────────────●━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
+                                         Rewin LAUNCH (20k t/yr)
+                                         Oct 2027
+
+🇳🇴 ○━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
+   NTG R&D (2k t/yr) ──────────────────────────────────→ Full Scale (30k)
+                                                        ~2029
+
+━━━ = Operational    ─── = Development    ● = Milestone
+```
+
+### Regulatory Timeline
+
+| Date | Event | Countries |
+|:-----|:------|:----------|
+| Jan 2023 | Mandatory collection | 🇫🇮 (2 yrs ahead of EU) |
+| Jan 2025 | Mandatory collection | 🇸🇪 🇳🇴 |
+| 2026-27 | Digital Product Passport | 🇫🇮 🇸🇪 🇳🇴 |
+| 2027-28 | EPR full implementation | 🇫🇮 |
+| Apr 2028 | EPR full implementation | 🇸🇪 |
+| TBD | EPR (under review) | 🇳🇴 |
+
+---
+
+## Country Profiles
+
+### 🇫🇮 Finland — Immediate Partner
+
+| Metric | Value |
+|:-------|:------|
+| Textile waste | 85,770 t/yr |
+| Material recycling | <1% |
+| Textile services market | €350-450M |
+| EPR status | Expected 2027-28 |
+
+**Key Recycler: Rester**
+- Location: Paimio
+- Capacity: 6,000 t/yr (scaling to 12,000)
+- Technology: Mechanical fiber-to-fiber
+- Status: **OPERATIONAL NOW**
+- Ownership: Touchpoint 51%, Lindström investor
+
+**Best Sources:**
+1. Pharma/Cleanroom (Orion, Okmetic) — >90% white, 100% PET
+2. Food Processing (Valio, Fazer) — 70-80% white
+3. Healthcare (Puro) — Often blends, verify composition
+
+**⚠️ Risk:** Lindström shareholder may have locked capacity
+
+---
+
+### 🇸🇪 Sweden — Future Capacity
+
+| Metric | Value |
+|:-------|:------|
+| Textile waste | 60-80k t/yr |
+| Material recycling | <1% |
+| Textile services market | €560M |
+| EPR status | April 2028 |
+
+**Key Recycler: Rewin (Wargön Innovation)**
+- Location: Vargön
+- Capacity: 20,000 t/yr (target)
+- Technology: Chemical fiber-to-fiber
+- Status: Launch October 2027
+- Partners: Gina Tricot, KappAhl, Helly Hansen
+
+**Key Sorter: SIPTex**
+- Location: Malmö
+- Capacity: 24,000 t/yr
+- Technology: NIR + visual spectroscopy
+- Status: **OPERATIONAL**
+
+**Best Sources:**
+1. Cleanroom (AstraZeneca ~5,000 employees) — 100% PET, white
+2. Healthcare — Often 65/35 blends (NOT suitable)
+
+**⚠️ Risk:** Rewin not operational until 2027
+
+---
+
+### 🇳🇴 Norway — Largest Scale
+
+| Metric | Value |
+|:-------|:------|
+| Textile waste | ~100,000 t/yr |
+| Material recycling | <1% (97% exported) |
+| Textile services market | €180-270M |
+| EPR status | Under review |
+
+**Key Recycler: NTG (Norsk Tekstilgjenvinning)**
+- Location: Sandefjord
+- Current capacity: 2,000 t/yr (R&D)
+- Target capacity: 30,000 t/yr (~2029)
+- Technology: Patented mechanical defibration
+- Unique: **Handles poly-cotton blends**
+- CEO: Bent Tatsuyama Mathisen
+
+**Why NTG Matters:**
+- Fastest-growing Nordic recycler
+- Defibration cuts fibers (preserves length for respinning)
+- GRS certification in progress
+- NOK 30M+ funding from Innovation Norway
+
+**Best Sources:**
+1. Healthcare (Helse Sør-Øst ~60,000 uniform users) — 65% white
+2. Food Processing (Nortura, TINE) — 55% white
+3. Cleanroom (Takeda, GE Healthcare) — Small volume, 100% PET
+
+**⚠️ Risk:** EPR timeline uncertain
+
+---
+
+## Market Comparison
+
+### Textile Waste Volume
+
+| Country | Volume | Per Capita | Recycling Rate |
+|:-------:|:------:|:----------:|:--------------:|
+| 🇫🇮 | 85,770 t/yr | ~15 kg | <1% |
+| 🇸🇪 | 60-80k t/yr | 8-11 kg | <1% |
+| 🇳🇴 | ~100k t/yr | 19.3 kg | <1% |
+| **Total** | **~280k t/yr** | | |
 
 ### Textile Services Market
 
-| Country | Size (EUR) | Key Players |
-|---------|------------|-------------|
-| Finland | €350-450M | Lindström, SOL, Puro |
-| Sweden | €560M | Elis, Textilia, CWS |
-| Norway | €180-270M | Nor Tekstil, Elis |
-| **Nordic** | **€1.1-1.3B** | |
+| Country | Market Size | Key Players |
+|:-------:|:------------|:------------|
+| 🇫🇮 | €350-450M | Lindström, SOL, Puro |
+| 🇸🇪 | €560M | Elis, Textilia, CWS |
+| 🇳🇴 | €180-270M | Nor Tekstil, Elis |
+| **Total** | **€1.1-1.3B** | |
 
 ---
 
-## 2. Recycling Infrastructure
+## Risk Matrix
 
-### Primary Recyclers
+| Risk Factor | 🇫🇮 | 🇸🇪 | 🇳🇴 |
+|:------------|:---:|:---:|:---:|
+| Technology maturity | ✅ Low | ⚠️ Med | ✅ Low |
+| Capacity availability | ⚠️ Med | 🔴 High | ⚠️ Med |
+| EPR uncertainty | ✅ Low | ✅ Low | 🔴 High |
+| Blend contamination | 🔴 High | 🔴 High | ⚠️ Med |
+| Competition for feedstock | 🔴 High | ⚠️ Med | ✅ Low |
 
-| Recycler | Country | Technology | Now | 2028+ |
-|----------|---------|------------|-----|-------|
-| **Rester** | Finland | Mechanical | 6k t/yr | 12k t/yr |
-| **Rewin** | Sweden | Chemical | — | 20k t/yr |
-| **NTG** | Norway | Defibration | 2k t/yr | 30k t/yr |
-
-### Why Each Matters
-
-**Rester (Finland)**
-- Only operational Nordic polyester recycler
-- Proven technology, immediate availability
-- Challenge: Lindström may have capacity locked via shareholding
-
-**Rewin (Sweden)**
-- Chemical recycling = virgin-quality output
-- Best for closed-loop textile-to-textile
-- Challenge: Not operational until Oct 2027
-
-**NTG (Norway)**
-- Largest planned capacity
-- Unique: Handles poly-cotton blends
-- GRS certification in progress
-
-### Sorting Infrastructure
-
-| Facility | Country | Capacity | Status |
-|----------|---------|----------|--------|
-| SIPTex (Malmö) | Sweden | 24k t/yr | Operational |
-| LSJH (Turku) | Finland | — | Cancelled |
-| NTS Sorting | Norway | Scaling | Operational |
+**Key Risks:**
+- 🇫🇮 Lindström may have locked Rester capacity via shareholding
+- 🇸🇪 Rewin not operational until October 2027
+- 🇳🇴 EPR timeline uncertain (originally 2027, may be 2028)
 
 ---
 
-## 3. Regulatory Landscape
+## Supply Chain Options
 
-### EPR Timeline
-
-| Country | Collection Start | EPR Operational |
-|---------|------------------|-----------------|
-| Finland | Jan 2023 | 2027-28 |
-| Sweden | Jan 2025 | Apr 2028 |
-| Norway | Jan 2025 | Under review |
-
-Finland leads — collection started 2 years ahead of EU requirement.
-
----
-
-## 4. White Polyester Sources
-
-### Best Sectors by Country
-
-| Rank | Finland | Sweden | Norway |
-|------|---------|--------|--------|
-| 1 | Pharma/Cleanroom | Pharma/Cleanroom | Healthcare |
-| 2 | Food Processing | Healthcare | Food Processing |
-| 3 | Healthcare | Food Processing | Cleanroom |
-
-### Cleanroom Sector
-
-| Country | Key Employer | Employees | Notes |
-|---------|--------------|-----------|-------|
-| Sweden | AstraZeneca | ~5,000 | 40% of global production |
-| Finland | Orion, Okmetic | ~3,000 | High purity |
-| Norway | Takeda, GE | ~1,500 | Smaller market |
-
-**Best source overall:** Swedish cleanroom sector (AstraZeneca Södertälje)
-
----
-
-## 5. Priority Contacts
-
-### Finland
-
-| Organization | Contact | Email |
-|--------------|---------|-------|
-| Rester | Jukka Pesola | hello@rester.fi |
-| Touchpoint | Noora Salonoja | noora.salonoja@touchpoint.fi |
-| Puro | Paavo Martikainen | paavo.martikainen@puro.fi |
-
-### Sweden
-
-| Organization | Contact | Email |
-|--------------|---------|-------|
-| Rewin/Wargön | Joel Arnoldsson | via wargoninnovation.se |
-| Elis Sweden | Patrik Nyholm | patrik.nyholm@elis.com |
-| Textilia | Jonas Olaison | jonas.olaison@textilia.se |
-
-### Norway
-
-| Organization | Contact | Email |
-|--------------|---------|-------|
-| NTG | Bent Mathisen | btm@ntgas.no |
-| Nor Tekstil | Thomas Karlsen | thomas.karlsen@nortekstil.no |
-| Fretex Miljø | Kristin Hareide | kristin.hareide@fretex.no |
-
----
-
-## 6. Supply Chain Options
-
-### Option A: Finland-First (Now)
+### Option A: Finland-First (Immediate)
 
 ```
 Nordic textiles → Rester (Finland) → FabricAir
 ```
 
-Best for: Immediate needs, proven process
+**Best for:** Immediate needs, proven technology
+**Capacity:** 6-12k t/yr
+**Status:** Available NOW
+
+---
 
 ### Option B: Norway-Centric (2025+)
 
@@ -157,83 +243,67 @@ Best for: Immediate needs, proven process
 Nordic textiles → NTG (Norway) → FabricAir
 ```
 
-Best for: Scale, poly-cotton capability
-
-### Option C: Nordic Integration (2028+)
-
-```
-Finland → Rester (12k) ─┐
-Sweden  → Rewin (20k) ──┼→ FabricAir
-Norway  → NTG (30k) ────┘
-         Total: 62k t/yr
-```
-
-Best for: Full coverage, technology diversity
+**Best for:** Scale, poly-cotton capability
+**Capacity:** 2k → 30k t/yr
+**Status:** Scaling
 
 ---
 
-## 7. Risk Assessment
+### Option C: Full Nordic Integration (2028+)
 
-| Risk | FI | SE | NO |
-|------|:--:|:--:|:--:|
-| Technology maturity | Low | Med | Low |
-| Capacity availability | Med | High | Med |
-| EPR uncertainty | Low | Low | High |
-| Blend contamination | High | High | Med |
-| Competition for feedstock | High | Med | Low |
+```
+🇫🇮 Finland → Rester  (12k) ─┐
+🇸🇪 Sweden  → Rewin   (20k) ─┼─→ FabricAir
+🇳🇴 Norway  → NTG     (30k) ─┘
 
-**Key risks:**
-- Finland: Lindström has locked Rester capacity
-- Sweden: Rewin not operational until 2027
-- Norway: EPR timeline uncertain
+         TOTAL: 62,000 t/yr
+```
+
+**Best for:** Maximum coverage, technology diversity
+**Capacity:** 62k t/yr combined
+**Status:** Fully operational by ~2029
 
 ---
 
-## 8. Recommendations
+## Recommended Actions
 
 ### Immediate (Q1 2025)
 
-1. Engage Rester for pilot project
-2. Contact NTG for future partnership
-3. Connect with Touchpoint for feedstock
+| Priority | Action | Contact |
+|:--------:|:-------|:--------|
+| 1 | Engage Rester for pilot | `hello@rester.fi` |
+| 2 | Contact NTG for future partnership | `btm@ntgas.no` |
+| 3 | Connect with Touchpoint for feedstock | `noora.salonoja@touchpoint.fi` |
 
 ### Medium-Term (2025-2027)
 
-1. Establish NTG supply agreement
-2. Map cleanroom sector contacts
-3. Track Rewin development
+| Priority | Action | Contact |
+|:--------:|:-------|:--------|
+| 1 | Establish NTG supply agreement | `btm@ntgas.no` |
+| 2 | Map cleanroom sector contacts | Orion, AstraZeneca |
+| 3 | Track Rewin development | `wargoninnovation.se` |
 
 ### Long-Term (2028+)
 
-1. Multi-country supply chain
-2. Direct cleanroom sourcing
-3. Nordic EPR coordination
+| Priority | Action |
+|:--------:|:-------|
+| 1 | Multi-country supply chain |
+| 2 | Direct cleanroom sourcing |
+| 3 | Nordic EPR coordination |
 
 ---
 
-## Quick Reference
-
-| Need | Best Option |
-|------|-------------|
-| Operational recycler now | Rester (Finland) |
-| Largest future capacity | NTG (Norway) |
-| Chemical recycling | Rewin (Sweden) |
-| Poly-cotton processing | NTG (Norway) |
-| Best sorting | SIPTex (Sweden) |
-| Cleanroom textiles | AstraZeneca (Sweden) |
-
----
-
-## Phase 2.1 Data Quality
+## Data Quality
 
 | Metric | Status |
-|--------|--------|
+|:-------|:-------|
 | Market data | 90% cited with sources |
-| Contacts | 70% verified |
+| Contacts verified | 70% |
 | Overall score | **80%** (B-) |
 
-All data now backed by 25+ sources. See [Phase 2.1 Research Findings](PHASE2-RESEARCH-FINDINGS.md).
+All data backed by 25+ sources. See [Phase 2.1 Research Findings](PHASE2-RESEARCH-FINDINGS.md).
 
 ---
 
 *Report updated: 2025-11-30*
+*Live platform: https://justaride.github.io/FabricAir/*
