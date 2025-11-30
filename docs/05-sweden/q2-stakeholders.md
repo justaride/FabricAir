@@ -58,6 +58,16 @@ Production → Use → Collection → Sorting → Recycling → New Products
 | CWS | Industrial | Workwear, mats |
 | Berendsen | Merged with Elis | — |
 
+### Workwear Manufacturers
+
+| Company | Focus | Circular Initiative |
+|---------|-------|---------------------|
+| **Fristads** | Workwear | First circular product (2024), repair services |
+| Blåkläder | Workwear | — |
+| Snickers Workwear | Professional | — |
+
+**Note:** Fristads (Borås) launched circular sweatshirt with 15% closed-loop content in 2024.
+
 ---
 
 ### Research & Development
