@@ -2,7 +2,7 @@
 
 **Project:** Nordic Circular Polyester Research for FabricAir
 **Status:** Research Complete — Ready for Commercial Phase
-**Date:** 2025-11-29
+**Date:** 2025-11-30
 
 ---
 
@@ -163,9 +163,10 @@ FabricAir requires:
 |-------|------|
 | All contacts | [Contact Directory](03-contacts/directory.md) |
 | Country comparison | [Nordic Comparison](NORDIC-COMPARISON.md) |
-| Finland details | [Research Questions Q1-Q6](02-research-questions/q1-sectors-actors.md) |
-| Sweden details | [Sweden Report](05-sweden/SWEDEN-RESEARCH-REPORT.md) |
-| Norway details | [Norway Report](06-norway/NORWAY-RESEARCH-REPORT.md) |
+| Interactive comparison | [Nordic Comparison (Interactive)](nordic-comparison.html) |
+| Finland Q1-Q6 | [Finland Research](02-research-questions/index.md) |
+| Sweden Q1-Q6 | [Sweden Research](05-sweden/index.md) |
+| Norway Q1-Q6 | [Norway Research](06-norway/index.md) |
 | Implementation roadmap | [Commercial Phase Plan](COMMERCIAL-PHASE-PLAN.md) |
 
 ---
@@ -180,7 +181,7 @@ FabricAir requires:
 
 ---
 
-*Research completed: 2025-11-29*
-*Phase 2 research: 2025-11-29*
+*Research completed: 2025-11-30*
+*All countries now follow 6-question structure*
 *Project: Nordic Circular Construction (NCC)*
 *Client: FabricAir*

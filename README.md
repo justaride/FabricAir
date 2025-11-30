@@ -78,13 +78,16 @@ docs/
 ├── 00-executive-summary.md     # Key findings
 ├── FINAL-REPORT.md             # Consolidated 50-page report
 ├── FINAL-REPORT-PRINT.html     # Print-ready version
-├── NORDIC-COMPARISON.md        # Cross-country analysis
-├── 02-research-questions/      # Finland Q1-Q6
+├── NORDIC-COMPARISON.md        # Cross-country analysis (enhanced)
+├── nordic-comparison.html      # Interactive comparison (NEW)
+├── 02-research-questions/      # Finland Q1-Q6 (index + 6 pages)
+├── 05-sweden/                  # Sweden Q1-Q6 (index + 6 pages)
+├── 06-norway/                  # Norway Q1-Q6 (index + 6 pages)
 ├── 03-contacts/directory.md    # 40+ contacts
-├── 05-sweden/                  # Sweden research
-├── 06-norway/                  # Norway research
 └── viewer.html                 # Interactive viewer
 ```
+
+All three countries now follow the same 6-question research framework.
 
 ---
 
@@ -107,14 +110,16 @@ Open `FINAL-REPORT-PRINT.html` in browser → Print → Save as PDF
 
 ## Research Scope
 
-| Question | Topic | Status |
-|----------|-------|--------|
-| Q1 | Sectors & Actors | ✅ Verified |
-| Q2 | Value Chain | ✅ Verified |
-| Q3 | Disposal & Reuse | ✅ Verified |
-| Q4 | Regulations | ✅ Verified |
-| Q5 | Initiatives | ✅ Verified |
-| Q6 | Top 10 Sources | ✅ Verified |
+All three countries follow the same 6-question framework:
+
+| Question | Topic | 🇫🇮 | 🇸🇪 | 🇳🇴 |
+|----------|-------|:--:|:--:|:--:|
+| Q1 | Sectors & Actors | ✅ | ✅ | ✅ |
+| Q2 | Value Chain | ✅ | ✅ | ✅ |
+| Q3 | Disposal & Reuse | ✅ | ✅ | ✅ |
+| Q4 | Regulations | ✅ | ✅ | ✅ |
+| Q5 | Initiatives | ✅ | ✅ | ✅ |
+| Q6 | Top 10 Sources | ✅ | ✅ | ✅ |
 
 ---
 

@@ -59,19 +59,40 @@ Map companies in Finland, Sweden, and Norway specializing in collection of used 
 ├── docs/                           # Presentation documents
 │   ├── index.md                    # Dashboard
 │   ├── 00-executive-summary.md     # Key findings + actions
-│   ├── NORDIC-COMPARISON.md        # Cross-country analysis
+│   ├── NORDIC-COMPARISON.md        # Cross-country analysis (enhanced)
+│   ├── nordic-comparison.html      # Interactive comparison (NEW)
+│   ├── FINAL-REPORT.md             # Consolidated 50-page report
+│   ├── FINAL-REPORT-PRINT.html     # Print-ready version
 │   ├── COMMERCIAL-PHASE-PLAN.md    # Outreach roadmap
-│   ├── PROJECT-DELIVERY-STATUS.md  # Completion status
 │   ├── 01-context/                 # FabricAir profile
-│   ├── 02-research-questions/      # Finland Q1-Q6
+│   ├── 02-research-questions/      # Finland Q1-Q6 (index + 6 pages)
 │   ├── 03-contacts/                # Contact directory
-│   ├── 05-sweden/                  # Sweden report
-│   ├── 06-norway/                  # Norway report
+│   ├── 05-sweden/                  # Sweden Q1-Q6 (index + 6 pages)
+│   ├── 06-norway/                  # Norway Q1-Q6 (index + 6 pages)
 │   └── _internal/                  # Working docs (not for presentation)
 │
 ├── CLAUDE.md                       # This file
 └── PROJECT-LOG.md                  # Activity log
 ```
+
+### 6-Question Structure (All Countries)
+
+Each country follows the same research framework:
+
+| Question | Topic |
+|----------|-------|
+| Q1 | Sectors & Actors |
+| Q2 | Value Chain Stakeholders |
+| Q3 | Disposal & Reuse |
+| Q4 | Regulations |
+| Q5 | Initiatives |
+| Q6 | Top 10 Sources |
+
+| Country | Path |
+|---------|------|
+| Finland | `docs/02-research-questions/` |
+| Sweden | `docs/05-sweden/` |
+| Norway | `docs/06-norway/` |
 
 ## Data Interconnection
 
@@ -143,14 +164,15 @@ FabricAir requires:
 
 ## Next Steps
 
-1. **Platform optimization** — Final design polish
-2. **PDF generation** — Create report from platform content
-3. **Delivery** — Handoff to FabricAir
+1. **Stakeholder outreach** — Contact Rester, NTG, Rewin
+2. **Sample requests** — Material validation
+3. **Commercial discussions** — Pricing and volumes
 4. **Post-delivery** — Continued development if needed
 
 ---
 
 *Project initialized: 2025-11-28*
-*Last updated: 2025-11-29*
-*Phase: Platform delivery*
+*Last updated: 2025-11-30*
+*Phase: Platform delivery complete*
 *Overall completion: 92%*
+*Delivery score: 80% (B-)*

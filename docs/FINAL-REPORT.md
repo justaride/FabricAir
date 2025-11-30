@@ -85,6 +85,8 @@ FabricAir can access **56,000-62,000 tonnes/year** of recycled polyester capacit
 
 ## Part 1: Finland Analysis
 
+*Full 6-question analysis: [Finland Q1-Q6](02-research-questions/index.md)*
+
 ### 1.1 Market Overview
 
 | Metric | Value | Source |
@@ -190,6 +192,8 @@ EPR transition will transform the market—companies will shift from paying for 
 
 ## Part 2: Sweden Analysis
 
+*Full 6-question analysis: [Sweden Q1-Q6](05-sweden/index.md)*
+
 ### 2.1 Market Overview
 
 | Metric | Value |
@@ -243,6 +247,8 @@ EPR transition will transform the market—companies will shift from paying for 
 \newpage
 
 ## Part 3: Norway Analysis
+
+*Full 6-question analysis: [Norway Q1-Q6](06-norway/index.md)*
 
 ### 3.1 Market Overview
 
@@ -534,12 +540,14 @@ Norway  → NTG (30k) ────┘
 
 | Deliverable | Status |
 |-------------|--------|
-| Finland research (Q1-Q6) | Complete |
-| Sweden research + verification | Complete |
-| Norway research + verification | Complete |
-| Nordic comparison | Complete |
-| Contact directory (40+) | Complete |
-| Cited sources (25+) | Complete |
+| Finland research (Q1-Q6) | ✅ Complete |
+| Sweden research (Q1-Q6) | ✅ Complete |
+| Norway research (Q1-Q6) | ✅ Complete |
+| Nordic comparison (markdown + interactive) | ✅ Complete |
+| Contact directory (40+) | ✅ Complete |
+| Cited sources (25+) | ✅ Complete |
+
+All three countries now follow the unified 6-question research framework.
 
 ### C.3 Remaining Gap (20%)
 

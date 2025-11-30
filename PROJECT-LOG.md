@@ -1613,6 +1613,110 @@ The research platform is now:
 
 ---
 
+## 2025-11-30 - Nordic Comparison Visual Enhancement
+
+### Actions Taken
+- Created enhanced NORDIC-COMPARISON.md (Option A) with visual hierarchy
+- Created interactive nordic-comparison.html (Option B) with full interactivity
+- Added country color coding (Finland blue, Sweden yellow, Norway red)
+
+### Option A: Enhanced Markdown
+
+| Feature | Implementation |
+|---------|---------------|
+| Country flags | Throughout document |
+| Capacity bar chart | Unicode block visualization |
+| Visual timeline | ASCII art showing recycler readiness |
+| Decision guide | Quick lookup table |
+| Risk matrix | Color-coded indicators |
+
+### Option B: Interactive HTML
+
+| Feature | Implementation |
+|---------|---------------|
+| Country cards | Color-coded hero section |
+| Filter toggles | Show/hide countries |
+| Collapsible sections | Click to expand/collapse |
+| Click-to-copy | All email contacts |
+| Animated charts | Capacity bars animate on scroll |
+| Toast notifications | Copy feedback |
+
+### Files Created/Updated
+
+| File | Status |
+|------|--------|
+| `docs/NORDIC-COMPARISON.md` | Enhanced with visual hierarchy |
+| `docs/nordic-comparison.html` | NEW - Interactive page |
+| `docs/_internal/NORDIC-COMPARISON-ENHANCEMENT-PLAN.md` | NEW - Design plan |
+
+### Access URLs
+
+- Markdown: https://justaride.github.io/FabricAir/docs/NORDIC-COMPARISON.md
+- Interactive: https://justaride.github.io/FabricAir/docs/nordic-comparison.html
+
+---
+
+## 2025-11-30 - Sweden & Norway 6-Question Restructure
+
+### Actions Taken
+- Restructured Sweden into 6-question format matching Finland
+- Restructured Norway into 6-question format matching Finland
+- Updated navigation across platform
+
+### New Structure
+
+All three countries now have consistent format:
+
+| Country | Path | Files |
+|---------|------|-------|
+| Finland | `docs/02-research-questions/` | index + Q1-Q6 |
+| Sweden | `docs/05-sweden/` | index + Q1-Q6 |
+| Norway | `docs/06-norway/` | index + Q1-Q6 |
+
+### Sweden Files Created (7)
+
+| File | Key Content |
+|------|-------------|
+| `index.md` | Overview with all 6 questions |
+| `q1-sectors-actors.md` | Cleanroom focus (AstraZeneca ~5,000 employees) |
+| `q2-stakeholders.md` | SIPTex, Rewin, Elis mapping |
+| `q3-disposal-reuse.md` | 60-80k t/yr waste, <1% recycling |
+| `q4-regulations.md` | EPR April 2028 |
+| `q5-initiatives.md` | Rewin 20k t/yr by Oct 2027 |
+| `q6-top10-sources.md` | 10 priority contacts |
+
+### Norway Files Created (7)
+
+| File | Key Content |
+|------|-------------|
+| `index.md` | Overview with all 6 questions |
+| `q1-sectors-actors.md` | Healthcare (155k employees) |
+| `q2-stakeholders.md` | NTG key recycler, 97% export |
+| `q3-disposal-reuse.md` | ~100k t/yr waste, 97% exported |
+| `q4-regulations.md` | EPR date uncertain |
+| `q5-initiatives.md` | NTG 30k t/yr by ~2029 |
+| `q6-top10-sources.md` | 10 priority contacts |
+
+### Navigation Updated
+
+| Link | Description |
+|------|-------------|
+| Finland Q1-Q6 | `docs/02-research-questions/index.md` |
+| Sweden Q1-Q6 | `docs/05-sweden/index.md` |
+| Norway Q1-Q6 | `docs/06-norway/index.md` |
+
+### Platform Status
+
+| Component | Status |
+|-----------|--------|
+| Finland 6Q structure | ✅ Complete |
+| Sweden 6Q structure | ✅ Complete |
+| Norway 6Q structure | ✅ Complete |
+| Nordic Comparison | ✅ Enhanced |
+| Interactive viewer | ✅ Available |
+
+---
+
 ## Template for Future Entries
 
 ```markdown
