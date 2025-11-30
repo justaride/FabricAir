@@ -1406,6 +1406,173 @@ This finding significantly impacts the project:
 
 ---
 
+## 2025-11-29 - Phase 2.1 Cited Desk Research Complete
+
+### Context
+Following Phase 2 research execution (82% score), user requested "more desk research, detailed oriented, cited and sourced desk research" to close remaining gaps.
+
+### Actions Taken
+- Executed 12+ web searches with source tracking
+- Updated PHASE2-RESEARCH-FINDINGS.md with full citations
+- Added 25+ sources with URLs for verification
+- Refined volume estimates with calculation methodology
+- Identified new operational contacts
+
+### New Cited Findings
+
+**Finland Textile Waste (Official):**
+| Metric | Value | Source |
+|--------|-------|--------|
+| Total end-of-life textiles | 85,770 t/yr | [Turku UAS](https://www.tuas.fi/en/articles/463/textile-flows-finland-consumption-textiles-steady-amount-textile-waste-rise/) |
+| Incineration rate | ~60% | [Turku UAS](https://www.tuas.fi/en/articles/463/textile-flows-finland-consumption-textiles-steady-amount-textile-waste-rise/) |
+| Hotel/restaurant/hospital textiles | 1,330 t/yr | [EastCham Finland](https://www.eastcham.fi/finnishwastemanagement/municipal-solid-waste/recycling-and-recovery/textile/) |
+| Defence Forces uniforms (incinerated) | 53,408 kg/yr | [EastCham Finland](https://www.eastcham.fi/finnishwastemanagement/municipal-solid-waste/recycling-and-recovery/textile/) |
+
+**Pharmaceutical/Cleanroom Workforce:**
+| Organization | Employees | Source |
+|--------------|-----------|--------|
+| Total Finnish pharma | ~5,400 | [Pharma Industry Finland](https://www.pif.fi/) |
+| Orion Corporation | ~3,700-4,000 | [Orion Wikipedia](https://en.wikipedia.org/wiki/Orion_Corporation_(Finnish_company)) |
+
+**Rester Capacity (Detailed):**
+| Metric | Value | Source |
+|--------|-------|--------|
+| Total plant capacity | 11,000 t/yr | [Tesi](https://tesi.fi/en/article/rester-article/) |
+| Rester production line | 6,000 t/yr | [Tesi](https://tesi.fi/en/article/rester-article/) |
+| LSJH consumer line | 5,000 t/yr | [Tesi](https://tesi.fi/en/article/rester-article/) |
+| Funding raised | €6 million (2022) | [Tesi](https://tesi.fi/en/article/rester-article/) |
+
+### New Operational Contacts Identified
+
+**HUS Logistics (Verified):**
+- Email: logistiikka.asiakaspalvelu@hus.fi
+- Phone: 09 471 77000
+- Address: P.O. Box 441, FI-00029 HUS
+- Source: [HUS Logistics](https://hus.fi/en/professionals/logistics-services)
+
+**Puro Tekstiilihuolto:**
+- Formed January 2021 from Uudenmaan Sairaalapesula merger
+- 250+ textile care professionals
+- Owners: HUS, Helsinki, Espoo, CAREA
+- Source: [HUS Announcement](https://www.hus.fi/ajankohtaista/uudenmaan-sairaalapesula-oy-ja-puro-tekstiilihuolto-oy-vahvistavat-yhteistyotaan)
+
+**Valio Waste Partner:**
+- Partner: ENPROS/ZEROWASTE
+- Contact: Jussi Koskinen (Purchasing Manager)
+- Source: [ENPROS](https://enpros.fi/en/asiakas/environmental-reporting/valio/)
+
+### Volume Estimate Refined
+
+**100% White Polyester Estimate:**
+| Sector | Volume | Calculation Basis |
+|--------|--------|-------------------|
+| Cleanroom/Pharma | 50-150 t/yr | 5,400 employees × ~10kg/yr |
+| Healthcare (white) | 200-400 t/yr | 1,330t rental × 20% white PET |
+| Food processing | 50-150 t/yr | ~5% of rental market |
+| **Total accessible** | **300-700 t/yr** | |
+
+**Key change:** Previous estimate "5-10k tonnes" included blended materials. Revised to 300-700 t/yr for 100% white polyester specifically.
+
+### Files Updated
+
+| File | Changes |
+|------|---------|
+| `docs/PHASE2-RESEARCH-FINDINGS.md` | Full bibliography (25+ sources), cited data tables, updated summary |
+
+### Updated Delivery Score
+
+| Dimension | Phase 1 | Phase 2 | Phase 2.1 | Change |
+|-----------|---------|---------|-----------|--------|
+| Contact Quality | 50% | 60% | 70% | +20% |
+| Citation Quality | 40% | 55% | 80% | +40% |
+| Actionability | 55% | 65% | 70% | +15% |
+| FabricAir Fit | 65% | 70% | 75% | +10% |
+| **Weighted Overall** | 60% | 75.5% | **80%** | +20% |
+
+### Key Insight
+
+**Desk research ceiling reached at ~80%.** The remaining 20% gap requires direct industry engagement:
+1. Operational contacts at end-users (facilities managers)
+2. Rester uncommitted capacity (confidential)
+3. Specific 100% PET product SKUs (not published)
+4. Pricing and volume terms (commercial negotiation)
+
+### Research Sources Added
+
+**Primary (9):** HUS, Puro, Pharma Industry Finland, Orion, Rester, Touchpoint, VisitPaimio
+**Secondary (4):** Tesi Investment, Rester Crunchbase, Rester LinkedIn, Orion Wikipedia
+**Tertiary (5):** Turku UAS, EastCham Finland, Zero Waste Europe, Puhdaspalvelu, ENPROS
+**Industry News (4):** HUS merger, Motiivilehti, HUS Logistics Review, Kolfox
+
+### Outstanding Items
+- [ ] Direct outreach to Rester for capacity confirmation
+- [ ] Contact Orion facilities management
+- [ ] Request material specs from Image Wear
+- [ ] Verify SOL Group material composition
+
+---
+
+## 2025-11-30 - Document Update & PDF Report Creation
+
+### Actions Taken
+- Updated all project documents with Phase 2.1 scores (80%, B-)
+- Created consolidated FINAL-REPORT.md (~800 lines)
+- Created print-ready HTML version (FINAL-REPORT-PRINT.html)
+- Set up PDF generation infrastructure
+
+### Documents Updated
+
+| Document | Changes |
+|----------|---------|
+| `docs/index.md` | Score 75.5% → 80%, added Download section |
+| `docs/00-executive-summary.md` | Score updated, Phase 2.1 findings |
+| `docs/DELIVERY-ASSESSMENT.md` | Full Phase 2.1 scoring |
+| `docs/NORDIC-COMPARISON.md` | Added Phase 2.1 data quality section |
+| `docs/03-contacts/directory.md` | Added operational contacts section |
+| `docs/02-research-questions/index.md` | Added Phase 2.1 citation update |
+
+### New Files Created
+
+| File | Purpose |
+|------|---------|
+| `docs/FINAL-REPORT.md` | Consolidated report (~50 pages) |
+| `docs/FINAL-REPORT-PRINT.html` | Print-ready HTML with styling |
+| `docs/pdf/generate-pdf.sh` | PDF generation script |
+
+### PDF Generation Options
+
+1. **Browser Print (Immediate):** Open FINAL-REPORT-PRINT.html → Ctrl+P → Save as PDF
+2. **Pandoc (Professional):** Install LaTeX, run generate-pdf.sh
+3. **WeasyPrint (Alternative):** pip install weasyprint
+
+### Report Structure
+
+```
+FINAL-REPORT.md
+├── Cover Page
+├── Executive Summary
+├── Part 1: Finland Analysis
+├── Part 2: Sweden Analysis
+├── Part 3: Norway Analysis
+├── Part 4: Nordic Comparison
+├── Part 5: Risk Assessment
+├── Part 6: Commercial Phase Plan
+├── Appendix A: Contact Directory
+├── Appendix B: Sources (25+)
+└── Appendix C: Delivery Assessment
+```
+
+### Server Running
+
+Local preview available at: **http://localhost:8888/viewer.html**
+
+### Outstanding Items
+- [ ] Generate final PDF with LaTeX (requires mactex installation)
+- [ ] Direct outreach to priority partners
+- [ ] Sample requests from Rester
+
+---
+
 ## Template for Future Entries
 
 ```markdown

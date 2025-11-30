@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FabricAir Nordic Circular Polyester Research Report</title>
+    <style>
+        /* Print-optimized styles */
+        @page {
+            size: A4;
+            margin: 2cm;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: #1a1a1a;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+
+        h1 {
+            font-size: 24pt;
+            color: #0066cc;
+            border-bottom: 3px solid #0066cc;
+            padding-bottom: 10px;
+            margin-top: 0;
+            page-break-after: avoid;
+        }
+
+        h2 {
+            font-size: 16pt;
+            color: #333;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            font-size: 13pt;
+            color: #444;
+            margin-top: 20px;
+            page-break-after: avoid;
+        }
+
+        h4 {
+            font-size: 11pt;
+            color: #555;
+            margin-top: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 10pt;
+            page-break-inside: avoid;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px 10px;
+            text-align: left;
+        }
+
+        th {
+            background: #f5f5f5;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background: #fafafa;
+        }
+
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+            font-size: 10pt;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-size: 10pt;
+        }
+
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .cover-page {
+            text-align: center;
+            padding: 100px 20px;
+            page-break-after: always;
+        }
+
+        .cover-page h1 {
+            font-size: 32pt;
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        .cover-page .subtitle {
+            font-size: 16pt;
+            color: #666;
+            margin-bottom: 50px;
+        }
+
+        .cover-page .meta {
+            font-size: 12pt;
+            color: #888;
+        }
+
+        .cover-page .meta table {
+            width: auto;
+            margin: 20px auto;
+            border: none;
+        }
+
+        .cover-page .meta td {
+            border: none;
+            padding: 5px 15px;
+        }
+
+        .toc {
+            page-break-after: always;
+        }
+
+        .toc h2 {
+            border-bottom: 2px solid #0066cc;
+        }
+
+        .toc ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .toc li {
+            padding: 5px 0;
+            border-bottom: 1px dotted #ddd;
+        }
+
+        .toc a {
+            color: #333;
+        }
+
+        .page-break {
+            page-break-before: always;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 10px 15px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+        }
+
+        .warning {
+            background: #f8d7da;
+            padding: 10px 15px;
+            border-left: 4px solid #dc3545;
+            margin: 15px 0;
+        }
+
+        .success {
+            background: #d4edda;
+            padding: 10px 15px;
+            border-left: 4px solid #28a745;
+            margin: 15px 0;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 10pt;
+            color: #666;
+            text-align: center;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+            }
+
+            .no-print {
+                display: none;
+            }
+
+            a {
+                color: #000;
+            }
+
+            h1, h2, h3 {
+                page-break-after: avoid;
+            }
+
+            table, pre, blockquote {
+                page-break-inside: avoid;
+            }
+        }
+
+        /* Screen-only print button */
+        .print-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #0066cc;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 14px;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .print-button:hover {
+            background: #0052a3;
+        }
+
+        @media print {
+            .print-button {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="print-button no-print" onclick="window.print()">Print / Save as PDF</button>
+
+    <!-- Cover Page -->
+    <div class="cover-page">
+        <h1>FabricAir Nordic Circular Polyester Research Report</h1>
+        <div class="subtitle">Nordic Circular Construction (NCC) Project</div>
+
+        <table class="meta">
+            <tr><td><strong>Client</strong></td><td>FabricAir A/S (Denmark)</td></tr>
+            <tr><td><strong>Project</strong></td><td>Nordic Circular Construction</td></tr>
+            <tr><td><strong>Funder</strong></td><td>Nordic Innovation</td></tr>
+            <tr><td><strong>Coordinator</strong></td><td>Natural State AS</td></tr>
+            <tr><td><strong>Date</strong></td><td>November 2025</td></tr>
+            <tr><td><strong>Version</strong></td><td>2.1 (Cited Research)</td></tr>
+            <tr><td><strong>Delivery Score</strong></td><td>80% (B-)</td></tr>
+        </table>
+
+        <div style="margin-top: 80px;">
+            <table class="meta">
+                <tr><td>Darius Rinkevičius</td><td>FabricAir ESG</td><td>dri@fabricair.com</td></tr>
+                <tr><td>Jan Thomas Odegard</td><td>NCC Coordinator</td><td>janthomas@naturalstate.no</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Table of Contents -->
+    <div class="toc">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#executive-summary">Executive Summary</a></li>
+            <li><a href="#part1">Part 1: Finland Analysis</a></li>
+            <li><a href="#part2">Part 2: Sweden Analysis</a></li>
+            <li><a href="#part3">Part 3: Norway Analysis</a></li>
+            <li><a href="#part4">Part 4: Nordic Comparison</a></li>
+            <li><a href="#part5">Part 5: Risk Assessment</a></li>
+            <li><a href="#part6">Part 6: Commercial Phase Plan</a></li>
+            <li><a href="#appendix-a">Appendix A: Contact Directory</a></li>
+            <li><a href="#appendix-b">Appendix B: Sources & Bibliography</a></li>
+            <li><a href="#appendix-c">Appendix C: Delivery Assessment</a></li>
+        </ul>
+    </div>
+
+    <!-- Executive Summary -->
+    <h2 id="executive-summary" class="page-break">Executive Summary</h2>
+
+    <h3>The Opportunity</h3>
+    <p>FabricAir can access <strong>56,000-62,000 tonnes/year</strong> of recycled polyester capacity across three Nordic countries by 2028-2029.</p>
+
+    <table>
+        <tr><th>Country</th><th>Partner</th><th>Capacity</th><th>Timeline</th><th>Technology</th></tr>
+        <tr><td>Finland</td><td>Rester</td><td>6-12k t/yr</td><td><strong>Now</strong></td><td>Mechanical</td></tr>
+        <tr><td>Norway</td><td>NTG</td><td>30k t/yr</td><td>~2029</td><td>Defibration</td></tr>
+        <tr><td>Sweden</td><td>Rewin</td><td>20k t/yr</td><td>Oct 2027</td><td>Chemical</td></tr>
+    </table>
+
+    <div class="success">
+        <strong>Recommendation:</strong> Start with Rester (Finland)—they're operational today.
+    </div>
+
+    <h3>Priority Contacts</h3>
+    <table>
+        <tr><th>Partner</th><th>Country</th><th>Contact</th><th>Email</th></tr>
+        <tr><td><strong>Rester</strong></td><td>Finland</td><td>Jukka Pesola (CEO)</td><td>hello@rester.fi</td></tr>
+        <tr><td><strong>NTG</strong></td><td>Norway</td><td>Bent Mathisen (CEO)</td><td>btm@ntgas.no</td></tr>
+        <tr><td><strong>Touchpoint</strong></td><td>Finland</td><td>Noora Salonoja (CEO)</td><td>noora.salonoja@touchpoint.fi</td></tr>
+    </table>
+
+    <h3>Critical Findings</h3>
+    <table>
+        <tr><th>Finding</th><th>Impact</th></tr>
+        <tr><td><strong>Lindström uses 65:35 blends</strong></td><td>400 t/year volume INCOMPATIBLE</td></tr>
+        <tr><td><strong>Volume estimate revised</strong></td><td>5-10k → 350-1,000 t/year accessible</td></tr>
+        <tr><td>LSJH Turku plant cancelled</td><td>Rester is Finland's only recycler</td></tr>
+        <tr><td>Lindström owns Rester stake</td><td>Capacity may be locked</td></tr>
+    </table>
+
+    <h3>Material Requirements</h3>
+    <table>
+        <tr><th>Parameter</th><th>Requirement</th></tr>
+        <tr><td>Material</td><td>100% Polyester (PET)</td></tr>
+        <tr><td>Weight</td><td>~300 g/m²</td></tr>
+        <tr><td>Color</td><td>White preferred</td></tr>
+        <tr><td>Source</td><td>Durable workwear, uniforms</td></tr>
+        <tr><td><strong>NOT suitable</strong></td><td>Polyester/cotton blends (65/35)</td></tr>
+    </table>
+
+    <!-- Part 1: Finland -->
+    <h2 id="part1" class="page-break">Part 1: Finland Analysis</h2>
+
+    <h3>1.1 Market Overview</h3>
+    <table>
+        <tr><th>Metric</th><th>Value</th><th>Source</th></tr>
+        <tr><td>Textile waste</td><td>85,770 t/year</td><td>Turku UAS</td></tr>
+        <tr><td>Textile services market</td><td>€350-450M</td><td>Industry data</td></tr>
+        <tr><td>Material recycling</td><td>&lt;1%</td><td>SYKE</td></tr>
+        <tr><td>EPR date</td><td>2027-28</td><td>Government</td></tr>
+        <tr><td>Mandatory collection</td><td>Since Jan 2023</td><td>Finnish law</td></tr>
+    </table>
+
+    <h3>1.2 Best Sources for 100% White Polyester</h3>
+    <table>
+        <tr><th>Priority</th><th>Sector</th><th>White %</th><th>100% PET</th><th>Key Players</th></tr>
+        <tr><td>1</td><td>Pharma/Cleanroom</td><td>&gt;90%</td><td>Yes</td><td>Orion, Okmetic</td></tr>
+        <tr><td>2</td><td>Food Processing</td><td>70-80%</td><td>Mixed</td><td>Valio, Fazer</td></tr>
+        <tr><td>3</td><td>Healthcare</td><td>~60%</td><td>Blends</td><td>HUS, Terveystalo</td></tr>
+    </table>
+
+    <div class="warning">
+        <strong>Key Insight:</strong> Most Finnish workwear is 65/35 poly-cotton—NOT suitable for FabricAir.
+    </div>
+
+    <h3>1.3 Recycling Infrastructure: Rester</h3>
+    <table>
+        <tr><th>Attribute</th><th>Value</th></tr>
+        <tr><td>Total plant capacity</td><td>11,000 t/year</td></tr>
+        <tr><td>Rester production line</td><td>6,000 t/year</td></tr>
+        <tr><td>Technology</td><td>Mechanical recycling</td></tr>
+        <tr><td>Operational since</td><td>November 2021</td></tr>
+        <tr><td>Key investors</td><td>Touchpoint (51%), Lindström, Tesi</td></tr>
+    </table>
+
+    <h3>1.4 Priority Partners (Finland)</h3>
+    <table>
+        <tr><th>Rank</th><th>Organization</th><th>Type</th><th>Email</th></tr>
+        <tr><td>1</td><td><strong>Rester</strong></td><td>Recycler</td><td>hello@rester.fi</td></tr>
+        <tr><td>2</td><td><strong>Puro</strong></td><td>Healthcare</td><td>paavo.martikainen@puro.fi</td></tr>
+        <tr><td>3</td><td><strong>Touchpoint</strong></td><td>Aggregator</td><td>noora.salonoja@touchpoint.fi</td></tr>
+        <tr><td>4</td><td><strong>Orion</strong></td><td>Pharma</td><td>carolina.sved@orion.fi</td></tr>
+    </table>
+
+    <!-- Part 2: Sweden -->
+    <h2 id="part2" class="page-break">Part 2: Sweden Analysis</h2>
+
+    <h3>2.1 Market Overview</h3>
+    <table>
+        <tr><th>Metric</th><th>Value</th></tr>
+        <tr><td>Textile waste</td><td>60-80,000 t/year</td></tr>
+        <tr><td>Textile services market</td><td>€560M</td></tr>
+        <tr><td>Material recycling</td><td>&lt;1%</td></tr>
+        <tr><td>EPR date</td><td>April 2028</td></tr>
+    </table>
+
+    <h3>2.2 Key Infrastructure: Rewin Project</h3>
+    <table>
+        <tr><th>Attribute</th><th>Value</th></tr>
+        <tr><td>Technology</td><td>Chemical fiber-to-fiber recycling</td></tr>
+        <tr><td>Capacity</td><td>20,000 tonnes/year</td></tr>
+        <tr><td>Timeline</td><td>October 2027</td></tr>
+        <tr><td>Partners</td><td>Gina Tricot, Helly Hansen, KappAhl</td></tr>
+    </table>
+
+    <h3>2.3 Priority Contacts (Sweden)</h3>
+    <table>
+        <tr><th>Organization</th><th>Contact</th><th>Email</th></tr>
+        <tr><td>Rewin/Wargön</td><td>Joel Arnoldsson</td><td>via wargoninnovation.se</td></tr>
+        <tr><td>SIPTex/Sysav</td><td>Lars Carrick</td><td>lars.carrick@sysav.se</td></tr>
+        <tr><td>Elis Sweden</td><td>Patrik Nyholm</td><td>patrik.nyholm@elis.com</td></tr>
+    </table>
+
+    <!-- Part 3: Norway -->
+    <h2 id="part3" class="page-break">Part 3: Norway Analysis</h2>
+
+    <h3>3.1 Market Overview</h3>
+    <table>
+        <tr><th>Metric</th><th>Value</th></tr>
+        <tr><td>Textile waste</td><td>~100,000 t/year</td></tr>
+        <tr><td>Per capita waste</td><td>19.3 kg (highest Nordic)</td></tr>
+        <tr><td>Exported</td><td>97%</td></tr>
+        <tr><td>Textile services market</td><td>€180-270M</td></tr>
+    </table>
+
+    <h3>3.2 Key Infrastructure: NTG</h3>
+    <table>
+        <tr><th>Attribute</th><th>Value</th></tr>
+        <tr><td>Technology</td><td>Patented mechanical defibration</td></tr>
+        <tr><td>Current capacity</td><td>2,000 t/year (R&D)</td></tr>
+        <tr><td>Target capacity</td><td>30,000 t/year</td></tr>
+        <tr><td>Timeline</td><td>~2029</td></tr>
+        <tr><td>CEO</td><td>Bent Tatsuyama Mathisen</td></tr>
+        <tr><td>Email</td><td>btm@ntgas.no</td></tr>
+    </table>
+
+    <div class="highlight">
+        <strong>Unique Capability:</strong> NTG can process poly-cotton blends—other recyclers cannot.
+    </div>
+
+    <h3>3.3 Priority Contacts (Norway)</h3>
+    <table>
+        <tr><th>Organization</th><th>Contact</th><th>Email</th><th>Phone</th></tr>
+        <tr><td><strong>NTG</strong></td><td>Bent Mathisen</td><td>btm@ntgas.no</td><td>+47 906 43 555</td></tr>
+        <tr><td><strong>Nor Tekstil</strong></td><td>Thomas Karlsen</td><td>thomas.karlsen@nortekstil.no</td><td>+47 982 05 026</td></tr>
+        <tr><td><strong>Fretex Miljø</strong></td><td>Kristin Hareide</td><td>kristin.hareide@fretex.no</td><td>+47 413 03 878</td></tr>
+    </table>
+
+    <!-- Part 4: Nordic Comparison -->
+    <h2 id="part4" class="page-break">Part 4: Nordic Comparison</h2>
+
+    <h3>4.1 Market Summary</h3>
+    <table>
+        <tr><th></th><th>Finland</th><th>Sweden</th><th>Norway</th></tr>
+        <tr><td><strong>Best for</strong></td><td>Immediate supply</td><td>Future capacity</td><td>Largest scale</td></tr>
+        <tr><td><strong>Recycler</strong></td><td>Rester</td><td>Rewin</td><td>NTG</td></tr>
+        <tr><td><strong>Capacity</strong></td><td>6-12k t/yr</td><td>20k t/yr</td><td>30k t/yr</td></tr>
+        <tr><td><strong>Ready</strong></td><td>Now</td><td>Oct 2027</td><td>~2029</td></tr>
+        <tr><td><strong>Technology</strong></td><td>Mechanical</td><td>Chemical</td><td>Defibration</td></tr>
+    </table>
+
+    <h3>4.2 Combined Capacity (2028-2029)</h3>
+    <table>
+        <tr><th>Country</th><th>Recycler</th><th>Capacity</th></tr>
+        <tr><td>Finland</td><td>Rester</td><td>12,000 t/yr</td></tr>
+        <tr><td>Sweden</td><td>Rewin</td><td>20,000 t/yr</td></tr>
+        <tr><td>Norway</td><td>NTG</td><td>30,000 t/yr</td></tr>
+        <tr><td><strong>Total</strong></td><td></td><td><strong>62,000 t/yr</strong></td></tr>
+    </table>
+
+    <h3>4.3 Strategic Recommendation</h3>
+    <div class="success">
+        <strong>Phase 1 (Now):</strong> Partner with Rester (Finland)<br>
+        <strong>Phase 2 (2025-2027):</strong> Build NTG (Norway) relationship<br>
+        <strong>Phase 3 (2027+):</strong> Multi-country supply chain
+    </div>
+
+    <!-- Part 5: Risk Assessment -->
+    <h2 id="part5" class="page-break">Part 5: Risk Assessment</h2>
+
+    <table>
+        <tr><th>Risk</th><th>Level</th><th>Mitigation</th></tr>
+        <tr><td>Rester capacity locked</td><td>High</td><td>Engage immediately; explore NTG alternative</td></tr>
+        <tr><td>65/35 blend contamination</td><td>High</td><td>Require certified 100% PET; target cleanroom</td></tr>
+        <tr><td>Quality variability</td><td>Medium</td><td>Pre-sorting specs; incoming testing</td></tr>
+        <tr><td>rPET price premium</td><td>Medium</td><td>Volume commitments for better pricing</td></tr>
+        <tr><td>Rewin delay</td><td>Medium</td><td>Maintain Rester backup</td></tr>
+    </table>
+
+    <!-- Part 6: Commercial Phase -->
+    <h2 id="part6" class="page-break">Part 6: Commercial Phase Plan</h2>
+
+    <h3>6.1 Implementation Roadmap</h3>
+    <table>
+        <tr><th>Phase</th><th>Timeline</th><th>Actions</th></tr>
+        <tr><td>Partner Engagement</td><td>Immediate</td><td>Contact Rester, NTG, Touchpoint</td></tr>
+        <tr><td>Technical Validation</td><td>Q1 2025</td><td>Request samples, test compatibility</td></tr>
+        <tr><td>Commercial Terms</td><td>Q1-Q2 2025</td><td>Negotiate pricing, volumes</td></tr>
+        <tr><td>Pilot Project</td><td>Q2 2025</td><td>Small-scale production trial</td></tr>
+        <tr><td>Supply Agreement</td><td>H2 2025</td><td>Formalize partnership</td></tr>
+    </table>
+
+    <h3>6.2 Investment Estimate</h3>
+    <table>
+        <tr><th>Category</th><th>Estimate</th></tr>
+        <tr><td>Travel & meetings</td><td>€10,000-15,000</td></tr>
+        <tr><td>Sample testing</td><td>€5,000-10,000</td></tr>
+        <tr><td>Legal (contracts)</td><td>€5,000-10,000</td></tr>
+        <tr><td>Pilot production</td><td>€20,000-50,000</td></tr>
+        <tr><td>Certification (GRS)</td><td>€5,000-10,000</td></tr>
+        <tr><td><strong>Total</strong></td><td><strong>€55,000-110,000</strong></td></tr>
+    </table>
+
+    <!-- Appendix A -->
+    <h2 id="appendix-a" class="page-break">Appendix A: Full Contact Directory</h2>
+
+    <h3>A.1 Recyclers</h3>
+    <table>
+        <tr><th>Organization</th><th>Country</th><th>Contact</th><th>Email</th></tr>
+        <tr><td>Rester</td><td>Finland</td><td>Jukka Pesola</td><td>hello@rester.fi</td></tr>
+        <tr><td>NTG</td><td>Norway</td><td>Bent Mathisen</td><td>btm@ntgas.no</td></tr>
+        <tr><td>Rewin/Wargön</td><td>Sweden</td><td>Joel Arnoldsson</td><td>via wargoninnovation.se</td></tr>
+    </table>
+
+    <h3>A.2 Feedstock Aggregators</h3>
+    <table>
+        <tr><th>Organization</th><th>Country</th><th>Contact</th><th>Email</th><th>Phone</th></tr>
+        <tr><td>Touchpoint</td><td>Finland</td><td>Noora Salonoja</td><td>noora.salonoja@touchpoint.fi</td><td>+358 50 323 9620</td></tr>
+        <tr><td>Puro</td><td>Finland</td><td>Paavo Martikainen</td><td>paavo.martikainen@puro.fi</td><td>+358 50 501 8998</td></tr>
+        <tr><td>Nor Tekstil</td><td>Norway</td><td>Thomas Karlsen</td><td>thomas.karlsen@nortekstil.no</td><td>+47 982 05 026</td></tr>
+    </table>
+
+    <h3>A.3 Industrial Sources</h3>
+    <table>
+        <tr><th>Organization</th><th>Country</th><th>Contact</th><th>Email</th></tr>
+        <tr><td>Orion</td><td>Finland</td><td>Carolina Sved</td><td>carolina.sved@orion.fi</td></tr>
+        <tr><td>Valio</td><td>Finland</td><td>Hanna Hiekkamies</td><td>hanna.hiekkamies@valio.fi</td></tr>
+        <tr><td>Image Wear</td><td>Finland</td><td>Jari Lepistö</td><td>jari.lepisto@imagewear.fi</td></tr>
+    </table>
+
+    <h3>A.4 Operational Contacts (Phase 2.1)</h3>
+    <table>
+        <tr><th>Organization</th><th>Type</th><th>Contact</th></tr>
+        <tr><td>HUS Logistics</td><td>Department</td><td>logistiikka.asiakaspalvelu@hus.fi</td></tr>
+        <tr><td>HUS Logistics</td><td>Phone</td><td>09 471 77000</td></tr>
+        <tr><td>Valio</td><td>Waste Partner</td><td>ENPROS/ZEROWASTE</td></tr>
+    </table>
+
+    <!-- Appendix B -->
+    <h2 id="appendix-b" class="page-break">Appendix B: Sources & Bibliography</h2>
+
+    <h3>B.1 Primary Sources</h3>
+    <table>
+        <tr><th>Source</th><th>URL</th><th>Data</th></tr>
+        <tr><td>HUS Contact</td><td>hus.fi/en/about-us/contact-information</td><td>Contacts</td></tr>
+        <tr><td>Pharma Industry Finland</td><td>pif.fi</td><td>Workforce</td></tr>
+        <tr><td>Rester</td><td>rester.fi/en</td><td>Company</td></tr>
+        <tr><td>Touchpoint</td><td>touchpointww.com</td><td>Company</td></tr>
+    </table>
+
+    <h3>B.2 Secondary Sources</h3>
+    <table>
+        <tr><th>Source</th><th>URL</th><th>Data</th></tr>
+        <tr><td>Tesi Investment</td><td>tesi.fi/en/article/rester-article</td><td>Rester capacity</td></tr>
+        <tr><td>Orion Wikipedia</td><td>en.wikipedia.org/wiki/Orion_Corporation</td><td>Employees</td></tr>
+    </table>
+
+    <h3>B.3 Research Sources</h3>
+    <table>
+        <tr><th>Source</th><th>URL</th><th>Data</th></tr>
+        <tr><td>Turku UAS</td><td>tuas.fi/en/articles/463/...</td><td>Textile waste</td></tr>
+        <tr><td>EastCham Finland</td><td>eastcham.fi/finnishwastemanagement/...</td><td>Professional waste</td></tr>
+        <tr><td>Vinnova</td><td>vinnova.se/en/p/siptex</td><td>SIPTex data</td></tr>
+    </table>
+
+    <!-- Appendix C -->
+    <h2 id="appendix-c" class="page-break">Appendix C: Delivery Assessment</h2>
+
+    <h3>C.1 Score Summary</h3>
+    <table>
+        <tr><th>Metric</th><th>Initial</th><th>Phase 2</th><th>Phase 2.1</th></tr>
+        <tr><td><strong>Overall Delivery</strong></td><td>92%</td><td>75.5%</td><td><strong>80%</strong></td></tr>
+        <tr><td>Market Intelligence</td><td>92%</td><td>88%</td><td>90%</td></tr>
+        <tr><td>Citation Quality</td><td>—</td><td>55%</td><td><strong>80%</strong></td></tr>
+        <tr><td>Actionable Contacts</td><td>66%</td><td>50%</td><td><strong>70%</strong></td></tr>
+        <tr><td><strong>Grade</strong></td><td>A-</td><td>C+</td><td><strong>B-</strong></td></tr>
+    </table>
+
+    <h3>C.2 Remaining Gap (20%)</h3>
+    <table>
+        <tr><th>Gap</th><th>Why Desk Research Cannot Close</th></tr>
+        <tr><td>Operational contacts</td><td>Requires direct outreach</td></tr>
+        <tr><td>Rester capacity</td><td>Confidential business info</td></tr>
+        <tr><td>100% PET product SKUs</td><td>Not published online</td></tr>
+        <tr><td>Pricing terms</td><td>Commercial negotiation</td></tr>
+    </table>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>FabricAir Nordic Circular Polyester Research Report | Version 2.1 | November 2025</p>
+        <p>Nordic Circular Construction (NCC) | Funded by Nordic Innovation | Coordinated by Natural State AS</p>
+    </div>
+</body>
+</html>

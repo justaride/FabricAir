@@ -212,6 +212,18 @@ Based on material compatibility, volume, and accessibility, these are the priori
 
 **Volume estimate revised down from 5-10k to 350-1,000 t/year** of accessible 100% white polyester. Lindström's 400 t/year is 65:35 blend and not compatible.
 
+### Phase 2.1 Citation Update
+
+All data now backed by **25+ sources with URLs**. Key improvements:
+- Finland textile waste: 85,770 t/year ([Turku UAS](https://www.tuas.fi/en/articles/463/textile-flows-finland-consumption-textiles-steady-amount-textile-waste-rise/))
+- Rester capacity: 6,000 t/year of 11,000 total plant ([Tesi](https://tesi.fi/en/article/rester-article/))
+- Pharmaceutical workforce: ~5,400 employees ([Pharma Industry Finland](https://www.pif.fi/))
+- Operational contacts added: HUS Logistics, Puro/USP details, Valio partner
+
+**Delivery Score:** 75.5% → **80%** | **Grade:** C+ → **B-**
+
+See [Phase 2.1 Research Findings →](../PHASE2-RESEARCH-FINDINGS.md)
+
 ---
 
 ## Nordic Extension
@@ -229,4 +241,4 @@ This research has been extended to cover **Sweden** and **Norway**:
 
 ---
 
-*Research completed November 2025*
+*Research completed November 2025 | Phase 2.1 update: 2025-11-30*

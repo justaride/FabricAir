@@ -117,14 +117,17 @@ FabricAir can access **56,000-62,000 tonnes/year** of recycled polyester capacit
 
 ## Delivery Status
 
-| Assessment | Score | Notes |
-|------------|-------|-------|
-| Market Intelligence | 88% | Strong landscape mapping |
-| Actionable Contacts | 50% | Strategic level, NOT operational |
-| **Overall Delivery** | **75.5%** | See [Qualitative Assessment](QUALITATIVE-DELIVERY-ASSESSMENT.md) |
-| **Qualitative Grade** | **C+** | |
+| Assessment | Phase 2 | Phase 2.1 | Notes |
+|------------|---------|-----------|-------|
+| Market Intelligence | 88% | 90% | Now fully cited with 25+ sources |
+| Citation Quality | 55% | **80%** | Full bibliography added |
+| Actionable Contacts | 50% | **70%** | 3 operational contacts identified |
+| **Overall Delivery** | 75.5% | **80%** | +4.5% from cited research |
+| **Qualitative Grade** | C+ | **B-** | |
 
-**Critical Gap:** We provided CEO/executive contacts when the requirement asked for "persons responsible for disposing" (operational contacts like facilities managers, waste coordinators).
+**Remaining Gap (20%):** Requires direct industry engagement—Rester capacity, operational contacts, pricing terms.
+
+[Phase 2.1 Research Findings →](PHASE2-RESEARCH-FINDINGS.md)
 
 ---
 

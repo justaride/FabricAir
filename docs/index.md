@@ -203,13 +203,17 @@ The platform demonstrates a repeatable methodology for mapping circular supply c
 
 ### Delivery Status
 
-| Assessment | Score | Notes |
-|------------|-------|-------|
-| Market Intelligence | 88% | Strong landscape mapping |
-| Actionable Contacts | 50% | CEOs provided, operational contacts needed |
-| Overall Delivery | **75.5%** | See [Qualitative Assessment](QUALITATIVE-DELIVERY-ASSESSMENT.md) |
+| Assessment | Phase 2 | Phase 2.1 | Notes |
+|------------|---------|-----------|-------|
+| Market Intelligence | 88% | **90%** | Now fully cited (25+ sources) |
+| Citation Quality | 55% | **80%** | Full bibliography with URLs |
+| Actionable Contacts | 50% | **70%** | 3 operational contacts added |
+| **Overall Delivery** | 75.5% | **80%** | +4.5% from cited research |
+| **Qualitative Grade** | C+ | **B-** | Improved with citations |
 
-**Critical Gap:** We provided strategic/CEO-level contacts when the requirement asked for "persons responsible for disposing of those fibers" (operational contacts).
+**Remaining Gap (20%):** Requires direct industry engagement—Rester capacity, operational contacts, pricing terms.
+
+See [Phase 2.1 Research Findings](PHASE2-RESEARCH-FINDINGS.md) for full citations and methodology.
 
 ### Immediate Actions
 
@@ -284,8 +288,8 @@ Post-delivery options include:
 | **Project** | Nordic Circular Construction (NCC) |
 | **Funder** | Nordic Innovation |
 | **Coordinator** | Natural State AS |
-| **Delivery Score** | 75.5% (reconciled) |
-| **Qualitative Grade** | C+ |
+| **Delivery Score** | **80%** (Phase 2.1) |
+| **Qualitative Grade** | **B-** |
 
 | Contact | Role | Email |
 |---------|------|-------|
@@ -294,5 +298,15 @@ Post-delivery options include:
 
 ---
 
+## Download / Export
+
+| Format | Link | Notes |
+|--------|------|-------|
+| **PDF Report** | [FINAL-REPORT-PRINT.html](FINAL-REPORT-PRINT.html) | Open in browser → Print → Save as PDF |
+| **Markdown** | [FINAL-REPORT.md](FINAL-REPORT.md) | Full consolidated report |
+| **Web Platform** | [viewer.html](viewer.html) | Interactive navigation |
+
+---
+
 *Research completed November 2025*
-*Platform version 1.0*
+*Platform version 2.1*

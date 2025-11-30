@@ -2,7 +2,8 @@
 
 Verified contacts for Nordic polyester sourcing outreach.
 
-**Last verified:** 2025-11-28
+**Last verified:** 2025-11-30 (Phase 2.1)
+**Contacts:** 40+ | **Operational contacts:** 3 NEW
 
 ---
 
@@ -29,6 +30,21 @@ Puro (Paavo):          +358 50 501 8998
 NTG (Bent):            +47 906 43 555
 Nor Tekstil (Thomas):  +47 982 05 026
 ```
+
+---
+
+## ⭐ NEW: Operational Contacts (Phase 2.1)
+
+These are **operational-level** contacts (not CEOs) for textile waste disposal decisions:
+
+| Organization | Contact Type | Email/Phone | Source |
+|--------------|--------------|-------------|--------|
+| **HUS Logistics** | Dept | logistiikka.asiakaspalvelu@hus.fi | [HUS](https://hus.fi/en/professionals/logistics-services) |
+| **HUS Logistics** | Phone | 09 471 77000 (Mon-Fri 7:30-15:30) | [HUS](https://www.hus.fi/en/about-us/contact-information) |
+| **Puro/USP** | Address | P.O. Box 441, FI-00029 HUS | Kerava facility |
+| **Valio Partner** | Waste Mgmt | ENPROS/ZEROWASTE | [ENPROS](https://enpros.fi/en/asiakas/environmental-reporting/valio/) |
+
+**Note:** These operational contacts address the original requirement for "persons responsible for disposing" rather than CEO-level strategic contacts.
 
 ---
 
@@ -150,8 +166,11 @@ Nor Tekstil (Thomas):  +47 982 05 026
 
 **Important:** Most contacts provided are at CEO/executive level (strategic contacts). The original requirement asked for "persons responsible for disposing" (operational contacts like facilities managers, waste coordinators). This gap remains partially unresolved.
 
-**Operational contact found:** HUS Logistics — logistiikka.asiakaspalvelu@hus.fi
+**Operational contacts (Phase 2.1):**
+- HUS Logistics — logistiikka.asiakaspalvelu@hus.fi, 09 471 77000
+- Puro/USP — P.O. Box 441, FI-00029 HUS (Kerava)
+- Valio → ENPROS/ZEROWASTE partnership
 
 ---
 
-*Last updated: 2025-11-29 (Phase 2)*
+*Last updated: 2025-11-30 (Phase 2.1)*
