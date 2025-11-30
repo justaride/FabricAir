@@ -17,7 +17,7 @@
 
 ## Your Three Partners
 
-> 🖼️ **[Finn bilde: Recycling facility →](https://unsplash.com/s/photos/recycling-factory-industrial)**
+![Nordic recycling facility](images/hero-recycling-facility.jpg)
 
 | | Finland | Sweden | Norway |
 |:--|:--:|:--:|:--:|
@@ -32,7 +32,7 @@
 
 ### Contact Rester (Finland) — Operational Today
 
-> 🖼️ **[Finn bilde: Scandinavian industrial building →](https://unsplash.com/s/photos/industrial-building-nordic)**
+![Rester Finland](images/rester-finland.jpg)
 
 | | |
 |:--|:--|
@@ -47,7 +47,7 @@
 
 ### Contact NTG (Norway) — Largest Future Capacity
 
-> 🖼️ **[Finn bilde: Textile fiber machinery →](https://unsplash.com/s/photos/textile-machinery-fibers)**
+![NTG textile machinery](images/ntg-textile-machinery.jpg)
 
 | | |
 |:--|:--|
@@ -62,7 +62,7 @@
 
 ### Contact Rewin (Sweden) — Virgin-Quality Output
 
-> 🖼️ **[Finn bilde: Chemical laboratory →](https://unsplash.com/s/photos/chemistry-laboratory-industrial)**
+![Rewin chemical laboratory](images/rewin-laboratory.jpg)
 
 | | |
 |:--|:--|
@@ -98,7 +98,7 @@
 
 ### Contact These Companies for Material Supply
 
-> 🖼️ **[Finn bilde: Industrial laundry facility →](https://unsplash.com/s/photos/industrial-laundry-textiles)**
+![Industrial laundry facility](images/industrial-laundry.jpg)
 
 | Organization | Contact | Email | Country |
 |:-------------|:--------|:------|:-------:|
@@ -113,7 +113,7 @@
 
 ## Best Sources for 100% White Polyester
 
-> 🖼️ **[Finn bilde: Cleanroom worker →](https://unsplash.com/s/photos/cleanroom-pharmaceutical-worker)**
+![Cleanroom worker](images/cleanroom-worker.jpg)
 
 | Rank | Sector | Why Best | Key Players |
 |:----:|:-------|:---------|:------------|
