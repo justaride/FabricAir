@@ -182,6 +182,23 @@ Sysav announced it is **starting a process to sell/divest SIPTex:**
 
 ## Company Initiatives
 
+### Elis Cleanroom — Nordic Aggregator (NEW)
+
+| Attribute | Detail |
+|-----------|--------|
+| Type | Cleanroom textile services |
+| Nyköping plant | **Only Swedish facility for GMP Grade A/B garments** |
+| Processing | ~5,000 kg/day validated wash/dry/sterilize |
+| EOL routing | **Alsico/ARX recycling partnership** |
+| Contact | cleanroom@elis.com |
+
+**⚠️ Cleanroom Material Reality (Dec 2025):**
+- Typically **99% PET + 1% carbon fiber** (not pure 100% PET)
+- Colors: Mixed (white not exclusive in cleanrooms)
+- Lindström 2024: Cleanroom textiles 100% to recycling
+
+**Strategic Significance:** Elis operates multi-client cleanroom services across SE/NO/DK/FI — can aggregate EOL textiles from multiple pharma/tech companies.
+
 ### Fristads REACT
 
 | Attribute | Detail |
@@ -254,6 +271,8 @@ Sysav announced it is **starting a process to sell/divest SIPTex:**
 | **SIPTex** | Lars Carrick | lars.carrick@sysav.se |
 | **RE:Source** | Cecilia Tall | cecilia.tall@ri.se |
 | **Chalmers** | Christian Ekberg | che@chalmers.se |
+| **Elis Cleanroom** | Global | cleanroom@elis.com |
+| **Elis Sweden** | Ulrika Viderum (Sustainability) | via se.elis.com |
 
 ---
 

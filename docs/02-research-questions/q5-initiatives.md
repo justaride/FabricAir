@@ -12,9 +12,11 @@ Finland has Europe's most advanced textile recycling ecosystem with mandatory co
 
 **Critical Updates (Dec 2025):**
 - LSJH Turku plant cancelled April 2024
-- **LSJH now outsourcing sorting to Turun Ekotori (2026)**
+- **LSJH outsourcing sorting to Turun Ekotori (Jan 1, 2026)** — downstream NOT locked to Rester
 - Rester secured **€4.9M funding (Jan 2025)**, new CEO Jukka Pesola (Aug 2025)
 - Rester strategy shift to "high potential industrial applications"
+- **Lindström ~500 t/yr to Rester = <10% of 6k capacity** (NO exclusive lock)
+- Finland 2023 separate collection: **1,783 t** (0.32 kg/person)
 
 ---
 
@@ -36,14 +38,18 @@ Finland has Europe's most advanced textile recycling ecosystem with mandatory co
 
 | Attribute | Detail |
 |-----------|--------|
-| Status | ⚠️ **Outsourcing to Turun Ekotori (2026)** |
-| Coverage | Own area only (stepping back) |
+| Status | ⚠️ **Outsourcing to Turun Ekotori (Jan 1, 2026)** |
+| Coverage | Own area only (~200-300 t/yr municipal) |
 | Role | Collection only (sorting transferred) |
-| 20k plant | ABANDONED |
+| Contract | 2026-2028 (2yr + 1yr option) |
+| 20k plant | ABANDONED (April 2024) |
+| Downstream | **NOT locked to Rester** — Ekotori chooses |
 
-**⚠️ LSJH Update (Dec 2025):** LSJH announced outsourcing textile sorting/QA to Turun Ekotori starting early 2026. Lemppari textile recycling store closing end 2025.
+**⚠️ LSJH Update (Dec 2025):** LSJH announced outsourcing textile sorting/QA to Turun Ekotori starting **Jan 1, 2026**. Kestävän Kehityksen Yhdistys ry (social enterprise) won the tender. Downstream routing NOT locked to any recycler. Lemppari textile recycling store closing end 2025.
 
-**Contact:** Miira Ojanen — miira.ojanen@lsjh.fi
+**Contacts:**
+- **LSJH:** Miira Ojanen — miira.ojanen@lsjh.fi
+- **Turun Ekotori:** Jarno Erkamaa (CEO) — jarno.erkamaa@turunekotori.fi, +358 43 8220 171
 
 ### HSY — Helsinki Region Collection
 
@@ -108,10 +114,11 @@ Finland has Europe's most advanced textile recycling ecosystem with mandatory co
 | Progress | 70% recycling achieved 2024 |
 | Target | 100% recycling by 2025 |
 
-**Lindström-Rester Relationship (Dec 2025):**
+**Lindström-Rester Relationship (Dec 2025, Verified):**
 - Became shareholder Mar 2022 investment round
+- **~500 t/yr to Rester** (Finland + Baltics) = **<10% of 6k capacity**
 - **NO exclusive capacity access** confirmed in public sources
-- Key risk: capacity lock remains unconfirmed
+- Key risk: ~~capacity lock~~ **LOW** — 90%+ capacity available
 
 **Contact:** Kati Pallasaho — kati.pallasaho@lindstromgroup.com
 

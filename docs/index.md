@@ -89,7 +89,7 @@ Norway presented the most dynamic recycling landscape:
 - **97% exported** (minimal domestic processing)
 - **€180-270 million** textile services market
 
-**Critical Discovery:** **NTG (Norsk Tekstilgjenvinning)** emerged as the most strategically significant find. Their patented mechanical defibration technology—which cuts fibers rather than shredding them—uniquely processes poly-cotton blends while maintaining fiber quality. Current R&D facility processes 2,000 tonnes/year; scaling to **30,000 tonnes/year by approximately 2029** would make NTG the largest Nordic recycler.
+**Critical Discovery:** **NTG (Norsk Tekstilgjenvinning)** emerged as the most strategically significant find. Their patented mechanical defibration technology—which cuts fibers rather than shredding them—uniquely processes poly-cotton blends while maintaining fiber quality. Current R&D facility processes 2,000 tonnes/year; scaling to **30,000 tonnes/year by approximately 2027** (accelerated timeline per Innovation Norway) would make NTG the largest Nordic recycler.
 
 ---
 
@@ -140,8 +140,8 @@ The research identified **56,000-62,000 tonnes/year** of combined recycled polye
 | Country | Partner | Capacity | Timeline | Technology |
 |---------|---------|----------|----------|------------|
 | Finland | Rester | 6-12k t/yr | **Now** | Mechanical |
-| Norway | NTG | 30k t/yr | ~2029 | Defibration |
-| Sweden | Rewin | 20k t/yr | Oct 2027 | Chemical |
+| Norway | NTG | 30k t/yr | **~2027** | Defibration |
+| Sweden | Rewin | 20k t/yr | 2027 | Chemical |
 
 ### Strategic Insights
 
@@ -203,17 +203,17 @@ The platform demonstrates a repeatable methodology for mapping circular supply c
 
 ### Delivery Status
 
-| Assessment | Phase 2 | Phase 2.1 | Notes |
-|------------|---------|-----------|-------|
-| Market Intelligence | 88% | **90%** | Now fully cited (25+ sources) |
-| Citation Quality | 55% | **80%** | Full bibliography with URLs |
-| Actionable Contacts | 50% | **70%** | 3 operational contacts added |
-| **Overall Delivery** | 75.5% | **80%** | +4.5% from cited research |
-| **Qualitative Grade** | C+ | **B-** | Improved with citations |
+| Assessment | Phase 2.1 | Phase 2.2 | Notes |
+|------------|-----------|-----------|-------|
+| Market Intelligence | 90% | **92%** | 18 new research files integrated |
+| Citation Quality | 80% | **85%** | 45+ sources total |
+| Actionable Contacts | 70% | **80%** | Elis Cleanroom, Turun Ekotori added |
+| **Overall Delivery** | 80% | **85%** | +5% from Phase 2.2 |
+| **Qualitative Grade** | B- | **B** | Verified timelines, new contacts |
 
-**Remaining Gap (20%):** Requires direct industry engagement—Rester capacity, operational contacts, pricing terms.
+**Remaining Gap (15%):** Requires direct industry engagement—Rester capacity, operational contacts, pricing terms.
 
-See [Phase 2.1 Research Findings](PHASE2-RESEARCH-FINDINGS.md) for full citations and methodology.
+See [Phase 2.2 Research Findings](PHASE2-RESEARCH-FINDINGS.md) for full citations and methodology.
 
 ### Immediate Actions
 
@@ -257,6 +257,7 @@ Post-delivery options include:
 | [Partners & Contacts](03-contacts/directory.md) | Full verified contact directory |
 | [Action Plan](COMMERCIAL-PHASE-PLAN.md) | Commercial phase implementation roadmap |
 | [Phase 2 Findings](PHASE2-RESEARCH-FINDINGS.md) | Critical discoveries from verification research |
+| [Polyamide Sources](POLYAMIDE-SOURCES.md) | 100% PA feedstock mapping (NEW) |
 
 ---
 
@@ -267,7 +268,7 @@ Post-delivery options include:
 | Partner | Country | Contact | Email | Status |
 |---------|---------|---------|-------|--------|
 | **Rester** | Finland | Jukka Pesola (CEO, Aug 2025) | `hello@rester.fi` | Operational |
-| **NTG** | Norway | Bent T. Mathisen (CEO) | `btm@ntgas.no` | Scaling |
+| **NTG** | Norway | Bent Tatsuyama Mathisen (CEO) | `btm@ntgas.no` | ~2027 |
 | **Rewin** | Sweden | Joel Arnoldsson | via wargoninnovation.se | 2027 |
 
 > **⚠️ Rester Update (Dec 2025):** CEO changed to Jukka Pesola (Aug 15, 2025). €4.9M funding secured Jan 2025. Strategy shift to "high potential industrial applications" — good alignment with FabricAir.
@@ -316,4 +317,4 @@ Post-delivery options include:
 ---
 
 *Research completed December 2025*
-*Platform version 2.1*
+*Platform version 2.2 (Phase 2.2 integration)*

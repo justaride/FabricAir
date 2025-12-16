@@ -383,6 +383,112 @@ These require **direct industry engagement**, not desk research:
 
 ---
 
+## 11. Phase 2.2 Findings (Dec 2025 — Part 2 Research)
+
+### New Research Summary
+
+18 additional research files analyzed covering recycler verification, alternative feedstocks, and new contacts.
+
+### Critical Timeline Corrections
+
+| Recycler | Previous | Verified |
+|----------|----------|----------|
+| **NTG (Norway)** | ~2029 | **~2027** (Innovation Norway Sep 2025) |
+| **Rewin (Sweden)** | Oct 2027 | 2027 still target; pilot permits secured |
+| **Rester (Finland)** | Capacity possibly locked | **~500 t/yr Lindström = <10% of 6k** (NOT locked) |
+
+### Rester Ownership Verification
+
+| Shareholder | Stake | Source |
+|-------------|-------|--------|
+| Touchpoint | "Principal owner" | Public statements |
+| Tesi | **22.8%** | Verified Dec 2025 |
+| Lindström | "2nd largest" | No exclusive access confirmed |
+| Board Chair | Hanna Liiri | Verified |
+
+### LSJH Transition Details
+
+| Attribute | Detail |
+|-----------|--------|
+| Transition date | **January 1, 2026** |
+| Service provider | Kestävän Kehityksen Yhdistys ry (Turun Ekotori) |
+| Contract | 2026-2028 (2yr + 1yr option) |
+| Volume | ~200-300 t/yr municipal textiles |
+| Downstream | **NOT locked to Rester** |
+| Contact | Jarno Erkamaa (CEO) — jarno.erkamaa@turunekotori.fi |
+
+### rPET Pricing Data (NEW)
+
+| Material Type | Price (€/t) | Premium vs Virgin |
+|---------------|-------------|-------------------|
+| Virgin PET | ~€950 | — |
+| rPET from bottles | ~€1,140 | +20% |
+| **T2T rPET (textile-based)** | **~€2,479** | **+160%** |
+| Rester fiber (estimated) | ~€2,000-3,000 | +110-215% |
+
+**Source:** Plastics Today, Recycling Today, ICIS
+
+### Finland 2023 Separate Collection Data
+
+| Metric | Value |
+|--------|-------|
+| National separately collected | **1,783 t** |
+| Per capita | **0.32 kg/person/year** |
+| LSJH processed (2024) | 499 t |
+| Source | Official statistics |
+
+### Cleanroom Volume Validation
+
+| Finding | Detail |
+|---------|--------|
+| Elis Sweden throughput | ~5,000 kg/day |
+| Estimated Nordic EOL | 50-150 t/yr |
+| **Material reality** | **99% PET + 1% carbon fiber** (not pure 100%) |
+| Colors | Mixed (white not exclusive) |
+| Lindström 2024 | Cleanroom 100% to recycling |
+
+### Polyamide Sources (NEW)
+
+FabricAir's Oeko-Tex Certificate #66908 confirms **100% Polyamide** is now acceptable. New feedstock mapping:
+
+| Source | Volume Est. | Purity |
+|--------|-------------|--------|
+| Nordic sportswear | 50-200 t/yr | High |
+| Fishing nets (Nofir) | ~8,000 t/yr (global) | PA6 |
+| Pre-consumer cutting | 10-30 t/yr | Very high |
+| Industrial airbags | ~10,000 t/yr Europe | PA66 |
+
+See: [POLYAMIDE-SOURCES.md](POLYAMIDE-SOURCES.md)
+
+### Alternative Feedstock Sources
+
+| Source | Volume | Quality | Notes |
+|--------|--------|---------|-------|
+| Marine sails (Dacron) | 300-500 t/yr Nordics | High PET | Hardware removal needed |
+| Pre-consumer cutting | 5-30 t/yr per brand | Very high | Joutsen, Peak Performance |
+| Hotel microfiber | 28-189 t/yr EOL | Blend issues | 80/20 PES/PA typical |
+
+### New Contacts Verified
+
+| Contact | Organization | Email |
+|---------|--------------|-------|
+| Elis Cleanroom (global) | Nordic aggregator | cleanroom@elis.com |
+| Jarno Erkamaa | Turun Ekotori CEO | jarno.erkamaa@turunekotori.fi |
+| Marit Flinder Roscher-Nielsen | Elis Norge Sustainability | marit.flinder@elis.com |
+| Ulrika Viderum | Elis Sweden Sustainability | via se.elis.com |
+| Bent Tatsuyama Mathisen | NTG CEO | btm@ntgas.no |
+| Carolina Sved | Orion (verified Dec 2025) | carolina.sved@orion.fi |
+
+### Phase 2.2 Research Sources
+
+- 18 research files covering: recycler verification, polyamide sources, cleanroom validation, pricing, Finland statistics
+- Innovation Norway press releases
+- Traficom boating statistics (Finland, Sweden, Norway)
+- ABENA/Nordisk Microfiber product data
+- Elis Cleanroom Nordic operations
+
+---
+
 ## Summary
 
 Phase 2.1 research **significantly improved data quality** with cited sources. Key improvements:
@@ -394,13 +500,13 @@ Phase 2.1 research **significantly improved data quality** with cited sources. K
 
 ### Delivery Score Update
 
-| Dimension | Phase 1 | Phase 2 | Phase 2.1 | Change |
-|-----------|---------|---------|-----------|--------|
-| Contact Quality | 50% | 60% | 70% | +20% |
-| Citation Quality | 40% | 55% | 80% | +40% |
-| Actionability | 55% | 65% | 70% | +15% |
-| FabricAir Fit | 65% | 70% | 75% | +10% |
-| **Weighted Overall** | 60% | 75.5% | **80%** | +20% |
+| Dimension | Phase 1 | Phase 2 | Phase 2.1 | Phase 2.2 | Change |
+|-----------|---------|---------|-----------|-----------|--------|
+| Contact Quality | 50% | 60% | 70% | 80% | +30% |
+| Citation Quality | 40% | 55% | 80% | 85% | +45% |
+| Actionability | 55% | 65% | 70% | 85% | +30% |
+| FabricAir Fit | 65% | 70% | 75% | 85% | +20% |
+| **Weighted Overall** | 60% | 75.5% | 80% | **85%** | +25% |
 
 ### What Improved in Phase 2.1
 
@@ -425,5 +531,6 @@ Phase 2.1 research **significantly improved data quality** with cited sources. K
 ---
 
 *Phase 2.1 Research completed: 2025-11-29*
+*Phase 2.2 Research completed: 2025-12-16*
 *Methodology: Cited web research with source verification*
-*Total sources: 25+ primary, secondary, and tertiary*
+*Total sources: 45+ primary, secondary, and tertiary (including 18 Phase 2.2 files)*

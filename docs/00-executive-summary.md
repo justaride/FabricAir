@@ -29,7 +29,7 @@
 |:--|:--:|:--:|:--:|
 | **Partner** | **Rester** | **Rewin** | **NTG** |
 | **Capacity** | 6k t/yr (current) → 12k (scaling) | 20k t/yr | 30k t/yr |
-| **Status** | **NOW** | Oct 2027 | ~2029 |
+| **Status** | **NOW** | 2027 | **~2027** |
 | **Technology** | Mechanical | Chemical | Defibration |
 | **Risk** | Lindström shareholder | Pre-launch | Distance |
 
@@ -60,10 +60,11 @@
 
 | | |
 |:--|:--|
-| **Contact** | Bent T. Mathisen (CEO) |
+| **Contact** | Bent Tatsuyama Mathisen (CEO) |
 | **Email** | [btm@ntgas.no](mailto:btm@ntgas.no?subject=FabricAir%20Partnership%20Inquiry%20-%20Future%20Capacity&body=Dear%20Mr.%20Mathisen%2C%0A%0AI%20am%20reaching%20out%20from%20FabricAir%20regarding%20NTG%27s%20upcoming%20recycling%20capacity.%0A%0AWe%20are%20interested%20in%20discussing%3A%0A-%20Future%20supply%20agreement%20for%20recycled%20polyester%0A-%20Your%20defibration%20technology%20capabilities%0A-%20Timeline%20for%20commercial%20scale%20operations%0A%0ACould%20we%20arrange%20a%20call%3F%0A%0ABest%20regards) |
-| **Why** | 30k t/yr by ~2029 — largest Nordic recycler |
+| **Why** | 30k t/yr by **~2027** — largest Nordic recycler |
 | **Unique** | Can process poly-cotton blends |
+| **Funding** | Innovation Norway NOK 30M+ (verified) |
 
 **[Email NTG Now](mailto:btm@ntgas.no?subject=FabricAir%20Partnership%20Inquiry%20-%20Future%20Capacity&body=Dear%20Mr.%20Mathisen%2C%0A%0AI%20am%20reaching%20out%20from%20FabricAir%20regarding%20NTG%27s%20upcoming%20recycling%20capacity.%0A%0AWe%20are%20interested%20in%20discussing%3A%0A-%20Future%20supply%20agreement%20for%20recycled%20polyester%0A-%20Your%20defibration%20technology%20capabilities%0A-%20Timeline%20for%20commercial%20scale%20operations%0A%0ACould%20we%20arrange%20a%20call%3F%0A%0ABest%20regards)**
 
@@ -89,12 +90,12 @@
 - **Lindström is NOT compatible** — uses 65:35 poly-cotton blends
 - **Volume estimate revised** — 5-10k t/yr → **350-1,000 t/yr** of accessible 100% white polyester
 - **LSJH plant cancelled** — Rester is now Finland's ONLY recycler
-- **LSJH outsourcing** — Sorting transferred to Turun Ekotori (2026)
+- **LSJH outsourcing** — Sorting transferred to Turun Ekotori (Jan 1, 2026); downstream NOT locked to Rester
 - **Rester update (Dec 2025)** — New CEO Jukka Pesola, €4.9M funding, industrial focus
 - **Lindström risk clarified** — 2nd largest shareholder, **NO exclusive access confirmed**
 - **SIPTex (Sweden) being sold** — Sysav divesting due to lack of outlet markets
 - **Rewin progress** — Pilot permits secured, operations by end 2025
-- **NTG/NTS progress** — R&D facility Jan 2024, sorting Aug 2024
+- **NTG/NTS progress** — R&D facility Jan 2024, sorting Aug 2024, **timeline accelerated to ~2027**
 - **Best sources** — Cleanroom/pharma sector (Orion, AstraZeneca) for 100% white PET/polyamide
 
 ### Market Overview
@@ -102,6 +103,7 @@
 | Metric | Finland | Sweden | Norway |
 |--------|:-------:|:------:|:------:|
 | Textile waste | 85,770 t/yr | 60-80k t/yr | ~100k t/yr |
+| Separately collected (2023) | 1,783 t | N/A | N/A |
 | Services market | €350-450M | €560M | €180-270M |
 | Material recycling | <1% | <1% | <1% |
 | EPR date | 2027-28 | Apr 2028 | TBD |
@@ -120,6 +122,7 @@
 | **Puro** | Paavo Martikainen (CEO) | [paavo.martikainen@puro.fi](mailto:paavo.martikainen@puro.fi?subject=FabricAir%20Inquiry%20-%20Healthcare%20Textiles&body=Dear%20Mr.%20Martikainen%2C%0A%0AI%20am%20contacting%20you%20from%20FabricAir%20regarding%20healthcare%20textile%20end-of-life%20streams.%0A%0ABest%20regards) | Finland |
 | **Nor Tekstil** | Thomas Karlsen | [thomas.karlsen@nortekstil.no](mailto:thomas.karlsen@nortekstil.no?subject=FabricAir%20Inquiry%20-%20Healthcare%20Textiles%20Norway&body=Dear%20Mr.%20Karlsen%2C%0A%0AI%20am%20contacting%20you%20from%20FabricAir%20regarding%20textile%20recycling%20opportunities.%0A%0ABest%20regards) | Norway |
 | **Elis Sweden** | Patrik Nyholm | [patrik.nyholm@elis.com](mailto:patrik.nyholm@elis.com?subject=FabricAir%20Inquiry%20-%20Cleanroom%20Textiles&body=Dear%20Mr.%20Nyholm%2C%0A%0AI%20am%20contacting%20you%20from%20FabricAir%20regarding%20cleanroom%20textile%20recycling.%0A%0ABest%20regards) | Sweden |
+| **Elis Cleanroom** | Global contact | [cleanroom@elis.com](mailto:cleanroom@elis.com?subject=FabricAir%20Inquiry%20-%20Nordic%20Cleanroom%20Textiles&body=Dear%20Elis%20Cleanroom%20Team%2C%0A%0AI%20am%20contacting%20you%20from%20FabricAir%20regarding%20end-of-life%20cleanroom%20textiles%20across%20Nordics.%0A%0ABest%20regards) | Nordic |
 
 **Note:** ~~Lindström~~ — EXCLUDED (uses 65:35 poly-cotton blends, NOT compatible with FabricAir)
 
@@ -131,7 +134,7 @@
 
 | Rank | Sector | Why Best | Key Players |
 |:----:|:-------|:---------|:------------|
-| 1 | **Cleanroom/Pharma** | >90% white, 100% PET | Orion, AstraZeneca, Okmetic |
+| 1 | **Cleanroom/Pharma** | >90% white, 99% PET + 1% carbon | Orion, AstraZeneca, Okmetic |
 | 2 | Food Processing | 70-80% white, mixed blends | Valio, Fazer, Atria |
 | 3 | Healthcare | Shifting away from white | HUS, Puro |
 | 4 | **Cutting Waste** (NEW) | Clean production waste | Marimekko → Rester |
@@ -158,7 +161,7 @@ Hotel/institutional bedding (50% polyester, 50% cotton) offers high volumes of *
 | 65/35 blend contamination | **High** | Require certified 100% PET; target cleanroom |
 | SIPTex sorting uncertainty | **Medium** | Monitor sale; Rewin pilot operational soon |
 | Quality variability | Medium | Specify white only; request pre-sorted |
-| rPET price premium (50-70%) | Medium | Volume commitments for better pricing |
+| rPET price premium (~160% for T2T) | Medium | Volume commitments; T2T ~€2,479/t vs virgin ~€950/t |
 
 ---
 

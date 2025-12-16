@@ -11,7 +11,7 @@
 | **Recycler** | Rester | Rewin | NTG |
 | **Current capacity** | 6k t/yr | — | 2k t/yr (R&D) |
 | **Target capacity** | 12k t/yr | 20k t/yr | 30k t/yr |
-| **Ready** | **NOW** | Oct 2027 | ~2029 |
+| **Ready** | **NOW** | 2027 | **~2027** |
 | **Technology** | Mechanical | Chemical | Defibration |
 | **Best for** | Immediate supply | Virgin-quality output | Largest scale |
 | **Risk** | Lindström shareholder | Pre-launch | Distance |
@@ -21,13 +21,13 @@
 > - **FabricAir-compatible**: 300-700 t/yr — 100% white PET only
 > - Most Nordic workwear is 65/35 poly-cotton (incompatible)
 
-### Combined Nordic Capacity by 2029
+### Combined Nordic Capacity by 2027
 
 ```
 Finland (Rester)   ██████░░░░░░░░░░░░░░░░░░░░░░░░   6,000 t/yr (current)
                    ████████████░░░░░░░░░░░░░░░░░░  12,000 t/yr (target)
-Sweden (Rewin)     ████████████████████░░░░░░░░░░  20,000 t/yr (Oct 2027)
-Norway (NTG)       ██████████████████████████████  30,000 t/yr (~2029)
+Sweden (Rewin)     ████████████████████░░░░░░░░░░  20,000 t/yr (2027)
+Norway (NTG)       ██████████████████████████████  30,000 t/yr (~2027)
 ───────────────────────────────────────────────────────────────
 TOTAL (target)     ██████████████████████████████  62,000 t/yr
 ```
@@ -55,8 +55,10 @@ TOTAL (target)     ████████████████████�
 | Country | Organization | Contact | Email |
 |:-------:|:-------------|:--------|:------|
 | 🇫🇮 | **Rester** | **Jukka Pesola (CEO, Aug 2025)** | `hello@rester.fi` |
-| 🇳🇴 | **NTG** | Bent T. Mathisen | `btm@ntgas.no` |
+| 🇳🇴 | **NTG** | Bent Tatsuyama Mathisen | `btm@ntgas.no` |
 | 🇸🇪 | **Rewin/Wargön** | Joel Arnoldsson | `wargoninnovation.se` |
+
+> **⚠️ NTG Update (Dec 2025):** Timeline accelerated to **~2027** (per Innovation Norway). NOK 30M+ funding confirmed.
 
 > **⚠️ Rester Update (Dec 2025):** New CEO Jukka Pesola (Aug 2025). €4.9M funding secured. Strategy shift to "industrial applications."
 
@@ -66,28 +68,30 @@ TOTAL (target)     ████████████████████�
 |:-------:|:-------------|:--------|:------|
 | 🇫🇮 | Touchpoint | Noora Salonoja | `noora.salonoja@touchpoint.fi` |
 | 🇫🇮 | Puro | Paavo Martikainen | `paavo.martikainen@puro.fi` |
+| 🇫🇮 | Turun Ekotori (NEW) | Jarno Erkamaa (CEO) | `jarno.erkamaa@turunekotori.fi` |
 | 🇳🇴 | Nor Tekstil | Thomas Karlsen | `thomas.karlsen@nortekstil.no` |
 | 🇸🇪 | Elis Sweden | Patrik Nyholm | `patrik.nyholm@elis.com` |
+| Nordic | Elis Cleanroom (NEW) | Global | `cleanroom@elis.com` |
 
 ---
 
 ## Timeline
 
 ```
-2024          2025          2026          2027          2028          2029
-  │             │             │             │             │             │
-  ▼             ▼             ▼             ▼             ▼             ▼
+2024          2025          2026          2027          2028
+  │             │             │             │             │
+  ▼             ▼             ▼             ▼             ▼
 
 🇫🇮 ●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
    Rester OPERATIONAL (6k→12k t/yr)
 
 🇸🇪 ○─────────────────────────────────────●━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
                                          Rewin LAUNCH (20k t/yr)
-                                         Oct 2027
+                                         2027
 
-🇳🇴 ○━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
-   NTG R&D (2k t/yr) ──────────────────────────────────→ Full Scale (30k)
-                                                        ~2029
+🇳🇴 ○━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━●━━━━━━━━━━━━━━━━━━━━━━━━━━━━●
+   NTG R&D (2k t/yr) ──────────────────→ Full Scale (30k t/yr)
+                                        ~2027
 
 ━━━ = Operational    ─── = Development    ● = Milestone
 ```
@@ -112,6 +116,7 @@ TOTAL (target)     ████████████████████�
 | Metric | Value |
 |:-------|:------|
 | Textile waste | 85,770 t/yr |
+| Separately collected (2023) | 1,783 t |
 | Material recycling | <1% |
 | Textile services market | €350-450M |
 | EPR status | Expected 2027-28 |
@@ -131,8 +136,9 @@ TOTAL (target)     ████████████████████�
 2. Food Processing (Valio, Fazer) — 70-80% white
 3. Healthcare (Puro) — Often blends, verify composition
 
-**⚠️ Risk:** Lindström is 2nd largest shareholder (NO exclusive access confirmed)
-**⚠️ LSJH Update:** Outsourcing sorting to Turun Ekotori (2026)
+**⚠️ Risk:** Lindström is 2nd largest shareholder (**NO exclusive access confirmed**, ~500 t/yr)
+**⚠️ LSJH Update:** Outsourcing sorting to Turun Ekotori (**Jan 1, 2026**); downstream NOT locked to Rester
+**ℹ️ LSJH Contact:** Jarno Erkamaa (Turun Ekotori CEO) — `jarno.erkamaa@turunekotori.fi`
 
 ---
 
@@ -177,12 +183,13 @@ TOTAL (target)     ████████████████████�
 | EPR status | Under review |
 
 **Key Recycler: NTG (Norsk Tekstilgjenvinning)**
-- Location: Sandefjord
+- Location: Sandefjord (Pindslekvartalet)
 - R&D capacity: 2,000 t/yr **(opened Jan 2024)**
-- Target capacity: 30,000 t/yr (~2029)
+- Target capacity: 30,000 t/yr (**~2027** — timeline accelerated)
 - Technology: Patented mechanical defibration
 - Unique: **Handles poly-cotton blends**
 - CEO: Bent Tatsuyama Mathisen
+- Funding: **NOK 30M+** from Innovation Norway (verified)
 
 **NTS Sorting (opened Aug 2024):**
 - Norsk Tekstilsortering — AI + hyperspectral
@@ -272,7 +279,7 @@ Nordic textiles → NTG (Norway) → FabricAir
 
 ---
 
-### Option C: Full Nordic Integration (2028+)
+### Option C: Full Nordic Integration (2027+)
 
 ```
 🇫🇮 Finland → Rester  (12k) ─┐
@@ -284,7 +291,7 @@ Nordic textiles → NTG (Norway) → FabricAir
 
 **Best for:** Maximum coverage, technology diversity
 **Capacity:** 62k t/yr combined
-**Status:** Fully operational by ~2029
+**Status:** Fully operational by ~2027
 
 ---
 

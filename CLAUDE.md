@@ -49,35 +49,48 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 - ✅ Build troubleshooting complete — all broken links fixed
 - ✅ Research context document created (`RESEARCH-CONTEXT.md`)
 - ✅ 35 deep research prompts created (`DEEP-RESEARCH-PROMPTS.md`)
+- ✅ **Phase 2.2 research integrated** (Session 15 - 18 files):
+  - NTG timeline corrected: ~2029 → **~2027**
+  - LSJH→Turun Ekotori transition details (Jan 1, 2026)
+  - Rester capacity NOT locked (~500 t/yr Lindström = <10%)
+  - New contacts: Elis Cleanroom, Turun Ekotori, verified contacts
+  - Pricing data: T2T rPET ~€2,479/t (+160% vs virgin)
+  - New document: `docs/POLYAMIDE-SOURCES.md`
 
 ---
 
 ## 🔄 NEXT SESSION: Continue Here
 
-### Code Review Complete (Session 14 - Dec 16, 2025)
+### Phase 2.2 Integration Complete (Session 15 - Dec 16, 2025)
 
 **Overall Score: 85/100** 🟢
 
-| Category | Status | Issues |
-|----------|--------|--------|
-| File Structure | 🟢 Good | 2 minor |
-| YAML Data | 🟢 Excellent | 2 minor |
-| Markdown | 🟢 Good | 3 minor |
-| HTML Files | 🟢 Excellent | 0 |
-| Git Status | 🟢 Ready | 0 |
-| Data Sync | 🟢 Excellent | 2 minor |
+18 research files from Part 2 fully integrated. All major corrections applied.
+
+| Category | Status | Notes |
+|----------|--------|-------|
+| NTG Timeline | ✅ Updated | ~2029 → **~2027** |
+| LSJH Transition | ✅ Updated | Jan 1, 2026 details |
+| Rester Risk | ✅ Clarified | ~500 t/yr = NOT locked |
+| New Contacts | ✅ Added | Elis Cleanroom, Turun Ekotori |
+| Pricing Data | ✅ Added | T2T ~€2,479/t |
+| Polyamide Sources | ✅ Created | New document |
 
 ---
 
-## 📋 PENDING TASKS (From Code Review)
+## 📋 PENDING TASKS
 
-### HIGH PRIORITY
+### COMPLETED (Session 15)
 
-| Task | File(s) | Issue |
-|------|---------|-------|
-| ~~Update research prompts~~ | ~~`docs/DEEP-RESEARCH-PROMPTS.md`~~ | ✅ Done (Session 14) |
-| ~~Resolve untracked directory~~ | ~~`/FabricAir - Further Research/`~~ | ✅ Committed |
-| Fix completion % | `_data/project.yml` line 49 | Shows 95%, should be 92% |
+| Task | Status |
+|------|--------|
+| Fix completion % | ✅ 95% → 92% |
+| NTG timeline correction | ✅ ~2029 → ~2027 |
+| LSJH transition details | ✅ Jan 1, 2026 |
+| New contacts added | ✅ Elis Cleanroom, Turun Ekotori |
+| Polyamide sources | ✅ New doc created |
+
+### REMAINING (Low Priority)
 
 ### MEDIUM PRIORITY
 
@@ -102,7 +115,7 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 - **Rester strategy shift** to "high potential industrial applications" — good FabricAir alignment
 - **Lindström-Rester:** 2nd largest shareholder, ~500 t/year to Rester, **NO exclusive access confirmed**
 
-### Sessions 11-14 Summary
+### Sessions 11-15 Summary
 
 | Session | Work Done |
 |---------|-----------|
@@ -110,6 +123,7 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 | 12 | Polyamide integrated across 30+ files |
 | 13 | Research output integrated (17+ files, 41 research files) |
 | 14 | Code review complete (85/100 score) |
+| 15 | Phase 2.2 research integrated (18 files from Part 2) |
 
 ### Quick Start Commands
 

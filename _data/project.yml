@@ -44,7 +44,7 @@ scope:
   countries:
     - name: "Finland"
       status: "complete"
-      completion: 95
+      completion: 92
       primary_recycler: "Rester"
       capacity: "6,000-12,000 t/yr"
 
@@ -168,7 +168,7 @@ key_findings:
       affects: ["executive_summary", "nordic_comparison", "sweden_report"]
 
     - id: "KF-004"
-      finding: "NTG 30k t/yr by ~2029"
+      finding: "NTG 30k t/yr by ~2027"
       impact: "Largest Nordic capacity"
       confidence: "high"
       affects: ["executive_summary", "nordic_comparison", "norway_report"]
@@ -220,9 +220,9 @@ priority_partners:
 
     - name: "NTG"
       country: "Norway"
-      ceo: "Bent T. Mathisen"
+      ceo: "Bent Tatsuyama Mathisen"
       contact: "btm@ntgas.no"
-      capacity: "2k t/yr current, 30k target by ~2029"
+      capacity: "2k t/yr current, 30k target by ~2027"
       status: "scaling"
       unique: "Can process poly-cotton blends via defibration"
 

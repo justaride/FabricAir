@@ -26,7 +26,9 @@ Verified contacts for Nordic polyester sourcing outreach.
 
 ```
 hello@rester.fi                      # Rester (Finland recycler) - PRIORITY
-btm@ntgas.no                         # NTG (Norway recycler)
+btm@ntgas.no                         # NTG (Norway recycler) - ~2027 target
+cleanroom@elis.com                   # Elis Cleanroom (Nordic aggregator)
+jarno.erkamaa@turunekotori.fi        # Turun Ekotori (LSJH sorting from 2026)
 noora.salonoja@touchpoint.fi         # Touchpoint (workwear)
 paavo.martikainen@puro.fi            # Puro (healthcare)
 carolina.sved@orion.fi               # Orion (cleanroom - 100% PET)
@@ -100,15 +102,16 @@ These are **operational-level** contacts (not CEOs) for textile waste disposal d
 |--------------|---------|-------|-------|
 | **LSJH** | Miira Ojanen | miira.ojanen@lsjh.fi | +358 40 579 5312 |
 | | B2B inquiries | postconsumertextile@lsjh.fi | — |
-| **Turun Ekotori** | (Taking over sorting 2026) | — | — |
+| **Turun Ekotori** | Jarno Erkamaa (CEO) | jarno.erkamaa@turunekotori.fi | +358 43 8220 171 |
+| | General | ekotori@turunekotori.fi | — |
 
-> **⚠️ LSJH Update (Dec 2025):** LSJH outsourcing textile sorting/QA to Turun Ekotori starting 2026. LSJH will continue collection only in own area. Lemppari store closing end 2025. 20k t/yr refinement plant abandoned.
+> **⚠️ LSJH Update (Dec 2025):** LSJH outsourcing textile sorting/QA to Turun Ekotori starting **Jan 1, 2026**. Contract: 2026-2028 (2yr + 1yr option). LSJH will continue collection only (~200-300 t/yr). Downstream routing NOT locked to Rester. Lemppari store closing end 2025. 20k t/yr refinement plant abandoned.
 
 ### Industrial
 
 | Organization | Contact | Email |
 |--------------|---------|-------|
-| **Orion** | Carolina Sved | carolina.sved@orion.fi |
+| **Orion** | Carolina Sved (Indirect Procurement, ✅ verified Dec 2025) | carolina.sved@orion.fi |
 | **Valio** | Hanna Hiekkamies | hanna.hiekkamies@valio.fi |
 | **KONE** | Hanna Uusitalo | hanna.uusitalo@kone.com |
 
@@ -143,6 +146,8 @@ Production waste from manufacturing — potentially cleaner than end-of-life tex
 | Organization | Contact | Email |
 |--------------|---------|-------|
 | **Elis Sweden** | Patrik Nyholm | patrik.nyholm@elis.com |
+| | Ulrika Viderum (Sustainability) | via se.elis.com |
+| **Elis Cleanroom** | Global | cleanroom@elis.com |
 | **Textilia** | Jonas Olaison | jonas.olaison@textilia.se |
 
 ### Research & Policy
@@ -161,14 +166,15 @@ Production waste from manufacturing — potentially cleaner than end-of-life tex
 
 | Organization | Contact | Level | Email | Phone |
 |--------------|---------|:-----:|-------|-------|
-| **NTG** | Bent T. Mathisen (CEO) | 🔵 | btm@ntgas.no | +47 906 43 555 |
+| **NTG** | Bent Tatsuyama Mathisen (CEO) | 🔵 | btm@ntgas.no | +47 906 43 555 |
+| | Pål Erik Haraldsen (Founder, CGO) | 🔵 | via ntgas.no | — |
 
 ### Textile Services
 
 | Organization | Contact | Level | Email | Phone |
 |--------------|---------|:-----:|-------|-------|
 | **Nor Tekstil** | Thomas Karlsen | 🟡 | thomas.karlsen@nortekstil.no | +47 982 05 026 |
-| **Elis Norge** | Marit Flinder R-N | 🟡 | marit.flinder@elis.com | — |
+| **Elis Norge** | Marit Flinder Roscher-Nielsen (Sustainability) | 🟢 | marit.flinder@elis.com | — |
 
 ### Collection
 

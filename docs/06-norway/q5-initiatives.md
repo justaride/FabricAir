@@ -6,7 +6,7 @@
 
 ## Key Finding
 
-**NTG dominates Norway's recycling initiative landscape with NOK 30M+ in Innovation Norway funding.** Plast Nordic is developing complementary chemical PET recycling for 2028.
+**NTG dominates Norway's recycling initiative landscape with NOK 30M+ in Innovation Norway funding.** Timeline accelerated to **~2027** (per Innovation Norway Sep 2025). Plast Nordic is developing complementary chemical PET recycling for 2028.
 
 ---
 
@@ -30,9 +30,10 @@
 | Type | Mechanical recycling |
 | Technology | Patented defibration |
 | R&D facility | **2,000 t/yr (opened Jan 2024)** |
-| Target capacity | 30,000 t/yr (~2029) |
-| Location | Sandefjord |
-| Funding | NOK 30M+ from Innovation Norway |
+| Target capacity | 30,000 t/yr (**~2027** — accelerated) |
+| Location | Sandefjord (Pindslekvartalet) |
+| Funding | NOK 30M+ from Innovation Norway (verified Dec 2025) |
+| Ramp-up | ~2k (2025) → ~5k (2026) → ~30k (2027) |
 
 **Key Innovation:**
 - Defibration **cuts** fibers (vs. shredding)
@@ -57,7 +58,8 @@
 **Strategic Significance:**
 - NTG R&D facility Jan 2024 + NTS sorting Aug 2024 = **complete value chain**
 - Only Nordic facility processing poly-cotton blends to textile-grade fiber
-- Planning **full-scale 30,000 t/yr facilities**
+- **Full-scale 30,000 t/yr by ~2027** (timeline accelerated from ~2029)
+- Output customers: Norwegian wool industry + European spinning mills
 
 ---
 
