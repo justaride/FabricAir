@@ -233,7 +233,7 @@ This research has been extended to cover **Sweden** and **Norway**:
 | Country | Key Partner | Capacity | Timeline |
 |---------|-------------|----------|----------|
 | Sweden | Rewin | 20k t/yr | Oct 2027 |
-| Norway | NTG | 30k t/yr | ~2029 |
+| Norway | NTG | 30k t/yr | ~2027 |
 
 - [Sweden Research →](../05-sweden/)
 - [Norway Research →](../06-norway/)

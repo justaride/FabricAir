@@ -63,7 +63,7 @@ Norway's textile ecosystem exports 97% of textile waste due to lack of domestic 
 ### Critical Partnership
 
 ```
-NTG: 2,000 t/yr (now) → 30,000 t/yr (~2029)
+NTG: 2,000 t/yr (now) → 30,000 t/yr (~2027)
 Technology: Patented defibration (cuts, not shreds)
 Unique: Handles poly-cotton blends
 ```
@@ -90,7 +90,7 @@ Norway generates **~100,000 tonnes/year** of textile waste (highest per capita i
 
 ### Key Finding
 
-**Norway has the worst domestic processing in Nordic** — nearly all waste exported. NTG's scaling will fundamentally change this by ~2029.
+**Norway has the worst domestic processing in Nordic** — nearly all waste exported. NTG's scaling will fundamentally change this by ~2027.
 
 [View Full Analysis →](q3-disposal-reuse.md)
 
@@ -144,7 +144,7 @@ NTG dominates Norway's recycling initiative landscape with NOK 30M+ in Innovatio
 |-----------|-------|
 | Technology | Patented mechanical defibration |
 | Current | 2,000 t/yr (R&D facility) |
-| Target | 30,000 t/yr (~2029) |
+| Target | 30,000 t/yr (~2027) |
 | Unique | **Handles poly-cotton blends** |
 | Funding | NOK 30M+ from Innovation Norway |
 
@@ -204,7 +204,7 @@ Based on material compatibility, volume, and accessibility, these are the priori
 
 | Factor | Advantage |
 |--------|-----------|
-| NTG capacity | Largest planned (30k t/yr by ~2029) |
+| NTG capacity | Largest planned (30k t/yr by ~2027) |
 | Technology | Handles blends others can't |
 | Competition | Lower feedstock competition |
 | Scale | Fastest-growing Nordic recycler |

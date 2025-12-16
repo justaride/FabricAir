@@ -102,7 +102,7 @@ Companies/sectors that generate **100% polyester or polyamide** waste streams:
 |----------|---------|------------|----------|--------|
 | **Rester** | Finland | Mechanical | 6-12k t/yr | **Operational NOW** |
 | **Rewin** | Sweden | Chemical | 20k t/yr | Oct 2027 launch |
-| **NTG** | Norway | Defibration | 30k t/yr | ~2029 |
+| **NTG** | Norway | Defibration | 30k t/yr | ~2027 |
 
 ### Key Finding: Rester is the Only Current Option
 

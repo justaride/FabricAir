@@ -9,7 +9,7 @@
 <div align="center">
 
 ### Nordic Recycling Capacity: 56,000-62,000 t/yr
-**Total infrastructure capacity by 2029**
+**Total infrastructure capacity by 2027-2028**
 
 </div>
 

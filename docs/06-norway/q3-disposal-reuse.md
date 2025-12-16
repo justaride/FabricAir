@@ -55,7 +55,7 @@ Textile Waste (~100k t/yr)
          │
          └──→ [Commercial/Industrial] ──→ [Incineration/Export]
 
-Future (~2029):
+Future (~2027):
 [Collection] → [NTS Sorting] → [NTG Full Scale] → 30,000 t/yr
 ```
 
@@ -143,7 +143,7 @@ Future (~2029):
 | Type | R&D facility |
 | Location | Sandefjord |
 
-### Future (~2029)
+### Future (~2027)
 
 | Metric | Value |
 |--------|-------|
@@ -186,7 +186,7 @@ Future (~2029):
 - Collection/recycling targets
 - Fee structure based on recyclability
 
-### NTG Full Scale (~2029)
+### NTG Full Scale (~2027)
 
 - 30,000 t/yr capacity
 - Domestic recycling option

@@ -34,7 +34,7 @@ FabricAir can access **56,000-62,000 tonnes/year** of recycled polyester capacit
 | Country | Partner | Capacity | Timeline | Technology |
 |---------|---------|----------|----------|------------|
 | Finland | Rester | 6-12k t/yr | **Now** | Mechanical |
-| Norway | NTG | 30k t/yr | ~2029 | Defibration |
+| Norway | NTG | 30k t/yr | ~2027 | Defibration |
 | Sweden | Rewin | 20k t/yr | Oct 2027 | Chemical |
 
 **Recommendation:** Start with Rester (Finland)—they're operational today.
@@ -269,7 +269,7 @@ EPR transition will transform the market—companies will shift from paying for 
 | Technology | Patented mechanical defibration |
 | Current capacity | 2,000 t/year (R&D plant) |
 | Target capacity | 30,000 t/year |
-| Timeline | ~2029 (5 years from 2024) |
+| Timeline | ~2027 |
 | Location | Sandefjord |
 | CEO | Bent Tatsuyama Mathisen |
 | Email | btm@ntgas.no |
@@ -312,7 +312,7 @@ EPR transition will transform the market—companies will shift from paying for 
 | **Best for** | Immediate supply | Future capacity | Largest scale |
 | **Recycler** | Rester | Rewin | NTG |
 | **Capacity** | 6-12k t/yr | 20k t/yr | 30k t/yr |
-| **Ready** | Now | Oct 2027 | ~2029 |
+| **Ready** | Now | Oct 2027 | ~2027 |
 | **Technology** | Mechanical | Chemical | Defibration |
 
 ### 4.2 Combined Capacity (2028-2029)

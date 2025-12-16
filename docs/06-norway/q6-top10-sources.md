@@ -36,7 +36,7 @@
 | Type | Mechanical recycler |
 | Technology | Patented defibration |
 | Current | 2,000 t/yr (R&D) |
-| Target | 30,000 t/yr (~2029) |
+| Target | 30,000 t/yr (~2027) |
 | Location | Sandefjord |
 | CEO | Bent Tatsuyama Mathisen |
 | Email | btm@ntgas.no |
@@ -236,7 +236,7 @@
 |----------|--------|----------|
 | 1 | Formalize NTG supply agreement | 2025 |
 | 2 | Establish Fretex partnership | 2025 |
-| 3 | Prepare for full-scale NTG | By ~2029 |
+| 3 | Prepare for full-scale NTG | By ~2027 |
 
 ---
 

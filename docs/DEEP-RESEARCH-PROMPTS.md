@@ -246,18 +246,18 @@ VERIFY:
 Search: Wargön Innovation website, Vinnova project database, Swedish news 2024-2025, Södra announcements.
 ```
 
-### Prompt 4.2 — NTG Norway 2029 Expansion 🟡 MEDIUM
+### Prompt 4.2 — NTG Norway ~2027 Expansion 🟡 MEDIUM
 ```
 Research NTG (Norsk Tekstilgjenvinning AS) expansion plans.
 
 LAST KNOWN:
 - R&D 2,000 t/yr (Jan 2024)
 - NTS sorting facility (Aug 2024)
-- Target: 30,000 t/yr by ~2029
+- Target: 30,000 t/yr by ~2027
 - CEO: Bent T. Mathisen (btm@ntgas.no)
 
 VERIFY:
-1. Is 30,000 t/yr by 2029 still the target?
+1. Is 30,000 t/yr by ~2027 still the target?
 2. What technology? (Defibration — does it work for 100% PET?)
 3. Where will expanded facility be located?
 4. What funding secured? (Enova, Innovation Norway?)

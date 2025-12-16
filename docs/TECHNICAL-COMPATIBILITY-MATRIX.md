@@ -251,7 +251,7 @@
 
 | Metric | Volume |
 |--------|--------|
-| **Nordic recycling infrastructure** | 56,000-62,000 t/yr (by 2029) |
+| **Nordic recycling infrastructure** | 56,000-62,000 t/yr (by 2027-2028) |
 | **FabricAir-compatible (100% white PET)** | **300-700 t/yr** |
 | **Ratio** | ~1% of infrastructure |
 

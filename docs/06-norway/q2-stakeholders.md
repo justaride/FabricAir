@@ -6,7 +6,7 @@
 
 ## Key Finding
 
-**Norway exports 97% of textile waste due to lack of domestic infrastructure.** NTG is building the region's largest recycling capacity (30k t/yr by ~2029) which will fundamentally transform the value chain.
+**Norway exports 97% of textile waste due to lack of domestic infrastructure.** NTG is building the region's largest recycling capacity (30k t/yr by ~2027) which will fundamentally transform the value chain.
 
 ---
 
@@ -20,7 +20,7 @@ Production → Use → Collection → Sorting → Export (97%)
                                 2,000 t
                                    ↓
                            [NTG Full Scale]
-                              30,000 t (~2029)
+                              30,000 t (~2027)
 ```
 
 ---
@@ -118,7 +118,7 @@ Production → Use → Collection → Sorting → Export (97%)
 |------|----------|--------|
 | 2024 | 2,000 t/yr | R&D facility |
 | 2027 | 10,000 t/yr | Scaling |
-| ~2029 | 30,000 t/yr | Full commercial |
+| ~2027 | 30,000 t/yr | Full commercial |
 
 ### Funding
 
