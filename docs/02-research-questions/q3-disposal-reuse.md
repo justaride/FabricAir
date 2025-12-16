@@ -4,6 +4,13 @@
 
 **Status:** Verified
 
+> **⚠️ Data Source Note:** Statistics in this document are primarily from SYKE Material Flow Analysis 2021. This data is 4 years old. Since 2021:
+> - Mandatory collection started (Jan 2023)
+> - LSJH Turku plant cancelled (April 2024)
+> - Rester expanded operations
+>
+> Current material flows may differ. **Priority for Phase 3:** Verify 2024-2025 disposal data.
+
 ---
 
 ## Summary
@@ -117,11 +124,14 @@ Finnish Textile Waste: 86,000 t/year
 
 ## Quality Sources for FabricAir
 
-| Tier | Source | Volume | Quality |
-|------|--------|--------|---------|
-| 1 | Lindström workwear | ~400 t/yr | Known composition, traceable |
-| 2 | Healthcare (Puro) | 2-3k t/yr | Regular replacement |
-| 3 | Post-consumer | 86k t/yr | Mixed, contamination risk |
+| Tier | Source | Volume | Quality | Compatibility |
+|------|--------|--------|---------|---------------|
+| ~~1~~ | ~~Lindström workwear~~ | ~~400 t/yr~~ | ~~Known composition~~ | ❌ 65/35 blend — NOT compatible |
+| 1 | Cleanroom/Pharma | 50-150 t/yr | 100% PET, white | ✅ Best match |
+| 2 | Healthcare (Puro) | 2-3k t/yr | Regular replacement | ⚠️ Verify composition |
+| 3 | Post-consumer | 86k t/yr | Mixed, contamination risk | ❌ Mostly incompatible |
+
+> **Critical Update:** Lindström material is 65% polyester / 35% cotton — NOT suitable for FabricAir's 100% PET requirement. Focus on cleanroom/pharma sectors for pure polyester.
 
 ---
 
@@ -134,4 +144,4 @@ Professional laundering extends garment life 3-5x compared to consumer use:
 
 ---
 
-*Last updated: 2025-11-29*
+*Last updated: 2025-12-16*

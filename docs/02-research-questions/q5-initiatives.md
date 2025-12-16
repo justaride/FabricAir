@@ -10,7 +10,11 @@
 
 Finland has Europe's most advanced textile recycling ecosystem with mandatory collection since January 2023.
 
-**Critical Update:** LSJH Turku plant cancelled April 2024. Rester is now Finland's primary recycler.
+**Critical Updates (Dec 2025):**
+- LSJH Turku plant cancelled April 2024
+- **LSJH now outsourcing sorting to Turun Ekotori (2026)**
+- Rester secured **€4.9M funding (Jan 2025)**, new CEO Jukka Pesola (Aug 2025)
+- Rester strategy shift to "high potential industrial applications"
 
 ---
 
@@ -28,13 +32,16 @@ Finland has Europe's most advanced textile recycling ecosystem with mandatory co
 
 ## Public Initiatives
 
-### LSJH — Sorting & Coordination
+### LSJH — ⚠️ Transitioning Operations
 
 | Attribute | Detail |
 |-----------|--------|
-| Status | Sorting only (Turku plant CANCELLED Apr 2024) |
-| Coverage | 95% of Finland |
-| Role | National coordination, NIR sorting |
+| Status | ⚠️ **Outsourcing to Turun Ekotori (2026)** |
+| Coverage | Own area only (stepping back) |
+| Role | Collection only (sorting transferred) |
+| 20k plant | ABANDONED |
+
+**⚠️ LSJH Update (Dec 2025):** LSJH announced outsourcing textile sorting/QA to Turun Ekotori starting early 2026. Lemppari textile recycling store closing end 2025.
 
 **Contact:** Miira Ojanen — miira.ojanen@lsjh.fi
 
@@ -61,14 +68,19 @@ Finland has Europe's most advanced textile recycling ecosystem with mandatory co
 | Location | Paimio |
 | Capacity | 6,000-12,000 t/year |
 | Certification | Global Recycled Standard |
+| Funding | **€4.9M (Jan 2025, Tesi + others)** |
+| Strategy | "High potential industrial applications" |
 
-**Contacts:**
+**Leadership (Dec 2025):**
 
 | Name | Role | Email |
 |------|------|-------|
-| Jukka Pesola | CEO | — |
-| Johanna Lindholm-Järvinen | Senior Sales | johanna@rester.fi |
-| General | — | hello@rester.fi |
+| **Jukka Pesola** | CEO (Aug 2025) | hello@rester.fi |
+| Johanna Lindholm-Järvinen | Senior Sales | hello@rester.fi |
+| Jani Tolvanen | Production (acting) | hello@rester.fi |
+| Hanna Liiri | Board Chair | — |
+
+> **Note:** CEO changed Aug 2025 (Pesola replaced Colliander after funding round). Strategy shift to industrial applications aligns well with FabricAir's technical textile needs.
 
 ### Touchpoint — Closed-Loop Workwear
 
@@ -86,15 +98,24 @@ Finland has Europe's most advanced textile recycling ecosystem with mandatory co
 | Joni Mäenpää | Sales Director | joni.maenpaa@touchpoint.fi |
 | Anni Wulff-Kokko | Sustainability | anni.wulff-kokko@touchpoint.fi |
 
-### Lindström — Textile Services
+### Lindström — Textile Services ⚠️
 
 | Attribute | Detail |
 |-----------|--------|
-| Status | Operational, Rester investor |
-| Volume | 400 t/year end-of-life (Finland) |
+| Status | Operational, **Rester 2nd largest shareholder** |
+| Volume | ~2,000 t/year total textile waste |
+| To Rester | ~500 t/year (Finland + Baltics) |
+| Progress | 70% recycling achieved 2024 |
 | Target | 100% recycling by 2025 |
 
+**Lindström-Rester Relationship (Dec 2025):**
+- Became shareholder Mar 2022 investment round
+- **NO exclusive capacity access** confirmed in public sources
+- Key risk: capacity lock remains unconfirmed
+
 **Contact:** Kati Pallasaho — kati.pallasaho@lindstromgroup.com
+
+⚠️ **Reminder:** Lindström uses 65:35 poly-cotton blends — NOT compatible with FabricAir
 
 ---
 
@@ -150,4 +171,4 @@ Finland has Europe's most advanced textile recycling ecosystem with mandatory co
 
 ---
 
-*Last updated: 2025-11-29*
+*Last updated: 2025-12-16*

@@ -6,7 +6,7 @@
 
 ## Key Finding
 
-**Sweden's best source is the cleanroom/pharmaceutical sector (AstraZeneca), accessed via textile service companies (Elis). For recycling, Rewin will be operational October 2027.**
+**Sweden's best source is the cleanroom/pharmaceutical sector (AstraZeneca) for 100% polyester/polyamide, accessed via textile service companies (Elis). For recycling, Rewin will be operational October 2027.**
 
 ---
 
@@ -265,4 +265,4 @@
 
 ---
 
-*Last updated: 2025-11-30*
+*Last updated: 2025-12-16*

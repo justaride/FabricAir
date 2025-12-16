@@ -1,6 +1,6 @@
 # Research Questions: Sweden
 
-> Mapping the Swedish polyester recycling landscape to identify high-quality sources for FabricAir's 100% circular ventilation textiles.
+> Mapping the Swedish polyester/polyamide recycling landscape to identify high-quality sources for FabricAir's 100% circular ventilation textiles.
 
 ---
 
@@ -27,10 +27,10 @@ The research is structured around 6 core questions designed to map the complete 
 
 The Swedish textile services market is **€560 million/year** (SEK 6.47 billion), with workwear representing ~SEK 2.4 billion (~€205M). However, most workwear uses 65/35 poly-cotton blends which are NOT suitable for FabricAir.
 
-### Best Sources for 100% White Polyester
+### Best Sources for 100% White Polyester/Polyamide
 
-| Priority | Sector | White % | 100% PET | Key Players |
-|----------|--------|---------|----------|-------------|
+| Priority | Sector | White % | 100% PET/PA | Key Players |
+|----------|--------|---------|-------------|-------------|
 | 1 | Pharma/Cleanroom | >90% | Yes | AstraZeneca, Pfizer, Octapharma |
 | 2 | Healthcare | ~60% | Often blends | Region Stockholm, Textilia |
 | 3 | Food Processing | 50-70% | Mixed | Arla, Orkla |

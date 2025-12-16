@@ -1,5 +1,5 @@
 # Research Questions for FabricAir Nordic Project
-# Last updated: 2025-11-29
+# Last updated: 2025-12-16
 # Research Questions Overview: docs/02-research-questions/index.md
 # Status: All questions verified
 
@@ -40,7 +40,7 @@ sub_questions:
         verified: true
         critical: true
 
-      - finding: "Best 100% PET sources: Cleanroom, Food, Healthcare"
+      - finding: "Best 100% PET/polyamide sources: Cleanroom, Food, Healthcare"
         source: "Sector analysis"
         verified: true
 
@@ -335,7 +335,7 @@ nordic_extension:
   sweden:
     status: "verified"
     completion: 92
-    doc_path: "docs/05-sweden/SWEDEN-RESEARCH-REPORT.md"
+    doc_path: "docs/05-sweden/index.md"
 
     key_findings:
       - finding: "Rewin 20k t/yr chemical recycling by Oct 2027"
@@ -367,7 +367,7 @@ nordic_extension:
   norway:
     status: "verified"
     completion: 88
-    doc_path: "docs/06-norway/NORWAY-RESEARCH-REPORT.md"
+    doc_path: "docs/06-norway/index.md"
 
     key_findings:
       - finding: "NTG 30k t/yr by ~2029 (largest Nordic capacity)"
@@ -438,12 +438,12 @@ document_mapping:
 
   sweden:
     yaml_section: "nordic_extension.sweden"
-    markdown_path: "docs/05-sweden/SWEDEN-RESEARCH-REPORT.md"
+    markdown_path: "docs/05-sweden/index.md"
     feeds_into: ["nordic_comparison", "contacts_directory"]
 
   norway:
     yaml_section: "nordic_extension.norway"
-    markdown_path: "docs/06-norway/NORWAY-RESEARCH-REPORT.md"
+    markdown_path: "docs/06-norway/index.md"
     feeds_into: ["nordic_comparison", "contacts_directory"]
 
 # Verification summary

@@ -212,6 +212,44 @@
             background: rgba(255,255,255,0.3);
         }
 
+        /* Collapsible sections */
+        .nav-section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 12px 8px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .nav-section-header:hover {
+            background: rgba(255,255,255,0.05);
+            border-radius: var(--radius);
+        }
+
+        .nav-section-header .nav-section-title {
+            padding: 0;
+        }
+
+        .nav-toggle {
+            width: 16px;
+            height: 16px;
+            transition: transform 0.2s;
+            opacity: 0.5;
+        }
+
+        .nav-section.collapsed .nav-toggle {
+            transform: rotate(-90deg);
+        }
+
+        .nav-section.collapsed .nav-items {
+            display: none;
+        }
+
+        .nav-items {
+            display: block;
+        }
+
         /* Country indicators */
         .country-dot {
             width: 8px;
@@ -1035,6 +1073,22 @@
             font-family: monospace;
         }
 
+        /* Mobile Overlay */
+        .sidebar-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 99;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s;
+        }
+
+        .sidebar-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
         /* Mobile */
         @media (max-width: 900px) {
             .sidebar {
@@ -1050,7 +1104,14 @@
             }
 
             .menu-toggle {
-                display: block;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+                background: var(--bg);
+                border: 1px solid var(--border);
+                border-radius: var(--radius);
             }
 
             .topbar-actions .btn span {
@@ -1063,6 +1124,14 @@
 
             .hero-stat-value {
                 font-size: 28px;
+            }
+
+            .quick-actions-panel {
+                padding: 16px;
+            }
+
+            .action-cards {
+                grid-template-columns: 1fr;
             }
         }
 
@@ -1096,6 +1165,75 @@
             .content-area { max-width: 100%; padding: 0; }
             .dashboard-hero { break-inside: avoid; }
             .partner-card, .stat-card { break-inside: avoid; }
+        }
+
+        /* Quick Actions Panel */
+        .quick-actions-panel {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            margin-bottom: 24px;
+            color: white;
+        }
+
+        .quick-actions-panel h3 {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            opacity: 0.8;
+            margin-bottom: 16px;
+        }
+
+        .action-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+        }
+
+        .action-card {
+            background: rgba(255,255,255,0.1);
+            border-radius: var(--radius);
+            padding: 16px;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            transition: all 0.2s;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .action-card:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+            border-color: rgba(255,255,255,0.3);
+        }
+
+        .action-card .flag {
+            font-size: 20px;
+            margin-bottom: 4px;
+        }
+
+        .action-card strong {
+            font-size: 15px;
+        }
+
+        .action-card .subtitle {
+            font-size: 12px;
+            opacity: 0.7;
+        }
+
+        .action-card .status {
+            font-size: 11px;
+            background: var(--success);
+            padding: 2px 8px;
+            border-radius: 10px;
+            align-self: flex-start;
+            margin-top: 8px;
+        }
+
+        .action-card .status.future {
+            background: var(--warning);
         }
 
         /* Loading */
@@ -1192,34 +1330,55 @@
                     </a>
                 </div>
 
-                <div class="nav-section">
-                    <div class="nav-section-title">Finland Q1-Q6</div>
-                    <a class="nav-item" data-doc="02-research-questions/q1-sectors-actors.md" onclick="loadDoc('02-research-questions/q1-sectors-actors.md')">Q1: Sectors & Actors</a>
-                    <a class="nav-item" data-doc="02-research-questions/q2-stakeholders.md" onclick="loadDoc('02-research-questions/q2-stakeholders.md')">Q2: Stakeholders</a>
-                    <a class="nav-item" data-doc="02-research-questions/q3-disposal-reuse.md" onclick="loadDoc('02-research-questions/q3-disposal-reuse.md')">Q3: Disposal & Reuse</a>
-                    <a class="nav-item" data-doc="02-research-questions/q4-regulations.md" onclick="loadDoc('02-research-questions/q4-regulations.md')">Q4: Regulations</a>
-                    <a class="nav-item" data-doc="02-research-questions/q5-initiatives.md" onclick="loadDoc('02-research-questions/q5-initiatives.md')">Q5: Initiatives</a>
-                    <a class="nav-item" data-doc="02-research-questions/q6-top10-sources.md" onclick="loadDoc('02-research-questions/q6-top10-sources.md')">Q6: Top 10 Sources</a>
+                <div class="nav-section collapsed" id="nav-finland">
+                    <div class="nav-section-header" onclick="toggleNavSection('nav-finland')">
+                        <span class="nav-section-title">🇫🇮 Finland Research</span>
+                        <svg class="nav-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </div>
+                    <div class="nav-items">
+                        <a class="nav-item" data-doc="02-research-questions/q1-sectors-actors.md" onclick="loadDoc('02-research-questions/q1-sectors-actors.md')">Sectors Using Polyester</a>
+                        <a class="nav-item" data-doc="02-research-questions/q2-stakeholders.md" onclick="loadDoc('02-research-questions/q2-stakeholders.md')">Value Chain Players</a>
+                        <a class="nav-item" data-doc="02-research-questions/q3-disposal-reuse.md" onclick="loadDoc('02-research-questions/q3-disposal-reuse.md')">Disposal & Recycling</a>
+                        <a class="nav-item" data-doc="02-research-questions/q4-regulations.md" onclick="loadDoc('02-research-questions/q4-regulations.md')">Regulations & EPR</a>
+                        <a class="nav-item" data-doc="02-research-questions/q5-initiatives.md" onclick="loadDoc('02-research-questions/q5-initiatives.md')">Active Initiatives</a>
+                        <a class="nav-item" data-doc="02-research-questions/q6-top10-sources.md" onclick="loadDoc('02-research-questions/q6-top10-sources.md')">Top 10 Sources</a>
+                    </div>
                 </div>
 
-                <div class="nav-section">
-                    <div class="nav-section-title">Sweden Q1-Q6</div>
-                    <a class="nav-item" data-doc="05-sweden/q1-sectors-actors.md" onclick="loadDoc('05-sweden/q1-sectors-actors.md')">Q1: Sectors & Actors</a>
-                    <a class="nav-item" data-doc="05-sweden/q2-stakeholders.md" onclick="loadDoc('05-sweden/q2-stakeholders.md')">Q2: Stakeholders</a>
-                    <a class="nav-item" data-doc="05-sweden/q3-disposal-reuse.md" onclick="loadDoc('05-sweden/q3-disposal-reuse.md')">Q3: Disposal & Reuse</a>
-                    <a class="nav-item" data-doc="05-sweden/q4-regulations.md" onclick="loadDoc('05-sweden/q4-regulations.md')">Q4: Regulations</a>
-                    <a class="nav-item" data-doc="05-sweden/q5-initiatives.md" onclick="loadDoc('05-sweden/q5-initiatives.md')">Q5: Initiatives</a>
-                    <a class="nav-item" data-doc="05-sweden/q6-top10-sources.md" onclick="loadDoc('05-sweden/q6-top10-sources.md')">Q6: Top 10 Sources</a>
+                <div class="nav-section collapsed" id="nav-sweden">
+                    <div class="nav-section-header" onclick="toggleNavSection('nav-sweden')">
+                        <span class="nav-section-title">🇸🇪 Sweden Research</span>
+                        <svg class="nav-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </div>
+                    <div class="nav-items">
+                        <a class="nav-item" data-doc="05-sweden/q1-sectors-actors.md" onclick="loadDoc('05-sweden/q1-sectors-actors.md')">Sectors Using Polyester</a>
+                        <a class="nav-item" data-doc="05-sweden/q2-stakeholders.md" onclick="loadDoc('05-sweden/q2-stakeholders.md')">Value Chain Players</a>
+                        <a class="nav-item" data-doc="05-sweden/q3-disposal-reuse.md" onclick="loadDoc('05-sweden/q3-disposal-reuse.md')">Disposal & Recycling</a>
+                        <a class="nav-item" data-doc="05-sweden/q4-regulations.md" onclick="loadDoc('05-sweden/q4-regulations.md')">Regulations & EPR</a>
+                        <a class="nav-item" data-doc="05-sweden/q5-initiatives.md" onclick="loadDoc('05-sweden/q5-initiatives.md')">Active Initiatives</a>
+                        <a class="nav-item" data-doc="05-sweden/q6-top10-sources.md" onclick="loadDoc('05-sweden/q6-top10-sources.md')">Top 10 Sources</a>
+                    </div>
                 </div>
 
-                <div class="nav-section">
-                    <div class="nav-section-title">Norway Q1-Q6</div>
-                    <a class="nav-item" data-doc="06-norway/q1-sectors-actors.md" onclick="loadDoc('06-norway/q1-sectors-actors.md')">Q1: Sectors & Actors</a>
-                    <a class="nav-item" data-doc="06-norway/q2-stakeholders.md" onclick="loadDoc('06-norway/q2-stakeholders.md')">Q2: Stakeholders</a>
-                    <a class="nav-item" data-doc="06-norway/q3-disposal-reuse.md" onclick="loadDoc('06-norway/q3-disposal-reuse.md')">Q3: Disposal & Reuse</a>
-                    <a class="nav-item" data-doc="06-norway/q4-regulations.md" onclick="loadDoc('06-norway/q4-regulations.md')">Q4: Regulations</a>
-                    <a class="nav-item" data-doc="06-norway/q5-initiatives.md" onclick="loadDoc('06-norway/q5-initiatives.md')">Q5: Initiatives</a>
-                    <a class="nav-item" data-doc="06-norway/q6-top10-sources.md" onclick="loadDoc('06-norway/q6-top10-sources.md')">Q6: Top 10 Sources</a>
+                <div class="nav-section collapsed" id="nav-norway">
+                    <div class="nav-section-header" onclick="toggleNavSection('nav-norway')">
+                        <span class="nav-section-title">🇳🇴 Norway Research</span>
+                        <svg class="nav-toggle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </div>
+                    <div class="nav-items">
+                        <a class="nav-item" data-doc="06-norway/q1-sectors-actors.md" onclick="loadDoc('06-norway/q1-sectors-actors.md')">Sectors Using Polyester</a>
+                        <a class="nav-item" data-doc="06-norway/q2-stakeholders.md" onclick="loadDoc('06-norway/q2-stakeholders.md')">Value Chain Players</a>
+                        <a class="nav-item" data-doc="06-norway/q3-disposal-reuse.md" onclick="loadDoc('06-norway/q3-disposal-reuse.md')">Disposal & Recycling</a>
+                        <a class="nav-item" data-doc="06-norway/q4-regulations.md" onclick="loadDoc('06-norway/q4-regulations.md')">Regulations & EPR</a>
+                        <a class="nav-item" data-doc="06-norway/q5-initiatives.md" onclick="loadDoc('06-norway/q5-initiatives.md')">Active Initiatives</a>
+                        <a class="nav-item" data-doc="06-norway/q6-top10-sources.md" onclick="loadDoc('06-norway/q6-top10-sources.md')">Top 10 Sources</a>
+                    </div>
                 </div>
 
                 <div class="nav-section">
@@ -1239,12 +1398,63 @@
                         </svg>
                         Action Plan
                     </a>
+                    <a class="nav-item" data-doc="FINAL-REPORT.md" onclick="loadDoc('FINAL-REPORT.md')">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <path d="M14 2v6h6"/>
+                        </svg>
+                        Full Report
+                    </a>
                     <a class="nav-item" data-doc="PHASE2-RESEARCH-FINDINGS.md" onclick="loadDoc('PHASE2-RESEARCH-FINDINGS.md')">
                         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/>
                             <line x1="12" y1="8" x2="12.01" y2="8"/>
                         </svg>
                         Phase 2 Findings
+                    </a>
+                </div>
+
+                <div class="nav-section">
+                    <div class="nav-section-title">Planning</div>
+                    <a class="nav-item" data-doc="RESEARCH-CONTEXT.md" onclick="loadDoc('RESEARCH-CONTEXT.md')">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                        </svg>
+                        Research Context
+                    </a>
+                    <a class="nav-item" data-doc="DEEP-RESEARCH-PROMPTS.md" onclick="loadDoc('DEEP-RESEARCH-PROMPTS.md')">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                        Deep Research Prompts
+                    </a>
+                    <a class="nav-item" data-doc="FABRICAIR-DOCUMENT-ANALYSIS.md" onclick="loadDoc('FABRICAIR-DOCUMENT-ANALYSIS.md')">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <path d="M14 2v6h6"/><line x1="16" y1="13" x2="8" y2="13"/>
+                            <line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/>
+                        </svg>
+                        FabricAir Doc Analysis
+                    </a>
+                    <a class="nav-item" data-doc="PHASE3-VALIDATION-PLAN.md" onclick="loadDoc('PHASE3-VALIDATION-PLAN.md')">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/>
+                            <rect x="9" y="3" width="6" height="4" rx="1"/>
+                        </svg>
+                        Phase 3 Validation Plan
+                    </a>
+                </div>
+
+                <div class="nav-section">
+                    <div class="nav-section-title">Reference</div>
+                    <a class="nav-item" data-doc="01-context/fabricair.md" onclick="loadDoc('01-context/fabricair.md')">
+                        FabricAir Profile
+                    </a>
+                    <a class="nav-item" data-doc="TECHNICAL-COMPATIBILITY-MATRIX.md" onclick="loadDoc('TECHNICAL-COMPATIBILITY-MATRIX.md')">
+                        Technical Compatibility
+                    </a>
+                    <a class="nav-item" data-doc="UX-ANALYSIS.md" onclick="loadDoc('UX-ANALYSIS.md')">
+                        UX Analysis
                     </a>
                 </div>
             </nav>
@@ -1310,6 +1520,31 @@
             </header>
 
             <div class="content-area">
+                <!-- Quick Actions Panel -->
+                <div class="quick-actions-panel" id="quickActionsPanel">
+                    <h3>🚀 Take Action — Contact Partners</h3>
+                    <div class="action-cards">
+                        <a href="mailto:hello@rester.fi?subject=FabricAir%20Partnership%20Inquiry" class="action-card">
+                            <span class="flag">🇫🇮</span>
+                            <strong>Rester</strong>
+                            <span class="subtitle">Jukka Pesola (CEO)</span>
+                            <span class="status">Operational NOW</span>
+                        </a>
+                        <a href="mailto:btm@ntgas.no?subject=FabricAir%20Partnership%20Inquiry" class="action-card">
+                            <span class="flag">🇳🇴</span>
+                            <strong>NTG</strong>
+                            <span class="subtitle">Bent T. Mathisen (CEO)</span>
+                            <span class="status future">30k t/yr by 2029</span>
+                        </a>
+                        <a href="https://wargoninnovation.se" target="_blank" class="action-card">
+                            <span class="flag">🇸🇪</span>
+                            <strong>Rewin</strong>
+                            <span class="subtitle">Chemical recycling</span>
+                            <span class="status future">Oct 2027</span>
+                        </a>
+                    </div>
+                </div>
+
                 <div class="content" id="content">
                     <div class="loading">
                         <div class="spinner"></div>
@@ -1319,6 +1554,9 @@
             </div>
         </div>
     </div>
+
+    <!-- Mobile Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
 
     <!-- Toast Container -->
     <div class="toast-container" id="toastContainer"></div>
@@ -1398,7 +1636,6 @@
             { path: '05-sweden/q4-regulations.md', title: 'Sweden Q4: Regulations' },
             { path: '05-sweden/q5-initiatives.md', title: 'Sweden Q5: Initiatives' },
             { path: '05-sweden/q6-top10-sources.md', title: 'Sweden Q6: Top 10 Sources' },
-            { path: '05-sweden/SWEDEN-RESEARCH-REPORT.md', title: 'Sweden Report (Legacy)' },
             // Norway Q1-Q6
             { path: '06-norway/index.md', title: 'Norway Research Questions' },
             { path: '06-norway/q1-sectors-actors.md', title: 'Norway Q1: Sectors & Actors' },
@@ -1407,11 +1644,15 @@
             { path: '06-norway/q4-regulations.md', title: 'Norway Q4: Regulations' },
             { path: '06-norway/q5-initiatives.md', title: 'Norway Q5: Initiatives' },
             { path: '06-norway/q6-top10-sources.md', title: 'Norway Q6: Top 10 Sources' },
-            { path: '06-norway/NORWAY-RESEARCH-REPORT.md', title: 'Norway Report (Legacy)' },
             // Action
             { path: 'COMMERCIAL-PHASE-PLAN.md', title: 'Action Plan' },
             { path: 'PHASE2-RESEARCH-FINDINGS.md', title: 'Phase 2 Findings' },
-            { path: 'MARKET-COVERAGE-VERIFICATION.md', title: 'Market Coverage Verification' }
+            { path: 'TECHNICAL-COMPATIBILITY-MATRIX.md', title: 'Technical Compatibility Matrix' },
+            { path: 'PHASE3-VALIDATION-PLAN.md', title: 'Phase 3 Validation Plan' },
+            // Reference
+            { path: 'FINAL-REPORT.md', title: 'Final Report' },
+            { path: '01-context/fabricair.md', title: 'FabricAir Profile' },
+            { path: 'UX-ANALYSIS.md', title: 'UX Analysis' }
         ];
 
         document.addEventListener('DOMContentLoaded', () => {
@@ -1419,6 +1660,25 @@
             loadDoc(hash || '00-executive-summary.md');
             preloadDocs();
         });
+
+        // Toggle collapsible nav sections
+        function toggleNavSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                section.classList.toggle('collapsed');
+            }
+        }
+
+        // Expand section when navigating to a doc within it
+        function expandParentSection(path) {
+            if (path.includes('02-research-questions')) {
+                document.getElementById('nav-finland')?.classList.remove('collapsed');
+            } else if (path.includes('05-sweden')) {
+                document.getElementById('nav-sweden')?.classList.remove('collapsed');
+            } else if (path.includes('06-norway')) {
+                document.getElementById('nav-norway')?.classList.remove('collapsed');
+            }
+        }
 
         window.addEventListener('popstate', (e) => {
             if (e.state && e.state.doc) loadDoc(e.state.doc, false);
@@ -1429,6 +1689,7 @@
             content.innerHTML = '<div class="loading"><div class="spinner"></div>Loading...</div>';
 
             updateNavActive(path);
+            expandParentSection(path);
 
             try {
                 let text = docCache.get(path);
@@ -1567,7 +1828,10 @@
         }
 
         function toggleSidebar() {
-            document.getElementById('sidebar').classList.toggle('open');
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebarOverlay');
+            sidebar.classList.toggle('open');
+            overlay.classList.toggle('active');
         }
 
         function showHelp() {

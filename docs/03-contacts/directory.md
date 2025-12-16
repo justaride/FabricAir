@@ -2,8 +2,21 @@
 
 Verified contacts for Nordic polyester sourcing outreach.
 
-**Last verified:** 2025-11-30 (Phase 2.1)
-**Contacts:** 40+ | **Operational contacts:** 3 NEW
+**Last verified:** 2025-12-16
+**Contacts:** 45+ | **Operational contacts:** 4 | **Cutting waste sources:** 5
+
+---
+
+## Contact Level Legend
+
+| Symbol | Level | Description |
+|:------:|:------|:------------|
+| 🔵 | **Strategic** | CEO/Executive — partnership discussions |
+| 🟢 | **Operational** | Facilities/Waste — disposal decisions |
+| 🟡 | **Sales** | Commercial — pricing/volume |
+| ⚪ | **General** | Inquiry inbox — first contact |
+
+> **Note:** FabricAir's primary need is **operational contacts** (facilities managers who decide where end-of-life textiles go). Most contacts here are strategic/sales level. See "Operational Contacts" section for disposal decision-makers.
 
 ---
 
@@ -52,29 +65,34 @@ These are **operational-level** contacts (not CEOs) for textile waste disposal d
 
 ### Recyclers
 
-| Organization | Contact | Email | Phone |
-|--------------|---------|-------|-------|
-| **Rester** | Jukka Pesola (CEO) | hello@rester.fi | — |
-| | Johanna Lindholm-Järvinen | johanna@rester.fi | — |
-| | Sandra Wirtanen (R&D) | sandra@rester.fi | — |
+| Organization | Contact | Level | Email | Phone |
+|--------------|---------|:-----:|-------|-------|
+| **Rester** | Jukka Pesola (CEO, Aug 2025) | 🔵 | hello@rester.fi | — |
+| | Johanna Lindholm-Järvinen (Sales) | 🟡 | hello@rester.fi | — |
+| | Outi Luukko (Founder, Board) | 🔵 | hello@rester.fi | — |
+| | Hanna Liiri (Board Chair) | 🔵 | — | — |
+| | Jani Tolvanen (Production, acting) | 🟢 | hello@rester.fi | — |
+
+> **⚠️ CEO Update (Dec 2025):** Jukka Pesola became CEO Aug 15, 2025. Joachim Colliander stepped down after €4.9M funding round (Jan 2025). Strategy shift toward "high potential industrial applications." Rester co-founder of Pure Waste Textiles.
 
 ### Textile Services
 
-| Organization | Contact | Email | Phone |
-|--------------|---------|-------|-------|
-| **Touchpoint** | Noora Salonoja (CEO) | noora.salonoja@touchpoint.fi | +358 50 323 9620 |
-| | Joni Mäenpää (Sales) | joni.maenpaa@touchpoint.fi | +358 41 318 1614 |
-| | Anni Wulff-Kokko | anni.wulff-kokko@touchpoint.fi | +358 50 339 6362 |
-| ~~**Lindström**~~ | ⚠️ NOT COMPATIBLE | 65:35 poly-cotton blend | — |
-| **SOL Group** | Marja Innanen | marja.innanen@sol.fi | — |
-| **Image Wear** | Jari Lepistö (CEO) | jari.lepisto@imagewear.fi | +358 50 60212 |
+| Organization | Contact | Level | Email | Phone |
+|--------------|---------|:-----:|-------|-------|
+| **Touchpoint** | Noora Salonoja (CEO) | 🔵 | noora.salonoja@touchpoint.fi | +358 50 323 9620 |
+| | Joni Mäenpää (Sales) | 🟡 | joni.maenpaa@touchpoint.fi | +358 41 318 1614 |
+| | Anni Wulff-Kokko | 🟡 | anni.wulff-kokko@touchpoint.fi | +358 50 339 6362 |
+| ~~**Lindström**~~ | ⚠️ NOT COMPATIBLE | — | 65:35 poly-cotton blend | — |
+| **SOL Group** | Marja Innanen | 🟡 | marja.innanen@sol.fi | — |
+| **Image Wear** | Jari Lepistö (CEO) | 🔵 | jari.lepisto@imagewear.fi | +358 50 60212 |
 
 ### Healthcare
 
-| Organization | Contact | Email | Phone |
-|--------------|---------|-------|-------|
-| **Puro** | Paavo Martikainen (CEO) | paavo.martikainen@puro.fi | +358 50 501 8998 |
-| **HUS** | Switchboard | — | 09 4711 |
+| Organization | Contact | Level | Email | Phone |
+|--------------|---------|:-----:|-------|-------|
+| **Puro** | Paavo Martikainen (CEO) | 🔵 | paavo.martikainen@puro.fi | +358 50 501 8998 |
+| **HUS** | Switchboard | ⚪ | — | 09 4711 |
+| **HUS Logistics** | Department | 🟢 | logistiikka.asiakaspalvelu@hus.fi | 09 471 77000 |
 
 ### Sorting
 
@@ -82,6 +100,9 @@ These are **operational-level** contacts (not CEOs) for textile waste disposal d
 |--------------|---------|-------|-------|
 | **LSJH** | Miira Ojanen | miira.ojanen@lsjh.fi | +358 40 579 5312 |
 | | B2B inquiries | postconsumertextile@lsjh.fi | — |
+| **Turun Ekotori** | (Taking over sorting 2026) | — | — |
+
+> **⚠️ LSJH Update (Dec 2025):** LSJH outsourcing textile sorting/QA to Turun Ekotori starting 2026. LSJH will continue collection only in own area. Lemppari store closing end 2025. 20k t/yr refinement plant abandoned.
 
 ### Industrial
 
@@ -90,6 +111,20 @@ These are **operational-level** contacts (not CEOs) for textile waste disposal d
 | **Orion** | Carolina Sved | carolina.sved@orion.fi |
 | **Valio** | Hanna Hiekkamies | hanna.hiekkamies@valio.fi |
 | **KONE** | Hanna Uusitalo | hanna.uusitalo@kone.com |
+
+### Cutting Waste Sources (NEW)
+
+Production waste from manufacturing — potentially cleaner than end-of-life textiles.
+
+| Organization | Type | Waste Stream | Email | Status |
+|--------------|------|--------------|-------|--------|
+| **Marimekko** | Fashion/textiles | Cutting offcuts | info@marimekko.com | ✅ Confirmed → Rester |
+| **Joutsen Finland** | Bedding (duvets) | Polyester/polyamide | info@joutsen.com | ✅ Both materials acceptable |
+| **Image Wear** | Workwear | Likely cutting waste | jari.lepisto@imagewear.fi | ◯ Unverified |
+| **Atex Ammattiasut** | Workwear | ~100k pcs/year | — | ◯ Unverified |
+| **Dimex** | Workwear | — | via dimexoy.fi | ◯ Unverified |
+
+**Note:** Marimekko confirmed sending production waste to Rester since 2022. Other manufacturers likely have similar streams — verify directly.
 
 ---
 
@@ -124,22 +159,22 @@ These are **operational-level** contacts (not CEOs) for textile waste disposal d
 
 ### Recyclers
 
-| Organization | Contact | Email | Phone |
-|--------------|---------|-------|-------|
-| **NTG** | Bent Mathisen (CEO) | btm@ntgas.no | +47 906 43 555 |
+| Organization | Contact | Level | Email | Phone |
+|--------------|---------|:-----:|-------|-------|
+| **NTG** | Bent T. Mathisen (CEO) | 🔵 | btm@ntgas.no | +47 906 43 555 |
 
 ### Textile Services
 
-| Organization | Contact | Email | Phone |
-|--------------|---------|-------|-------|
-| **Nor Tekstil** | Thomas Karlsen | thomas.karlsen@nortekstil.no | +47 982 05 026 |
-| **Elis Norge** | Marit Flinder R-N | marit.flinder@elis.com | — |
+| Organization | Contact | Level | Email | Phone |
+|--------------|---------|:-----:|-------|-------|
+| **Nor Tekstil** | Thomas Karlsen | 🟡 | thomas.karlsen@nortekstil.no | +47 982 05 026 |
+| **Elis Norge** | Marit Flinder R-N | 🟡 | marit.flinder@elis.com | — |
 
 ### Collection
 
-| Organization | Contact | Email | Phone |
-|--------------|---------|-------|-------|
-| **Fretex Miljø** | Kristin Hareide | kristin.hareide@fretex.no | +47 413 03 878 |
+| Organization | Contact | Level | Email | Phone |
+|--------------|---------|:-----:|-------|-------|
+| **Fretex Miljø** | Kristin Hareide | 🟢 | kristin.hareide@fretex.no | +47 413 03 878 |
 
 ---
 
@@ -173,4 +208,4 @@ These are **operational-level** contacts (not CEOs) for textile waste disposal d
 
 ---
 
-*Last updated: 2025-11-30 (Phase 2.1)*
+*Last updated: 2025-12-16*

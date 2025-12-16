@@ -6,7 +6,7 @@
 
 ## Key Finding
 
-**NTG is the linchpin for Norway — the only recycler, fastest-growing Nordic capacity, and uniquely able to process poly-cotton blends.** Access healthcare feedstock via Nor Tekstil and Elis.
+**NTG is the linchpin for Norway — the only recycler, fastest-growing Nordic capacity, and uniquely able to process poly-cotton blends.** For 100% polyester/polyamide, target cleanroom sector. Access healthcare feedstock via Nor Tekstil and Elis.
 
 ---
 
@@ -264,4 +264,4 @@
 
 ---
 
-*Last updated: 2025-11-30*
+*Last updated: 2025-12-16*

@@ -6,10 +6,7 @@
 
 **Live Platform:** https://justaride.github.io/FabricAir/
 
-A research platform identifying high-quality recycled polyester sources across Finland, Sweden, and Norway for FabricAir's 100% circular ventilation textiles.
-
-### Mission
-Map companies in Finland, Sweden, and Norway specializing in collection of used polyester fibers for recycling, with capacity to deliver high volume, high quality (mono) raw materials within FabricAir's quality standards.
+Research platform mapping recycled polyester sources across Finland, Sweden, and Norway for FabricAir's 100% circular ventilation textiles.
 
 ### Project Context
 - **Initiative:** Nordic Circular Construction (NCC)
@@ -17,162 +14,201 @@ Map companies in Finland, Sweden, and Norway specializing in collection of used 
 - **Coordinator:** Natural State AS
 - **Client:** FabricAir (Denmark)
 
-## Current Status (2025-11-30)
+## Current Status (2025-12-16)
 
 | Component | Status |
 |-----------|--------|
-| Finland research | Complete (95%) |
-| Sweden research | Complete (92%) |
-| Norway research | Complete (88%) |
-| Backend synchronization | Complete |
-| Platform design | Complete |
-| **Overall** | **92% verified** |
+| Research coverage | 92% |
+| **Delivery score** | **85% (B)** |
+| Platform UX | ✅ Improved |
+| Build integrity | ✅ Verified |
+| FabricAir data | ✅ **Verified from 19 internal documents** |
+| Phase | **Commercial Outreach Ready** |
 
-**Phase:** Research complete — Platform delivery phase
+### Completed: FabricAir Internal Document Analysis
 
-## Delivery Goals
+**19 documents analyzed:** EPD, product catalogue, certificates, warranties, maintenance guides
 
-### Primary Deliverable
-- **Web platform** (optimized, designed, professional)
-- **PDF report** (following research question structure)
+**Key verified specifications:**
+| Parameter | Verified Value | Source |
+|-----------|----------------|--------|
+| Material | 100% PET or 100% Polyamide | Oeko-Tex #66908 |
+| Weight | 300 g/m² | EPD MD-24129-EN |
+| Service life | 30 years | EPD |
+| Temperature | -40°C to +140°C | EPD |
 
-### Recipients
-1. **FabricAir** — Primary client
-2. **NCC / Nordic Innovation** — Secondary (methodology demonstration)
+**Files updated:**
+- ✅ `_data/fabricair.yml` — +300 lines of verified technical data
+- ✅ `docs/TECHNICAL-COMPATIBILITY-MATRIX.md` — Source citations added
 
-### Post-Delivery
-- Potential continued platform development
-- Partnership development support
-- Additional research as needed
-
-## Project Structure
-
-```
-/FabricAir/
-├── _data/                          # Backend data (YAML)
-│   ├── project.yml                 # Scope, delivery, interconnection
-│   ├── fabricair.yml               # Company + material requirements
-│   ├── research-questions.yml      # All findings (Q1-Q6 + Nordic)
-│   ├── sources.yml                 # Source registry
-│   └── INTERCONNECTION-SCHEMA.md   # Data flow documentation
-│
-├── docs/                           # Presentation documents
-│   ├── index.md                    # Dashboard
-│   ├── 00-executive-summary.md     # Key findings + actions
-│   ├── NORDIC-COMPARISON.md        # Cross-country analysis (enhanced)
-│   ├── nordic-comparison.html      # Interactive comparison (NEW)
-│   ├── FINAL-REPORT.md             # Consolidated 50-page report
-│   ├── FINAL-REPORT-PRINT.html     # Print-ready version
-│   ├── COMMERCIAL-PHASE-PLAN.md    # Outreach roadmap
-│   ├── 01-context/                 # FabricAir profile
-│   ├── 02-research-questions/      # Finland Q1-Q6 (index + 6 pages)
-│   ├── 03-contacts/                # Contact directory
-│   ├── 05-sweden/                  # Sweden Q1-Q6 (index + 6 pages)
-│   ├── 06-norway/                  # Norway Q1-Q6 (index + 6 pages)
-│   └── _internal/                  # Working docs (not for presentation)
-│
-├── CLAUDE.md                       # This file
-└── PROJECT-LOG.md                  # Activity log
-```
-
-### 6-Question Structure (All Countries)
-
-Each country follows the same research framework:
-
-| Question | Topic |
-|----------|-------|
-| Q1 | Sectors & Actors |
-| Q2 | Value Chain Stakeholders |
-| Q3 | Disposal & Reuse |
-| Q4 | Regulations |
-| Q5 | Initiatives |
-| Q6 | Top 10 Sources |
-
-| Country | Path |
-|---------|------|
-| Finland | `docs/02-research-questions/` |
-| Sweden | `docs/05-sweden/` |
-| Norway | `docs/06-norway/` |
-
-## Data Interconnection
-
-All project components are interconnected. See `_data/INTERCONNECTION-SCHEMA.md` for full details.
-
-### Key Dependencies
-
-| Data File | Affects |
-|-----------|---------|
-| `fabricair.yml` | All sector analyses (material filter) |
-| `research-questions.yml` | All Q1-Q6 docs, summaries |
-| `sources.yml` | All documents (citations) |
-| `project.yml` | Status across all docs |
-
-### Propagation Rules
-
-When updating data:
-1. Check `INTERCONNECTION-SCHEMA.md` for affected documents
-2. Update all dependent documents
-3. Log changes in `PROJECT-LOG.md`
-
-## Material Requirements
-
-FabricAir requires:
-
-| Parameter | Requirement |
-|-----------|-------------|
-| Material | 100% Polyester (PET) |
-| Weight | ~300 g/m² |
-| Color | White preferred |
-| **NOT suitable** | Polyester/cotton blends (65/35) |
-
-## Priority Partners
-
-| Partner | Country | Contact | Priority |
-|---------|---------|---------|----------|
-| **Rester** | Finland | hello@rester.fi | 1 |
-| **NTG** | Norway | btm@ntgas.no | 2 |
-| **Rewin** | Sweden | via wargoninnovation.se | 3 |
-| **Touchpoint** | Finland | noora.salonoja@touchpoint.fi | 4 |
-| **Nor Tekstil** | Norway | thomas.karlsen@nortekstil.no | 5 |
-
-## Key Contacts
-
-### FabricAir
-- **Darius Rinkevičius** (ESG): dri@fabricair.com
-
-### NCC Project
-- **Jan Thomas Odegard** (Coordinator): janthomas@naturalstate.no
-
-## Working Guidelines
-
-### Quality Standards
-- Every factual claim needs a source (see `sources.yml`)
-- Primary sources preferred
-- Mark verification status: unverified / verified / disputed
-
-### When Making Changes
-1. Update relevant `_data/*.yml` file
-2. Check `INTERCONNECTION-SCHEMA.md` for dependencies
-3. Update all affected documents
-4. Log in `PROJECT-LOG.md`
-
-### Do Not
-- Make claims without source references
-- Assume 65/35 poly-cotton blends are suitable (they are NOT)
-- Modify files in `_source-documents/`
-- Add speculative findings without marking them
-
-## Next Steps
-
-1. **Stakeholder outreach** — Contact Rester, NTG, Rewin
-2. **Sample requests** — Material validation
-3. **Commercial discussions** — Pricing and volumes
-4. **Post-delivery** — Continued development if needed
+### Recent Updates (2025-12-16)
+- ✅ **19 FabricAir internal documents analyzed** (Session 11)
+- ✅ **Polyamide integrated across 30+ files** (Session 12)
+- ✅ fabricair.yml expanded with product lines, certifications, EPD data
+- ✅ Technical compatibility matrix updated with verified specs
+- ✅ Build troubleshooting complete — all broken links fixed
+- ✅ Research context document created (`RESEARCH-CONTEXT.md`)
+- ✅ 35 deep research prompts created (`DEEP-RESEARCH-PROMPTS.md`)
 
 ---
 
-*Project initialized: 2025-11-28*
-*Last updated: 2025-11-30*
-*Phase: Platform delivery complete*
-*Overall completion: 92%*
-*Delivery score: 80% (B-)*
+## 🔄 NEXT SESSION: Continue Here
+
+### Code Review Complete (Session 14 - Dec 16, 2025)
+
+**Overall Score: 85/100** 🟢
+
+| Category | Status | Issues |
+|----------|--------|--------|
+| File Structure | 🟢 Good | 2 minor |
+| YAML Data | 🟢 Excellent | 2 minor |
+| Markdown | 🟢 Good | 3 minor |
+| HTML Files | 🟢 Excellent | 0 |
+| Git Status | 🟢 Ready | 0 |
+| Data Sync | 🟢 Excellent | 2 minor |
+
+---
+
+## 📋 PENDING TASKS (From Code Review)
+
+### HIGH PRIORITY
+
+| Task | File(s) | Issue |
+|------|---------|-------|
+| Update research prompts | `docs/DEEP-RESEARCH-PROMPTS.md` | Old CEO name (Joachim Colliander), outdated LSJH info |
+| Resolve untracked directory | `/FabricAir - Further Research/` | 7 research files untracked (integrate or archive) |
+| Fix completion % | `_data/project.yml` line 49 | Shows 95%, should be 92% |
+
+### MEDIUM PRIORITY
+
+| Task | File(s) | Issue |
+|------|---------|-------|
+| Document or archive | `_data/quality-control.yml` | 353 lines, appears unused |
+| Add archive README | `_archive/README.md` | Explain historical documents |
+| Fix relative links | `docs/02-research-questions/index.md`, `q6-top10-sources.md` | Convert to explicit paths |
+| Update material table | `docs/FINAL-REPORT-PRINT.html` | Still shows only PET |
+
+### LOW PRIORITY
+
+| Task | Notes |
+|------|-------|
+| Self-host marked.js | `docs/viewer.html` line 7 — reduce CDN dependency |
+| Add polyamide mentions | 44 occurrences of "100% polyester" without polyamide |
+
+---
+
+### Key Discovery to Remember
+- **100% Polyamide is NOW ACCEPTABLE** alongside 100% Polyester (per Oeko-Tex Certificate #66908)
+- **Rester strategy shift** to "high potential industrial applications" — good FabricAir alignment
+- **Lindström-Rester:** 2nd largest shareholder, ~500 t/year to Rester, **NO exclusive access confirmed**
+
+### Sessions 11-14 Summary
+
+| Session | Work Done |
+|---------|-----------|
+| 11 | FabricAir internal documents analyzed (19 documents) |
+| 12 | Polyamide integrated across 30+ files |
+| 13 | Research output integrated (17+ files, 41 research files) |
+| 14 | Code review complete (85/100 score) |
+
+### Quick Start Commands
+
+Find files with old CEO name:
+```bash
+grep -r "Joachim Colliander" docs/ --include="*.md"
+```
+
+Find files mentioning only polyester:
+```bash
+grep -r "100% polyester" docs/ --include="*.md" | grep -v polyamide
+```
+
+## Project Structure (Consolidated)
+
+```
+/FabricAir/
+├── _data/                          # YAML backend (SINGLE SOURCE OF TRUTH)
+│   ├── project.yml                 # Status, partners, milestones
+│   ├── fabricair.yml               # Material requirements + compatibility
+│   ├── sources.yml                 # Source registry with verification
+│   └── INTERCONNECTION-SCHEMA.md   # Data flow documentation
+│
+├── docs/                           # Presentation (32 files)
+│   ├── index.md                    # Project dashboard
+│   ├── 00-executive-summary.md     # Key findings + actions (START HERE)
+│   ├── NORDIC-COMPARISON.md        # Cross-country strategic analysis
+│   ├── TECHNICAL-COMPATIBILITY-MATRIX.md  # Material matching guide
+│   ├── UX-ANALYSIS.md              # Platform usability analysis
+│   │
+│   ├── 01-context/fabricair.md     # FabricAir profile
+│   ├── 02-research-questions/      # Finland Q1-Q6 (7 files)
+│   ├── 03-contacts/directory.md    # 40+ verified contacts
+│   ├── 05-sweden/                  # Sweden Q1-Q6 (7 files)
+│   ├── 06-norway/                  # Norway Q1-Q6 (7 files)
+│   │
+│   ├── COMMERCIAL-PHASE-PLAN.md    # Outreach roadmap
+│   ├── PHASE2-RESEARCH-FINDINGS.md # Critical discoveries
+│   ├── PHASE3-VALIDATION-PLAN.md   # Validation workstreams
+│   ├── FINAL-REPORT.md             # Consolidated report
+│   │
+│   ├── viewer.html                 # Interactive navigation (UX improved)
+│   ├── nordic-comparison.html      # Interactive comparison
+│   └── FINAL-REPORT-PRINT.html     # Print-ready version
+│
+├── _archive/                       # Archived process documents
+├── _source-documents/              # Source archive (read-only)
+├── CLAUDE.md                       # This file
+├── PROJECT-LOG.md                  # Activity log
+└── README.md                       # Quick reference
+```
+
+## Priority Partners (Verified 2025-12-16)
+
+| Partner | Country | CEO | Contact | Status |
+|---------|---------|-----|---------|--------|
+| **Rester** | Finland | **Jukka Pesola (Aug 2025)** | hello@rester.fi | Operational |
+| **NTG** | Norway | Bent T. Mathisen | btm@ntgas.no | Scaling |
+| **Rewin** | Sweden | Joel Arnoldsson | wargoninnovation.se | Oct 2027 |
+
+**⚠️ Critical Updates (Dec 2025):**
+- **Rester CEO change:** Jukka Pesola replaced Joachim Colliander (Aug 15, 2025) after €4.9M funding round
+- **Rester strategy:** Shift to "high potential industrial applications" — good FabricAir alignment
+- **LSJH:** Outsourcing textile sorting to Turun Ekotori (2026), stepping back from operations
+- **Risk:** Rester — Lindström is 2nd largest shareholder, capacity may be locked (no exclusivity confirmed)
+
+## Material Requirements (Verified 2025-12-16)
+
+| Parameter | Requirement | Source |
+|-----------|-------------|--------|
+| Material | 100% Polyester (PET) | Oeko-Tex #66908 |
+| Alternative | 100% Polyamide | Oeko-Tex #66908 |
+| Weight | 300 g/m² | EPD MD-24129-EN |
+| Temperature | -40°C to +140°C | EPD |
+| Color | White preferred | Catalogue |
+| **NOT suitable** | 65/35 poly-cotton blends | Confirmed |
+
+**Best sources:** Cleanroom/pharma (Orion, AstraZeneca) — >90% white, 100% PET
+
+## Working Guidelines
+
+### When Making Changes
+1. Update `_data/*.yml` first (single source of truth)
+2. Update dependent Markdown documents
+3. Log changes in `PROJECT-LOG.md`
+
+### Do Not
+- Assume 65/35 blends are suitable (they are NOT)
+- Modify `_source-documents/`
+- Make claims without sources
+
+## Key Contacts
+
+| Contact | Role | Email |
+|---------|------|-------|
+| Darius Rinkevičius | FabricAir ESG | dri@fabricair.com |
+| Jan Thomas Odegard | NCC Coordinator | janthomas@naturalstate.no |
+
+---
+
+*Last updated: 2025-12-16 (Session 14 — Code Review Complete)*
+*Research: 92% | Delivery: 85% (B) | Code Review: 85/100 | Build: ✓ | FabricAir Data: ✓*

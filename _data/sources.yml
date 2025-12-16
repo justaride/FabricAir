@@ -1,6 +1,6 @@
 # Sources Registry
 # FabricAir Nordic Research Platform
-# Last updated: 2025-11-29
+# Last updated: 2025-12-16
 
 # Source categories
 categories:
@@ -18,12 +18,14 @@ categories:
 verification_states:
   - state: "verified"
     description: "Content confirmed accurate through cross-reference or direct contact"
+  - state: "verified_but_incompatible"
+    description: "Source verified but material NOT compatible with FabricAir requirements"
   - state: "accessed"
     description: "Source accessed and content reviewed"
   - state: "referenced"
     description: "Referenced but not directly verified"
   - state: "outdated"
-    description: "Information may need refresh"
+    description: "Information may need refresh (>2 years old)"
 
 # ============================================
 # FINLAND SOURCES
@@ -60,8 +62,18 @@ finland_sources:
       key_data:
         - "6,000-12,000 t/yr capacity"
         - "GRS certified"
+        - "€4.9M funding raised Jan 2025 (Tesi + others)"
+        - "Strategy shift: high potential industrial applications"
+      leadership:
+        ceo: "Jukka Pesola (Aug 15, 2025)"
+        previous_ceo: "Joachim Colliander (Feb 2024 - Aug 2025)"
+        founder: "Outi Luukko (Board)"
+        chair: "Hanna Liiri (investor profile, Feb 2024)"
+        sales: "Johanna Lindholm-Järvinen"
+        production: "Jani Tolvanen (acting)"
       contacts_verified: ["hello@rester.fi"]
       used_in: ["q5", "q6", "executive_summary"]
+      last_verified: "2025-12-16"
 
     - id: "FI-COM-002"
       name: "Touchpoint Workwear"
@@ -82,11 +94,17 @@ finland_sources:
       url: "https://lindstromgroup.com"
       type: "Company website"
       category: "primary"
-      verification: "verified"
+      verification: "verified_but_incompatible"
+      compatibility_status: "NOT_COMPATIBLE"
+      critical_finding: |
+        65% polyester / 35% cotton blend — NOT suitable for FabricAir 100% PET requirement.
+        400 t/year output is incompatible. EXCLUDED from sourcing recommendations.
       key_data:
         - "50-70% market share"
-        - "Rester shareholder"
+        - "Rester 2nd largest shareholder (capacity lock risk)"
+        - "Material: 65/35 poly-cotton blend (INCOMPATIBLE)"
       used_in: ["q1", "q2", "q6"]
+      warning: "Do NOT pursue as feedstock source"
 
     - id: "FI-COM-004"
       name: "LSJH (Lounais-Suomen Jätehuolto)"
@@ -95,9 +113,17 @@ finland_sources:
       category: "primary"
       verification: "verified"
       key_data:
-        - "Turku plant CANCELLED April 2024"
-        - "Sorting only"
+        - "Turku 20k t/yr refinement plant ABANDONED"
+        - "Outsourcing sorting to Turun Ekotori (2026)"
+        - "LSJH stepping back from textile operations"
+        - "Lemppari textile recycling store closing end 2025"
+      status_change: "2025-10-07"
+      status_note: |
+        LSJH announced outsourcing textile sorting/QA to Turun Ekotori starting
+        early 2026. LSJH will continue collection only in own area. This signals
+        municipal collection model instability under evolving EU EPR rules.
       used_in: ["q5", "executive_summary"]
+      last_verified: "2025-12-16"
 
     - id: "FI-COM-005"
       name: "Puro Tekstiilipalvelu"

@@ -1,6 +1,6 @@
 # Commercial Phase Plan: Nordic Circular Polyester Supply Chain
 
-**Document Date:** 2025-11-29
+**Document Date:** 2025-12-16
 **Phase:** Research Complete → Commercial Development
 **Timeline:** Q1 2025 - Q4 2025
 **Owner:** FabricAir ESG / Commercial Team
@@ -13,7 +13,7 @@ The Commercial Phase transforms research findings into operational supply agreem
 
 **Target Outcome:**
 - 2-3 signed feedstock agreements
-- Pilot production with recycled Nordic polyester
+- Pilot production with recycled Nordic polyester/polyamide
 - Validated supply chain ready for scaling
 
 ---
@@ -52,7 +52,7 @@ Nordic comparison ──────────────→ Commercial negot
 **Email Template Elements:**
 - FabricAir introduction (textile ventilation, sustainability goals)
 - NCC project context (Nordic Innovation funding)
-- Specific interest (recycled polyester fiber sourcing)
+- Specific interest (recycled polyester/polyamide fiber sourcing)
 - Request for exploratory meeting
 
 ### 1.2 Discovery Meetings
@@ -396,12 +396,12 @@ Sweden (2027+):           Rewin (Vänersborg)
 
 | Risk | Probability | Impact | Mitigation |
 |------|-------------|--------|------------|
-| Partner capacity unavailable | MEDIUM | HIGH | Early engagement, multi-supplier |
+| Rester capacity constraints | MEDIUM | HIGH | NO exclusive Lindström access confirmed; multi-supplier |
 | Quality not meeting spec | MEDIUM | HIGH | Detailed specs, pilot testing |
 | Price higher than expected | HIGH | MEDIUM | Volume commitments, alternatives |
-| Technology not proven | LOW | HIGH | Start with mechanical (proven) |
+| SIPTex sorting uncertainty | MEDIUM | MEDIUM | Monitor sale; Rewin pilot operational |
+| Technology not proven | LOW | HIGH | Start with Rester mechanical (proven) |
 | Logistics complexity | MEDIUM | MEDIUM | Partner with experience |
-| Competitor locks capacity | MEDIUM | HIGH | Early agreements, relationships |
 
 ---
 
@@ -461,13 +461,13 @@ Sweden (2027+):           Rewin (Vänersborg)
 
 ### A. Contact Quick Reference
 
-| Partner | Primary Contact | Email | Priority |
-|---------|-----------------|-------|----------|
-| Rester | Jukka Pesola (CEO) | hello@rester.fi | 1 |
-| NTG | Bent T. Mathisen (CEO) | btm@ntgas.no | 2 |
-| Wargön/Rewin | Joel Arnoldsson | Via wargoninnovation.se | 3 |
-| Touchpoint | Noora Salonoja (CEO) | noora.salonoja@touchpoint.fi | 4 |
-| Nor Tekstil | Thomas Karlsen | thomas.karlsen@nortekstil.no | 5 |
+| Partner | Primary Contact | Email | Priority | Notes |
+|---------|-----------------|-------|----------|-------|
+| Rester | **Jukka Pesola (CEO, Aug 2025)** | hello@rester.fi | 1 | €4.9M funding, industrial focus |
+| NTG | Bent T. Mathisen (CEO) | btm@ntgas.no | 2 | R&D Jan 2024, NTS sorting Aug 2024 |
+| Wargön/Rewin | Joel Arnoldsson | Via wargoninnovation.se | 3 | Pilot permits secured |
+| Touchpoint | Noora Salonoja (CEO) | noora.salonoja@touchpoint.fi | 4 | Rester majority owner |
+| Nor Tekstil | Thomas Karlsen | thomas.karlsen@nortekstil.no | 5 | Norway healthcare |
 
 ### B. Related Documents
 
@@ -475,14 +475,14 @@ Sweden (2027+):           Rewin (Vänersborg)
 |----------|------|
 | Executive Summary | [00-executive-summary.md](00-executive-summary.md) |
 | Nordic Comparison | [NORDIC-COMPARISON.md](NORDIC-COMPARISON.md) |
-| Project Delivery Status | [PROJECT-DELIVERY-STATUS.md](PROJECT-DELIVERY-STATUS.md) |
 | Contact Directory | [03-contacts/directory.md](03-contacts/directory.md) |
 | Finland Research (Q1-Q6) | [02-research-questions/](02-research-questions/) |
-| Sweden Research | [05-sweden/SWEDEN-RESEARCH-REPORT.md](05-sweden/SWEDEN-RESEARCH-REPORT.md) |
-| Norway Research | [06-norway/NORWAY-RESEARCH-REPORT.md](06-norway/NORWAY-RESEARCH-REPORT.md) |
+| Sweden Research (Q1-Q6) | [05-sweden/](05-sweden/) |
+| Norway Research (Q1-Q6) | [06-norway/](06-norway/) |
 
 ---
 
-*Document date: 2025-11-29*
+*Document date: 2025-12-16*
 *Project: FabricAir Nordic Circular Polyester Research*
 *Phase: Commercial Development Planning*
+*Research integration: Session 13 complete*

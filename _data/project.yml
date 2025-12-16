@@ -1,6 +1,6 @@
 # Nordic Circular Construction Project Context
 # FabricAir Nordic Research Platform
-# Last updated: 2025-11-29
+# Last updated: 2025-12-16
 
 project:
   name: "Nordic Circular Construction (NCC)"
@@ -212,13 +212,19 @@ priority_partners:
   tier_1_recyclers:
     - name: "Rester"
       country: "Finland"
+      ceo: "Jukka Pesola (Aug 2025)"
       contact: "hello@rester.fi"
+      capacity: "6k t/yr current, 12k target"
       status: "operational"
+      risk: "Lindström is 2nd largest shareholder"
 
     - name: "NTG"
       country: "Norway"
+      ceo: "Bent T. Mathisen"
       contact: "btm@ntgas.no"
+      capacity: "2k t/yr current, 30k target by ~2029"
       status: "scaling"
+      unique: "Can process poly-cotton blends via defibration"
 
     - name: "Rewin"
       country: "Sweden"
@@ -240,9 +246,11 @@ priority_partners:
 
 # Status tracking
 status:
-  last_updated: "2025-11-29"
-  phase: "Research complete - Platform delivery phase"
-  overall_completion: 92
+  last_updated: "2025-12-16"
+  phase: "FabricAir Document Analysis - Technical Validation"
+  overall_completion: 80
+  delivery_grade: "B-"
+  note: "Analyzing FabricAir internal docs to refine technical requirements and validate data relevance"
 
   milestones:
     - milestone: "Finland research"
@@ -262,8 +270,30 @@ status:
       date: "2025-11-29"
 
     - milestone: "Backend synchronization"
+      status: "complete"
+      date: "2025-12-08"
+
+    - milestone: "Project cleanup & verification"
+      status: "complete"
+      date: "2025-12-08"
+
+    - milestone: "Build troubleshooting"
+      status: "complete"
+      date: "2025-12-16"
+
+    - milestone: "Research context & prompts"
+      status: "complete"
+      date: "2025-12-16"
+
+    - milestone: "FabricAir document analysis"
       status: "in_progress"
-      date: "2025-11-29"
+      date: "2025-12-16"
+
+    - milestone: "Technical specification refinement"
+      status: "pending"
+
+    - milestone: "Quality assurance validation"
+      status: "pending"
 
     - milestone: "Final platform optimization"
       status: "pending"

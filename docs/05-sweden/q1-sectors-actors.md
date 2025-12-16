@@ -6,7 +6,7 @@
 
 ## Key Finding
 
-**The cleanroom/pharmaceutical sector is the only reliable source of 100% white polyester in Sweden.** Most other workwear uses 65/35 poly-cotton blends which are NOT suitable for FabricAir.
+**The cleanroom/pharmaceutical sector is the only reliable source of 100% white polyester/polyamide in Sweden.** Most other workwear uses 65/35 poly-cotton blends which are NOT suitable for FabricAir.
 
 ---
 
@@ -33,7 +33,7 @@
 | Getinge | ~2,000 | Gothenburg | Medical devices |
 
 **Why Best:**
-- 100% polyester (no blends)
+- 100% polyester or polyamide (no blends)
 - White/light colors
 - 150+ wash cycle durability
 - Regular replacement schedules
@@ -134,4 +134,4 @@
 
 ---
 
-*Last updated: 2025-11-30*
+*Last updated: 2025-12-16*

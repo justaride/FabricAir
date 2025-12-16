@@ -6,7 +6,11 @@
 
 ## Key Finding
 
-**Sweden has strong research infrastructure and the world's first automated textile sorting (SIPTex), but lacks domestic polyester recycling until Rewin launches in October 2027.**
+**Sweden has strong research infrastructure and the world's first automated textile sorting (SIPTex), but lacks domestic polyester recycling until Rewin launches (~2027).**
+
+**⚠️ Critical Updates (Dec 2025):**
+- **SIPTex being sold** — Sysav divesting due to lack of outlet markets
+- **Rewin pilot permits secured** — Malmö facility moving to commissioning
 
 ---
 
@@ -28,32 +32,55 @@
 | Attribute | Detail |
 |-----------|--------|
 | Lead | Wargön Innovation |
-| Technology | Chemical fiber-to-fiber recycling |
-| Capacity | 20,000 tonnes/year |
-| Timeline | October 2027 |
+| Technology | Chemical fiber-to-fiber recycling (catalytic glycolysis) |
+| Full-scale capacity | 20,000 tonnes/year |
+| Pilot capacity | ~20 tonnes/year |
+| Project timeline | Oct 2023 – Oct 2027 |
 | Funding | Swedish Energy Agency |
-| Location | Vargön (near Gothenburg) |
+| Full-scale location | Vargön (near Gothenburg, industrial symbiosis with Vargön Alloys) |
+| **Pilot location** | **Sege Industrial Park, Malmö** |
+
+**Status (Dec 2025):**
+- ✅ **Pilot plant permits secured** (building + environmental)
+- ✅ Commissioning targeted autumn 2025, operations before end 2025
+- ⚠️ Full-scale "Oct 2027" is project end date, not confirmed launch
+
+**Feedstock Requirements:**
+- **≥80% polyester content**
+- No requirements for color or print
+- Accepts buttons/zippers (no pre-removal needed)
+- Sources: textile sorters, industrial production waste
+- **100% polyester is acceptable** (not limited to blends)
+
+**Output:** Virgin-quality polyester granulate, suitable for new production
 
 **Partners:**
-- Gina Tricot (fashion retail)
-- KappAhl (fashion retail)
+- Gina Tricot, KappAhl (fashion retail)
 - Helly Hansen (outdoor/workwear)
-
-**Achievement (October 2024):** Successfully extracted high-quality polyester from complex three-fiber blends.
+- Dual Borgstena, ScandCycle, National
 
 **Contact:** Joel Arnoldsson — Innovation Manager, Wargön Innovation
 
 ---
 
-### SIPTex (Operational)
+### SIPTex — ⚠️ BEING DIVESTED
 
 | Attribute | Detail |
 |-----------|--------|
 | Operator | Sysav (Malmö) |
 | Technology | NIR + visual spectroscopy |
-| Capacity | 24,000 tonnes/year |
-| Status | Operational since 2023 |
+| Capacity | 24,000 tonnes/year (~30% of Swedish textile waste) |
+| Status | ⚠️ **Sysav divesting** |
 | Achievement | World's first automated textile sorting |
+
+**⚠️ Critical Update (Dec 2025):**
+
+Sysav announced it is **starting a process to sell/divest SIPTex:**
+- Investment assumed domestic offtake markets (2019 decision)
+- **Since 2024:** No stable outlet for sorted fractions
+- **~1,200 tonnes unsorted textiles** sitting at facility at decision time
+- Sysav does NOT expect market improvement during 2026-2027
+- Textile EPR (2028) will change roles/responsibilities
 
 **How it works:**
 1. Textiles fed onto conveyor
@@ -61,7 +88,7 @@
 3. Air jets separate by type
 4. >90% purity for polyester fraction
 
-**Current limitation:** Sorted polyester exported (no domestic recycler until 2027)
+**Implication:** SIPTex's future role depends on who acquires it and whether recyclers/PROs can contract stable offtake chains.
 
 **Contact:** Lars Carrick — lars.carrick@sysav.se
 
@@ -212,8 +239,8 @@
 
 ## Strategic Recommendations
 
-1. **Engage Rewin NOW** — Key future partner (2027)
-2. **Partner with SIPTex** — Sorting infrastructure ready
+1. **Engage Rewin NOW** — Key future partner (~2027), pilot operational soon
+2. **Monitor SIPTex sale** — Sorting infrastructure uncertain, watch who acquires
 3. **Monitor RE:Source** — Funding opportunities
 4. **Connect via Chalmers** — Technical credibility
 
@@ -230,4 +257,4 @@
 
 ---
 
-*Last updated: 2025-11-30*
+*Last updated: 2025-12-16*

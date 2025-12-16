@@ -1,8 +1,835 @@
 # Project Log
 
-## FabricAir Finland Circular Polyester Research
+## FabricAir Nordic Circular Polyester Research
 
 This log tracks significant project activities, decisions, and milestones.
+
+---
+
+## 2025-12-16 - Session 14: Code Review
+
+### Comprehensive Code Review Completed
+
+**Overall Score: 85/100** 🟢
+
+| Category | Status | Issues Found |
+|----------|--------|--------------|
+| File Structure | 🟢 Good | 2 minor |
+| YAML Data | 🟢 Excellent | 2 minor |
+| Markdown Consistency | 🟢 Good | 3 minor |
+| HTML Files | 🟢 Excellent | 0 |
+| Git Status | 🟢 Ready | 0 |
+| Cross-References | 🟢 Good | 0 |
+| Data Sync | 🟢 Excellent | 2 minor |
+
+#### Issues Identified for Future Work
+
+**High Priority:**
+1. `docs/DEEP-RESEARCH-PROMPTS.md` — Old CEO name (Joachim Colliander), outdated LSJH info
+2. `/FabricAir - Further Research/` — 7 untracked research files (integrate or archive)
+3. `_data/project.yml` line 49 — Shows 95% completion, should be 92%
+
+**Medium Priority:**
+4. `_data/quality-control.yml` — 353 lines, appears unused (document or archive)
+5. `_archive/README.md` — Missing (explain historical documents)
+6. `docs/02-research-questions/index.md`, `q6-top10-sources.md` — Relative links
+
+**Low Priority:**
+7. `docs/viewer.html` — Self-host marked.js (line 7)
+8. 44 occurrences of "100% polyester" without polyamide mention
+
+#### Strengths Noted
+- Clean YAML ↔ Markdown synchronization
+- CEO update (Jukka Pesola) properly propagated to 31 files
+- Polyamide integrated across 30+ files
+- Professional HTML/CSS with dark mode support
+- Strong source verification practices
+
+#### Files Updated
+- `CLAUDE.md` — Added code review findings, updated pending tasks
+- `PROJECT-LOG.md` — This entry
+
+---
+
+## 2025-12-16 - Session 13A: Research Output Integration (Critical Updates)
+
+### Research Integration Session
+
+**Source:** 41 research output files from `/FABRIC AIR RESEARCH 16.12.25 PART 1/`
+**Files Analyzed:** 8 key files (FabricAir circularity strategy, Rester leadership, Nordic sorting, cleanroom market, Lindström-Rester, Sweden EPR, market developments, Rewin status)
+
+#### Critical Findings Integrated
+
+| Finding | Previous | Updated |
+|---------|----------|---------|
+| **Rester CEO** | Joachim Colliander (Feb 2024) | **Jukka Pesola (Aug 15, 2025)** |
+| **Rester Funding** | — | **€4.9M (Jan 2025, Tesi + others)** |
+| **Rester Strategy** | — | "High potential industrial applications" |
+| **LSJH Status** | Sorting hub | **Outsourcing to Turun Ekotori (2026)** |
+| **LSJH Plant** | Cancelled Apr 2024 | **20k t/yr plant ABANDONED** |
+
+#### Additional Research Insights (For Future Sessions)
+
+| Topic | Key Finding |
+|-------|-------------|
+| **Lindström-Rester** | 2nd largest shareholder, ~500 t/year, NO exclusive access confirmed |
+| **Sweden EPR** | April 2028 confirmed, separate collection mandatory Jan 2025 |
+| **SIPTex** | Sysav divesting facility due to lack of outlet markets |
+| **Rewin** | Pilot permits secured (Malmö), 20k t/year target unchanged |
+| **NTG/NTS** | R&D 2,000 t/year (Jan 2024), NTS sorting (Aug 2024), 30k t/year target |
+| **Cleanroom Market** | Nordic 50-150 t/year validated, 99% PET/1% carbon standard |
+
+#### Files Updated (Session 13A)
+
+| File | Changes |
+|------|---------|
+| `_data/sources.yml` | Rester leadership section, LSJH status note, last_verified dates |
+| `docs/03-contacts/directory.md` | Rester CEO + team, LSJH/Turun Ekotori, warning notes |
+| `docs/02-research-questions/q6-top10-sources.md` | Rester funding/strategy, LSJH outsourcing |
+| `docs/index.md` | Priority partners table, LSJH update, delivery score |
+| `CLAUDE.md` | Next session workflow, priority partners, status |
+| `PROJECT-LOG.md` | This entry |
+
+#### Session 13 Complete
+
+```
+13A ✅ — Critical contact updates (6 files)
+13B ✅ — Finland Q1-Q5 (LSJH, Rester, Lindström)
+13C ✅ — Sweden (SIPTex, EPR, Rewin)
+13D ✅ — Norway + cross-Nordic (NTG/NTS, comparison)
+13E ✅ — Commercial plan + verification
+```
+
+#### All Files Updated (Session 13 Total: 17+ files)
+
+**Finland:**
+- `_data/sources.yml` — Rester leadership, LSJH status
+- `docs/03-contacts/directory.md` — Rester CEO, LSJH/Turun Ekotori
+- `docs/02-research-questions/q1-sectors-actors.md`
+- `docs/02-research-questions/q2-stakeholders.md`
+- `docs/02-research-questions/q5-initiatives.md`
+- `docs/02-research-questions/q6-top10-sources.md`
+
+**Sweden:**
+- `docs/05-sweden/q1-sectors-actors.md`
+- `docs/05-sweden/q4-regulations.md`
+- `docs/05-sweden/q5-initiatives.md`
+
+**Norway:**
+- `docs/06-norway/q5-initiatives.md`
+
+**Cross-Nordic:**
+- `docs/NORDIC-COMPARISON.md`
+- `docs/00-executive-summary.md`
+- `docs/COMMERCIAL-PHASE-PLAN.md`
+- `docs/index.md`
+- `CLAUDE.md`
+- `PROJECT-LOG.md`
+
+---
+
+## 2025-12-16 - Polyamide Integration Across Project
+
+### Session 12: Polyamide Material Update
+
+**Oppgave:** Update entire project to reflect that 100% Polyamide is now an acceptable material alongside 100% Polyester (per Oeko-Tex Certificate #66908)
+
+#### Files Updated (30+ files)
+
+**Phase 1: Executive/Strategic Documents (4 files)**
+- `docs/00-executive-summary.md` — Added polyamide to material requirements
+- `docs/NORDIC-COMPARISON.md` — Updated best sources tables
+- `docs/FINAL-REPORT.md` — Updated material requirements table
+- `docs/index.md` — Updated dashboard references
+
+**Phase 2: Country Research Files (9 files)**
+
+*Finland:*
+- `docs/02-research-questions/index.md`
+- `docs/02-research-questions/q1-sectors-actors.md`
+- `docs/02-research-questions/q6-top10-sources.md`
+
+*Sweden:*
+- `docs/05-sweden/index.md`
+- `docs/05-sweden/q1-sectors-actors.md`
+- `docs/05-sweden/q6-top10-sources.md`
+
+*Norway:*
+- `docs/06-norway/index.md`
+- `docs/06-norway/q1-sectors-actors.md`
+- `docs/06-norway/q6-top10-sources.md`
+
+**Phase 3: Supporting Documents (8 files)**
+- `docs/01-context/fabricair.md` — Added polyamide to requirements table
+- `_data/research-questions.yml` — Updated key findings
+- `docs/03-contacts/directory.md` — Joutsen Finland status changed to ✅
+- `docs/COMMERCIAL-PHASE-PLAN.md` — Updated target outcomes
+- `docs/RESEARCH-CONTEXT.md` — Updated material constraints
+- `docs/PHASE3-VALIDATION-PLAN.md` — Updated requirements table
+- `CLAUDE.md` — Added "NEXT SESSION" continuation guide
+
+#### Key Change Summary
+
+| Before | After |
+|--------|-------|
+| "100% Polyester (PET)" | "100% Polyester (PET) or 100% Polyamide" |
+| "100% PET" columns | "100% PET/PA" columns |
+| Joutsen "⚠️ Mixed material" | Joutsen "✅ Both materials acceptable" |
+
+#### Consequence
+
+**Feedstock pool expansion:** Polyamide sources (sportswear, technical textiles, outdoor gear) are now valid targets for outreach.
+
+---
+
+### ⏭️ NEXT SESSION CONTINUATION
+
+#### Session 13: Review Research Output
+
+**Context:** Research processes were run BEFORE the polyamide discovery. Output needs to be reviewed and integrated.
+
+**Workflow:**
+```
+Session 13: Review research output → Integrate findings
+    ↓
+Session 14+: [If needed] Run second research round → Review → Integrate
+```
+
+**When reviewing research output, check:**
+1. Does it confirm or contradict existing data?
+2. Does it add new sources/contacts?
+3. Does it affect volume estimates?
+4. Does it change priority rankings?
+
+**Files to update based on findings:**
+- `_data/sources.yml` — New contacts
+- `docs/03-contacts/directory.md` — Contact details
+- `docs/02-research-questions/q6-top10-sources.md` — Rankings
+- Country-specific Q files
+
+---
+
+#### Other Pending Tasks
+
+| Priority | Task | Status |
+|----------|------|--------|
+| 🔴 HIGH | **Review research output** | Next session |
+| 🔴 HIGH | Update DEEP-RESEARCH-PROMPTS.md with polyamide | Pending |
+| 🟠 MED | Update viewer.html with polyamide text | Pending |
+| 🟠 MED | Update FINAL-REPORT-PRINT.html | Pending |
+| 🟡 LOW | Review remaining Q2-Q5 files | Optional |
+
+**Quick audit command:**
+```bash
+grep -r "100% polyester" docs/ --include="*.md" | grep -v polyamide
+```
+
+---
+
+## 2025-12-16 - FabricAir Internal Documents Analyzed
+
+### Session 11: Analyse av FabricAir interne dokumenter
+
+**Oppgave:** Analysere 19 FabricAir interne dokumenter og oppdatere prosjektfiler
+
+#### Documents Analyzed (19 total)
+
+| Document | Size | Key Content |
+|----------|------|-------------|
+| EPD_FabricAir.md | 170KB | Environmental Product Declaration MD-24129-EN |
+| product-catalogue-en.md | 123KB | Complete product portfolio, 72 pages |
+| Oeko-Tex-Standard-100.md | 3KB | Certificate #66908, Class II |
+| Warranty-EN.md | 5KB | Warranty periods by product |
+| varioduct-leaflet-en.md | 17KB | VarioDuct specifications |
+| ISO-14001-2015.md | 9KB | Environmental management cert |
+| ISO-9001-2015.md | 9KB | Quality management cert |
+| 8× Laundering guides | ~2KB each | Washing procedures by Combi variant |
+
+#### Key Technical Data Extracted
+
+| Parameter | Verified Value | Source |
+|-----------|----------------|--------|
+| Fabric density | 300 g/m² | EPD |
+| Temperature range | -40°C to +140°C | EPD |
+| Shrinkage max | 0.5% | Catalogue |
+| Service life | 30 years | EPD |
+| Oeko-Tex cert | #66908, Class II | Certificate |
+| Material | 100% PET or 100% Polyamide | Oeko-Tex |
+
+#### Warranty Periods Confirmed
+
+| Product | Warranty |
+|---------|----------|
+| Combi 60, 65, 70, 80, 85, 90 | 10 years |
+| Combi 20, 30 | 5 years |
+| Lite 5, 10, 15, 20 | 3 years |
+| Glass 220, Poly | 1 year |
+
+#### Files Updated
+
+| File | Changes |
+|------|---------|
+| `_data/fabricair.yml` | +300 lines: product_lines, technical_specifications, certifications, environmental_data, washing_requirements, global_offices |
+| `docs/TECHNICAL-COMPATIBILITY-MATRIX.md` | Added verified source citations, quality tolerances, certification requirements |
+
+#### Critical Findings for Nordic Sourcing
+
+1. **Material confirmed:** 100% Polyester (PET) or 100% Polyamide — no blends
+2. **Weight verified:** 300 g/m² (exact, from EPD)
+3. **Polyamide acceptable:** Per Oeko-Tex scope, 100% polyamide is also acceptable
+4. **30-year service life:** Important for lifecycle analysis
+5. **EPD available:** MD-24129-EN valid until Dec 2029
+
+#### Document Source Location
+
+```
+/Users/gabrielboen/Downloads/Fabric Air - intern dokumenter fra nettsiden . warranties, epd etc /md_exports/
+```
+
+---
+
+## 2025-12-16 - FabricAir Document Analysis Framework
+
+### Session 10: Analyse-rammeverk for FabricAir-dokumenter
+
+**Oppgave:** Forberede analyse av FabricAir interne dokumenter
+
+#### Nytt Dokument
+
+**`docs/FABRICAIR-DOCUMENT-ANALYSIS.md`** — Structured framework for analyzing FabricAir internal documents:
+
+| Section | Purpose |
+|---------|---------|
+| Analysis Objectives | Goals for document analysis |
+| Information Categories | 5 extraction categories (A-E) |
+| Document Analysis Template | Standardized extraction format |
+| Current Baseline | What we know vs. gaps |
+| Files to Update | Target files for new information |
+| Analysis Workflow | 6-step process |
+| Expected Document Types | What documents to expect |
+| Output Structure | Updated fabricair.yml format |
+
+#### Information Extraction Categories
+
+| Category | Focus |
+|----------|-------|
+| A. Material Specifications | Fiber specs, tolerances, certifications |
+| B. Product & Application | Products, environments, production process |
+| C. Sustainability | Circular economy goals, targets |
+| D. Supply Chain | Current sourcing, volumes, pricing |
+| E. Technical Constraints | Processing limits, quality requirements |
+
+#### Project Updates
+
+| File | Update |
+|------|--------|
+| `CLAUDE.md` | Phase updated to "FabricAir Document Analysis" |
+| `_data/project.yml` | New milestones added, status updated |
+| `docs/viewer.html` | New navigation item added |
+
+#### Status
+
+**Ready for document input** — Framework prepared for FabricAir internal document analysis.
+
+---
+
+## 2025-12-16 - Deep Research Prompts Created
+
+### Session 9: Spesifikke forskningsprompter
+
+**Oppgave:** Lage detaljerte forskningsprompter for videre desktop research
+
+#### Nytt Dokument
+
+**`docs/DEEP-RESEARCH-PROMPTS.md`** — 35 specific research prompts organized by category:
+
+| Section | Prompts | Priority |
+|---------|---------|----------|
+| 1. Rester Capacity & Ownership | 4 prompts | 🔴 Critical |
+| 2. Nordic Recycling Capacity | 4 prompts | 🟠 High |
+| 3. 100% Polyester Sources | 5 prompts | 🔴🟠 Critical/High |
+| 4. Market Data & Statistics | 4 prompts | 🟠🟡 High/Medium |
+| 5. Technology & Quality | 3 prompts | 🟡🟢 Medium/Exploratory |
+| 6. Specific Company Research | 5 prompts | 🟠🟡 High/Medium |
+| 7. Regulatory & Policy | 2 prompts | 🟡 Medium |
+| 8. Alternative Sectors | 4 prompts | 🟢 Exploratory |
+| 9. News & Developments | 3 prompts | 🔴🟠 Critical/High |
+| 10. Academic & Research | 2 prompts | 🟢 Exploratory |
+
+#### Top 5 Priority Prompts
+
+1. Rester Ownership Structure
+2. Rester Current Operations
+3. Lindström-Rester Relationship
+4. Cleanroom Garment Market
+5. Rester News 2024-2025
+
+#### Platform Update
+
+- Added to `viewer.html` navigation under "Planning" section
+
+---
+
+## 2025-12-16 - Research Context Document Created
+
+### Session 8: Kontekstdokument for videre research
+
+**Oppgave:** Lage komplett kontekstdokument for desktop research
+
+#### Nytt Dokument
+
+**`docs/RESEARCH-CONTEXT.md`** — Comprehensive research context document containing:
+
+| Section | Content |
+|---------|---------|
+| Company Overview | FabricAir background, product requirements |
+| The Challenge | Core question, supply chain gap, why Nordic |
+| Technical Constraint | 100% PET requirement, why blends don't work |
+| What We're Looking For | Recyclers, feedstock sources, infrastructure |
+| Findings Summary | 3 recyclers, volume reality check |
+| 6 Research Questions | Q1-Q6 framework explained |
+| Remaining Gaps | Critical unknowns, sectors to investigate |
+| Search Directions | News, reports, companies, academic sources |
+| Key Contacts | All identified contacts for reference |
+| Success Criteria | What would complete the research |
+
+#### Purpose
+
+Document designed to provide complete context for:
+- Desktop research to uncover additional information
+- AI-assisted research with full project understanding
+- Onboarding new researchers to the project
+
+#### Platform Update
+
+- Added to `viewer.html` navigation under "Planning" section
+
+---
+
+## 2025-12-16 - Build Troubleshooting & Link Verification
+
+### Session 7: Bygg-feilsøking
+
+**Oppgave:** Verifisere plattformens integritet før videre utvikling
+
+#### Funn
+
+Build-systemet er ren statisk HTML + Markdown (ingen build-verktøy, GitHub Pages deployment).
+
+**Identifiserte problemer:**
+| Problem | Antall | Alvorlighet |
+|---------|--------|-------------|
+| Ødelagte interne lenker | 10 referanser | Medium |
+| YAML syntaksfeil | 0 | ✓ |
+| Manglende bilder | 0 | ✓ |
+| Tapt data | 0 (alt arkivert) | ✓ |
+
+#### Rettede filer
+
+| Fil | Rettelser |
+|-----|-----------|
+| `docs/COMMERCIAL-PHASE-PLAN.md` | Fjernet `PROJECT-DELIVERY-STATUS.md`, oppdatert Sverige/Norge-lenker |
+| `docs/index.md` | Fjernet `QUALITATIVE-DELIVERY-ASSESSMENT.md` referanse |
+| `docs/02-research-questions/index.md` | Oppdatert Sverige/Norge-lenker til `index.md` |
+| `_data/research-questions.yml` | Oppdatert 4 `doc_path`/`markdown_path` oppføringer |
+| `_data/INTERCONNECTION-SCHEMA.md` | Oppdatert filreferanser |
+
+#### Verifisering
+
+- ✅ Alle målfiler eksisterer (`05-sweden/index.md`, `06-norway/index.md`)
+- ✅ Gjenværende referanser i `PROJECT-LOG.md` og `_archive/` er historiske (OK)
+- ✅ YAML-syntaks gyldig
+- ✅ Ingen ødelagte lenker i aktiv dokumentasjon
+
+**Status:** Plattform klar for videre utvikling
+
+---
+
+## 2025-12-08 - New Sources from Kristian Johnsrud ChatGPT Analysis
+
+### Session 6: Kilde-ekstraksjon
+
+**Analysert dokument:** `Kristian Johnsrud SAMTALE CHATGPT FABRICAIR -kristian@naturalstate.md`
+
+#### Funn
+
+Dokumentet inneholder en tidligere ChatGPT-samtale om FabricAir-prosjektet. Mesteparten av informasjonen overlapper med vår eksisterende research, men noen nye kilder ble identifisert.
+
+#### Nye kilder lagt til
+
+| Kilde | Type | Status | Lagt til i |
+|-------|------|--------|------------|
+| **Marimekko** | Cutting waste | ✅ Bekreftet → Rester | Q6, Contacts |
+| **Joutsen Finland** | Cutting waste | ⚠️ Blandet materiale | Q6, Contacts |
+| **Atex Ammattiasut** | Cutting waste | ◯ Uverifisert | Contacts |
+| **Dimex** | Cutting waste | ◯ Uverifisert | Contacts |
+
+#### Notis lagt til
+
+**Bedding-sporet:** Hotel/institusjons-sengetøy (50% polyester) nevnt som fremtidig kilde når blend-teknologi skalerer. Lagt til som notis i Executive Summary.
+
+#### Oppdaterte dokumenter
+
+- `docs/02-research-questions/q6-top10-sources.md` — Ny seksjon "Cutting Waste Streams"
+- `docs/03-contacts/directory.md` — Ny seksjon "Cutting Waste Sources"
+- `docs/00-executive-summary.md` — Oppdatert kilde-tabell + bedding-notis
+
+---
+
+## 2025-12-08 - Project Document Update & UX Completion
+
+### Session 5: Dokumentoppdatering
+
+**Alle UX-forbedringer verifisert og dokumentert**
+
+#### Oppdaterte Dokumenter
+
+| Dokument | Endring |
+|----------|---------|
+| `docs/UX-ANALYSIS.md` | Implementeringsstatus lagt til, svakheter markert som løst |
+| `docs/viewer.html` | UX-ANALYSIS.md lagt til i docList og navigasjon |
+| `CLAUDE.md` | Allerede oppdatert med UX-status |
+
+#### Verifisert Dokumentstruktur
+
+**Aktive dokumenter:** 32 markdown-filer i `docs/`
+
+| Kategori | Antall |
+|----------|--------|
+| Root docs | 8 |
+| Finland Q1-Q6 | 7 |
+| Sweden Q1-Q6 | 7 |
+| Norway Q1-Q6 | 7 |
+| Context | 1 |
+| Contacts | 1 |
+| UX Analysis | 1 |
+
+#### Implementerte UX-Forbedringer
+
+| # | Forbedring | Status |
+|---|------------|--------|
+| 1 | Accordion for Q1-Q6 | ✅ Implementert |
+| 2 | Quick Actions panel | ✅ Implementert |
+| 3 | Beskrivende Q1-Q6 titler | ✅ Implementert |
+| 4 | Mobile hamburger-forbedring | ✅ Implementert |
+
+#### Prosjektstatus
+
+| Metrikk | Verdi |
+|---------|-------|
+| Research | 92% verifisert |
+| Delivery score | 80% (B-) |
+| UX forbedringer | 4/4 høy-prioritet ferdig |
+| Platform | Klar for levering |
+
+---
+
+## 2025-12-08 - UX Improvements Implementation
+
+### Session 4: Brukervennlighets-Forbedringer
+
+**Analyse:** `docs/UX-ANALYSIS.md`
+
+#### Identifiserte Problemer
+1. 40+ navigasjonselementer — overveldende
+2. Q1-Q6 navngiving uklar
+3. Primærhandlinger skjult (må scrolle)
+4. Mobile UX svak
+
+#### Implementert
+
+| # | Forbedring | Status |
+|---|------------|--------|
+| 1 | Accordion for Q1-Q6 | ✅ |
+| 2 | Quick Actions panel | ✅ |
+| 3 | Beskrivende Q1-Q6 titler | ✅ |
+| 4 | Mobile hamburger-forbedring | ✅ |
+
+#### Endringer i viewer.html
+
+**1. Collapsible Navigation**
+- Q1-Q6 seksjoner nå skjult som standard (collapsed)
+- Klikk på "🇫🇮 Finland Research" ekspanderer
+- Auto-expand når man navigerer til en under-side
+
+**2. Quick Actions Panel**
+- Fast panel øverst i content area
+- 3 partner-kort: Rester, NTG, Rewin
+- Direkte mailto-lenker
+- Status-badges (Operational NOW / Oct 2027)
+
+**3. Beskrivende Titler**
+- "Q1: Sectors & Actors" → "Sectors Using Polyester"
+- "Q2: Stakeholders" → "Value Chain Players"
+- "Q3: Disposal & Reuse" → "Disposal & Recycling"
+- "Q4: Regulations" → "Regulations & EPR"
+- "Q5: Initiatives" → "Active Initiatives"
+- "Q6: Top 10 Sources" → "Top 10 Sources" (uendret)
+
+**4. Mobile UX**
+- Sidebar overlay (lukk ved klikk utenfor)
+- Forbedret hamburger-meny styling
+- Responsiv Quick Actions panel
+
+---
+
+## 2025-12-08 - Major Project Restructuring
+
+### Session 3: Structure Consolidation
+
+**Objective:** Address critical analysis findings — consolidate fragmented structure, sync YAML↔Markdown, remove process documents.
+
+#### Actions Completed
+
+**1. Document Consolidation**
+- Reduced from ~90 markdown files to ~35 active files
+- Archived 20+ process documents to `_archive/`
+- Removed unused `_templates/` directory
+- Deleted `_internal/` folder (process docs archived)
+
+**2. Archive Created**
+```
+_archive/
+├── internal/           # Verification reports, research prompts
+├── process-docs/       # Country research reports, structure docs
+└── assessments/        # Quality assessments, audits
+```
+
+**3. YAML ↔ Markdown Synchronization**
+- Updated `project.yml`: completion 92% → 80% delivery score
+- Updated `project.yml`: Added CEO info for all recyclers
+- Updated `index.md`: Rester CEO corrected
+- Updated `00-executive-summary.md`: Rester CEO corrected
+- Updated `directory.md`: Already corrected earlier
+
+**4. Files Moved/Archived**
+
+| From | To | Count |
+|------|----|-------|
+| `docs/_internal/finland/` | `_archive/internal/` | 3 |
+| `docs/_internal/sweden/` | `_archive/internal/` | 4 |
+| `docs/_internal/norway/` | `_archive/internal/` | 3 |
+| `docs/*.md` (assessments) | `_archive/assessments/` | 7 |
+| `docs/_internal/*.md` (analysis) | `_archive/internal/` | 6 |
+
+**5. Structure After Consolidation**
+
+```
+docs/                      31 markdown files (was 50+)
+├── Root docs              8 files
+├── 02-research-questions/ 7 files
+├── 05-sweden/             7 files
+├── 06-norway/             7 files
+├── 01-context/            1 file
+└── 03-contacts/           1 file
+```
+
+**6. CLAUDE.md Updated**
+- Simplified structure documentation
+- Added verified CEO information
+- Removed references to deleted files
+- Clarified YAML as single source of truth
+
+#### Result
+
+| Metric | Before | After |
+|--------|--------|-------|
+| docs/ markdown files | 50+ | 31 |
+| `_internal/` files | 22 | 0 |
+| Total project files | ~90 | ~35 active |
+| Duplicate content | High | Reduced |
+| YAML↔MD sync | Poor | Good |
+
+---
+
+## 2025-12-08 - Phase 3 Validation Research (Continued)
+
+### Session 2: Research Execution
+
+#### WS1: Rester Capacity Validation — COMPLETE
+
+**Critical Finding: CEO Correction**
+- Previous records showed "Jukka Pesola" as CEO — **INCORRECT**
+- Jukka Pesola is CEO of Pure Waste, not Rester
+- **Actual CEO:** Joachim Colliander (since February 2024)
+- Outi Luukko (founder) is now Chair of Board
+
+**Updated Contact Information:**
+```
+CEO: Joachim Colliander (Feb 2024)
+Chair: Outi Luukko (Founder)
+Contact: hello@rester.fi
+Via Lindström: Seija Forss (Material Manager)
+```
+
+**Capacity Findings:**
+- Current: 6,000 t/yr operational
+- Combined facility (with LSJH): 12,000 t/yr
+- Expansion: "Looking to expand rapidly"
+- **Risk:** Lindström as 2nd largest shareholder may have locked capacity
+
+**Output:** `docs/_internal/WS1-RESTER-RESEARCH.md`
+
+---
+
+#### WS2: Cleanroom Volume Validation — COMPLETE
+
+**Material Composition Confirmed:**
+- Cleanroom garments: 98-99% polyester + 1-2% carbon fiber
+- **Compatible with FabricAir** (carbon fiber is negligible)
+- >90% white garments in cleanroom sector
+
+**Volume Estimates Revised:**
+
+| Country | Companies | Est. Volume |
+|---------|-----------|-------------|
+| Finland | Orion, Okmetic, Murata | 9-15 t/yr |
+| Sweden | AstraZeneca | 10-20 t/yr |
+| Norway | Takeda, GE Healthcare | 3-6 t/yr |
+| **TOTAL** | — | **22-41 t/yr** |
+
+**Key Finding:** Original estimate (50-150 t/yr) was optimistic.
+Revised estimate: **30-60 t/yr** across Nordic cleanroom sector.
+
+**Largest Source:** AstraZeneca Södertälje (5,000-8,000 employees)
+
+**Output:** `docs/_internal/WS2-CLEANROOM-RESEARCH.md`
+
+---
+
+#### Technical Compatibility Matrix Created
+
+New document: `docs/_internal/TECHNICAL-COMPATIBILITY-MATRIX.md`
+
+**Compatible Sources (100% PET):**
+- Cleanroom garments (99% PET / 1% carbon)
+- Hospital white coats
+- Food processing uniforms (case-by-case)
+- Hotel linens
+
+**Incompatible Sources (Blends):**
+- Standard workwear (65/35)
+- Lindström textiles (65/35)
+- Most industrial workwear
+- Some healthcare scrubs
+
+---
+
+### Documents Updated This Session
+
+| Document | Change |
+|----------|--------|
+| `directory.md` | Rester CEO corrected to Joachim Colliander |
+| `NORDIC-COMPARISON.md` | Rester contact updated |
+| `fabricair.yml` | Rester capacity, CEO, risk note added |
+
+### New Documents Created
+
+| Document | Purpose |
+|----------|---------|
+| `_internal/TECHNICAL-COMPATIBILITY-MATRIX.md` | Material matching guide |
+| `_internal/WS1-RESTER-RESEARCH.md` | Rester validation findings |
+| `_internal/WS2-CLEANROOM-RESEARCH.md` | Cleanroom volume analysis |
+
+---
+
+## 2025-12-08 - Phase 3 Validation Planning & Execution Start
+
+### Created Phase 3 Validation Plan
+- New document: `docs/PHASE3-VALIDATION-PLAN.md`
+- 5 workstreams defined with action items
+
+### Current Session Status
+
+| Task | Status |
+|------|--------|
+| Project cleanup | ✅ Complete |
+| Deep analysis (17 issues) | ✅ Complete |
+| Issue fixes (8 critical/high) | ✅ Complete |
+| Phase 3 plan created | ✅ Complete |
+| Source document analysis | ✅ Complete |
+| WS1: Rester validation | ✅ Complete |
+| WS2: Cleanroom validation | ✅ Complete |
+| Technical compatibility matrix | ✅ Complete |
+
+### Key Documents Updated This Session
+- `CLAUDE.md` — Status, structure, next steps
+- `00-executive-summary.md` — Volume disclaimer, Rester status
+- `NORDIC-COMPARISON.md` — Capacity clarification
+- `03-contacts/directory.md` — Contact level indicators
+- `02-research-questions/q3-disposal-reuse.md` — Data age warning
+- `sources.yml` — Lindström incompatibility flag
+- `viewer.html` — New navigation sections
+- `PHASE3-VALIDATION-PLAN.md` — NEW validation roadmap
+
+### Active Workstreams
+1. Source document review for technical requirements
+2. Rester capacity validation research
+3. Cleanroom/pharma volume validation
+4. FabricAir quality specification deep-dive
+
+---
+
+## 2025-12-08 - Project Status Review & Cleanup
+
+### Actions Taken
+- Removed 4 empty directories: `docs/03-findings/`, `docs/04-verification/`, `docs/05-report/`, `UNDERLAGSDOKUMENTER prosess 1 Desember/`
+- Created `docs/00-STRUCTURE.md` — platform navigation guide
+- Updated `CLAUDE.md` with accurate project structure
+- Verified all 18 Q1-Q6 research documents (Finland, Sweden, Norway)
+- Verified localhost server operation on port 8000
+- Confirmed all navigation links in viewer.html
+
+### Current Project Status
+
+| Component | Files | Status |
+|-----------|-------|--------|
+| Finland Q1-Q6 | 7 | Complete (95%) |
+| Sweden Q1-Q6 | 8 | Complete (92%) |
+| Norway Q1-Q6 | 8 | Complete (88%) |
+| Contacts | 1 | 40+ verified |
+| Data files | 6 | Synchronized |
+| **Total docs/** | 28 | Ready |
+
+### File Counts After Cleanup
+
+- `docs/` — 28 markdown files, 1 HTML viewer
+- `_data/` — 6 YAML files + schema doc
+- `images/` — 6 visual assets
+
+### Localhost Verification
+- Server: `python3 -m http.server 8000`
+- URL: `http://localhost:8000/viewer.html`
+- All document endpoints returning HTTP 200
+
+### Deep Analysis Completed
+- Created `docs/_internal/DEEP-ANALYSIS-2025-12-08.md`
+- Identified 17 issues (3 critical, 5 high, 7 medium, 2 low)
+- Key findings:
+  - Completion score inconsistency (92% claimed vs 80% actual)
+  - Volume estimate confusion (60x difference between infrastructure and accessible)
+  - Contact level mismatch (CEOs delivered, operational contacts needed)
+  - Rester capacity lock risk not fully mitigated
+  - Cleanroom/pharma volumes not validated
+
+### Issues Fixed
+1. **Volume disclaimer** — Added clear distinction in executive summary and NORDIC-COMPARISON.md
+   - Infrastructure capacity: 56,000-62,000 t/yr
+   - FabricAir-compatible: 300-700 t/yr (100% white PET)
+2. **Lindström incompatibility** — Updated sources.yml with `verified_but_incompatible` status
+3. **Contact levels** — Added level indicators (🔵 Strategic, 🟢 Operational, 🟡 Sales, ⚪ General) to directory.md
+4. **Rester capacity** — Clarified "6k current → 12k target" across all documents
+5. **Data age warning** — Added Q3 disclaimer about 2021 SYKE data being 4 years old
+6. **NTG CEO name** — Standardized to "Bent T. Mathisen" for consistency
+7. **Q3 quality sources** — Updated to reflect Lindström incompatibility
+8. **Navigation** — Added FINAL-REPORT.md, FabricAir Profile, Platform Structure to viewer.html
+
+### Updated Project Documentation
+- Updated dates in 19 Q1-Q6 files to 2025-12-08
+- Updated FINAL-REPORT.md date to December 2025
+- Updated executive summary completion date
+- Updated CLAUDE.md with correct delivery score (80%)
+- Updated project.yml status and milestones
 
 ---
 

@@ -65,8 +65,8 @@ If `fabricair.yml > material_requirements` changes:
 Update:
 ├── docs/01-context/fabricair.md
 ├── docs/02-research-questions/q1-sectors-actors.md
-├── docs/05-sweden/SWEDEN-RESEARCH-REPORT.md (compatibility section)
-├── docs/06-norway/NORWAY-RESEARCH-REPORT.md (compatibility section)
+├── docs/05-sweden/index.md (compatibility section)
+├── docs/06-norway/index.md (compatibility section)
 └── docs/00-executive-summary.md (recommendations)
 ```
 
@@ -190,10 +190,9 @@ These documents must always be synchronized:
 3. **Completion status**:
    - `project.yml`
    - `CLAUDE.md`
-   - `PROJECT-DELIVERY-STATUS.md`
    - `index.md`
 
 ---
 
 *Schema version: 1.0*
-*Last updated: 2025-11-29*
+*Last updated: 2025-12-16*

@@ -6,7 +6,7 @@
 
 ## Key Finding
 
-**Healthcare is Norway's largest sector for workwear textiles with ~155,000 employees.** Most use 50/50 poly-cotton blends, but NTG's defibration technology can process these — making Norway's full workwear stream accessible.
+**Healthcare is Norway's largest sector for workwear textiles with ~155,000 employees.** Most use 50/50 poly-cotton blends, but NTG's defibration technology can process these. For pure 100% polyester/polyamide, target cleanroom (Takeda, GE Healthcare).
 
 ---
 
@@ -156,4 +156,4 @@
 
 ---
 
-*Last updated: 2025-11-30*
+*Last updated: 2025-12-16*

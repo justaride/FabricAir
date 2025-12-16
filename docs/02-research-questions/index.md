@@ -1,6 +1,6 @@
 # Research Questions: Finland
 
-> Mapping the Finnish polyester recycling landscape to identify high-quality sources for FabricAir's 100% circular ventilation textiles.
+> Mapping the Finnish polyester/polyamide recycling landscape to identify high-quality sources for FabricAir's 100% circular ventilation textiles.
 
 ---
 
@@ -27,17 +27,17 @@ The research is structured around 6 core questions designed to map the complete 
 
 The Finnish textile rental market is **€350-450 million/year**, with polyester workwear representing €75-90 million. However, most workwear uses 65/35 poly-cotton blends which are NOT suitable for FabricAir.
 
-### Best Sources for 100% White Polyester
+### Best Sources for 100% White Polyester/Polyamide
 
-| Priority | Sector | White % | 100% PET | Key Players |
-|----------|--------|---------|----------|-------------|
+| Priority | Sector | White % | 100% PET/PA | Key Players |
+|----------|--------|---------|-------------|-------------|
 | 1 | Pharma/Cleanroom | >90% | Yes | Orion, Okmetic, Murata |
 | 2 | Food Processing | 70-80% | Mixed | Valio, Fazer, Atria |
 | 3 | Healthcare | ~60% | Often blends | HUS, Terveystalo |
 
 ### Key Finding
 
-**Target cleanroom and pharmaceutical sectors** — these provide 100% polyester, predominantly white, with consistent quality.
+**Target cleanroom and pharmaceutical sectors** — these provide 100% polyester or polyamide, predominantly white, with consistent quality.
 
 [View Full Analysis →](q1-sectors-actors.md)
 
@@ -235,8 +235,8 @@ This research has been extended to cover **Sweden** and **Norway**:
 | Sweden | Rewin | 20k t/yr | Oct 2027 |
 | Norway | NTG | 30k t/yr | ~2029 |
 
-- [Sweden Research Report →](../05-sweden/SWEDEN-RESEARCH-REPORT.md)
-- [Norway Research Report →](../06-norway/NORWAY-RESEARCH-REPORT.md)
+- [Sweden Research →](../05-sweden/)
+- [Norway Research →](../06-norway/)
 - [Nordic Comparison →](../NORDIC-COMPARISON.md)
 
 ---

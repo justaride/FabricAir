@@ -8,6 +8,8 @@
 
 **Sweden follows EU textile regulations closely with mandatory collection from January 2025 and full EPR by April 2028.** Landfill has been banned since 2002.
 
+**⚠️ Update (Dec 2025):** EU Waste Framework Directive revision entered force Oct 16, 2025. Member states have 30 months → April 2028 deadline for textile EPR. Naturvårdsverket formally tasked with implementation.
+
 ---
 
 ## Current Regulatory Framework
@@ -53,13 +55,25 @@
 
 ## Extended Producer Responsibility (EPR)
 
+### EPR Status (Dec 2025)
+
+| Milestone | Date | Status |
+|-----------|------|--------|
+| EU directive entered force | Oct 16, 2025 | ✅ Complete |
+| Sweden transposition deadline | June 17, 2027 | Upcoming |
+| **EPR scheme operational** | **April 17, 2028** | **Confirmed** |
+| Micro-enterprises included | April 17, 2029 | Later deadline |
+
+**Naturvårdsverket has been formally tasked by the government to implement textile EPR.**
+
 ### What EPR Means
 
 | Aspect | Requirement |
 |--------|-------------|
 | **Who pays** | Producers/importers of textiles |
 | **For what** | End-of-life collection and treatment |
-| **Fee structure** | Based on volume and recyclability |
+| **Fee structure** | Based on volume and recyclability (eco-modulated) |
+| **PRO structure** | 1 or more nationwide systems, approved by Naturvårdsverket |
 | **Targets** | Recycling percentages (TBD) |
 
 ### Expected Fee Structure
@@ -185,4 +199,4 @@
 
 ---
 
-*Last updated: 2025-11-30*
+*Last updated: 2025-12-16*

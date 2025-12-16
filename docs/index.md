@@ -16,10 +16,10 @@ The core mission was precise: identify and map companies in Finland, Sweden, and
 
 | Requirement | Specification |
 |-------------|---------------|
-| Material | 100% Polyester (PET) |
+| Material | 100% Polyester (PET) or 100% Polyamide |
 | Weight | ~300 g/m² |
 | Color | White preferred |
-| Source | Durable workwear, uniforms |
+| Source | Durable workwear, uniforms, cleanroom garments |
 | NOT suitable | Polyester/cotton blends (65/35) |
 
 This final specification—the incompatibility of 65/35 poly-cotton blends—would prove central to the research findings, as it eliminated the majority of workwear streams and directed focus toward specialized sectors.
@@ -66,7 +66,7 @@ Finland served as the primary research focus, with the deepest investigation acr
 - **€350-450 million** textile services market
 - **Mandatory collection** since January 2023 (2 years ahead of EU)
 
-**Critical Discovery:** In April 2024, LSJH cancelled its planned €20.5 million Turku recycling facility. This fundamentally altered the landscape, making **Rester** (Paimio) Finland's sole large-scale textile recycler with 6,000-12,000 tonnes/year capacity.
+**Critical Discovery:** In April 2024, LSJH cancelled its planned €20.5 million Turku recycling facility. In October 2025, LSJH announced outsourcing textile sorting to Turun Ekotori (2026), stepping back from textile operations entirely. This fundamentally altered the landscape, making **Rester** (Paimio) Finland's sole large-scale textile recycler with 6,000-12,000 tonnes/year capacity.
 
 **Best Source Identification:** The research identified pharmaceutical and cleanroom sectors as optimal for FabricAir's requirements—>90% white, 100% polyester, consistent quality. Healthcare, while large in volume, is shifting away from white and often uses poly-cotton blends.
 
@@ -166,7 +166,7 @@ Across all three countries, pharmaceutical and cleanroom sectors emerged as the 
 | **Contact level mismatch** | CEOs provided; operational contacts needed |
 | **Rester capacity risk** | Lindström is 2nd largest shareholder |
 
-These findings significantly change the strategic picture. See [Phase 2 Findings](PHASE2-RESEARCH-FINDINGS.md) and [Qualitative Assessment](QUALITATIVE-DELIVERY-ASSESSMENT.md).
+These findings significantly change the strategic picture. See [Phase 2 Findings](PHASE2-RESEARCH-FINDINGS.md).
 
 ### Risk Factors
 
@@ -266,9 +266,11 @@ Post-delivery options include:
 
 | Partner | Country | Contact | Email | Status |
 |---------|---------|---------|-------|--------|
-| **Rester** | Finland | Jukka Pesola | `hello@rester.fi` | Operational |
-| **NTG** | Norway | Bent Mathisen | `btm@ntgas.no` | Scaling |
+| **Rester** | Finland | Jukka Pesola (CEO, Aug 2025) | `hello@rester.fi` | Operational |
+| **NTG** | Norway | Bent T. Mathisen (CEO) | `btm@ntgas.no` | Scaling |
 | **Rewin** | Sweden | Joel Arnoldsson | via wargoninnovation.se | 2027 |
+
+> **⚠️ Rester Update (Dec 2025):** CEO changed to Jukka Pesola (Aug 15, 2025). €4.9M funding secured Jan 2025. Strategy shift to "high potential industrial applications" — good alignment with FabricAir.
 
 ### Feedstock Aggregators
 
@@ -288,8 +290,8 @@ Post-delivery options include:
 | **Project** | Nordic Circular Construction (NCC) |
 | **Funder** | Nordic Innovation |
 | **Coordinator** | Natural State AS |
-| **Delivery Score** | **80%** (Phase 2.1) |
-| **Qualitative Grade** | **B-** |
+| **Delivery Score** | **85%** (B) |
+| **Last Updated** | 2025-12-16 |
 
 | Contact | Role | Email |
 |---------|------|-------|
@@ -313,5 +315,5 @@ Post-delivery options include:
 
 ---
 
-*Research completed November 2025*
+*Research completed December 2025*
 *Platform version 2.1*

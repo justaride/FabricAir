@@ -1,14 +1,20 @@
 # FabricAir Company Data
 # Nordic Circular Polyester Research Project
-# Last updated: 2025-11-29
+# Last updated: 2025-12-16
+# Source: FabricAir internal documents (EPD, catalogue, certifications)
 
 company:
   name: "FabricAir A/S"
   type: "Aktieselskab (Danish public limited liability company)"
+  cvr: "24204812"
   founded: 1973
   headquarters:
+    address: "Sandvadsvej 2"
+    postal_code: "DK-4600"
     city: "Køge"
     country: "Denmark"
+    phone: "+45 5665 2110"
+    email: "sales-dk@fabricair.com"
   owner_ceo: "Brian Refsgaard"
   ownership_since: 2005
   employees_global: 250
@@ -23,6 +29,210 @@ company:
   production:
     main_facility: "Alytus, Lithuania"
     lead_times: "3-21 days"
+    energy_source: "Wind and solar (Lithuania, with GO certificates)"
+
+# Product lines (from product catalogue and warranty documents)
+product_lines:
+  combi_series:
+    description: "Primary fabric ducting product line"
+    products:
+      - name: "Combi 20"
+        permeable: true
+        warranty_years: 5
+        fire_class: "B-s1,d0"
+      - name: "Combi 30"
+        permeable: false
+        warranty_years: 5
+        fire_class: "B-s1,d0"
+      - name: "Combi 60"
+        permeable: true
+        warranty_years: 10
+        fire_class: "B-s1,d0"
+      - name: "Combi 65"
+        permeable: false
+        warranty_years: 10
+        fire_class: "B-s1,d0"
+      - name: "Combi 70"
+        permeable: true
+        warranty_years: 10
+        fire_class: "B-s1,d0"
+      - name: "Combi 80"
+        permeable: true
+        warranty_years: 10
+        fire_class: "B-s1,d0"
+      - name: "Combi 85"
+        permeable: false
+        warranty_years: 10
+        fire_class: "B-s1,d0"
+      - name: "Combi 90"
+        permeable: false
+        warranty_years: 10
+        fire_class: "B-s1,d0"
+        note: "EPD available (MD-24129-EN)"
+
+  glass_series:
+    description: "Non-combustible glass fiber fabric"
+    products:
+      - name: "Glass 220"
+        fire_class: "M0/A2"
+        warranty_years: 1
+        temp_range: "-40°C to +200°C"
+        washable: false
+
+  poly_series:
+    description: "Cost-effective non-permeable fabric"
+    products:
+      - name: "Poly"
+        permeable: false
+        warranty_years: 1
+        color: "White only"
+        application: "Heavy industrial, isothermal/heated air"
+
+  lite_series:
+    description: "Lite product range"
+    products:
+      - name: "Lite 5"
+        warranty_years: 3
+      - name: "Lite 10"
+        warranty_years: 3
+      - name: "Lite 15"
+        warranty_years: 3
+      - name: "Lite 20"
+        warranty_years: 3
+
+# Technical specifications (from EPD MD-24129-EN and product catalogue)
+technical_specifications:
+  fabric:
+    density: "300 g/m²"
+    weight_per_meter: "<3 kg/linear meter"
+    thickness: "~0.4 mm"
+    shrinkage_max: "0.5%"
+    permeability_variation_max: "5%"
+
+  operating_conditions:
+    temperature_range: "-40°C to +140°C"
+    relative_humidity: "0-100%"
+    airflow_capacity: "up to 40.8 kg/m³"
+
+  service_life:
+    reference_service_life: "30 years"
+    source: "EPD MD-24129-EN"
+
+  material_composition:
+    primary: "100% Polyester (PET)"
+    alternative: "100% Polyamide"
+    blends_with: "Cotton (option)"
+    coatings:
+      - "PU coating (option)"
+      - "PU foam laminated (option)"
+      - "Water repellent (option)"
+    treatments:
+      - "Flame retardant (phosphorus-based)"
+      - "Antimicrobial"
+      - "Anti-static"
+
+# Certifications (verified from certificates)
+certifications:
+  oeko_tex:
+    standard: "OEKO-TEX STANDARD 100"
+    certificate_number: "66908"
+    certifying_body: "OETI Vienna"
+    product_class: "II (products with direct contact to skin)"
+    valid_until: "2026-10-31"
+    scope: |
+      Woven and knitted fabrics made of 100% Polyamide,
+      100% Polyester and their blends with Cotton
+
+  iso:
+    - standard: "ISO 9001:2015"
+      scope: "Quality Management System"
+    - standard: "ISO 14001:2015"
+      scope: "Environmental Management System"
+
+  fire_ratings:
+    - standard: "EN 13501-1"
+      class: "B-s1,d0"
+    - standard: "UL 723 / ASTM E84"
+      scope: "Surface burning characteristics"
+    - standard: "UL 2518"
+      scope: "Air ducts"
+    - standard: "NFP 92:507"
+      class: "M0/M1 (France)"
+    - standard: "DS 428"
+      scope: "Denmark fire standard"
+    - standard: "GB 8624"
+      scope: "China fire standard"
+
+  cleanroom:
+    - standard: "EN ISO 14644-1"
+      scope: "Cleanrooms and associated controlled environments"
+
+  antibacterial:
+    - standard: "EN ISO 20645"
+    - standard: "AATCC 100-2012"
+
+  compliance:
+    - "REACH Directive"
+    - "ROHS Directive"
+    - "Declaration of Conformity UL 2518 ICC AC167"
+    - "NFPA 90A"
+
+# Environmental Product Declaration (EPD)
+environmental_data:
+  epd:
+    number: "MD-24129-EN"
+    programme: "EPD Danmark"
+    issued: "2024-12-19"
+    valid_until: "2029-12-19"
+    standard: "EN 15804+A2"
+    type: "Cradle-to-grave with module D"
+    verifier: "David Althoff Palm, Dalemarken AB"
+
+  carbon_footprint:
+    gwp_total_range: "5.85-9.85 kg CO2 eq/m² fabric"
+    note: "Varies by suspension type"
+
+  production_energy:
+    electricity: "Wind and solar (Lithuania, GO certified)"
+    residual_grid_lithuania: "704.79 g CO2e/kWh"
+
+  end_of_life:
+    eu_textile_fate: "87% incinerated or landfilled"
+    recyclable_components:
+      - "Aluminium (suspension)"
+      - "Steel (suspension)"
+      - "Stainless steel (hardware)"
+    fabric: "Suitable for fiber-to-fiber recycling"
+
+# Washing and maintenance requirements
+washing_requirements:
+  general:
+    pre_rinse: "20°C, ~3 minutes, no detergent"
+    pre_wash: "40°C, ~10 minutes"
+    main_wash: "40°C, ~20 minutes"
+    notes:
+      - "No softener"
+      - "Rinse thoroughly after each washing"
+      - "Turn ducts inside out for best results"
+      - "Remove hoops before laundering if All-in-One"
+    tumble_dry: "Max 45°C hot air"
+    storage: "Ensure completely dry before folding"
+
+  flow_models_not_requiring_washing:
+    - "SonicFlow"
+    - "PerfoFlow"
+    - "OriFlow"
+    - "NozzFlow"
+    - "JetFlow"
+    note: "Use minimum F7 pre-filtering"
+
+  flow_models_requiring_washing:
+    - name: "FabFlow"
+      interval: "Once per year"
+      reason: "Reduce unnecessary pressure loss"
+    - name: "MicroFlow"
+      interval: "As needed"
+      reason: "Dust accumulation inside duct"
 
 # Material specifications for circular sourcing
 material_requirements:
@@ -140,6 +350,95 @@ contacts:
 
   website: "https://www.fabricair.com"
 
+# Global offices (from product catalogue)
+global_offices:
+  - country: "Denmark"
+    city: "Køge"
+    role: "Headquarters"
+    phone: "+45 5665 2110"
+    email: "sales-dk@fabricair.com"
+
+  - country: "Lithuania"
+    city: "Alytus"
+    role: "Production"
+    phone: "+370 315 78 723"
+    email: "sales-lt@fabricair.com"
+
+  - country: "USA"
+    city: "Suwanee, GA"
+    phone: "+1 502 493 2210"
+    email: "sales-us@fabricair.com"
+
+  - country: "Canada"
+    city: "Waterloo, ON"
+    phone: "+1 519 885 6002"
+    email: "sales-ca@fabricair.com"
+
+  - country: "UK"
+    city: "Rotherham"
+    phone: "+44 1709 835989"
+    email: "sales-uk@fabricair.com"
+
+  - country: "Germany"
+    city: "Harrislee"
+    phone: "+49 30 587407591"
+    email: "sales-de@fabricair.com"
+
+  - country: "Austria"
+    city: "Wien"
+    phone: "+43 1 9346162"
+    email: "sales-de@fabricair.com"
+
+  - country: "Norway"
+    city: "Trondheim"
+    phone: "+47 9349 1122"
+    email: "sales-no@fabricair.com"
+
+  - country: "Sweden"
+    city: "Malmö"
+    phone: "+45 5665 2110"
+    email: "sales-se@fabricair.com"
+
+  - country: "Spain"
+    city: "Zaragoza"
+    phone: "+34 876 097224"
+    email: "sales-es@fabricair.com"
+
+  - country: "Netherlands"
+    city: "Hoogvliet RT"
+    phone: "+31 181 848 397"
+    email: "sales-nl@fabricair.com"
+
+  - country: "Poland"
+    city: "Mikołów"
+    phone: "+48 32745 6240"
+    email: "sales-pl@fabricair.com"
+
+  - country: "Turkey"
+    city: "İzmir"
+    phone: "+90 232 446 34 58"
+    email: "sales-tr@fabricair.com"
+
+  - country: "China"
+    city: "Qingdao"
+    phone: "+86 532 5552 0890"
+    email: "sales-cn@fabricair.com"
+
+  - country: "India"
+    city: "Thane"
+    phone: "+91 9136 6423 36"
+    email: "sales-in@fabricair.com"
+
+  - country: "South Africa"
+    city: "Cape Town"
+    phone: "+27 21 203 0299"
+    email: "sales-za@fabricair.com"
+
+  - country: "Mexico"
+    city: "Silao, Guanajuato"
+    phone: "+52 477 454 0410"
+    email: "sales-mx@fabricair.com"
+
 # Market position
 market_position:
   global_ranking: 2
@@ -152,8 +451,10 @@ recommended_partners:
     - name: "Rester"
       country: "Finland"
       status: "Operational now"
-      capacity: "6-12k t/yr"
+      capacity: "6k t/yr current, 12k t/yr target"
+      ceo: "Jukka Pesola (Aug 2025)"
       contact: "hello@rester.fi"
+      note: "Lindström is 2nd largest shareholder - capacity may be locked"
       priority: 1
 
     - name: "NTG"

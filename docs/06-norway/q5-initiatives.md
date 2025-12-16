@@ -29,7 +29,7 @@
 |-----------|--------|
 | Type | Mechanical recycling |
 | Technology | Patented defibration |
-| Current capacity | 2,000 t/yr (R&D) |
+| R&D facility | **2,000 t/yr (opened Jan 2024)** |
 | Target capacity | 30,000 t/yr (~2029) |
 | Location | Sandefjord |
 | Funding | NOK 30M+ from Innovation Norway |
@@ -45,11 +45,19 @@
 | CEO | Bent Tatsuyama Mathisen | btm@ntgas.no |
 | CGO/Founder | Pål Erik Haraldsen | — |
 
-**NTS Sorting Line (2024):**
+**NTS Sorting Facility (opened Aug 2024):**
+- Norsk Tekstilsortering — **separate sorting facility**
 - AI + hyperspectral camera sorting
-- >95% purity identification
+- >95% purity identification by fiber + color
 - Automated trim removal
 - GRS certification in progress
+- **Intent to sell sorting technology**
+- Fully operational by end 2024
+
+**Strategic Significance:**
+- NTG R&D facility Jan 2024 + NTS sorting Aug 2024 = **complete value chain**
+- Only Nordic facility processing poly-cotton blends to textile-grade fiber
+- Planning **full-scale 30,000 t/yr facilities**
 
 ---
 
@@ -226,4 +234,4 @@
 
 ---
 
-*Last updated: 2025-11-30*
+*Last updated: 2025-12-16*

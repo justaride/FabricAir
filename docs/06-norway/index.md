@@ -1,6 +1,6 @@
 # Research Questions: Norway
 
-> Mapping the Norwegian polyester recycling landscape to identify high-quality sources for FabricAir's 100% circular ventilation textiles.
+> Mapping the Norwegian polyester/polyamide recycling landscape to identify high-quality sources for FabricAir's 100% circular ventilation textiles.
 
 ---
 
@@ -27,10 +27,10 @@ The research is structured around 6 core questions designed to map the complete 
 
 The Norwegian textile services market is **€180-270 million/year** (2-3 billion NOK). Healthcare is the largest sector with ~155,000 employees using uniforms. However, most workwear uses poly-cotton blends.
 
-### Best Sources for 100% White Polyester
+### Best Sources for 100% White Polyester/Polyamide
 
-| Priority | Sector | White % | 100% PET | Key Players |
-|----------|--------|---------|----------|-------------|
+| Priority | Sector | White % | 100% PET/PA | Key Players |
+|----------|--------|---------|-------------|-------------|
 | 1 | Healthcare | 65% | Often blends | Helse Sør-Øst, OUS, Helse Bergen |
 | 2 | Food Processing | 55% | Mixed | Nortura, TINE, Orkla |
 | 3 | Pharma/Cleanroom | 90% | Yes | Takeda, GE Healthcare |

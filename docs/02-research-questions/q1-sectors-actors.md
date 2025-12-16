@@ -8,14 +8,14 @@
 
 ## Summary
 
-The Finnish textile rental market is **€350-450 million/year**, with polyester workwear representing €75-90 million. Most workwear uses 65/35 poly-cotton blends — FabricAir needs 100% PET sources.
+The Finnish textile rental market is **€350-450 million/year**, with polyester workwear representing €75-90 million. Most workwear uses 65/35 poly-cotton blends — FabricAir needs 100% PET or polyamide sources.
 
 ---
 
-## Best Sources for 100% White Polyester
+## Best Sources for 100% White Polyester/Polyamide
 
-| Priority | Sector | White % | 100% PET | Key Players |
-|----------|--------|---------|----------|-------------|
+| Priority | Sector | White % | 100% PET/PA | Key Players |
+|----------|--------|---------|-------------|-------------|
 | 1 | Pharma/Cleanroom | >90% | Yes | Orion, Okmetic, Murata |
 | 2 | Food Processing | 70-80% | Mixed | Valio, Fazer, Atria |
 | 3 | Healthcare | ~60% | Often blends | HUS, university hospitals |
@@ -25,7 +25,7 @@ The Finnish textile rental market is **€350-450 million/year**, with polyester
 
 ## Pharmaceutical / Cleanroom
 
-Best source for 100% white polyester.
+Best source for 100% white polyester/polyamide.
 
 **Material:** 99% polyester / 1% carbon fiber (ESD protection)
 **Color:** >90% white
@@ -98,10 +98,13 @@ These companies control ~70% of professional workwear lifecycle.
 
 | Facility | Capacity | Status |
 |----------|----------|--------|
-| **Rester** | 6,000-12,000 t/yr | Operational |
-| LSJH | Sorting only | Turku plant cancelled |
+| **Rester** | 6,000-12,000 t/yr | Operational, €4.9M funding Jan 2025 |
+| LSJH | Sorting only | ⚠️ **Outsourcing to Turun Ekotori (2026)** |
 
-**Critical:** Rester is Finland's only large-scale textile recycler.
+**Critical Updates (Dec 2025):**
+- Rester is Finland's only large-scale textile recycler
+- Rester CEO: Jukka Pesola (Aug 2025), strategy shift to "industrial applications"
+- LSJH stepping back from textile operations entirely
 
 ---
 
@@ -113,4 +116,4 @@ Most Finnish workwear is 65/35 poly-cotton — NOT suitable for FabricAir.
 
 ---
 
-*Last updated: 2025-11-29*
+*Last updated: 2025-12-16*

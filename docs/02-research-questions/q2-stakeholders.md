@@ -86,7 +86,10 @@ Production → Use → Collection → Sorting → Recycling → New Products
 
 | Facility | Status |
 |----------|--------|
-| LSJH Turku | Sorting only (recycling plant cancelled Apr 2024) |
+| LSJH Turku | ⚠️ **Outsourcing to Turun Ekotori (2026)** |
+| Turun Ekotori | Taking over sorting operations 2026 |
+
+**⚠️ LSJH Update (Dec 2025):** LSJH announced outsourcing textile sorting/QA to Turun Ekotori starting early 2026. 20k t/yr refinement plant abandoned. Lemppari store closing end 2025.
 
 ---
 
@@ -115,10 +118,16 @@ Production → Use → Collection → Sorting → Recycling → New Products
 
 | Partnership | Nature |
 |-------------|--------|
-| Lindström → Rester | Strategic investment |
+| Lindström → Rester | **2nd largest shareholder**, ~500 t/year to Rester |
 | Touchpoint → Rester | Majority ownership |
 | Elis → Rester | Pilot recycling |
 | K Group → Touchpoint → Rester | Workwear take-back |
+
+**Lindström-Rester Relationship (Dec 2025):**
+- Lindström became shareholder via Mar 2022 investment round
+- Sends ~500 t/year end-of-life textiles to Rester
+- **NO exclusive capacity access confirmed** in public sources
+- 70% recycling achieved 2024 (target: 100% by 2025)
 
 ---
 
@@ -135,4 +144,4 @@ Production → Use → Collection → Sorting → Recycling → New Products
 
 ---
 
-*Last updated: 2025-11-29*
+*Last updated: 2025-12-16*

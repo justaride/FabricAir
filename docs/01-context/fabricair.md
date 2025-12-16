@@ -56,11 +56,11 @@ FabricAir needs high-quality used polyester fibers to supplement their internal 
 ### External Feedstock Requirements
 | Parameter | Requirement |
 |-----------|-------------|
-| Material | 100% Polyester (PET) - no blends |
+| Material | 100% Polyester (PET) or 100% Polyamide - no blends |
 | Weight | ~300 g/m² |
 | Fiber type | Coarse, durable fibers |
 | Color | White preferred (can be re-dyed) |
-| Typical source | Durable workwear, uniforms |
+| Typical source | Durable workwear, uniforms, cleanroom garments |
 
 ### ⚠️ Finnish Market Compatibility Note (P3 Verified)
 
@@ -73,8 +73,9 @@ FabricAir needs high-quality used polyester fibers to supplement their internal 
 | Food industry uniforms | 100% polyester | ✅ Compatible |
 | Cleanroom garments | 99% PET / 1% carbon | ✅ Compatible |
 | Hotel linens | Often 100% PET | ✅ Compatible |
+| Technical textiles | 100% polyamide | ✅ Compatible |
 
-**Recommendation:** Target healthcare, food processing, and cleanroom sectors for 100% white polyester.
+**Recommendation:** Target healthcare, food processing, and cleanroom sectors for 100% white polyester or polyamide.
 
 ### Recycling Approach
 - **Method**: Fiber-to-fiber recycling

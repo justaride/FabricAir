@@ -9,19 +9,27 @@
 | | 🇫🇮 Finland | 🇸🇪 Sweden | 🇳🇴 Norway |
 |:--|:--:|:--:|:--:|
 | **Recycler** | Rester | Rewin | NTG |
-| **Capacity** | 6-12k t/yr | 20k t/yr | 30k t/yr |
+| **Current capacity** | 6k t/yr | — | 2k t/yr (R&D) |
+| **Target capacity** | 12k t/yr | 20k t/yr | 30k t/yr |
 | **Ready** | **NOW** | Oct 2027 | ~2029 |
 | **Technology** | Mechanical | Chemical | Defibration |
 | **Best for** | Immediate supply | Virgin-quality output | Largest scale |
+| **Risk** | Lindström shareholder | Pre-launch | Distance |
+
+> **⚠️ Volume Clarification:**
+> - **Infrastructure capacity** (below): 62,000 t/yr — what recyclers CAN process
+> - **FabricAir-compatible**: 300-700 t/yr — 100% white PET only
+> - Most Nordic workwear is 65/35 poly-cotton (incompatible)
 
 ### Combined Nordic Capacity by 2029
 
 ```
-Finland (Rester)   ████████████░░░░░░░░░░░░░░░░░░  12,000 t/yr
-Sweden (Rewin)     ████████████████████░░░░░░░░░░  20,000 t/yr
-Norway (NTG)       ██████████████████████████████  30,000 t/yr
+Finland (Rester)   ██████░░░░░░░░░░░░░░░░░░░░░░░░   6,000 t/yr (current)
+                   ████████████░░░░░░░░░░░░░░░░░░  12,000 t/yr (target)
+Sweden (Rewin)     ████████████████████░░░░░░░░░░  20,000 t/yr (Oct 2027)
+Norway (NTG)       ██████████████████████████████  30,000 t/yr (~2029)
 ───────────────────────────────────────────────────────────────
-TOTAL              ██████████████████████████████  62,000 t/yr
+TOTAL (target)     ██████████████████████████████  62,000 t/yr
 ```
 
 ---
@@ -46,9 +54,11 @@ TOTAL              ████████████████████�
 
 | Country | Organization | Contact | Email |
 |:-------:|:-------------|:--------|:------|
-| 🇫🇮 | **Rester** | Jukka Pesola | `hello@rester.fi` |
-| 🇳🇴 | **NTG** | Bent Mathisen | `btm@ntgas.no` |
+| 🇫🇮 | **Rester** | **Jukka Pesola (CEO, Aug 2025)** | `hello@rester.fi` |
+| 🇳🇴 | **NTG** | Bent T. Mathisen | `btm@ntgas.no` |
 | 🇸🇪 | **Rewin/Wargön** | Joel Arnoldsson | `wargoninnovation.se` |
+
+> **⚠️ Rester Update (Dec 2025):** New CEO Jukka Pesola (Aug 2025). €4.9M funding secured. Strategy shift to "industrial applications."
 
 ### 🟡 Feedstock Aggregators
 
@@ -111,14 +121,18 @@ TOTAL              ████████████████████�
 - Capacity: 6,000 t/yr (scaling to 12,000)
 - Technology: Mechanical fiber-to-fiber
 - Status: **OPERATIONAL NOW**
-- Ownership: Touchpoint 51%, Lindström investor
+- CEO: **Jukka Pesola (Aug 2025)**
+- Funding: **€4.9M (Jan 2025)**
+- Strategy: "High potential industrial applications"
+- Ownership: Touchpoint 51%, Lindström 2nd largest shareholder
 
 **Best Sources:**
 1. Pharma/Cleanroom (Orion, Okmetic) — >90% white, 100% PET
 2. Food Processing (Valio, Fazer) — 70-80% white
 3. Healthcare (Puro) — Often blends, verify composition
 
-**⚠️ Risk:** Lindström shareholder may have locked capacity
+**⚠️ Risk:** Lindström is 2nd largest shareholder (NO exclusive access confirmed)
+**⚠️ LSJH Update:** Outsourcing sorting to Turun Ekotori (2026)
 
 ---
 
@@ -132,23 +146,24 @@ TOTAL              ████████████████████�
 | EPR status | April 2028 |
 
 **Key Recycler: Rewin (Wargön Innovation)**
-- Location: Vargön
+- Location: Vargön (full-scale) / Malmö (pilot)
 - Capacity: 20,000 t/yr (target)
-- Technology: Chemical fiber-to-fiber
-- Status: Launch October 2027
+- Technology: Chemical fiber-to-fiber (catalytic glycolysis)
+- Status: **Pilot permits secured**, project end Oct 2027
 - Partners: Gina Tricot, KappAhl, Helly Hansen
+- Feedstock: ≥80% polyester (100% PET acceptable)
 
-**Key Sorter: SIPTex**
+**Key Sorter: SIPTex — ⚠️ BEING SOLD**
 - Location: Malmö
 - Capacity: 24,000 t/yr
 - Technology: NIR + visual spectroscopy
-- Status: **OPERATIONAL**
+- Status: **⚠️ Sysav divesting** (no stable outlet markets since 2024)
 
 **Best Sources:**
-1. Cleanroom (AstraZeneca ~5,000 employees) — 100% PET, white
+1. Cleanroom (AstraZeneca ~5,000 employees) — 100% PET/polyamide, white
 2. Healthcare — Often 65/35 blends (NOT suitable)
 
-**⚠️ Risk:** Rewin not operational until 2027
+**⚠️ Risk:** Rewin not fully operational until ~2027; SIPTex future uncertain
 
 ---
 
@@ -163,14 +178,20 @@ TOTAL              ████████████████████�
 
 **Key Recycler: NTG (Norsk Tekstilgjenvinning)**
 - Location: Sandefjord
-- Current capacity: 2,000 t/yr (R&D)
+- R&D capacity: 2,000 t/yr **(opened Jan 2024)**
 - Target capacity: 30,000 t/yr (~2029)
 - Technology: Patented mechanical defibration
 - Unique: **Handles poly-cotton blends**
 - CEO: Bent Tatsuyama Mathisen
 
+**NTS Sorting (opened Aug 2024):**
+- Norsk Tekstilsortering — AI + hyperspectral
+- Fiber + color sorting
+- Intent to sell technology
+
 **Why NTG Matters:**
 - Fastest-growing Nordic recycler
+- R&D facility (Jan 2024) + sorting (Aug 2024) = **complete value chain**
 - Defibration cuts fibers (preserves length for respinning)
 - GRS certification in progress
 - NOK 30M+ funding from Innovation Norway
@@ -178,7 +199,7 @@ TOTAL              ████████████████████�
 **Best Sources:**
 1. Healthcare (Helse Sør-Øst ~60,000 uniform users) — 65% white
 2. Food Processing (Nortura, TINE) — 55% white
-3. Cleanroom (Takeda, GE Healthcare) — Small volume, 100% PET
+3. Cleanroom (Takeda, GE Healthcare) — Small volume, 100% PET/polyamide
 
 **⚠️ Risk:** EPR timeline uncertain
 
@@ -216,9 +237,11 @@ TOTAL              ████████████████████�
 | Blend contamination | 🔴 High | 🔴 High | ⚠️ Med |
 | Competition for feedstock | 🔴 High | ⚠️ Med | ✅ Low |
 
-**Key Risks:**
-- 🇫🇮 Lindström may have locked Rester capacity via shareholding
-- 🇸🇪 Rewin not operational until October 2027
+**Key Risks (Updated Dec 2025):**
+- 🇫🇮 Lindström is 2nd largest Rester shareholder (**NO exclusive access confirmed**)
+- 🇫🇮 LSJH outsourcing sorting to Turun Ekotori (2026) — municipal instability
+- 🇸🇪 Rewin pilot operational soon, full-scale ~2027
+- 🇸🇪 SIPTex being sold — sorting infrastructure uncertain
 - 🇳🇴 EPR timeline uncertain (originally 2027, may be 2028)
 
 ---
@@ -297,13 +320,13 @@ Nordic textiles → NTG (Norway) → FabricAir
 
 | Metric | Status |
 |:-------|:-------|
-| Market data | 90% cited with sources |
-| Contacts verified | 70% |
-| Overall score | **80%** (B-) |
+| Market data | 92% cited with sources |
+| Contacts verified | 75% |
+| Overall score | **85%** (B) |
 
-All data backed by 25+ sources. See [Phase 2.1 Research Findings](PHASE2-RESEARCH-FINDINGS.md).
+All data backed by 30+ sources. See [Phase 2.1 Research Findings](PHASE2-RESEARCH-FINDINGS.md).
 
 ---
 
-*Report updated: 2025-11-30*
+*Report updated: 2025-12-16*
 *Live platform: https://justaride.github.io/FabricAir/*

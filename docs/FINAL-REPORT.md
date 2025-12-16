@@ -10,7 +10,7 @@
 | **Project** | Nordic Circular Construction |
 | **Funder** | Nordic Innovation |
 | **Coordinator** | Natural State AS |
-| **Date** | November 2025 |
+| **Date** | December 2025 |
 | **Version** | 2.1 (Cited Research) |
 | **Delivery Score** | 80% (B-) |
 
@@ -73,10 +73,10 @@ FabricAir can access **56,000-62,000 tonnes/year** of recycled polyester capacit
 
 | Parameter | Requirement |
 |-----------|-------------|
-| Material | 100% Polyester (PET) |
+| Material | 100% Polyester (PET) or 100% Polyamide |
 | Weight | ~300 g/m² |
 | Color | White preferred |
-| Source | Durable workwear, uniforms |
+| Source | Durable workwear, uniforms, cleanroom |
 | **NOT suitable** | Polyester/cotton blends (65/35) |
 
 ---
@@ -566,7 +566,7 @@ All three countries now follow the unified 6-question research framework.
 |---|---|
 | **Document** | FabricAir Nordic Circular Polyester Research Report |
 | **Version** | 2.1 |
-| **Date** | November 2025 |
+| **Date** | December 2025 |
 | **Project** | Nordic Circular Construction (NCC) |
 | **Funder** | Nordic Innovation |
 | **Coordinator** | Natural State AS |

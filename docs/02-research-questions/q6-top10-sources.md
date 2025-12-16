@@ -16,7 +16,7 @@
 
 | Parameter | Requirement |
 |-----------|-------------|
-| Material | 100% Polyester (PET) |
+| Material | 100% Polyester (PET) or 100% Polyamide |
 | Weight | ~300 g/m² |
 | Color | White preferred |
 | NOT suitable | Poly-cotton blends (65/35) |
@@ -54,17 +54,22 @@
 | Capacity | 6,000-12,000 t/year |
 | Location | Paimio |
 | Certification | Global Recycled Standard |
+| Funding | €4.9M (Jan 2025, Tesi + others) |
+| Strategy | High potential industrial applications |
 
-Finland's only large-scale textile recycler. Direct fiber access.
+Finland's only large-scale textile recycler. Direct fiber access. New strategy focuses on industrial applications — good alignment with FabricAir technical textiles.
 
 **Contacts:**
 
 | Name | Role | Email |
 |------|------|-------|
-| Jukka Pesola | CEO | — |
-| Johanna Lindholm-Järvinen | Senior Sales | johanna@rester.fi |
-| Sandra Wirtanen | R&D | sandra@rester.fi |
+| Jukka Pesola | CEO (Aug 2025) | hello@rester.fi |
+| Johanna Lindholm-Järvinen | Senior Sales | hello@rester.fi |
+| Jani Tolvanen | Production (acting) | hello@rester.fi |
+| Sandra Wirtanen | R&D | hello@rester.fi |
 | General | — | hello@rester.fi |
+
+> **Note:** CEO changed Aug 2025 (Pesola replaced Colliander after €4.9M funding round). Strategy shift toward industrial applications aligns well with FabricAir's technical textile needs.
 
 ### 2. Touchpoint — Workwear Integrator
 
@@ -165,12 +170,16 @@ Potential sources for 100% white polyester. Require verification of material spe
 
 ---
 
-### 10. LSJH — Sorting Only
+### 10. LSJH — ⚠️ Transitioning Operations
 
 | Attribute | Value |
 |-----------|-------|
 | Role | Sorting & coordination (NOT recycling) |
-| Note | Turku plant cancelled Apr 2024 |
+| Note | 20k t/yr refinement plant ABANDONED |
+| Status | ⚠️ Outsourcing to Turun Ekotori (2026) |
+| Change | Stepping back from textile operations |
+
+**⚠️ LSJH Update (Dec 2025):** LSJH announced outsourcing textile sorting/QA to Turun Ekotori starting early 2026. LSJH will continue collection only in own area. Lemppari textile recycling store closing end 2025.
 
 **Contact:** Miira Ojanen — miira.ojanen@lsjh.fi — +358 40 579 5312
 
@@ -222,6 +231,40 @@ Potential sources for 100% white polyester. Require verification of material spe
 
 ---
 
+## Additional Sources: Cutting Waste Streams
+
+These sources provide **production waste (avkapp)** from manufacturing — potentially cleaner and more consistent than end-of-life textiles.
+
+### Marimekko — Confirmed Cutting Waste
+
+| Attribute | Value |
+|-----------|-------|
+| Type | Fashion/home textiles manufacturer |
+| Location | Helsinki (printing/sewing facility) |
+| Waste stream | Production waste, cutting offcuts |
+| Recipient | ✅ Confirmed → Rester (since 2022) |
+| Material | Mixed (verify PET content) |
+
+**Source:** Rester partnership documentation, Marimekko sustainability reports
+
+**Contact:** General — info@marimekko.com | Sustainability — via company website
+
+### Joutsen Finland — Documented Cutting Waste
+
+| Attribute | Value |
+|-----------|-------|
+| Type | Bedding manufacturer (duvets/pillows) |
+| Location | Riihimäki, Finland |
+| Waste stream | Cutting waste (polyamide, polyester), dust, feather fractions |
+| Status | Documented in public innovation program |
+| Material | Mixed polyester/polyamide |
+
+**Note:** Material is polyester/polyamid mix — requires verification for FabricAir compatibility.
+
+**Contact:** info@joutsen.com | Website: joutsen.fi
+
+---
+
 ## New Operational Contact
 
 ### HUS Helsinki University Hospital
@@ -235,4 +278,4 @@ Potential sources for 100% white polyester. Require verification of material spe
 
 ---
 
-*Last updated: 2025-11-29 (Phase 2 Research)*
+*Last updated: 2025-12-16 (Session 13A — Research Integration)*
