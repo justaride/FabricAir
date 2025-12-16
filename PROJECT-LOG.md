@@ -6,6 +6,34 @@ This log tracks significant project activities, decisions, and milestones.
 
 ---
 
+## 2025-12-16 - Session 14B: Research Prompts Update
+
+### Deep Research Prompts Rewritten
+
+Reduced from 35 prompts → 16 focused prompts targeting actual unknowns.
+
+**Changes:**
+- Added "What We Now Know" reference section (8 verified facts)
+- Added "Critical Unknowns" summary table
+- Added NEW Section 2: Polyamide Sources (3 prompts)
+- Updated all Rester prompts with verified context
+- Updated LSJH prompts with Turun Ekotori transition
+- Removed redundant/outdated prompts
+- Added Quick Reference priority table
+
+**Top 5 Research Priorities:**
+1. Rester ownership % (Lindström stake unknown)
+2. Rester available capacity (vs locked)
+3. Cleanroom market validation (50-150 t/yr unverified)
+4. Polyamide source mapping (zero sources identified)
+5. rPET fiber pricing (need actual quotes)
+
+**Files Updated:**
+- `docs/DEEP-RESEARCH-PROMPTS.md` — Complete rewrite
+- `CLAUDE.md` — Marked task complete
+
+---
+
 ## 2025-12-16 - Session 14: Code Review
 
 ### Comprehensive Code Review Completed

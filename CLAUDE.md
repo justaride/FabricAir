@@ -75,8 +75,8 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 
 | Task | File(s) | Issue |
 |------|---------|-------|
-| Update research prompts | `docs/DEEP-RESEARCH-PROMPTS.md` | Old CEO name (Joachim Colliander), outdated LSJH info |
-| Resolve untracked directory | `/FabricAir - Further Research/` | 7 research files untracked (integrate or archive) |
+| ~~Update research prompts~~ | ~~`docs/DEEP-RESEARCH-PROMPTS.md`~~ | ✅ Done (Session 14) |
+| ~~Resolve untracked directory~~ | ~~`/FabricAir - Further Research/`~~ | ✅ Committed |
 | Fix completion % | `_data/project.yml` line 49 | Shows 95%, should be 92% |
 
 ### MEDIUM PRIORITY
