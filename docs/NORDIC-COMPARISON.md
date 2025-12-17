@@ -113,13 +113,13 @@ TOTAL (target)     ████████████████████�
 
 ### 🇫🇮 Finland — Immediate Partner
 
-| Metric | Value |
-|:-------|:------|
-| Textile waste | 85,770 t/yr |
-| Separately collected (2023) | 1,783 t |
-| Material recycling | <1% |
-| Textile services market | €350-450M |
-| EPR status | Expected 2027-28 |
+| Metric | Value | Source |
+|:-------|:------|:-------|
+| Textile waste | 85,770 t/yr | [FI-RES-001] |
+| Separately collected (2023) | 1,783 t | [FI-COM-004] |
+| Material recycling | <1% | [FI-GOV-001] |
+| Textile services market | €350-450M | [FI-IND-001] |
+| EPR status | Expected 2027-28 | [FI-GOV-002] |
 
 **Key Recycler: Rester**
 - Location: Paimio
@@ -144,12 +144,12 @@ TOTAL (target)     ████████████████████�
 
 ### 🇸🇪 Sweden — Future Capacity
 
-| Metric | Value |
-|:-------|:------|
-| Textile waste | 60-80k t/yr |
-| Material recycling | <1% |
-| Textile services market | €560M |
-| EPR status | April 2028 |
+| Metric | Value | Source |
+|:-------|:------|:-------|
+| Textile waste | 60-80k t/yr | [SE-GOV-001] |
+| Material recycling | <1% | [SE-GOV-001] |
+| Textile services market | €560M | Industry data |
+| EPR status | April 2028 | [SE-GOV-001] |
 
 **Key Recycler: Rewin (Wargön Innovation)**
 - Location: Vargön (full-scale) / Malmö (pilot)
@@ -175,12 +175,12 @@ TOTAL (target)     ████████████████████�
 
 ### 🇳🇴 Norway — Largest Scale
 
-| Metric | Value |
-|:-------|:------|
-| Textile waste | ~100,000 t/yr |
-| Material recycling | <1% (97% exported) |
-| Textile services market | €180-270M |
-| EPR status | Under review |
+| Metric | Value | Source |
+|:-------|:------|:-------|
+| Textile waste | ~100,000 t/yr | [NO-GOV-001] |
+| Material recycling | <1% (97% exported) | [NO-GOV-001] |
+| Textile services market | €180-270M | Industry data |
+| EPR status | Under review | [NO-GOV-002] |
 
 **Key Recycler: NTG (Norsk Tekstilgjenvinning)**
 - Location: Sandefjord (Pindslekvartalet)
@@ -216,12 +216,12 @@ TOTAL (target)     ████████████████████�
 
 ### Textile Waste Volume
 
-| Country | Volume | Per Capita | Recycling Rate |
-|:-------:|:------:|:----------:|:--------------:|
-| 🇫🇮 | 85,770 t/yr | ~15 kg | <1% |
-| 🇸🇪 | 60-80k t/yr | 8-11 kg | <1% |
-| 🇳🇴 | ~100k t/yr | 19.3 kg | <1% |
-| **Total** | **~280k t/yr** | | |
+| Country | Volume | Per Capita | Recycling Rate | Source |
+|:-------:|:------:|:----------:|:--------------:|:------:|
+| 🇫🇮 | 85,770 t/yr | ~15 kg | <1% | [FI-RES-001] |
+| 🇸🇪 | 60-80k t/yr | 8-11 kg | <1% | [SE-GOV-001] |
+| 🇳🇴 | ~100k t/yr | 19.3 kg | <1% | [NO-GOV-001] |
+| **Total** | **~280k t/yr** | | | |
 
 ### Textile Services Market
 

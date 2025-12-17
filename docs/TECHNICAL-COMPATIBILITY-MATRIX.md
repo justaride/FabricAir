@@ -1,9 +1,11 @@
 # Technical Compatibility Matrix
 
-**Status:** Research Complete | **Verified:** 2025-12-16
+**Status:** Research Complete | **Verified:** 2025-12-17
 **Created:** 2025-12-08
 **Purpose:** Match identified Nordic sources against FabricAir's technical requirements
 **Source:** EPD MD-24129-EN, Product Catalogue, Oeko-Tex Certificate #66908
+
+> **Source Registry IDs:** FabricAir specs from internal documents [INT-FI-*], recycler data from [FI-COM-001], [SE-COM-001], [NO-COM-001]
 
 ---
 
@@ -169,7 +171,7 @@
 | Capacity | 6,000 t/yr (current) | ✅ Sufficient |
 | GRS Certified | Yes | ✅ Quality assured |
 
-**⚠️ Note:** Lindström is 2nd largest shareholder (~500 t/yr allocation, NO exclusivity confirmed).
+**⚠️ Note:** Lindström is 2nd largest shareholder (~500 t/yr allocation, NO exclusivity confirmed). [FI-COM-001], [FI-INV-001]
 
 ---
 
@@ -279,6 +281,7 @@
 
 ---
 
-*Matrix created: 2025-12-08*
-*Based on source document analysis*
+*Matrix created: 2025-12-08 | Updated: 2025-12-17*
+*Based on source document analysis + sources.yml registry*
 *All estimates require validation*
+*Source registry: [FI-COM-001] Rester, [SE-COM-001] Rewin, [NO-COM-001] NTG, [FI-INV-001] Tesi*

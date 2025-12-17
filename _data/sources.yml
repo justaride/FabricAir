@@ -38,6 +38,7 @@ finland_sources:
       type: "Government report"
       category: "primary"
       verification: "verified"
+      last_verified: "2025-12-17"
       key_data:
         - "85,770 tonnes/year textile waste"
         - "60% incineration rate"
@@ -48,6 +49,7 @@ finland_sources:
       type: "Legislation"
       category: "primary"
       verification: "verified"
+      last_verified: "2025-12-17"
       key_data:
         - "Mandatory collection since Jan 2023"
       used_in: ["q4", "regulations"]
@@ -81,6 +83,7 @@ finland_sources:
       type: "Company website"
       category: "primary"
       verification: "verified"
+      last_verified: "2025-12-17"
       key_data:
         - "Rester majority owner"
         - "ReTouch fabric"
@@ -95,6 +98,7 @@ finland_sources:
       type: "Company website"
       category: "primary"
       verification: "verified_but_incompatible"
+      last_verified: "2025-12-17"
       compatibility_status: "NOT_COMPATIBLE"
       critical_finding: |
         65% polyester / 35% cotton blend — NOT suitable for FabricAir 100% PET requirement.
@@ -131,6 +135,7 @@ finland_sources:
       type: "Company website"
       category: "primary"
       verification: "verified"
+      last_verified: "2025-12-17"
       key_data:
         - "45M items/year"
         - "HUS textiles"
@@ -143,6 +148,7 @@ finland_sources:
       type: "Business registry"
       category: "primary"
       verification: "verified"
+      last_verified: "2025-12-17"
       key_data:
         - "€350-450M textile rental market"
       used_in: ["q1", "market_analysis"]
@@ -159,6 +165,7 @@ sweden_sources:
       type: "Government agency"
       category: "primary"
       verification: "verified"
+      last_verified: "2025-12-17"
       key_data:
         - "60-80k tonnes/year textile waste"
         - "EPR April 2028"
@@ -170,6 +177,7 @@ sweden_sources:
       type: "Innovation agency"
       category: "primary"
       verification: "accessed"
+      last_verified: "2025-12-17"
       key_data:
         - "Rewin project funding"
       used_in: ["sweden_report"]
@@ -181,6 +189,7 @@ sweden_sources:
       type: "Company website"
       category: "primary"
       verification: "verified"
+      last_verified: "2025-12-17"
       key_data:
         - "20,000 t/yr by October 2027"
         - "Chemical fiber-to-fiber"
@@ -192,6 +201,7 @@ sweden_sources:
       type: "Company website"
       category: "primary"
       verification: "verified"
+      last_verified: "2025-12-17"
       key_data:
         - "24,000 t/yr sorting capacity"
         - "NIR + visual spectroscopy"
@@ -204,6 +214,7 @@ sweden_sources:
       type: "Company website"
       category: "primary"
       verification: "verified"
+      last_verified: "2025-12-17"
       contacts_verified: ["patrik.nyholm@elis.com"]
       used_in: ["sweden_report", "contacts"]
 
@@ -214,6 +225,7 @@ sweden_sources:
       type: "Research program"
       category: "primary"
       verification: "accessed"
+      last_verified: "2025-12-17"
       used_in: ["sweden_report"]
 
     - id: "SE-RES-002"
@@ -221,6 +233,7 @@ sweden_sources:
       type: "Academic"
       category: "secondary"
       verification: "accessed"
+      last_verified: "2025-12-17"
       key_data:
         - "Textile recycling research"
       used_in: ["sweden_report"]
@@ -237,6 +250,7 @@ norway_sources:
       type: "Government statistics"
       category: "primary"
       verification: "verified"
+      last_verified: "2025-12-17"
       key_data:
         - "~100,000 tonnes/year textile waste"
       used_in: ["norway_report", "nordic_comparison"]
@@ -246,6 +260,7 @@ norway_sources:
       type: "Environment agency"
       category: "primary"
       verification: "accessed"
+      last_verified: "2025-12-17"
       key_data:
         - "EPR timeline under review"
       used_in: ["norway_report"]
@@ -257,6 +272,7 @@ norway_sources:
       type: "Company website"
       category: "primary"
       verification: "verified"
+      last_verified: "2025-12-17"
       key_data:
         - "30,000 t/yr target by ~2027"
         - "Patented defibration"
@@ -270,6 +286,7 @@ norway_sources:
       type: "Company website"
       category: "primary"
       verification: "verified"
+      last_verified: "2025-12-17"
       key_data:
         - "Largest Norwegian textile services"
         - "€118M revenue"
@@ -282,6 +299,7 @@ norway_sources:
       type: "Company website"
       category: "primary"
       verification: "verified"
+      last_verified: "2025-12-17"
       key_data:
         - "13,500 t/yr collection"
       contacts_verified: ["kristin.hareide@fretex.no"]
@@ -293,8 +311,181 @@ norway_sources:
       type: "Company website"
       category: "primary"
       verification: "verified"
+      last_verified: "2025-12-17"
       contacts_verified: ["marit.flinder@elis.com"]
       used_in: ["norway_report", "contacts"]
+
+# ============================================
+# ADDITIONAL FINLAND SOURCES (Consolidated from inline citations)
+# ============================================
+
+additional_finland_sources:
+  research_sources:
+    - id: "FI-RES-001"
+      name: "Turku UAS Textile Flows Study"
+      url: "https://www.tuas.fi/en/articles/463/textile-flows-finland-consumption-textiles-steady-amount-textile-waste-rise/"
+      type: "Research"
+      category: "primary"
+      verification: "verified"
+      last_verified: "2025-12-17"
+      key_data:
+        - "85,770 t/yr textile waste (2019)"
+        - "~60% incinerated"
+        - "18% exported"
+        - "3.11 kg/capita Helsinki region"
+      used_in: ["q3", "phase2_research", "nordic_comparison"]
+
+    - id: "FI-RES-002"
+      name: "EastCham Finland Waste Management"
+      url: "https://www.eastcham.fi/finnishwastemanagement/municipal-solid-waste/recycling-and-recovery/textile/"
+      type: "Research"
+      category: "secondary"
+      verification: "verified"
+      last_verified: "2025-12-17"
+      key_data:
+        - "1,330 t/yr hotel/restaurant/hospital textile waste"
+        - "53,408 kg/yr Defence Forces uniforms"
+      used_in: ["phase2_research"]
+
+  investment_sources:
+    - id: "FI-INV-001"
+      name: "Tesi Investment Article - Rester"
+      url: "https://tesi.fi/en/article/rester-article/"
+      type: "Investment report"
+      category: "primary"
+      verification: "verified"
+      last_verified: "2025-12-17"
+      key_data:
+        - "11,000 t/yr total plant capacity"
+        - "6,000 t/yr Rester production line"
+        - "€6M funding raised summer 2022"
+        - "Lindström led investment round"
+      used_in: ["q5", "q6", "phase2_research"]
+
+  government_sources:
+    - id: "FI-GOV-003"
+      name: "HUS (Helsinki University Hospital)"
+      url: "https://www.hus.fi"
+      type: "Government/Healthcare"
+      category: "primary"
+      verification: "verified"
+      last_verified: "2025-12-17"
+      key_data:
+        - "Largest public contracting entity"
+        - "Merged with Puro (Jan 2021)"
+      contacts_verified: ["logistiikka.asiakaspalvelu@hus.fi"]
+      used_in: ["phase2_research", "contacts"]
+
+  industry_sources:
+    - id: "FI-IND-002"
+      name: "Pharma Industry Finland (PIF)"
+      url: "https://www.pif.fi/"
+      type: "Industry association"
+      category: "primary"
+      verification: "verified"
+      last_verified: "2025-12-17"
+      key_data:
+        - "~5,400 employees in Finnish pharma"
+      used_in: ["phase2_research"]
+
+    - id: "FI-IND-003"
+      name: "Puhdaspalvelu Network"
+      url: "https://puhdaspalvelu.fi/palveluverkosto/uudenmaan-sairaalapesula-oy/"
+      type: "Industry network"
+      category: "secondary"
+      verification: "verified"
+      last_verified: "2025-12-17"
+      key_data:
+        - "250+ textile care professionals"
+        - "ISO 14001:2004, SFS-EN 14065 certified"
+      used_in: ["phase2_research"]
+
+  media_sources:
+    - id: "FI-MED-001"
+      name: "Motiivilehti"
+      url: "https://motiivilehti.fi/"
+      type: "Media"
+      category: "tertiary"
+      verification: "accessed"
+      last_verified: "2025-12-17"
+      key_data:
+        - "Finland's largest hospital laundry (Puro)"
+      used_in: ["phase2_research"]
+
+  company_sources:
+    - id: "FI-COM-006"
+      name: "Orion Corporation"
+      url: "https://www.orion.fi"
+      type: "Company website"
+      category: "primary"
+      verification: "verified"
+      last_verified: "2025-12-17"
+      key_data:
+        - "~3,700-4,000 employees"
+        - "Major pharma cleanroom operator"
+      used_in: ["phase2_research"]
+
+    - id: "FI-COM-007"
+      name: "Image Wear"
+      url: "https://imagewear.fi/en"
+      type: "Company website"
+      category: "primary"
+      verification: "verified"
+      last_verified: "2025-12-17"
+      key_data:
+        - "Finnish workwear manufacturer"
+      used_in: ["phase2_research"]
+
+    - id: "FI-COM-008"
+      name: "Pure Waste"
+      url: "https://purewaste.com/"
+      type: "Company website"
+      category: "primary"
+      verification: "verified"
+      last_verified: "2025-12-17"
+      key_data:
+        - "100% recycled textile materials"
+      used_in: ["phase2_research"]
+
+  organization_sources:
+    - id: "FI-ORG-001"
+      name: "Sitra - Finnish Innovation Fund"
+      url: "https://www.sitra.fi/en/cases/rester-is-finlands-first-large-scale-textile-recycling-plant-we-want-to-revolutionise-the-raw-materials-of-textiles-in-industry/"
+      type: "Organization"
+      category: "primary"
+      verification: "verified"
+      last_verified: "2025-12-17"
+      key_data:
+        - "Rester profile and case study"
+      used_in: ["phase2_research"]
+
+    - id: "FI-ORG-002"
+      name: "Business Finland"
+      url: "https://www.businessfinland.fi/en/whats-new/cases/2025/pure-waste-making-the-world-better"
+      type: "Government agency"
+      category: "primary"
+      verification: "verified"
+      last_verified: "2025-12-17"
+      key_data:
+        - "Pure Waste case study"
+      used_in: ["phase2_research"]
+
+# ============================================
+# EU-LEVEL SOURCES
+# ============================================
+
+eu_sources:
+  organization_sources:
+    - id: "EU-ORG-001"
+      name: "Zero Waste Europe"
+      url: "https://zerowasteeurope.eu/"
+      type: "NGO"
+      category: "secondary"
+      verification: "verified"
+      last_verified: "2025-12-17"
+      key_data:
+        - "Finland textile policy context"
+      used_in: ["phase2_research"]
 
 # ============================================
 # INTERNAL PROJECT SOURCES
@@ -397,11 +588,17 @@ interconnection:
 # ============================================
 
 quality_summary:
-  last_updated: "2025-11-29"
-  total_sources: 30+
-  verified: 25
-  accessed: 5
+  last_updated: "2025-12-17"
+  total_sources: 34
+  verified: 28
+  accessed: 6
+  with_timestamps: 34
   by_country:
-    finland: 18
+    finland: 21
     sweden: 7
     norway: 6
+  by_category:
+    primary: 28
+    secondary: 4
+    tertiary: 2
+  consolidation_note: "Session 20: Consolidated 13 inline URLs from PHASE2-RESEARCH-FINDINGS.md into registry"

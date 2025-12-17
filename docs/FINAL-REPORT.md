@@ -91,11 +91,11 @@ FabricAir can access **56,000-62,000 tonnes/year** of recycled polyester capacit
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| Textile waste | 85,770 t/year | Turku UAS |
-| Textile services market | €350-450M | Industry data |
-| Material recycling | <1% | SYKE |
-| EPR date | 2027-28 | Government |
-| Mandatory collection | Since Jan 2023 | Finnish law |
+| Textile waste | 85,770 t/year | Turku UAS [FI-RES-001] |
+| Textile services market | €350-450M | Industry data [FI-IND-001] |
+| Material recycling | <1% | SYKE [FI-GOV-001] |
+| EPR date | 2027-28 | Government [FI-GOV-002] |
+| Mandatory collection | Since Jan 2023 | Finnish law [FI-GOV-002] |
 
 Finland leads Europe with mandatory textile collection 2 years ahead of EU requirements.
 
@@ -136,7 +136,9 @@ Production → Use → Collection → Sorting → Recycling → New Products
 | Export | 18% | ~15,300 t |
 | **Fiber-to-Fiber** | **<1%** | — |
 
-Professional workwear streams (1,330 t/year from hotels/restaurants/hospitals) offer controlled quality but most is currently incinerated.
+*Source: [FI-RES-001], [FI-GOV-001]*
+
+Professional workwear streams (1,330 t/year from hotels/restaurants/hospitals [FI-RES-002]) offer controlled quality but most is currently incinerated.
 
 ### 1.5 Regulatory Timeline
 
@@ -156,12 +158,12 @@ EPR transition will transform the market—companies will shift from paying for 
 
 | Attribute | Value | Source |
 |-----------|-------|--------|
-| Total plant capacity | 11,000 t/year | Tesi |
-| Rester production line | 6,000 t/year | Tesi |
-| LSJH consumer line | 5,000 t/year | Tesi |
-| Technology | Mechanical recycling | Company |
-| Operational since | November 2021 | Tesi |
-| Funding raised | €6 million (2022) | Tesi |
+| Total plant capacity | 11,000 t/year | Tesi [FI-INV-001] |
+| Rester production line | 6,000 t/year | Tesi [FI-INV-001] |
+| LSJH consumer line | 5,000 t/year | Tesi [FI-INV-001] |
+| Technology | Mechanical recycling | Company [FI-COM-001] |
+| Operational since | November 2021 | Tesi [FI-INV-001] |
+| Funding raised | €6 million (2022) | Tesi [FI-INV-001] |
 
 **Key Partners:**
 
@@ -196,13 +198,13 @@ EPR transition will transform the market—companies will shift from paying for 
 
 ### 2.1 Market Overview
 
-| Metric | Value |
-|--------|-------|
-| Textile waste | 60-80,000 t/year |
-| Textile services market | €560M |
-| Material recycling | <1% |
-| Landfill | 0% (banned since 2002) |
-| EPR date | April 2028 |
+| Metric | Value | Source |
+|--------|-------|--------|
+| Textile waste | 60-80,000 t/year | [SE-GOV-001] |
+| Textile services market | €560M | Industry data |
+| Material recycling | <1% | [SE-GOV-001] |
+| Landfill | 0% (banned since 2002) | [SE-GOV-001] |
+| EPR date | April 2028 | [SE-GOV-001] |
 
 ### 2.2 Recycling Infrastructure
 
@@ -252,27 +254,27 @@ EPR transition will transform the market—companies will shift from paying for 
 
 ### 3.1 Market Overview
 
-| Metric | Value |
-|--------|-------|
-| Textile waste | ~100,000 t/year |
-| Per capita waste | 19.3 kg (highest Nordic) |
-| Exported | 97% |
-| Material recycling | <1% |
-| Textile services market | €180-270M |
+| Metric | Value | Source |
+|--------|-------|--------|
+| Textile waste | ~100,000 t/year | [NO-GOV-001] |
+| Per capita waste | 19.3 kg (highest Nordic) | [NO-GOV-001] |
+| Exported | 97% | [NO-GOV-001] |
+| Material recycling | <1% | [NO-GOV-001] |
+| Textile services market | €180-270M | Industry data |
 
 ### 3.2 Recycling Infrastructure
 
 **NTG (Norsk Tekstilgjenvinning):**
 
-| Attribute | Value |
-|-----------|-------|
-| Technology | Patented mechanical defibration |
-| Current capacity | 2,000 t/year (R&D plant) |
-| Target capacity | 30,000 t/year |
-| Timeline | ~2027 |
-| Location | Sandefjord |
-| CEO | Bent Tatsuyama Mathisen |
-| Email | btm@ntgas.no |
+| Attribute | Value | Source |
+|-----------|-------|--------|
+| Technology | Patented mechanical defibration | [NO-COM-001] |
+| Current capacity | 2,000 t/year (R&D plant) | [NO-COM-001] |
+| Target capacity | 30,000 t/year | [NO-COM-001] |
+| Timeline | ~2027 | [NO-COM-001] |
+| Location | Sandefjord | [NO-COM-001] |
+| CEO | Bent Tatsuyama Mathisen | [NO-COM-001] |
+| Email | btm@ntgas.no | [NO-COM-001] |
 
 **Unique Capability:** NTG can process poly-cotton blends—other recyclers cannot. This opens access to the majority of workwear waste streams.
 
