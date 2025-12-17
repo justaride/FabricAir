@@ -105,7 +105,7 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 
 | Task | File(s) | Issue |
 |------|---------|-------|
-| Document or archive | `_data/quality-control.yml` | 353 lines, appears unused |
+| ~~Document or archive~~ | ~~`_data/quality-control.yml`~~ | ✅ **Archived (Session 18)** |
 | ~~Add archive README~~ | ~~`_archive/README.md`~~ | ✅ **Done (Session 16)** |
 | Fix relative links | `docs/02-research-questions/index.md`, `q6-top10-sources.md` | Convert to explicit paths |
 | ~~Update material table~~ | ~~`docs/FINAL-REPORT-PRINT.html`~~ | ✅ **Done (Session 16)** |
@@ -137,6 +137,7 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 | 15 | Phase 2.2 research integrated (18 files from Part 2) |
 | 16 | Delivery cleanup — internal docs archived, navigation updated |
 | 17 | **UI design optimization** — typography, colors, animations |
+| 18 | **Deep analysis & fixes** — NTG timeline (3 files), README scores, CEO name |
 
 ### Quick Start Commands
 
@@ -237,5 +238,5 @@ grep -r "100% polyester" docs/ --include="*.md" | grep -v polyamide
 
 ---
 
-*Last updated: 2025-12-16 (Session 14 — Code Review Complete)*
+*Last updated: 2025-12-17 (Session 18 — Deep Analysis Complete)*
 *Research: 92% | Delivery: 85% (B) | Code Review: 85/100 | Build: ✓ | FabricAir Data: ✓*

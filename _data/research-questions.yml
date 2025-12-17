@@ -370,7 +370,7 @@ nordic_extension:
     doc_path: "docs/06-norway/index.md"
 
     key_findings:
-      - finding: "NTG 30k t/yr by ~2029 (largest Nordic capacity)"
+      - finding: "NTG 30k t/yr by ~2027 (largest Nordic capacity)"
         verified: true
         critical: true
 

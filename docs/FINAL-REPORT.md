@@ -44,7 +44,7 @@ FabricAir can access **56,000-62,000 tonnes/year** of recycled polyester capacit
 | Partner | Country | Contact | Email |
 |---------|---------|---------|-------|
 | **Rester** | Finland | Jukka Pesola (CEO) | hello@rester.fi |
-| **NTG** | Norway | Bent Mathisen (CEO) | btm@ntgas.no |
+| **NTG** | Norway | Bent Tatsuyama Mathisen (CEO) | btm@ntgas.no |
 | **Touchpoint** | Finland | Noora Salonoja (CEO) | noora.salonoja@touchpoint.fi |
 
 ### Recommended Actions
@@ -294,7 +294,7 @@ EPR transition will transform the market—companies will shift from paying for 
 
 | Organization | Contact | Email | Phone |
 |--------------|---------|-------|-------|
-| **NTG** | Bent Mathisen (CEO) | btm@ntgas.no | +47 906 43 555 |
+| **NTG** | Bent Tatsuyama Mathisen (CEO) | btm@ntgas.no | +47 906 43 555 |
 | **Nor Tekstil** | Thomas Karlsen | thomas.karlsen@nortekstil.no | +47 982 05 026 |
 | **Elis Norge** | Marit Flinder R-N | marit.flinder@elis.com | — |
 | **Fretex Miljø** | Kristin Hareide | kristin.hareide@fretex.no | +47 413 03 878 |
@@ -436,7 +436,7 @@ Norway  → NTG (30k) ────┘
 |--------------|---------|---------|-------|-------|
 | **Rester** | Finland | Jukka Pesola (CEO) | hello@rester.fi | — |
 | **Rester** | Finland | Johanna Lindholm-Järvinen | johanna@rester.fi | — |
-| **NTG** | Norway | Bent Mathisen (CEO) | btm@ntgas.no | +47 906 43 555 |
+| **NTG** | Norway | Bent Tatsuyama Mathisen (CEO) | btm@ntgas.no | +47 906 43 555 |
 | **Rewin/Wargön** | Sweden | Joel Arnoldsson | via wargoninnovation.se | — |
 
 ### A.2 Feedstock Aggregators

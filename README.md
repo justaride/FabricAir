@@ -17,7 +17,7 @@ Research platform mapping Nordic recycled polyester sources for FabricAir's circ
 | **Project** | Nordic Circular Construction (NCC) |
 | **Funder** | Nordic Innovation |
 | **Coordinator** | Natural State AS |
-| **Delivery Score** | 80% (B-) |
+| **Delivery Score** | 85% (B) |
 | **Version** | 2.1 (Cited Research) |
 
 ---
@@ -29,7 +29,7 @@ FabricAir can access **56,000-62,000 tonnes/year** of recycled polyester capacit
 | Country | Partner | Capacity | Timeline |
 |---------|---------|----------|----------|
 | Finland | Rester | 6-12k t/yr | **Now** |
-| Norway | NTG | 30k t/yr | ~2029 |
+| Norway | NTG | 30k t/yr | ~2027 |
 | Sweden | Rewin | 20k t/yr | Oct 2027 |
 
 **Recommendation:** Start with Rester (Finland)—operational today.
@@ -139,7 +139,7 @@ All three countries follow the same 6-question framework:
 | Market Intelligence | 90% |
 | Citation Quality | 80% |
 | Actionable Contacts | 70% |
-| **Overall** | **80% (B-)** |
+| **Overall** | **85% (B)** |
 
 25+ sources cited with URLs. See [PHASE2-RESEARCH-FINDINGS.md](docs/PHASE2-RESEARCH-FINDINGS.md).
 
