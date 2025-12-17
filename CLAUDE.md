@@ -63,27 +63,31 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 
 ## 🔄 NEXT SESSION: Continue Here
 
-### UI Design Optimization Complete (Session 17 - Dec 17, 2025)
+### Export Document Sync Complete (Session 19 - Dec 17, 2025)
 
-**Platform visual refresh using frontend-design skill.**
+**Deep analysis found and fixed 2 critical discrepancies in export documents.**
 
-| Action | Status |
-|--------|--------|
-| Typography: DM Serif Display + Work Sans | ✅ 3 files |
-| Colors: Purple-blue gradient (`#667eea`) | ✅ |
-| Animations: Staggered reveals, card hovers | ✅ |
-| Sidebar/hero gradients upgraded | ✅ |
-| Print report styled | ✅ |
+| Issue | Before | After | Files |
+|-------|--------|-------|-------|
+| Lindström "capacity lock" | "locked/may be locked" | "NO exclusivity (~500 t/yr = <10%)" | 9 files |
+| Risk level | High | Medium | 4 files |
+| rPET pricing | 50-70% premium | ~160% premium (€2,479/t T2T) | 6 files |
 
-### Files Modified (Session 17)
-- `docs/viewer.html` — fonts, CSS vars, animations (~45 lines)
-- `docs/nordic-comparison.html` — typography, colors (~35 lines)
-- `docs/FINAL-REPORT-PRINT.html` — serif fonts, purple accent (~25 lines)
+### Files Modified (Session 19)
+- `docs/FINAL-REPORT.md` — 4 edits (lock claims + pricing)
+- `docs/FINAL-REPORT-PRINT.html` — 2 edits
+- `docs/index.md` — 2 edits
+- `docs/TECHNICAL-COMPATIBILITY-MATRIX.md` — 2 edits
+- `docs/nordic-comparison.html` — 1 edit
+- `docs/PHASE2-RESEARCH-FINDINGS.md` — 2 edits
+- `docs/PHASE3-VALIDATION-PLAN.md` — 1 edit
+- `docs/01-context/fabricair.md` — 1 edit
+- `docs/COMMERCIAL-PHASE-PLAN.md` — 1 edit
 
-### Previous: Delivery Cleanup (Session 16)
-- Internal docs moved to `_archive/` (5 files)
-- Navigation updated, .gitignore configured
-- Frontend design skill installed locally
+### Previous Sessions
+- **Session 18:** Deep analysis & data consistency fixes (NTG timeline, CEO names)
+- **Session 17:** UI design optimization (typography, colors, animations)
+- **Session 16:** Delivery cleanup (internal docs archived)
 
 ---
 
@@ -126,7 +130,7 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 - **Rester strategy shift** to "high potential industrial applications" — good FabricAir alignment
 - **Lindström-Rester:** 2nd largest shareholder, ~500 t/year to Rester, **NO exclusive access confirmed**
 
-### Sessions 11-17 Summary
+### Sessions 11-19 Summary
 
 | Session | Work Done |
 |---------|-----------|
@@ -136,8 +140,9 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 | 14 | Code review complete (85/100 score) |
 | 15 | Phase 2.2 research integrated (18 files from Part 2) |
 | 16 | Delivery cleanup — internal docs archived, navigation updated |
-| 17 | **UI design optimization** — typography, colors, animations |
-| 18 | **Deep analysis & fixes** — NTG timeline (3 files), README scores, CEO name |
+| 17 | UI design optimization — typography, colors, animations |
+| 18 | Deep analysis & fixes — NTG timeline (3 files), README scores, CEO name |
+| 19 | **Export document sync** — Lindström lock claims fixed, rPET pricing updated |
 
 ### Quick Start Commands
 
@@ -238,5 +243,5 @@ grep -r "100% polyester" docs/ --include="*.md" | grep -v polyamide
 
 ---
 
-*Last updated: 2025-12-17 (Session 18 — Deep Analysis Complete)*
+*Last updated: 2025-12-17 (Session 19 — Export Document Sync)*
 *Research: 92% | Delivery: 85% (B) | Code Review: 85/100 | Build: ✓ | FabricAir Data: ✓*

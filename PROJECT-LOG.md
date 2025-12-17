@@ -6,6 +6,50 @@ This log tracks significant project activities, decisions, and milestones.
 
 ---
 
+## 2025-12-17 - Session 19: Export Document Sync
+
+### Deep Analysis of Export Documents
+
+**Objective:** Verify export/print documents reflect Phase 2.2 verified findings.
+
+#### Critical Discrepancies Found & Fixed
+
+| Issue | Before | After | Files |
+|-------|--------|-------|-------|
+| **Lindström "capacity lock"** | "locked/may be locked" | "NO exclusivity (~500 t/yr = <10%)" | 9 files |
+| **Risk level** | High | Medium | 4 files |
+| **rPET pricing** | 50-70% premium | ~160% premium (€2,479/t T2T) | 6 files |
+
+#### Files Modified (16 edits total)
+
+| File | Edits |
+|------|-------|
+| `docs/FINAL-REPORT.md` | 4 (lock claims + pricing) |
+| `docs/FINAL-REPORT-PRINT.html` | 2 |
+| `docs/index.md` | 2 |
+| `docs/TECHNICAL-COMPATIBILITY-MATRIX.md` | 2 |
+| `docs/nordic-comparison.html` | 1 |
+| `docs/PHASE2-RESEARCH-FINDINGS.md` | 2 |
+| `docs/PHASE3-VALIDATION-PLAN.md` | 1 |
+| `docs/01-context/fabricair.md` | 1 |
+| `docs/COMMERCIAL-PHASE-PLAN.md` | 1 |
+
+#### Verification
+
+```bash
+grep -r "capacity.*locked\|locked.*capacity" docs/  # Returns 0 matches - VERIFIED
+grep -r "160%" docs/ --include="*.md"  # Returns 6 files - VERIFIED
+```
+
+#### Project Status After Session 19
+
+- ✅ All "capacity locked" claims removed (12 instances)
+- ✅ rPET pricing updated to verified ~160% premium (6 files)
+- ✅ Risk levels corrected (High → Medium)
+- ✅ Export documents now match Phase 2.2 verified findings
+
+---
+
 ## 2025-12-17 - Session 18: Deep Analysis & Data Fixes
 
 ### Comprehensive Project Analysis Using Superpowers
