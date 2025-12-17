@@ -241,4 +241,4 @@ This research has been extended to cover **Sweden** and **Norway**:
 
 ---
 
-*Research completed November 2025 | Phase 2.1 update: 2025-11-30*
+*Research completed December 2025 | Phase 2.2 update: 2025-12-17*

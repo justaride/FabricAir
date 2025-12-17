@@ -232,5 +232,5 @@ Based on material compatibility, volume, and accessibility, these are the priori
 
 ---
 
-*Research completed November 2025*
+*Research completed December 2025*
 *Live platform: https://justaride.github.io/FabricAir/*

@@ -11,8 +11,8 @@
 | **Funder** | Nordic Innovation |
 | **Coordinator** | Natural State AS |
 | **Date** | December 2025 |
-| **Version** | 2.1 (Cited Research) |
-| **Delivery Score** | 80% (B-) |
+| **Version** | 2.2 (Phase 2.2 Integration) |
+| **Delivery Score** | 85% (B) |
 
 ---
 
@@ -565,16 +565,16 @@ All three countries now follow the unified 6-question research framework.
 | | |
 |---|---|
 | **Document** | FabricAir Nordic Circular Polyester Research Report |
-| **Version** | 2.1 |
+| **Version** | 2.2 |
 | **Date** | December 2025 |
 | **Project** | Nordic Circular Construction (NCC) |
 | **Funder** | Nordic Innovation |
 | **Coordinator** | Natural State AS |
-| **Delivery Score** | 80% (B-) |
+| **Delivery Score** | 85% (B) |
 | **Live Platform** | https://justaride.github.io/FabricAir/ |
 | **Repository** | https://github.com/justaride/FabricAir |
 
 ---
 
-*Report prepared: November 2025*
-*Research methodology: P1/P2/P3 verification protocol with 25+ cited sources*
+*Report prepared: December 2025*
+*Research methodology: P1/P2/P3 verification protocol with 45+ cited sources*
