@@ -63,24 +63,26 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 
 ## 🔄 NEXT SESSION: Continue Here
 
-### PHASE2-RESEARCH-FINDINGS.md Cleanup (Session 21 - Dec 17, 2025)
+### Source Library Page (Session 22 - Dec 17, 2025)
 
-**Comprehensive cleanup of Phase 2 research document:**
+**Created complete source library displaying all 34 sources:**
 
-| Fix | Details |
-|-----|---------|
-| Volume estimate | Standardized to **350-1,000 t/yr** (was inconsistent: 300-700 vs 350-1,000) |
-| Source ID tags | Added [XX-XXX-000] tags throughout |
-| Structure | Renamed "Phase 2.2" → "Research Updates (December 2025)" |
-| Summary | Consolidated delivery score table, removed confusing phase progression |
+| File | Action |
+|------|--------|
+| `docs/SOURCE-LIBRARY.md` | Created — All 34 sources organized by country |
+| `docs/viewer.html` | Added navigation link + docList entry |
+| `docs/project-overview.md` | Added link in Platform Navigation section |
+| `CLAUDE.md` | Updated project structure (32→33 files) |
 
-### Session 21 Changes
-- `docs/PHASE2-RESEARCH-FINDINGS.md` — Volume fix (4 locations), source tags, restructure, new summary
-- `docs/00-executive-summary.md` — Volume fix L18 (300-700 → 350-1,000)
-- `docs/NORDIC-COMPARISON.md` — Volume fix L21
-- `docs/TECHNICAL-COMPATIBILITY-MATRIX.md` — Volume fix L257
+**Source Library structure:**
+- Finland: 21 sources (Government, Companies, Industry, Research, Investment, Orgs, Media)
+- Sweden: 7 sources
+- Norway: 6 sources
+- EU: 1 source
+- Verification legend and category breakdown
 
 ### Previous Sessions
+- **Session 21:** PHASE2-RESEARCH-FINDINGS cleanup — Volume standardized, source tags, restructure
 - **Session 20:** Source control remediation (5.7→8.5/10)
 - **Session 19:** Export document sync — Lindström lock claims fixed, rPET pricing updated
 - **Session 18:** Deep analysis & data consistency fixes (NTG timeline, CEO names)
@@ -128,7 +130,7 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 - **Rester strategy shift** to "high potential industrial applications" — good FabricAir alignment
 - **Lindström-Rester:** 2nd largest shareholder, ~500 t/year to Rester, **NO exclusive access confirmed**
 
-### Sessions 11-21 Summary
+### Sessions 11-22 Summary
 
 | Session | Work Done |
 |---------|-----------|
@@ -142,7 +144,8 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 | 18 | Deep analysis & fixes — NTG timeline (3 files), README scores, CEO name |
 | 19 | Export document sync — Lindström lock claims fixed, rPET pricing updated |
 | 20 | Source control remediation — 34 sources, timestamps, ID tags (5.7→8.5/10) |
-| 21 | **PHASE2-RESEARCH-FINDINGS cleanup** — Volume standardized, source tags, restructure |
+| 21 | PHASE2-RESEARCH-FINDINGS cleanup — Volume standardized, source tags, restructure |
+| 22 | **Source Library page** — Created `SOURCE-LIBRARY.md` with all 34 sources |
 
 ### Quick Start Commands
 
@@ -166,11 +169,12 @@ grep -r "100% polyester" docs/ --include="*.md" | grep -v polyamide
 │   ├── sources.yml                 # Source registry with verification
 │   └── INTERCONNECTION-SCHEMA.md   # Data flow documentation
 │
-├── docs/                           # Presentation (32 files)
-│   ├── index.md                    # Project dashboard
+├── docs/                           # Presentation (33 files)
+│   ├── project-overview.md         # Project dashboard
 │   ├── 00-executive-summary.md     # Key findings + actions (START HERE)
 │   ├── NORDIC-COMPARISON.md        # Cross-country strategic analysis
 │   ├── TECHNICAL-COMPATIBILITY-MATRIX.md  # Material matching guide
+│   ├── SOURCE-LIBRARY.md           # Complete 34-source reference library
 │   ├── UX-ANALYSIS.md              # Platform usability analysis
 │   │
 │   ├── 01-context/fabricair.md     # FabricAir profile
@@ -243,5 +247,5 @@ grep -r "100% polyester" docs/ --include="*.md" | grep -v polyamide
 
 ---
 
-*Last updated: 2025-12-17 (Session 19 — Export Document Sync)*
+*Last updated: 2025-12-17 (Session 22 — Source Library Page)*
 *Research: 92% | Delivery: 85% (B) | Code Review: 85/100 | Build: ✓ | FabricAir Data: ✓*

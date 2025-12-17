@@ -257,7 +257,8 @@ Post-delivery options include:
 | [Partners & Contacts](03-contacts/directory.md) | Full verified contact directory |
 | [Action Plan](COMMERCIAL-PHASE-PLAN.md) | Commercial phase implementation roadmap |
 | [Phase 2 Findings](PHASE2-RESEARCH-FINDINGS.md) | Critical discoveries from verification research |
-| [Polyamide Sources](POLYAMIDE-SOURCES.md) | 100% PA feedstock mapping (NEW) |
+| [Polyamide Sources](POLYAMIDE-SOURCES.md) | 100% PA feedstock mapping |
+| [Source Library](SOURCE-LIBRARY.md) | Complete 34-source reference library |
 
 ---
 
