@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FabricAir Nordic | Circular Polyester Research Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         :root {
+            /* Typography */
+            --font-display: 'DM Serif Display', Georgia, serif;
+            --font-body: 'Work Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-mono: 'SF Mono', Monaco, 'Courier New', monospace;
+
+            /* Colors */
             --primary: #0f172a;
             --primary-light: #1e293b;
-            --accent: #3b82f6;
-            --accent-hover: #2563eb;
-            --accent-light: #dbeafe;
+            --accent: #667eea;
+            --accent-hover: #5a67d8;
+            --accent-light: #e0e7ff;
             --success: #10b981;
             --success-light: #d1fae5;
             --warning: #f59e0b;
@@ -52,7 +61,7 @@
         * { box-sizing: border-box; margin: 0; padding: 0; }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;
+            font-family: var(--font-body);
             line-height: 1.6;
             color: var(--text);
             background: var(--bg);
@@ -68,7 +77,7 @@
         /* Sidebar */
         .sidebar {
             width: 280px;
-            background: var(--primary);
+            background: linear-gradient(180deg, #0f172a 0%, #1e1b4b 100%);
             color: white;
             display: flex;
             flex-direction: column;
@@ -98,7 +107,7 @@
         .logo-icon {
             width: 44px;
             height: 44px;
-            background: linear-gradient(135deg, var(--accent) 0%, #8b5cf6 100%);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             border-radius: 12px;
             display: flex;
             align-items: center;
@@ -106,9 +115,10 @@
         }
 
         .logo-text h1 {
+            font-family: var(--font-display);
             font-size: 18px;
-            font-weight: 700;
-            letter-spacing: -0.3px;
+            font-weight: 400;
+            letter-spacing: 0;
         }
 
         .logo-text span {
@@ -374,8 +384,8 @@
 
         .btn-primary:hover {
             background: var(--accent-hover);
-            transform: translateY(-1px);
-            box-shadow: var(--shadow);
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 10px 25px -5px rgba(102, 126, 234, 0.4);
         }
 
         .btn-secondary {
@@ -408,7 +418,7 @@
 
         /* Dashboard */
         .dashboard-hero {
-            background: linear-gradient(135deg, var(--primary) 0%, #312e81 100%);
+            background: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #4c1d95 100%);
             border-radius: var(--radius-xl);
             padding: 40px;
             color: white;
@@ -444,10 +454,11 @@
         }
 
         .hero-title {
+            font-family: var(--font-display);
             font-size: 32px;
-            font-weight: 700;
+            font-weight: 400;
             margin-bottom: 12px;
-            letter-spacing: -0.5px;
+            letter-spacing: 0;
         }
 
         .hero-subtitle {
@@ -502,6 +513,12 @@
             box-shadow: var(--shadow);
             position: relative;
             overflow: hidden;
+            transition: all 0.2s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
         }
 
         .stat-card::before {
@@ -562,8 +579,9 @@
         }
 
         .section-title {
+            font-family: var(--font-display);
             font-size: 20px;
-            font-weight: 600;
+            font-weight: 400;
         }
 
         .section-actions {
@@ -588,8 +606,8 @@
         }
 
         .partner-card:hover {
-            transform: translateY(-4px);
-            box-shadow: var(--shadow-xl);
+            transform: translateY(-8px);
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.15);
         }
 
         .partner-header {
@@ -662,7 +680,7 @@
         }
 
         .partner-email {
-            font-family: 'SF Mono', Monaco, monospace;
+            font-family: var(--font-mono);
             font-size: 13px;
             color: var(--accent);
         }
@@ -830,8 +848,9 @@
         }
 
         .content h1 {
+            font-family: var(--font-display);
             font-size: 28px;
-            font-weight: 700;
+            font-weight: 400;
             margin-bottom: 16px;
             padding-bottom: 16px;
             border-bottom: 2px solid var(--border);
@@ -839,8 +858,9 @@
         }
 
         .content h2 {
+            font-family: var(--font-display);
             font-size: 22px;
-            font-weight: 600;
+            font-weight: 400;
             margin-top: 40px;
             margin-bottom: 16px;
             padding-bottom: 8px;
@@ -848,8 +868,9 @@
         }
 
         .content h3 {
+            font-family: var(--font-display);
             font-size: 18px;
-            font-weight: 600;
+            font-weight: 400;
             margin-top: 32px;
             margin-bottom: 12px;
         }
@@ -894,7 +915,7 @@
             padding: 2px 8px;
             border-radius: 4px;
             font-size: 13px;
-            font-family: 'SF Mono', Monaco, monospace;
+            font-family: var(--font-mono);
             color: var(--accent);
             cursor: pointer;
         }
@@ -1028,8 +1049,9 @@
         }
 
         .modal-header h2 {
+            font-family: var(--font-display);
             font-size: 20px;
-            font-weight: 600;
+            font-weight: 400;
         }
 
         .modal-close {
@@ -1169,7 +1191,7 @@
 
         /* Quick Actions Panel */
         .quick-actions-panel {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
             border-radius: var(--radius-lg);
             padding: 24px;
             margin-bottom: 24px;
@@ -1205,8 +1227,9 @@
 
         .action-card:hover {
             background: rgba(255,255,255,0.2);
-            transform: translateY(-2px);
-            border-color: rgba(255,255,255,0.3);
+            transform: translateY(-4px) scale(1.02);
+            border-color: rgba(255,255,255,0.4);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
 
         .action-card .flag {
@@ -1256,6 +1279,30 @@
         }
 
         @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Staggered nav animations */
+        @keyframes fadeSlideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .nav-item {
+            animation: fadeSlideIn 0.3s ease-out backwards;
+        }
+
+        .nav-section:nth-child(1) .nav-item { animation-delay: 0.05s; }
+        .nav-section:nth-child(2) .nav-item:nth-child(1) { animation-delay: 0.1s; }
+        .nav-section:nth-child(2) .nav-item:nth-child(2) { animation-delay: 0.15s; }
+        .nav-section:nth-child(2) .nav-item:nth-child(3) { animation-delay: 0.2s; }
+        .nav-section:nth-child(2) .nav-item:nth-child(4) { animation-delay: 0.25s; }
+        .nav-section:nth-child(3) .nav-item { animation-delay: 0.3s; }
+        .nav-section:nth-child(4) .nav-item { animation-delay: 0.35s; }
     </style>
 </head>
 <body>

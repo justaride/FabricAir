@@ -20,10 +20,11 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 |-----------|--------|
 | Research coverage | 92% |
 | **Delivery score** | **85% (B)** |
-| Platform UX | ✅ Improved |
+| Platform UX | ✅ **Redesigned (Session 17)** |
 | Build integrity | ✅ Verified |
 | FabricAir data | ✅ **Verified from 19 internal documents** |
 | Delivery cleanup | ✅ **Complete** |
+| UI design | ✅ **Typography + animations added** |
 | Phase | **Ready for Delivery** |
 
 ### Completed: FabricAir Internal Document Analysis
@@ -62,26 +63,27 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 
 ## 🔄 NEXT SESSION: Continue Here
 
-### Delivery Cleanup Complete (Session 16 - Dec 17, 2025)
+### UI Design Optimization Complete (Session 17 - Dec 17, 2025)
 
-**Platform ready for FabricAir delivery.**
+**Platform visual refresh using frontend-design skill.**
 
 | Action | Status |
 |--------|--------|
-| Internal docs moved to `_archive/` | ✅ 5 files |
-| Session references removed | ✅ 2 files |
-| Polyamide added to print HTML | ✅ |
-| Navigation updated | ✅ viewer.html |
-| Archive README created | ✅ |
-| .gitignore updated | ✅ |
-| Frontend design skill added | ✅ local only |
+| Typography: DM Serif Display + Work Sans | ✅ 3 files |
+| Colors: Purple-blue gradient (`#667eea`) | ✅ |
+| Animations: Staggered reveals, card hovers | ✅ |
+| Sidebar/hero gradients upgraded | ✅ |
+| Print report styled | ✅ |
 
-### Files Moved from docs/ to _archive/
-- `DEEP-RESEARCH-PROMPTS.md`
-- `RESEARCH-CONTEXT.md`
-- `UX-ANALYSIS.md`
-- `FABRICAIR-DOCUMENT-ANALYSIS.md`
-- `_internal/` folder
+### Files Modified (Session 17)
+- `docs/viewer.html` — fonts, CSS vars, animations (~45 lines)
+- `docs/nordic-comparison.html` — typography, colors (~35 lines)
+- `docs/FINAL-REPORT-PRINT.html` — serif fonts, purple accent (~25 lines)
+
+### Previous: Delivery Cleanup (Session 16)
+- Internal docs moved to `_archive/` (5 files)
+- Navigation updated, .gitignore configured
+- Frontend design skill installed locally
 
 ---
 
@@ -124,7 +126,7 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 - **Rester strategy shift** to "high potential industrial applications" — good FabricAir alignment
 - **Lindström-Rester:** 2nd largest shareholder, ~500 t/year to Rester, **NO exclusive access confirmed**
 
-### Sessions 11-16 Summary
+### Sessions 11-17 Summary
 
 | Session | Work Done |
 |---------|-----------|
@@ -133,7 +135,8 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 | 13 | Research output integrated (17+ files, 41 research files) |
 | 14 | Code review complete (85/100 score) |
 | 15 | Phase 2.2 research integrated (18 files from Part 2) |
-| 16 | **Delivery cleanup** — internal docs archived, navigation updated |
+| 16 | Delivery cleanup — internal docs archived, navigation updated |
+| 17 | **UI design optimization** — typography, colors, animations |
 
 ### Quick Start Commands
 
