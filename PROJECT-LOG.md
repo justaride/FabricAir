@@ -6,6 +6,42 @@ This log tracks significant project activities, decisions, and milestones.
 
 ---
 
+## 2025-12-17 - Session 21: PHASE2-RESEARCH-FINDINGS Cleanup
+
+### Comprehensive Document Cleanup
+
+**Objective:** Fix inconsistencies and improve PHASE2-RESEARCH-FINDINGS.md after all project updates.
+
+#### Issues Fixed
+
+| Issue | Before | After |
+|-------|--------|-------|
+| Volume estimate | Inconsistent (300-700 vs 350-1,000) | Standardized: **350-1,000 t/yr** |
+| Source ID tags | Missing | Added [XX-XXX-000] tags |
+| Structure | "Phase 2.2" confusing | "Research Updates (Dec 2025)" |
+| Summary | Phase progression table | Clean delivery score |
+
+#### Files Modified
+
+| File | Changes |
+|------|---------|
+| `docs/PHASE2-RESEARCH-FINDINGS.md` | Volume (4 locations), source tags, restructure, summary |
+| `docs/00-executive-summary.md` | Volume L18 |
+| `docs/NORDIC-COMPARISON.md` | Volume L21 |
+| `docs/TECHNICAL-COMPATIBILITY-MATRIX.md` | Volume L257 |
+| `CLAUDE.md` | Session 21 notes |
+
+#### Source ID Tags Added
+
+Key tables now tagged with registry IDs:
+- `[FI-RES-001]` — Turku UAS textile waste stats
+- `[FI-INV-001]` — Tesi/Rester capacity data
+- `[FI-IND-002]` — Pharma workforce data
+- `[FI-RES-002]` — EastCham professional waste
+- `[FI-COM-006]` — Orion employee data
+
+---
+
 ## 2025-12-17 - Session 20: Source Control Remediation
 
 ### Full Source Traceability Remediation
