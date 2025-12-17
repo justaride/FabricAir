@@ -74,6 +74,7 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 | Navigation updated | ✅ viewer.html |
 | Archive README created | ✅ |
 | .gitignore updated | ✅ |
+| Frontend design skill added | ✅ local only |
 
 ### Files Moved from docs/ to _archive/
 - `DEEP-RESEARCH-PROMPTS.md`

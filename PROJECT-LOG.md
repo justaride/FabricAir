@@ -40,6 +40,12 @@ This log tracks significant project activities, decisions, and milestones.
 - ✅ Polyamide: Now in FINAL-REPORT-PRINT.html
 - ✅ Navigation: All moved file references removed
 
+#### Skill Added
+
+- **frontend-design** skill installed at `.claude/skills/frontend-design/SKILL.md`
+- Local only (not pushed to repo)
+- Guides distinctive, production-grade frontend interfaces
+
 #### Platform Status
 
 **Ready for delivery to FabricAir.**
@@ -47,6 +53,7 @@ This log tracks significant project activities, decisions, and milestones.
 - Internal process docs hidden from GitHub Pages
 - NCC/Nordic Innovation attribution retained
 - All research findings accessible via viewer.html
+- Frontend design skill available for UI improvements
 
 ---
 
