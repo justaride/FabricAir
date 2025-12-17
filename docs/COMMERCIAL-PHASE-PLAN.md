@@ -485,4 +485,3 @@ Sweden (2027+):           Rewin (Vänersborg)
 *Document date: 2025-12-16*
 *Project: FabricAir Nordic Circular Polyester Research*
 *Phase: Commercial Development Planning*
-*Research integration: Session 13 complete*

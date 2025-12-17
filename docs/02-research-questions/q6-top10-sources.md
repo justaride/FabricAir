@@ -278,4 +278,4 @@ These sources provide **production waste (avkapp)** from manufacturing — poten
 
 ---
 
-*Last updated: 2025-12-16 (Session 13A — Research Integration)*
+*Last updated: 2025-12-16*

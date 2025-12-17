@@ -32,3 +32,9 @@ venv/
 
 # Claude settings (local)
 .claude/
+
+# Internal process files - keep locally, don't serve publicly
+CLAUDE.md
+PROJECT-LOG.md
+_archive/
+_source-documents/

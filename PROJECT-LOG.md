@@ -6,6 +6,50 @@ This log tracks significant project activities, decisions, and milestones.
 
 ---
 
+## 2025-12-17 - Session 16: Delivery Cleanup
+
+### Platform Prepared for FabricAir Delivery
+
+**Objective:** Remove internal process documentation from public platform, fix critical issues.
+
+#### Actions Completed
+
+| Action | Details |
+|--------|---------|
+| **Updated .gitignore** | Added exclusions for CLAUDE.md, PROJECT-LOG.md, _archive/, _source-documents/ |
+| **Moved internal docs** | 5 files from `docs/` to `_archive/` |
+| **Removed session refs** | Edited q6-top10-sources.md, COMMERCIAL-PHASE-PLAN.md |
+| **Fixed polyamide** | Added to FINAL-REPORT-PRINT.html material table |
+| **Updated navigation** | Removed moved files from viewer.html |
+| **Created README** | `_archive/README.md` documenting archived content |
+
+#### Files Moved to Archive
+
+| File | Reason |
+|------|--------|
+| `DEEP-RESEARCH-PROMPTS.md` | Research methodology |
+| `RESEARCH-CONTEXT.md` | AI briefing document |
+| `UX-ANALYSIS.md` | Internal assessment |
+| `FABRICAIR-DOCUMENT-ANALYSIS.md` | Internal analysis |
+| `docs/_internal/` | Internal working folder |
+
+#### Data Verification
+
+- ✅ NTG timeline: ~2027 consistent across all public docs
+- ✅ Rester CEO: Jukka Pesola in 14 files
+- ✅ Polyamide: Now in FINAL-REPORT-PRINT.html
+- ✅ Navigation: All moved file references removed
+
+#### Platform Status
+
+**Ready for delivery to FabricAir.**
+
+- Internal process docs hidden from GitHub Pages
+- NCC/Nordic Innovation attribution retained
+- All research findings accessible via viewer.html
+
+---
+
 ## 2025-12-16 - Session 14B: Research Prompts Update
 
 ### Deep Research Prompts Rewritten
