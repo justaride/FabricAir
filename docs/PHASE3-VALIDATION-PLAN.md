@@ -25,7 +25,7 @@ This plan addresses the gaps identified in the deep analysis (2025-12-08). Curre
 ## Workstream 1: Rester Capacity Validation
 
 ### Objective
-Confirm how much of Rester's 6,000-12,000 t/yr capacity is actually available to new customers (not locked by Lindström).
+Validate Rester's available capacity (~90% of 6,000-12,000 t/yr since Lindström ~500 t/yr = <10%, NO exclusivity confirmed).
 
 ### Risk Context
 - Lindström is 2nd largest Rester shareholder

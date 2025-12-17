@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-Phase 2 research addressed the critical gaps identified in our delivery assessment. Key findings include **verification of 3 previously unverified contacts**, discovery of a **critical material compatibility issue with Lindström**, and confirmation that **Rester's capacity may be partially locked** by existing partnerships.
+Phase 2 research addressed the critical gaps identified in our delivery assessment. Key findings include **verification of 3 previously unverified contacts**, discovery of a **critical material compatibility issue with Lindström**, and clarification that **Lindström's ~500 t/yr allocation represents <10% of Rester's capacity** (NO exclusivity).
 
 ### Critical Discovery
 
@@ -247,7 +247,7 @@ Touchpoint's circular fabric **ReTouch** contains recycled cotton/polyester — 
 
 | Rank | Organization | Previous Status | New Status |
 |------|--------------|-----------------|------------|
-| 1 | Rester | Primary recycler | ✅ Confirmed — capacity partially locked |
+| 1 | Rester | Primary recycler | ✅ Confirmed — ~90% capacity available (Lindström ~500 t/yr only) |
 | 2 | Touchpoint | Aggregator | ✅ Confirmed — focus on blended ReTouch |
 | 3 | Puro | Healthcare | ✅ Confirmed — best white polyester source |
 | 4 | Lindström | Volume source | ⚠️ **DOWNGRADE** — uses 65:35 blends |

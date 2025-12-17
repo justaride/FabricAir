@@ -66,7 +66,7 @@ FabricAir can access **56,000-62,000 tonnes/year** of recycled polyester capacit
 | **Lindström uses 65:35 blends** | 400 t/year volume INCOMPATIBLE with FabricAir |
 | **Volume estimate revised** | 5-10k t/year → **350-1,000 t/year** accessible |
 | LSJH Turku plant cancelled | Rester is now Finland's only recycler |
-| Lindström owns Rester stake | Capacity may be locked—engage early |
+| Lindström owns Rester stake | NO exclusive access confirmed—engage early |
 | NTG handles poly-cotton | Opens access to workwear waste |
 
 ### Material Requirements
@@ -367,17 +367,17 @@ Norway  → NTG (30k) ────┘
 
 | Risk | Level | Mitigation |
 |------|-------|------------|
-| Rester capacity locked by Lindström | High | Engage immediately; explore NTG alternative |
+| Lindström 2nd largest shareholder (no exclusivity) | Medium | Engage early; explore NTG alternative |
 | 65/35 blend contamination | High | Require certified 100% PET; target cleanroom |
 | Quality variability | Medium | Rester pre-sorting; specify white only |
-| rPET price premium (50-70%) | Medium | Volume commitments for better pricing |
+| rPET price premium (~160% for T2T) | Medium | Volume commitments; T2T ~€2,479/t vs virgin ~€950/t |
 | Rewin delay | Medium | Maintain Rester relationship as backup |
 | Norway EPR uncertainty | Medium | Monitor government announcements |
 
 ### Key Risks by Country
 
 **Finland:**
-- Lindström has locked Rester capacity via shareholding
+- Lindström holds strategic stake (~500 t/yr allocation, NO exclusivity confirmed)
 - Limited recycling alternatives if Rester unavailable
 
 **Sweden:**

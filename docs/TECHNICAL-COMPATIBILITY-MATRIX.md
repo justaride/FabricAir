@@ -169,7 +169,7 @@
 | Capacity | 6,000 t/yr (current) | ✅ Sufficient |
 | GRS Certified | Yes | ✅ Quality assured |
 
-**⚠️ Risk:** Lindström is shareholder — capacity may be locked.
+**⚠️ Note:** Lindström is 2nd largest shareholder (~500 t/yr allocation, NO exclusivity confirmed).
 
 ---
 
@@ -262,7 +262,7 @@
 ## Recommended Next Steps
 
 ### WS1: Rester Validation
-- Confirm available capacity (not locked by Lindström)
+- Confirm available capacity (Lindström ~500 t/yr = <10% of 6k, no exclusivity)
 - Request material specs for current feedstock
 - Discuss FabricAir requirements
 

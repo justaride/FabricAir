@@ -167,7 +167,7 @@ Nordic comparison ──────────────→ Commercial negot
 
 | Component | Typical Range | Notes |
 |-----------|---------------|-------|
-| Base rPET fiber price | €1.50-2.00/kg | 50-70% premium over virgin |
+| Base rPET fiber price | ~€2.48/kg (T2T) | ~160% premium over virgin (~€0.95/kg) |
 | Volume discount | 5-15% | For annual commitments |
 | Quality premium/discount | ±10% | Based on purity, color |
 | Logistics | €0.10-0.30/kg | Distance dependent |

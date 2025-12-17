@@ -172,11 +172,11 @@ These findings significantly change the strategic picture. See [Phase 2 Findings
 
 | Risk | Assessment | Mitigation |
 |------|------------|------------|
-| Rester capacity locked | High | Engage immediately; develop NTG alternative |
+| Lindström stake (no exclusivity) | Medium | Engage early; develop NTG alternative |
 | 65/35 blend contamination | High | Require certified 100% PET; target cleanroom |
 | Lindström incompatibility | **CONFIRMED** | Volume excluded; focus on Puro, Orion |
 | Quality variability | Medium | Pre-sorting specifications; incoming testing |
-| rPET price premium (50-70%) | Medium | Volume commitments for better pricing |
+| rPET price premium (~160% for T2T) | Medium | Volume commitments; T2T ~€2,479/t vs virgin ~€950/t |
 | Rewin delay | Medium | Maintain Rester relationship as backup |
 
 ---

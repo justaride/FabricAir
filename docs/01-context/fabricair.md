@@ -81,7 +81,7 @@ FabricAir needs high-quality used polyester fibers to supplement their internal 
 - **Method**: Fiber-to-fiber recycling
 - **Priority**: Mechanical (not chemical)
 - **Pilot recommendation**: Start with untreated 20% fraction
-- **Pricing context**: rPET €1.5-2.0/kg vs virgin €1.0-1.3/kg (50-70% premium)
+- **Pricing context**: T2T rPET ~€2,479/t vs virgin ~€950/t (~160% premium)
 
 ## Market Position
 
