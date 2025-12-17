@@ -1,8 +1,9 @@
 # Phase 2 Research Findings
 
-**Research Date:** 2025-11-29 (Updated 2025-12-16)
+**Research Date:** 2025-11-29 (Updated 2025-12-17)
 **Purpose:** Close gaps identified in Critical Assessment
 **Methodology:** Cited web research with source verification
+**Source Registry:** See [`_data/sources.yml`](../_data/sources.yml) for full source details
 
 ---
 
@@ -18,14 +19,14 @@ Phase 2 research addressed the critical gaps identified in our delivery assessme
 
 | Finding | Value | Source |
 |---------|-------|--------|
-| Finland pharmaceutical workforce | ~5,400 employees | [Pharma Industry Finland](https://www.pif.fi/) |
-| Orion employees | ~3,700-4,000 | [Orion Wikipedia](https://en.wikipedia.org/wiki/Orion_Corporation_(Finnish_company)) |
-| Rester total plant capacity | 11,000 t/yr (6,000 Rester line) | [Tesi](https://tesi.fi/en/article/rester-article/) |
-| Finland textile waste (end-of-life) | 85,770 t/yr (2019) | [Turku UAS](https://www.tuas.fi/en/articles/463/textile-flows-finland-consumption-textiles-steady-amount-textile-waste-rise/) |
-| Textile incineration rate | ~60% | [Turku UAS](https://www.tuas.fi/en/articles/463/textile-flows-finland-consumption-textiles-steady-amount-textile-waste-rise/) |
-| Puro/USP merger date | January 2021 | [HUS](https://www.hus.fi/ajankohtaista/uudenmaan-sairaalapesula-oy-ja-puro-tekstiilihuolto-oy-vahvistavat-yhteistyotaan) |
-| Hotel/restaurant/hospital textile waste | 1,330 t/yr (2019) | [EastCham Finland](https://www.eastcham.fi/finnishwastemanagement/municipal-solid-waste/recycling-and-recovery/textile/) |
-| Defence Forces uniform waste (incinerated) | 53,408 kg/yr | [EastCham Finland](https://www.eastcham.fi/finnishwastemanagement/municipal-solid-waste/recycling-and-recovery/textile/) |
+| Finland pharmaceutical workforce | ~5,400 employees | [FI-IND-002] [Pharma Industry Finland](https://www.pif.fi/) |
+| Orion employees | ~3,700-4,000 | [FI-COM-006] [Orion](https://en.wikipedia.org/wiki/Orion_Corporation_(Finnish_company)) |
+| Rester total plant capacity | 11,000 t/yr (6,000 Rester line) | [FI-INV-001] [Tesi](https://tesi.fi/en/article/rester-article/) |
+| Finland textile waste (end-of-life) | 85,770 t/yr (2019) | [FI-RES-001] [Turku UAS](https://www.tuas.fi/en/articles/463/textile-flows-finland-consumption-textiles-steady-amount-textile-waste-rise/) |
+| Textile incineration rate | ~60% | [FI-RES-001] [Turku UAS](https://www.tuas.fi/en/articles/463/textile-flows-finland-consumption-textiles-steady-amount-textile-waste-rise/) |
+| Puro/USP merger date | January 2021 | [FI-GOV-003] [HUS](https://www.hus.fi/ajankohtaista/uudenmaan-sairaalapesula-oy-ja-puro-tekstiilihuolto-oy-vahvistavat-yhteistyotaan) |
+| Hotel/restaurant/hospital textile waste | 1,330 t/yr (2019) | [FI-RES-002] [EastCham Finland](https://www.eastcham.fi/finnishwastemanagement/municipal-solid-waste/recycling-and-recovery/textile/) |
+| Defence Forces uniform waste (incinerated) | 53,408 kg/yr | [FI-RES-002] [EastCham Finland](https://www.eastcham.fi/finnishwastemanagement/municipal-solid-waste/recycling-and-recovery/textile/) |
 
 ---
 
@@ -98,35 +99,35 @@ Phase 2 research addressed the critical gaps identified in our delivery assessme
 
 | Metric | Value | Source |
 |--------|-------|--------|
-| Total plant capacity | 11,000 tonnes/year | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
-| Rester production line | 6,000 tonnes/year | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
-| LSJH line (consumer) | 5,000 tonnes/year | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
-| Plant completed | Spring 2021 | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
-| Production started | November 2021 | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
-| Location | Green Field Hub, Paimio | [VisitPaimio](https://visitpaimio.fi/en/yritys/rester-oy-2/) |
-| Funding raised | €6 million (summer 2022) | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
+| Total plant capacity | 11,000 tonnes/year | [FI-INV-001] |
+| Rester production line | 6,000 tonnes/year | [FI-INV-001] |
+| LSJH line (consumer) | 5,000 tonnes/year | [FI-INV-001] |
+| Plant completed | Spring 2021 | [FI-INV-001] |
+| Production started | November 2021 | [FI-INV-001] |
+| Location | Green Field Hub, Paimio | [FI-COM-001] |
+| Funding raised | €6 million (summer 2022) | [FI-INV-001] |
 
 ### Confirmed Partners (Cited)
 
 | Partner | Relationship | Source |
 |---------|--------------|--------|
-| Marimekko | Customer - brand partner | [Rester LinkedIn](https://fi.linkedin.com/company/rester-ltd) |
-| Lindström | Investor + Customer (largest customer) | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
-| Södra | Technology partner | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
-| LSJH | Co-located feedstock partner | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
-| Touchpoint | Majority owner (founder) | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
-| Elis | Large-scale Nordic collaboration | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
-| The Loop Factory | Partner | [Rester Crunchbase](https://www.crunchbase.com/organization/rester) |
+| Marimekko | Customer - brand partner | [FI-COM-001] |
+| Lindström | Investor + Customer (largest customer) | [FI-INV-001] |
+| Södra | Technology partner | [FI-INV-001] |
+| LSJH | Co-located feedstock partner | [FI-INV-001] |
+| Touchpoint | Majority owner (founder) | [FI-INV-001] |
+| Elis | Large-scale Nordic collaboration | [FI-INV-001] |
+| The Loop Factory | Partner | [FI-COM-001] |
 
 ### Investors (Cited)
 
 | Investor | Type | Source |
 |----------|------|--------|
-| Touchpoint | Founder, majority owner | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
-| Lindström Group | Strategic investor (led summer 2022 round) | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
-| Taaleri Sijoitus | Financial investor | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
-| Tesi | Circular Economy programme | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
-| Besodos Investors | Financial investor | [Tesi Investment](https://tesi.fi/en/article/rester-article/) |
+| Touchpoint | Founder, majority owner | [FI-INV-001] |
+| Lindström Group | Strategic investor (led summer 2022 round) | [FI-INV-001] |
+| Taaleri Sijoitus | Financial investor | [FI-INV-001] |
+| Tesi | Circular Economy programme | [FI-INV-001] |
+| Besodos Investors | Financial investor | [FI-INV-001] |
 
 ### Capacity Lock Risk: CONFIRMED
 
@@ -198,28 +199,28 @@ Touchpoint's circular fabric **ReTouch** contains recycled cotton/polyester — 
 
 | Category | Volume | Source |
 |----------|--------|--------|
-| Total end-of-life textiles (2019) | 85,770 t/year | [Turku UAS](https://www.tuas.fi/en/articles/463/textile-flows-finland-consumption-textiles-steady-amount-textile-waste-rise/) |
-| Annual purchased/discarded | ~70,000 t/year (~13 kg/person) | [Turku UAS](https://www.tuas.fi/en/articles/463/textile-flows-finland-consumption-textiles-steady-amount-textile-waste-rise/) |
-| Incinerated | ~60% of end-of-life textiles | [Turku UAS](https://www.tuas.fi/en/articles/463/textile-flows-finland-consumption-textiles-steady-amount-textile-waste-rise/) |
-| Exported | 18% of end-of-life textiles | [Turku UAS](https://www.tuas.fi/en/articles/463/textile-flows-finland-consumption-textiles-steady-amount-textile-waste-rise/) |
-| Helsinki region per capita | 3.11 kg textile waste (2021) | [Turku UAS](https://www.tuas.fi/en/articles/463/textile-flows-finland-consumption-textiles-steady-amount-textile-waste-rise/) |
+| Total end-of-life textiles (2019) | 85,770 t/year | [FI-RES-001] |
+| Annual purchased/discarded | ~70,000 t/year (~13 kg/person) | [FI-RES-001] |
+| Incinerated | ~60% of end-of-life textiles | [FI-RES-001] |
+| Exported | 18% of end-of-life textiles | [FI-RES-001] |
+| Helsinki region per capita | 3.11 kg textile waste (2021) | [FI-RES-001] |
 
 ### Professional Textile Waste Breakdown (2019)
 
 | Category | Volume | Source |
 |----------|--------|--------|
-| Hotel/restaurant/hospital (rental textiles) | 1,330 t/year | [EastCham Finland](https://www.eastcham.fi/finnishwastemanagement/municipal-solid-waste/recycling-and-recovery/textile/) |
-| Defence Forces uniforms (incinerated) | 53,408 kg/year | [EastCham Finland](https://www.eastcham.fi/finnishwastemanagement/municipal-solid-waste/recycling-and-recovery/textile/) |
-| Rester capacity (B2B) | 6,000 t/year | [Tesi](https://tesi.fi/en/article/rester-article/) |
-| LSJH capacity (consumer) | 5,000 t/year | [Tesi](https://tesi.fi/en/article/rester-article/) |
+| Hotel/restaurant/hospital (rental textiles) | 1,330 t/year | [FI-RES-002] |
+| Defence Forces uniforms (incinerated) | 53,408 kg/year | [FI-RES-002] |
+| Rester capacity (B2B) | 6,000 t/year | [FI-INV-001] |
+| LSJH capacity (consumer) | 5,000 t/year | [FI-INV-001] |
 
 ### Pharma/Cleanroom Workforce (for volume estimation)
 
 | Organization | Employees | Source |
 |--------------|-----------|--------|
-| Total Finnish pharma industry | ~5,400 | [Pharma Industry Finland](https://www.pif.fi/) |
-| Orion Corporation | ~3,700-4,000 | [Orion Wikipedia](https://en.wikipedia.org/wiki/Orion_Corporation_(Finnish_company)) |
-| Finnish clothing industry | ~2,000 | [Kolfox](https://kolfox.com/clothing-manufacturers-supplier-in-finland/) |
+| Total Finnish pharma industry | ~5,400 | [FI-IND-002] |
+| Orion Corporation | ~3,700-4,000 | [FI-COM-006] |
+| Finnish clothing industry | ~2,000 | [FI-IND-001] |
 
 ### What We Still Don't Know
 
@@ -235,9 +236,9 @@ Touchpoint's circular fabric **ReTouch** contains recycled cotton/polyester — 
 | Cleanroom/Pharma | 50-150 t/year | 5,400 employees × ~10kg/yr × 100% PET | Medium |
 | Healthcare (white) | 200-400 t/year | Hospital rental 1,330t × 20% white PET | Low |
 | Food processing (white) | 50-150 t/year | ~5% of rental market, white | Low |
-| **Total accessible** | **300-700 t/year** | | Low |
+| **Total accessible** | **350-1,000 t/year** | | Low |
 
-**Key Insight:** Previous estimate of "5,000-10,000 tonnes" included blended materials. Revised to 300-700 t/year for 100% white polyester specifically.
+**Key Insight:** Previous estimate of "5,000-10,000 tonnes" included blended materials. Revised to 350-1,000 t/year for 100% white polyester specifically.
 
 ---
 
@@ -383,11 +384,9 @@ These require **direct industry engagement**, not desk research:
 
 ---
 
-## 11. Phase 2.2 Findings (Dec 2025 — Part 2 Research)
+## Research Updates (December 2025)
 
-### New Research Summary
-
-18 additional research files analyzed covering recycler verification, alternative feedstocks, and new contacts.
+Additional research covering recycler verification, alternative feedstocks, and new contacts.
 
 ### Critical Timeline Corrections
 
@@ -489,48 +488,42 @@ See: [POLYAMIDE-SOURCES.md](POLYAMIDE-SOURCES.md)
 
 ---
 
-## Summary
+## Summary & Delivery Score
 
-Phase 2.1 research **significantly improved data quality** with cited sources. Key improvements:
+Phase 2 research **significantly improved data quality** with cited sources.
 
-1. **Operational contacts identified** — HUS logistics (logistiikka.asiakaspalvelu@hus.fi), Puro details
-2. **Volume quantification refined** — 300-700 t/year 100% white PET (down from 5-10k)
-3. **Rester capacity clarified** — 6,000 t/year Rester line, 11,000 total plant capacity
-4. **Bibliography established** — 25+ sources with URLs for verification
-
-### Delivery Score Update
-
-| Dimension | Phase 1 | Phase 2 | Phase 2.1 | Phase 2.2 | Change |
-|-----------|---------|---------|-----------|-----------|--------|
-| Contact Quality | 50% | 60% | 70% | 80% | +30% |
-| Citation Quality | 40% | 55% | 80% | 85% | +45% |
-| Actionability | 55% | 65% | 70% | 85% | +30% |
-| FabricAir Fit | 65% | 70% | 75% | 85% | +20% |
-| **Weighted Overall** | 60% | 75.5% | 80% | **85%** | +25% |
-
-### What Improved in Phase 2.1
+### Key Improvements
 
 | Gap | Before | After |
 |-----|--------|-------|
 | Missing citations | Most claims uncited | 80%+ claims now cited |
-| Operational contacts | 0 | 3 (HUS, Puro, Valio partner) |
-| Volume methodology | "5-10k tonnes" estimate | Calculated 300-700 t/year with basis |
-| Rester capacity detail | "6,000-12,000 t/year" | 6,000 Rester + 5,000 LSJH = 11,000 total |
+| Operational contacts | 0 | 3+ (HUS, Puro, Elis, Turun Ekotori) |
+| Volume methodology | "5-10k tonnes" estimate | Calculated **350-1,000 t/year** with basis |
+| Rester capacity | "Possibly locked" | 6,000 t/yr line, **~90% available** |
+| Recycler timelines | Outdated | NTG ~2027, Rewin 2027, Rester now |
 
-### Remaining Gap (20%)
+### Delivery Score
 
-| Gap | Why It Can't Be Closed by Desk Research |
-|-----|----------------------------------------|
-| Operational contacts at end-users | Requires direct outreach to facilities managers |
-| Rester uncommitted capacity | Confidential business information |
-| Specific 100% PET product SKUs | Not published online |
-| Pricing and volume terms | Requires commercial negotiation |
+| Dimension | Score |
+|-----------|-------|
+| Contact Quality | 80% |
+| Citation Quality | 85% |
+| Actionability | 85% |
+| FabricAir Fit | 85% |
+| **Overall** | **85% (B)** |
 
-**Key Insight:** Desk research ceiling reached at ~80%. The remaining 20% requires **direct industry engagement**.
+### Remaining Gap (15%)
+
+| Gap | Requires |
+|-----|----------|
+| Operational contacts at end-users | Direct outreach |
+| Rester uncommitted capacity | Direct inquiry |
+| Specific 100% PET product SKUs | Supplier catalogs |
+| Pricing and volume terms | Commercial negotiation |
+
+**Key Insight:** Desk research ceiling reached. Remaining gaps require **direct industry engagement**.
 
 ---
 
-*Phase 2.1 Research completed: 2025-11-29*
-*Phase 2.2 Research completed: 2025-12-16*
-*Methodology: Cited web research with source verification*
-*Total sources: 45+ primary, secondary, and tertiary (including 18 Phase 2.2 files)*
+*Research conducted: November-December 2025*
+*Total sources: 45+ (see [`_data/sources.yml`](../_data/sources.yml))*

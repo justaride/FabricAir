@@ -254,7 +254,7 @@
 | Metric | Volume |
 |--------|--------|
 | **Nordic recycling infrastructure** | 56,000-62,000 t/yr (by 2027-2028) |
-| **FabricAir-compatible (100% white PET)** | **300-700 t/yr** |
+| **FabricAir-compatible (100% white PET)** | **350-1,000 t/yr** |
 | **Ratio** | ~1% of infrastructure |
 
 > **Critical:** The 60x difference exists because most Nordic workwear is 65/35 poly-cotton blend. Only cleanroom, select healthcare, and verified food processing provide compatible feedstock.

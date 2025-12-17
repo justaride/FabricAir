@@ -15,7 +15,7 @@
 
 > **⚠️ Important Distinction:**
 > - **Infrastructure capacity:** 56,000-62,000 t/yr (what recyclers CAN process)
-> - **FabricAir-compatible material:** 300-700 t/yr (100% white PET/polyamide only)
+> - **FabricAir-compatible material:** 350-1,000 t/yr (100% white PET/polyamide only)
 >
 > The 60x difference is because most Nordic workwear uses 65/35 poly-cotton blends, which are NOT compatible with FabricAir's 100% polyester/polyamide requirement. Target cleanroom/pharma sectors for pure materials.
 

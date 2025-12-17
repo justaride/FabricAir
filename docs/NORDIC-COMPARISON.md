@@ -18,7 +18,7 @@
 
 > **⚠️ Volume Clarification:**
 > - **Infrastructure capacity** (below): 62,000 t/yr — what recyclers CAN process
-> - **FabricAir-compatible**: 300-700 t/yr — 100% white PET only
+> - **FabricAir-compatible**: 350-1,000 t/yr — 100% white PET only
 > - Most Nordic workwear is 65/35 poly-cotton (incompatible)
 
 ### Combined Nordic Capacity by 2027
