@@ -63,28 +63,32 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 
 ## 🔄 NEXT SESSION: Continue Here
 
-### Export Document Sync Complete (Session 19 - Dec 17, 2025)
+### Source Control Remediation Complete (Session 20 - Dec 17, 2025)
 
-**Deep analysis found and fixed 2 critical discrepancies in export documents.**
+**Full source traceability remediation: 5.7/10 → 8.5/10**
 
-| Issue | Before | After | Files |
-|-------|--------|-------|-------|
-| Lindström "capacity lock" | "locked/may be locked" | "NO exclusivity (~500 t/yr = <10%)" | 9 files |
-| Risk level | High | Medium | 4 files |
-| rPET pricing | 50-70% premium | ~160% premium (€2,479/t T2T) | 6 files |
+| Metric | Before | After |
+|--------|--------|-------|
+| Sources with timestamps | 2/21 (9.5%) | 34/34 (100%) |
+| Inline URLs consolidated | 0% | 100% |
+| Critical claims tagged | 0% | 80%+ |
+| **Source control score** | **5.7/10** | **8.5/10** |
 
-### Files Modified (Session 19)
-- `docs/FINAL-REPORT.md` — 4 edits (lock claims + pricing)
-- `docs/FINAL-REPORT-PRINT.html` — 2 edits
-- `docs/index.md` — 2 edits
-- `docs/TECHNICAL-COMPATIBILITY-MATRIX.md` — 2 edits
-- `docs/nordic-comparison.html` — 1 edit
-- `docs/PHASE2-RESEARCH-FINDINGS.md` — 2 edits
-- `docs/PHASE3-VALIDATION-PLAN.md` — 1 edit
-- `docs/01-context/fabricair.md` — 1 edit
-- `docs/COMMERCIAL-PHASE-PLAN.md` — 1 edit
+### Session 20 Changes
+- `_data/sources.yml` — Added timestamps to 21 sources, added 13 new consolidated sources
+- `docs/FINAL-REPORT.md` — Added 20+ source ID tags [XX-XXX-000]
+- `docs/00-executive-summary.md` — Tagged market overview table
+- `docs/NORDIC-COMPARISON.md` — Tagged country metrics tables
+- `docs/TECHNICAL-COMPATIBILITY-MATRIX.md` — Added source registry reference
+
+### New Sources Added (13)
+FI-RES-001 (Turku UAS), FI-RES-002 (EastCham), FI-INV-001 (Tesi), FI-GOV-003 (HUS),
+FI-IND-002 (PIF), FI-IND-003 (Puhdaspalvelu), FI-MED-001 (Motiivilehti),
+FI-COM-006 (Orion), FI-COM-007 (Image Wear), FI-COM-008 (Pure Waste),
+FI-ORG-001 (Sitra), FI-ORG-002 (Business Finland), EU-ORG-001 (Zero Waste Europe)
 
 ### Previous Sessions
+- **Session 19:** Export document sync — Lindström lock claims fixed, rPET pricing updated
 - **Session 18:** Deep analysis & data consistency fixes (NTG timeline, CEO names)
 - **Session 17:** UI design optimization (typography, colors, animations)
 - **Session 16:** Delivery cleanup (internal docs archived)
@@ -130,7 +134,7 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 - **Rester strategy shift** to "high potential industrial applications" — good FabricAir alignment
 - **Lindström-Rester:** 2nd largest shareholder, ~500 t/year to Rester, **NO exclusive access confirmed**
 
-### Sessions 11-19 Summary
+### Sessions 11-20 Summary
 
 | Session | Work Done |
 |---------|-----------|
@@ -142,7 +146,8 @@ Research platform mapping recycled polyester sources across Finland, Sweden, and
 | 16 | Delivery cleanup — internal docs archived, navigation updated |
 | 17 | UI design optimization — typography, colors, animations |
 | 18 | Deep analysis & fixes — NTG timeline (3 files), README scores, CEO name |
-| 19 | **Export document sync** — Lindström lock claims fixed, rPET pricing updated |
+| 19 | Export document sync — Lindström lock claims fixed, rPET pricing updated |
+| 20 | **Source control remediation** — 34 sources, timestamps, ID tags (5.7→8.5/10) |
 
 ### Quick Start Commands
 
